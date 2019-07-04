@@ -7,3 +7,5 @@ This implemenation guide is based on the [CH-EPR - Electronic Patient Record rep
 Please report and note current issues that are pending or errors under [ART-DECOR Issues](https://art-decor.org/art-decor/decor-issues--ch-epr-). 
 
 Further information on the publications and process may be found [here](https://www.e-health-suisse.ch/fileadmin/user_upload/Dokumente/2017/D/171002_Verantwortlichkeiten_Prozess_Metadaten_D.pdf).
+
+You can download this Implementation Guide in npm format from [here](package.tgz).

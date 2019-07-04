@@ -55,6 +55,18 @@
 		</antcall>
 		<copy file="output/${resourceId}.xml" tofile="../resources/valueset/${resourceId}.xml" />
 	</target>
+	<target name="transformValueSetEventCodeList" depends="init">
+		<antcall target="getValueSet">
+			<param name="templateId" value="${templateId}" />
+		</antcall>
+		<antcall target="transform">
+			<param name="xsl" value="adaptValueSetToIgEventCodeList.xsl" />
+			<param name="templateId" value="${templateId}" />
+			<param name="resourceId" value="${resourceId}" />
+			<param name="title" value="${title}" />
+		</antcall>
+		<copy file="output/${resourceId}.xml" tofile="../resources/valueset/${resourceId}.xml" />
+	</target>
 	<target name="transformValueSetToCodeSystem" depends="init">
 		<antcall target="getValueSet">
 			<param name="templateId" value="${templateId}" />
@@ -83,13 +95,13 @@
 		</antcall>
 		<copy file="output/${resourceId}.xml" tofile="../resources/codesystem/${resourceId}.xml" />
 	</target>
-	<target name="2.16.756.5.30.1.127.3.10.6" depends="init">
+	<target name="ch-ehealth-codesystem-role" depends="init">
 		<antcall target="transformValueSetToCodeSystem">
 			<param name="resourceId" value="2.16.756.5.30.1.127.3.10.6" />
 			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.1.3" />
 			<param name="codeSystem" value="2.16.756.5.30.1.127.3.10.6" />
-			<param name="name" value="CS_2_16_756_5_30_1_127_3_10_6" />
-			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.10.6" />
+			<param name="name" value="ChEhealthCodesystemRole" />
+			<param name="title" value="ch-ehealth-codesystem-role" />
 		</antcall>
 	</target>
 	<target name="2.1_ValueSet_DocumentEntry.author.AuthorRole" depends="init">
@@ -99,22 +111,22 @@
 			<param name="title" value="DocumentEntry.author.authorRole" />
 		</antcall>
 	</target>
-	<target name="2.16.756.5.30.1.127.3.5" depends="init">
+	<target name="ch-ehealth-codesystem-medreg" depends="init">
 		<antcall target="transformValueSetToCodeSystem">
 			<param name="resourceId" value="2.16.756.5.30.1.127.3.5" />
 			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.1.4" />
 			<param name="codeSystem" value="2.16.756.5.30.1.127.3.5" />
-			<param name="name" value="CS_2_16_756_5_30_1_127_3_5" />
-			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.5" />
+			<param name="name" value="ChEhealthCodesystemMedreg" />
+			<param name="title" value="ch-ehealth-codesystem-medreg" />
 		</antcall>
 	</target>
-	<target name="2.16.756.5.30.1.127.3.6" depends="init">
+	<target name="ch-ehealth-codesystem-nareg" depends="init">
 		<antcall target="transformValueSetToCodeSystem">
 			<param name="resourceId" value="2.16.756.5.30.1.127.3.6" />
 			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.1.4" />
 			<param name="codeSystem" value="2.16.756.5.30.1.127.3.6" />
-			<param name="name" value="CS_2_16_756_5_30_1_127_3_6" />
-			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.6" />
+			<param name="name" value="ChEhealthCodesystemNareg" />
+			<param name="title" value="ch-ehealth-codesystem-nareg" />
 		</antcall>
 	</target>
 	<target name="2.2_ValueSet_DocumentEntry.authorSpeciality" depends="init">
@@ -152,7 +164,7 @@
 			<param name="title" value="DocumentEntry.typeCode" />
 		</antcall>
 	</target>
-	<target name="2.16.756.5.30.1.127.3.4" depends="init">
+	<target name="SNOMED CT Swiss Extension" depends="init">
 		<antcall target="getValueSet">
 			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.27" />
 		</antcall>
@@ -163,12 +175,15 @@
 			<param name="resourceId" value="2.16.756.5.30.1.127.3.4" />
 			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.3" />
 			<param name="codeSystem" value="2.16.756.5.30.1.127.3.4" />
-			<param name="name" value="CS_2_16_756_5_30_1_127_3_4" />
-			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.4" />
+			<param name="name" value="SNOMEDCTSwissExtension" />
+			<param name="title" value="SNOMED CT Swiss Extension" />
 		</antcall>
 	</target>
 	<target name="2.8_ValueSet_DocumentEntry.eventCodeList" depends="init">
-		<antcall target="transformValueSet">
+		<antcall target="getValueSet">
+			<param name="templateId" value="1.2.840.10008.6.1.19" />
+		</antcall>
+		<antcall target="transformValueSetEventCodeList">
 			<param name="resourceId" value="DocumentEntry.eventCodeList" />
 			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.8" />
 			<param name="title" value="DocumentEntry.eventCodeList" />
@@ -181,11 +196,11 @@
 			<param name="title" value="DocumentEntry.languageCode" />
 		</antcall>
 	</target>
-	<target name="2.11_ValueSet_DocumentEntry.confidientialityCode" depends="init">
+	<target name="2.11_ValueSet_DocumentEntry.confidentialityCode" depends="init">
 		<antcall target="transformValueSet">
-			<param name="resourceId" value="DocumentEntry.confidientialityCode" />
+			<param name="resourceId" value="DocumentEntry.confidentialityCode" />
 			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.5" />
-			<param name="title" value="DocumentEntry.confidientialityCode" />
+			<param name="title" value="DocumentEntry.confidentialityCode" />
 		</antcall>
 	</target>
 	<target name="2.12_ValueSet_DocumentEntry.formatCode" depends="init">
@@ -195,13 +210,22 @@
 			<param name="title" value="DocumentEntry.formatCode" />
 		</antcall>
 	</target>	 
-	<target name="2.16.756.5.30.1.127.3.10.10" depends="init">
+	<target name="ch-ehealth-codesystem-format" depends="init">
 		<antcall target="transformValueSetToCodeSystem">
 			<param name="resourceId" value="2.16.756.5.30.1.127.3.10.10" />
 			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.9" />
 			<param name="codeSystem" value="2.16.756.5.30.1.127.3.10.10" />
-			<param name="name" value="CS_2_16_756_5_30_1_127_3_10_10" />
-			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.10.10" />
+			<param name="name" value="ChEhealthCodesystemFormat" />
+			<param name="title" value="ch-ehealth-codesystem-format" />
+		</antcall>
+	</target>
+	<target name="ch-ehealth-codesystem-language" depends="init">
+		<antcall target="transformValueSetToCodeSystem">
+			<param name="resourceId" value="2.16.756.5.30.1.127.3.10.12" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.13" />
+			<param name="codeSystem" value="2.16.756.5.30.1.127.3.10.12" />
+			<param name="name" value="ChEhealthCodesystemFormat" />
+			<param name="title" value="ch-ehealth-codesystem-language" />
 		</antcall>
 	</target>
 	<target name="2.13_ValueSet_DocumentEntry.mimeType" depends="init">
@@ -226,21 +250,22 @@
 		</antcall>
 	</target>
 	<target name="default">
-	    <antcall target="2.16.756.5.30.1.127.3.10.6" />
+		<antcall target="ch-ehealth-codesystem-role" />
 		<antcall target="2.1_ValueSet_DocumentEntry.author.AuthorRole" />
-		<antcall target="2.16.756.5.30.1.127.3.5" />
-		<antcall target="2.16.756.5.30.1.127.3.6" />
+		<antcall target="ch-ehealth-codesystem-medreg" />
+		<antcall target="ch-ehealth-codesystem-nareg" />
 		<antcall target="2.2_ValueSet_DocumentEntry.authorSpeciality" />
 		<antcall target="2.3_ValueSet_DocumentEntry.healthcareFacilityTypeCode" />
 		<antcall target="2.4_ValueSet_DocumentEntry.practiceSettingCode" />
 		<antcall target="2.5_ValueSet_DocumentEntry.classCode" />
 		<antcall target="2.6_ValueSet_DocumentEntry.typeCode" />
-		<antcall target="2.16.756.5.30.1.127.3.4" />
+		<antcall target="SNOMED CT Swiss Extension" />
 		<antcall target="2.8_ValueSet_DocumentEntry.eventCodeList" />
+		<antcall target="ch-ehealth-codesystem-language" />
 		<antcall target="2.9_ValueSet_DocumentEntry.languageCode" />
-		<antcall target="2.11_ValueSet_DocumentEntry.confidientialityCode" />
+		<antcall target="2.11_ValueSet_DocumentEntry.confidentialityCode" />
 		<antcall target="2.12_ValueSet_DocumentEntry.formatCode" /> 
-		<antcall target="2.16.756.5.30.1.127.3.10.10" />
+		<antcall target="ch-ehealth-codesystem-format" />
 		<antcall target="2.13_ValueSet_DocumentEntry.mimeType" />
 		<antcall target="2.14_ValueSet_SubmissionSet.contentTypeCode" />
 		<antcall target="2.15_ValueSet_SubmissionSet.Author.AuthorRole" />
