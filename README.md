@@ -98,4 +98,4 @@ BUILD SUCCESSFUL
 java -jar ./org.hl7.fhir.publisher.cli.jar -ig ./ig.json
 ```
 
-4. commit or make a pull request, continous build result are here: 
+4. commit or make a pull request, continous build result are [here](http://build.fhir.org/ig/hl7ch/ch-epr/index.html).
