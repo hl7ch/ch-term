@@ -49,7 +49,6 @@ https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.
 * Rev 2.0 gibt für Other Codeoid 2.16.756.5.30.1.127.3.10.12 (nicht in refdata) an, Art-Decor definiert 2.16.756.5.30.1.127.3.4 (ehealth suisse will correct in art-decor)
 
 2.10 Administratives Geschlecht der Patientin oder des Patienten DocumentEntry.sourcePatientInfo.PID-8 (OID: 2.16.840.1.113883.4.642.3.1)
-TODO Map ValueSet?
 
 2.11 Vertraulichkeitsstufe DocumentEntry.confidentialityCode (OID: 2.16.756.5.30.1.127.3.10.1.5)
 * [Annex 3: Typo confidientialityCode instead of confidentialityCode](https://gazelle.ihe.net/jira/projects/EHS/issue/EHS-237)
@@ -63,7 +62,6 @@ oid 2.16.840.1.113883.5.79 changed to v3-mediaType Codesystem  http://terminolog
 2.14 Grund für das Bereitstellen SubmissionSet.contentTypeCode (OID: 2.16.756.5.30.1.127.3.10.1.40)
 
 2.15 Rolle der bereitstellenden Person SubmissionSet.Author.AuthorRole (OID: 2.16.756.5.30.1.127.3.10.1.41)
-
 
 general:
 * codesystem names will be registered in refdata by ehealth suisse, will be added to art-decor to by ehealth suisse

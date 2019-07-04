@@ -141,6 +141,12 @@
     },
     {
       "reference" : {
+        "reference" : "ValueSet/DocumentEntry.sourcePatientInfo.PID-8"
+      },
+      "exampleBoolean" : false
+    },
+    {
+      "reference" : {
         "reference" : "ValueSet/DocumentEntry.typeCode"
       },
       "exampleBoolean" : false

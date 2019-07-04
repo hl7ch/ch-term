@@ -135,6 +135,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/DocumentEntry.sourcePatientInfo.PID-8"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/DocumentEntry.typeCode"/>
       </reference>
       <exampleBoolean value="false"/>
