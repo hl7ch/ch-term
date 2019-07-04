@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="DocumentEntry.typeCode"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.27--20190608094221"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2019-06-08T09:42:21+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url
+             value="http://fhir.ch/ig/ch-epr/ValueSet/DocumentEntry.typeCode"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.127.3.10.1.27"/>
+   </identifier>
+   <version value="2019-06-08T09:42:21"/>
+   <name value="XdstypeCo"/>
+   <title value="DocumentEntry.typeCode"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Type of document as per Annex 3  EPRO-FDHA.The code defines a document’s type (e.g. discharge report, laboratory report). Each document type should be assigned to precisely one document class."/>
+   <immutable value="false"/>
+   <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"/>
+         <concept>
+            <code value="371529009"/>
+            <display value="History and physical report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="History and physical report"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="419891008"/>
+            <display value="Record artifact (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Record artifact"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="721965002"/>
+            <display value="Laboratory Order (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Laboratory Order"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="721966001"/>
+            <display value="Pathology order (record artifact"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Pathology order"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="2161000195103"/>
+            <display value="Imaging Order (record articact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Imaging Order"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="737427001"/>
+            <display value="Clinical Management plan (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Clinical Management plan"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="765492005"/>
+            <display value="Non-drug prescription record (record artifact)"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="Non-drug prescription"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Nicht-Arzneimittelbezogene Verordnung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ordonnance nonmédicamenteuse"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Richiesta di prestazione sanitaria"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="773130005"/>
+            <display value="Nursing care plan (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Nursing care plan"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="736055001"/>
+            <display value="Rehabilitation care plan (record articact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Rehabilitation care plan"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="761938008"/>
+            <display value="Medical Prescription record (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Medical Prescription record"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="722446000"/>
+            <display value="Allergy record (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Allergy record"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="772786005"/>
+            <display value="Medical certificate (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Medical certificate"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="373942005"/>
+            <display value="Discharge summary (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Austrittsbericht"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Lettre de sortie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rapporto/lettera d'uscita"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Discharge summary"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="371535009"/>
+            <display value="Transfer summary report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Verlegungsbericht"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Rapport de transfert"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rapporto di trasferimento"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Transfer summary report"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="445300006"/>
+            <display value="Emergency department record (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Emergency department record"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="445418005"/>
+            <display value="Professional allied to medicine clinical report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Professional allied to medicine clinical report"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="371530004"/>
+            <display value="Clinical consultation report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Konsultationsbericht"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Rapport de consultation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rapporto di consultazione"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Consultation report"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="4241000179101"/>
+            <display value="Laboratory report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Labor-Befund"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Résultat de laboratoire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Referto di laboratorio"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Laboratory report"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="371526002"/>
+            <display value="Operative report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="OP-Bericht"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Protocole opératoire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Referto operatorio"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Operative report"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="371532007"/>
+            <display value="Progress report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Klinisches Verlaufsblatt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Note de suite"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Diario clinico"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Progress note"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="900000000000471000"/>
+            <display value="Image reference (foundation metadata concept)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Referenz auf Bilddaten"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Référence d'Image"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Referenza nei dati immagine"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Image reference"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="41000179103"/>
+            <display value="Immunization record (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Impfausweis/Impfdossier"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Certificat / carnet de vaccination"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Certificato/libretto di vaccinazione"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Immunization record"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="371528001"/>
+            <display value="Pathology report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Pathology report"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="721912009"/>
+            <display value="Medication summary document (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Medication summary document"/>
+            </designation>
+         </concept>
+      </include>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.127.3.4"/>
+         <concept>
+            <code value="4201000179104"/>
+            <display value="Imaging report (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Imaging report"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

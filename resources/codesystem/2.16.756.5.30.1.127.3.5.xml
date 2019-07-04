@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="2.16.756.5.30.1.127.3.5"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.4--20180814160421"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2018-08-14T16:04:21+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.756.5.30.1.127.3.5"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.127.3.10.1.1.4"/>
+   </identifier>
+   <version value="2018-08-14T16:04:21"/>
+   <name value="CS_2_16_756_5_30_1_127_3_5"/>
+   <title value="CodeSystem OID: 2.16.756.5.30.1.127.3.5"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Speciality of the author as per Annex 3."/>
+   <content value="complete"/>
+   <concept>
+      <code value="1002"/>
+      <display value="Surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Chirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1003"/>
+      <display value="Gynaecology and obstetrics"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gynäkologie und Geburtshilfe"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Gynécologie et obstétrique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Ginecologia e ostetricia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1004"/>
+      <display value="Cardiac and thoracic vascular surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Herz- und thorakale Gefässchirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie cardiaque et vasculaire thoracique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia del cuore e dei vasi toracici"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1006"/>
+      <display value="Paediatrics"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Kinder- und Jugendmedizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pédiatrie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Pediatria"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1007"/>
+      <display value="Ophthalmology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Ophthalmologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Ophtalmologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Oftalmologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1008"/>
+      <display value="Otorhinolaryngology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Oto-Rhino-Laryngologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Oto-rhino-laryngologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Otorinolaringoiatria"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1009"/>
+      <display value="Pathology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Pathologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pathologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Patologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1010"/>
+      <display value="Orthodontics"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Kieferorthopädie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Orthodontie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Ortodonzia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1011"/>
+      <display value="Chiropractic specialist"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Fachchiropraktik"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chiropratique spécialisée"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chiropratica specialistica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1012"/>
+      <display value="Anaesthesiology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Anästhesiologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Anesthésiologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Anestesiologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1013"/>
+      <display value="Neurosurgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Neurochirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Neurochirurgie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Neurochirurgia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1014"/>
+      <display value="Neurology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Neurologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Neurologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Neurologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1015"/>
+      <display value="Orthopaedic surgery and traumatology of the locomotor apparatus"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Orthopädische Chirurgie und Traumatologie des Bewegungsapparates"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie orthopédique et traumatologie de l’appareil locomoteur"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia ortopedica e traumatologia dell’apparato locomotore"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1016"/>
+      <display value="Pneumology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Pneumologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pneumologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Pneumologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1017"/>
+      <display value="Psychiatry and psychotherapy"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Psychiatrie und Psychotherapie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Psychiatrie et psychothérapie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Psichiatria e psicoterapia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1018"/>
+      <display value="Urology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Urologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Urologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Urologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1019"/>
+      <display value="Allergology and clinical immunology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Allergologie und klinische Immunologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Allergologie et immunologie clinique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Allergologia e immunologia clinica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1020"/>
+      <display value="Occupational medicine"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Arbeitsmedizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine du travail"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina del lavoro"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1021"/>
+      <display value="Dermatology and venereology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Dermatologie und Venerologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Dermatologie et vénéréologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Dermatologia e venereologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1022"/>
+      <display value="Endocrinology – Diabetology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Endokrinologie-Diabetologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Endocrinologie-diabétologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Endocrinologia e diabetologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1023"/>
+      <display value="Gastroenterology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gastroenterologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Gastroentérologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Gastroenterologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1024"/>
+      <display value="Haematology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Hämatologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Hématologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Ematologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1025"/>
+      <display value="Cardiology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Kardiologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Cardiologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Cardiologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1026"/>
+      <display value="Oral and maxillofacial surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Mund-, Kiefer- und Gesichtschirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie orale et maxillo-faciale"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia oro-maxillo-facciale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1027"/>
+      <display value="Child and adolescent psychiatry and psychotherapy"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Kinder- und Jugendpsychiatrie und -psychotherapie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Psychiatrie et psychothérapie d’enfants et d’adolescents"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Psichiatria e psicoterapia infantile e dell’adolescenza"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1028"/>
+      <display value="Paediatric surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Kinderchirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie pédiatrique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia pediatrica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1029"/>
+      <display value="Clinical pharmacology and toxicology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Klinische Pharmakologie und Toxikologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pharmacologie et toxicologie cliniques"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Farmacologia e tossicologia cliniche"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1030"/>
+      <display value="Radiology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Radiologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Radiologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Radiologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1031"/>
+      <display value="Nuclear medicine"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Nuklearmedizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine nucléaire"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina nucleare"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1032"/>
+      <display value="Radio-oncology / radiotherapy"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Radio-Onkologie_Strahlentherapie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Radio-oncologie_radiothérapie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Radio-oncologia_radioterapia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1033"/>
+      <display value="Nephrology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Nephrologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Néphrologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Nefrologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1034"/>
+      <display value="Physical medicine and rehabilitation"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Physikalische Medizin und Rehabilitation"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine physique et réadaptation"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina fisica e riabilitazione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1035"/>
+      <display value="Plastic, reconstructive and aesthetic surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Plastische, Rekonstruktive und Ästhetische Chirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie plastique, reconstructive et esthétique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia plastica, ricostruttiva ed estetica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1036"/>
+      <display value="Prevention and public health"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Prävention und Gesundheitswesen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Prévention et santé publique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Prevenzione e salute pubblica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1037"/>
+      <display value="Rheumatology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Rheumatologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Rhumatologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Reumatologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1038"/>
+      <display value="Tropical and travel medicine"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Tropen- und Reisemedizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine tropicale et médecine des voyages"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina tropicale e medicina di viaggio"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1039"/>
+      <display value="Infectology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Infektiologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Infectiologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Malattie infettive"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1040"/>
+      <display value="General medical practitioner"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Praktische Ärztin _ Praktischer Arzt"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecin praticien"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medico generico"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1041"/>
+      <display value="Angiology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Angiologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Angiologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Angiologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1042"/>
+      <display value="Intensive care medicine"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Intensivmedizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine intensive"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina intensiva"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1043"/>
+      <display value="Medical genetics"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Medizinische Genetik"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Génétique médicale"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Genetica medica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1044"/>
+      <display value="Medical oncology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Medizinische Onkologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Oncologie médicale"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Oncologia medica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1045"/>
+      <display value="Pharmaceutical medicine"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Pharmazeutische Medizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine pharmaceutique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina farmacologica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1046"/>
+      <display value="Forensic medicine"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Rechtsmedizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine légale"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina legale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1047"/>
+      <display value="Oral surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Oralchirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie orale"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia orale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1048"/>
+      <display value="Parodontology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Parodontologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Parodontologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Parodontologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1049"/>
+      <display value="Reconstructive dentistry"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Rekonstruktive Zahnmedizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine dentaire reconstructive"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina dentaria riconstruttiva"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1050"/>
+      <display value="Other"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Andere"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Autre"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Altre"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1051"/>
+      <display value="General Internal Medicine"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Allgemeine Innere Medizin"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Médecine interne générale"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Medicina interna generale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1052"/>
+      <display value="Offizinpharmazie"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Offizinpharmazie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pharmacie d’officine"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Farmacia d’officina"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1053"/>
+      <display value="Spitalpharmazie"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Spitalpharmazie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pharmacie hospitalière"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Farmacia d’ospedale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1054"/>
+      <display value="Psychotherapy"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Psychotherapie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="psychothérapie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="psicoterapia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1055"/>
+      <display value="Kinder- und Jugendpsychologie"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Kinder- und Jugendpsychologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="psychologie des enfants et des adolescents"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="psicologia dell’età evolutiva"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1056"/>
+      <display value="Clinical Psychology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Klinische Psychologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="psychologie clinique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="psicologia clinica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1057"/>
+      <display value="Neuropsychology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Neuropsychologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="neuropsychologie"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="neuropsicologia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1058"/>
+      <display value="Health Psychology"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gesundheitspsychologie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="psychologie de la santé"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="psicologia della salute"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1059"/>
+      <display value="Hand surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Handchirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie de la main"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia della mano"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1060"/>
+      <display value="Vascular surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gefässchirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie vasculaire"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia vascolare"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="1061"/>
+      <display value="Thoracic surgery"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Thoraxchirurgie"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chirurgie thoracique"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Chirurgia toracica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+</CodeSystem>

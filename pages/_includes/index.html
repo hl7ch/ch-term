@@ -1,0 +1,22 @@
+<p style="background-color: gold; border:1px solid maroon; padding: 5px;">
+    This is the Continuous Integration Build of the CH-EPR Implementation Guide, based on <a href="http://build.fhir.org">FHIR Version {{ site.data.fhir.version }}</a>. (will be incorrect/inconsistent at times). 
+</p>
+
+{% capture my-include %}{% include intro.md %}{% endcapture %}{{ my-include | markdownify }}
+
+<br />
+    <h2>ValueSets</h2>
+    <div>
+    {% include list-simple-valuesets.xhtml %}
+    </div>
+
+<br />
+    <h2>CodeSystems</h2>
+    <div>
+    {% include list-simple-codesystems.xhtml %}
+    </div>
+
+<br />
+<br />
+
+{% capture my-include %}{% include credits.md %}{% endcapture %}{{ my-include | markdownify }}

@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<project name="art-decor" basedir="." default="default">
+	<target name="init">
+		<mkdir dir="templates" />
+		<mkdir dir="xslt" />
+		<mkdir dir="output" />
+		<property name="canonicalBase" value="http://fhir.ch/ig/ch-epr" />
+	</target>
+	<target name="clean">
+		<delete dir="templates" />
+		<delete dir="output" />
+	</target>
+	<target name="xslt">
+		<xslt style="xslt/${xsl}" in="${in}" out="${out}" basedir="${basedir}">
+			<classpath>
+				<pathelement location="${basedir}/saxon9he.jar" />
+			</classpath>
+			<param name="canonicalBase" expression="${canonicalBase}" type="STRING" />
+			<param name="resourceId" expression="${resourceId}" type="STRING" />
+			<param name="templateId" expression="${templateId}" type="STRING" />
+			<param name="codeSystem" expression="${codeSystem}" type="STRING" />
+			<param name="name" expression="${name}" type="STRING" />
+			<param name="title" expression="${title}" type="STRING" />
+		</xslt>
+	</target>
+	<target name="transform" depends="init">
+		<delete file="output/${resourceId}.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="xsl" value="${xsl}" />
+			<param name="in" value="templates/${templateId}.xml" />
+			<param name="out" value="output/${resourceId}.xml" />
+			<param name="resourceId" value="${resourceId}" />
+			<param name="templateId" value="${templateId}" />
+			<param name="codeSystem" value="${codeSystem}" />
+			<param name="name" value="${name}" />
+			<param name="title" value="${title}" />
+		</antcall>
+		<!-- stupid  nfhir: prefix due to xslt -->
+		<replace file="output/${resourceId}.xml" token="fhir:" value="" />
+		<!-- xmlns:fhir="http://hl7.org/fhir" -->
+		<replace file="output/${resourceId}.xml" token=" xmlns:fhir=&quot;http://hl7.org/fhir&quot;" value="" />
+	</target>
+	<target name="getValueSet" depends="init">
+		<get src="http://art-decor.org/fhir/4.0/ch-epr-/ValueSet/${templateId}" dest="templates/${templateId}.xml" skipexisting="true" />
+	</target>
+	<target name="transformValueSet" depends="init">
+		<antcall target="getValueSet">
+			<param name="templateId" value="${templateId}" />
+		</antcall>
+		<antcall target="transform">
+			<param name="xsl" value="adaptValueSetToIg.xsl" />
+			<param name="templateId" value="${templateId}" />
+			<param name="resourceId" value="${resourceId}" />
+			<param name="title" value="${title}" />
+		</antcall>
+		<copy file="output/${resourceId}.xml" tofile="../resources/valueset/${resourceId}.xml" />
+	</target>
+	<target name="transformValueSetToCodeSystem" depends="init">
+		<antcall target="getValueSet">
+			<param name="templateId" value="${templateId}" />
+		</antcall>
+		<antcall target="transform">
+			<param name="xsl" value="convertValueSetToCodeSystem.xsl" />
+			<param name="templateId" value="${templateId}" />
+			<param name="resourceId" value="${resourceId}" />
+			<param name="codeSystem" value="${codeSystem}" />
+			<param name="name" value="${name}" />
+			<param name="title" value="${title}" />
+		</antcall>
+		<copy file="output/${resourceId}.xml" tofile="../resources/codesystem/${resourceId}.xml" />
+	</target>
+	<target name="transformValueSetsToCodeSystemFor2.16.756.5.30.1.127.3.4" depends="init">
+		<antcall target="getValueSet">
+			<param name="templateId" value="${templateId}" />
+		</antcall>
+		<antcall target="transform">
+			<param name="xsl" value="convertValueSetsToCodeSystemFor2.16.756.5.30.1.127.3.4.xsl" />
+			<param name="templateId" value="${templateId}" />
+			<param name="resourceId" value="${resourceId}" />
+			<param name="codeSystem" value="${codeSystem}" />
+			<param name="name" value="${name}" />
+			<param name="title" value="${title}" />
+		</antcall>
+		<copy file="output/${resourceId}.xml" tofile="../resources/codesystem/${resourceId}.xml" />
+	</target>
+	<target name="2.16.756.5.30.1.127.3.10.6" depends="init">
+		<antcall target="transformValueSetToCodeSystem">
+			<param name="resourceId" value="2.16.756.5.30.1.127.3.10.6" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.1.3" />
+			<param name="codeSystem" value="2.16.756.5.30.1.127.3.10.6" />
+			<param name="name" value="CS_2_16_756_5_30_1_127_3_10_6" />
+			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.10.6" />
+		</antcall>
+	</target>
+	<target name="2.1_ValueSet_DocumentEntry.author.AuthorRole" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.author.authorRole" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.1.3" />
+			<param name="title" value="DocumentEntry.author.authorRole" />
+		</antcall>
+	</target>
+	<target name="2.16.756.5.30.1.127.3.5" depends="init">
+		<antcall target="transformValueSetToCodeSystem">
+			<param name="resourceId" value="2.16.756.5.30.1.127.3.5" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.1.4" />
+			<param name="codeSystem" value="2.16.756.5.30.1.127.3.5" />
+			<param name="name" value="CS_2_16_756_5_30_1_127_3_5" />
+			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.5" />
+		</antcall>
+	</target>
+	<target name="2.16.756.5.30.1.127.3.6" depends="init">
+		<antcall target="transformValueSetToCodeSystem">
+			<param name="resourceId" value="2.16.756.5.30.1.127.3.6" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.1.4" />
+			<param name="codeSystem" value="2.16.756.5.30.1.127.3.6" />
+			<param name="name" value="CS_2_16_756_5_30_1_127_3_6" />
+			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.6" />
+		</antcall>
+	</target>
+	<target name="2.2_ValueSet_DocumentEntry.authorSpeciality" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.authorSpeciality" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.1.4" />
+			<param name="title" value="DocumentEntry.authorSpeciality" />
+		</antcall>
+	</target>
+	<target name="2.3_ValueSet_DocumentEntry.healthcareFacilityTypeCode" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.healthcareFacilityTypeCode" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.11" />
+			<param name="title" value="DocumentEntry.healthcareFacilityTypeCode" />
+		</antcall>
+	</target>
+	<target name="2.4_ValueSet_DocumentEntry.practiceSettingCode" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.practiceSettingCode" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.18" />
+			<param name="title" value="DocumentEntry.practiceSettingCode" />
+		</antcall>
+	</target>
+	<target name="2.5_ValueSet_DocumentEntry.classCode" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.classCode" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.3" />
+			<param name="title" value="DocumentEntry.classCode" />
+		</antcall>
+	</target>
+	<target name="2.6_ValueSet_DocumentEntry.typeCode" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.typeCode" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.27" />
+			<param name="title" value="DocumentEntry.typeCode" />
+		</antcall>
+	</target>
+	<target name="2.16.756.5.30.1.127.3.4" depends="init">
+		<antcall target="getValueSet">
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.27" />
+		</antcall>
+		<antcall target="getValueSet">
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.5" />
+		</antcall>
+		<antcall target="transformValueSetsToCodeSystemFor2.16.756.5.30.1.127.3.4">
+			<param name="resourceId" value="2.16.756.5.30.1.127.3.4" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.3" />
+			<param name="codeSystem" value="2.16.756.5.30.1.127.3.4" />
+			<param name="name" value="CS_2_16_756_5_30_1_127_3_4" />
+			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.4" />
+		</antcall>
+	</target>
+	<target name="2.8_ValueSet_DocumentEntry.eventCodeList" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.eventCodeList" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.8" />
+			<param name="title" value="DocumentEntry.eventCodeList" />
+		</antcall>
+	</target>
+	<target name="2.9_ValueSet_DocumentEntry.languageCode" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.languageCode" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.13" />
+			<param name="title" value="DocumentEntry.languageCode" />
+		</antcall>
+	</target>
+	<target name="2.11_ValueSet_DocumentEntry.confidientialityCode" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.confidientialityCode" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.5" />
+			<param name="title" value="DocumentEntry.confidientialityCode" />
+		</antcall>
+	</target>
+	<target name="2.12_ValueSet_DocumentEntry.formatCode" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.formatCode" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.9" />
+			<param name="title" value="DocumentEntry.formatCode" />
+		</antcall>
+	</target>	 
+	<target name="2.16.756.5.30.1.127.3.10.10" depends="init">
+		<antcall target="transformValueSetToCodeSystem">
+			<param name="resourceId" value="2.16.756.5.30.1.127.3.10.10" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.9" />
+			<param name="codeSystem" value="2.16.756.5.30.1.127.3.10.10" />
+			<param name="name" value="CS_2_16_756_5_30_1_127_3_10_10" />
+			<param name="title" value="CodeSystem OID: 2.16.756.5.30.1.127.3.10.10" />
+		</antcall>
+	</target>
+	<target name="2.13_ValueSet_DocumentEntry.mimeType" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="DocumentEntry.mimeType" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.16" />
+			<param name="title" value="DocumentEntry.mimeType" />
+		</antcall>
+	</target>
+	<target name="2.14_ValueSet_SubmissionSet.contentTypeCode" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="SubmissionSet.contentTypeCode" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.40" />
+			<param name="title" value="SubmissionSet.contentTypeCode" />
+		</antcall>
+	</target>
+	<target name="2.15_ValueSet_SubmissionSet.Author.AuthorRole" depends="init">
+		<antcall target="transformValueSet">
+			<param name="resourceId" value="SubmissionSet.Author.AuthorRole" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.41" />
+			<param name="title" value="SubmissionSet.Author.AuthorRole" />
+		</antcall>
+	</target>
+	<target name="default">
+	    <antcall target="2.16.756.5.30.1.127.3.10.6" />
+		<antcall target="2.1_ValueSet_DocumentEntry.author.AuthorRole" />
+		<antcall target="2.16.756.5.30.1.127.3.5" />
+		<antcall target="2.16.756.5.30.1.127.3.6" />
+		<antcall target="2.2_ValueSet_DocumentEntry.authorSpeciality" />
+		<antcall target="2.3_ValueSet_DocumentEntry.healthcareFacilityTypeCode" />
+		<antcall target="2.4_ValueSet_DocumentEntry.practiceSettingCode" />
+		<antcall target="2.5_ValueSet_DocumentEntry.classCode" />
+		<antcall target="2.6_ValueSet_DocumentEntry.typeCode" />
+		<antcall target="2.16.756.5.30.1.127.3.4" />
+		<antcall target="2.8_ValueSet_DocumentEntry.eventCodeList" />
+		<antcall target="2.9_ValueSet_DocumentEntry.languageCode" />
+		<antcall target="2.11_ValueSet_DocumentEntry.confidientialityCode" />
+		<antcall target="2.12_ValueSet_DocumentEntry.formatCode" /> 
+		<antcall target="2.16.756.5.30.1.127.3.10.10" />
+		<antcall target="2.13_ValueSet_DocumentEntry.mimeType" />
+		<antcall target="2.14_ValueSet_SubmissionSet.contentTypeCode" />
+		<antcall target="2.15_ValueSet_SubmissionSet.Author.AuthorRole" />
+	</target>
+</project>

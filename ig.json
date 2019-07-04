@@ -1,0 +1,47 @@
+{
+  "tool": "jekyll",
+  "version": "4.0.0",
+  "fixed-business-version": "2.0.0",
+  "license": "CC-BY-SA-4.0",
+  "npm-name": "ch.fhir.ig.epr",
+  "paths": {
+    "resources": [
+      "resources"
+    ],
+    "pages": "pages",
+    "temp": "temp",
+    "output": "output",
+    "qa": "qa",
+    "txCache": "txCache",
+    "specification": "http:/hl7.org/fhir/r4"
+  },
+  "language": "en",
+  "languages": [
+    "en",
+    "de-CH",
+    "fr-CH",
+    "it-CH",
+    "rm-CH"
+  ],
+  "path-pattern": "[type]-[id].html",
+  "template": "https://github.com/ahdis/test-template",
+  "canonicalBase": "http://fhir.ch/ig/ch-epr",
+  "source": "implementationguide/ch.fhir.ig.epr-2.0.0.xml",
+  "sct-edition": "http://snomed.info/sct/900000000000207008",
+  "resources": {},
+  "suppressedWarningFile": "suppressedwarnings.txt",
+  "logging": [
+    "init",
+    "progress",
+    "context",
+    "html",
+    "tx"
+  ],
+  "special-urls": [
+    "urn:oid:2.16.756.5.30.1.127.3.10.6",
+    "urn:oid:2.16.756.5.30.1.127.3.10.10",
+    "urn:oid:2.16.756.5.30.1.127.3.4",
+    "urn:oid:2.16.756.5.30.1.127.3.5",
+    "urn:oid:2.16.756.5.30.1.127.3.6"
+  ]
+}

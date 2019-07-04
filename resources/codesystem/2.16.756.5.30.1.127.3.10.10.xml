@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="2.16.756.5.30.1.127.3.10.10"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20190608112934"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2019-06-08T11:29:34+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.756.5.30.1.127.3.10.10"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.127.3.10.1.9"/>
+   </identifier>
+   <version value="2019-06-08T11:29:34"/>
+   <name value="CS_2_16_756_5_30_1_127_3_10_10"/>
+   <title value="CodeSystem OID: 2.16.756.5.30.1.127.3.10.10"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Document format as per Annex 3  EPRO-FDHA. This unambiguous code defines the format of the XDS document. Together with the mimetype, this should provide the potential consumer with sufficient information as to whether they are in a position to process the document."/>
+   <content value="complete"/>
+   <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+   <concept>
+      <code value="urn:che:epr:EPR_Unstructured_Document"/>
+      <display value="Unstructured EPR document"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Unstrukturiertes EPD Dokument"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Document DEP non structuré"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Documento CIP non strutturato"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Unstructured EPR document"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="TODO"/>
+      </designation>
+   </concept>
+</CodeSystem>
