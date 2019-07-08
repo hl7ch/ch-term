@@ -1,6 +1,6 @@
 # CH-EPR Implementation Guide (FHIR)
 
-Implementation Guide for the meta data specified in the framework of Annex 3 of the [FDHA Ordinance](https://www.bag.admin.ch/bag/de/home/gesetze-und-bewilligungen/gesetzgebung/gesetzgebung-mensch-gesundheit/gesetzgebung-elektronisches-patientendossier.html) on the electronic patient record in Switzerland.
+Implementation Guide for the meta data specified in the framework of Annex 3 and Annex 9 of the [FDHA Ordinance](https://www.bag.admin.ch/bag/de/home/gesetze-und-bewilligungen/gesetzgebung/gesetzgebung-mensch-gesundheit/gesetzgebung-elektronisches-patientendossier.html) on the electronic patient record in Switzerland.
 
 This implemenation guide is based on the [CH-EPR - Electronic Patient Record repository](http://ehealthsuisse.art-decor.org/index.php?prefix=ch-epr-) [ART-DECOR®](https://www.art-decor.org/mediawiki/index.php/Main_Page) which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/).
 
@@ -12,6 +12,8 @@ You can download this Implementation Guide in npm format from [here](package.tgz
 
 ## Conversion notes between Art-Decor and this Implementation Guide
 
+### Annex 3
+
 2.1 Rolle der Autorin oder des Autors DocumentEntry.author.authorRole (OID: 2.16.756.5.30.1.127.3.10.1.1.3)
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.1.1.3
 
@@ -20,18 +22,15 @@ https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.
 
 2.3 Organisatorischer Typ der Gesundheitseinrichtung DocumentEntry.healthcareFacilityTypeCode (OID: 2.16.756.5.30.1.127.3.10.1.11)
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.1.11&effectiveDate=2019-06-20T16:46:45&language=en-US
-* 91154008	Free-standing birthing center (environment) ist in Art-Decor definert aber nicht in Revision 2.0 von Anhang 3 (will be removed by ehealth suisse)
 
 2.4 Fachrichtung der Gesundheitseinrichtung DocumentEntry.practiceSettingCode (OID: 2.16.756.5.30.1.127.3.10.1.18)
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.1.18&effectiveDate=2019-06-12T15:34:20&language=en-US
-* 394821009	Occupational medicine (qualifier value) ist in Art-Decor definert aber nicht in Revision 2.0 von Anhang 3 (will be removed by ehealth suisse)
 
 2.5 Dokumentenklasse DocumentEntry.classCode (OID: 2.16.756.5.30.1.127.3.10.1.3)
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.1.3&effectiveDate=2019-06-07T16:46:39&language=en-US
 
 2.6 Dokumententyp DocumentEntry.typeCode (OID: 2.16.756.5.30.1.127.3.10.1.27) 
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.1.27&effectiveDate=2019-06-08T09:42:21&language=en-US
-* Code für Image reference (foundation metadata concept) 900000000000471000 in Art-Decor ist anders als in Version 2.0: 900000000000471006 (will be corrected by ehealth suisse))
 * Vesion 2.0: 765492005 Nond-drung prescription record (record artifact) -> Non-drug ... (in Art-Decor korrekt, siehe auch http://browser.ihtsdotools.org/?perspective=full&conceptId1=765492005), created a [created spec issue](https://gazelle.ihe.net/jira/servicedesk/customer/portal/8/EHS-236)
 
 2.7 Zulässige Dokumententypen nach Dokumentenklasse DocumentEntry.classCode_DocumentEntry.typeCode_mapping (OID: 2.16.756.5.30.1.127.77.10.1.30)
@@ -46,9 +45,9 @@ https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.
 
 2.9 Sprache DocumentEntry.languageCode (OID: 2.16.756.5.30.1.127.3.10.1.13)
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.1.13&effectiveDate=2019-06-13T11:54:18&language=en-US
-* Rev 2.0 gibt für Other Codeoid 2.16.756.5.30.1.127.3.10.12 (nicht in refdata) an, Art-Decor definiert 2.16.756.5.30.1.127.3.4 (ehealth suisse will correct in art-decor)
 
 2.10 Administratives Geschlecht der Patientin oder des Patienten DocumentEntry.sourcePatientInfo.PID-8 (OID: 2.16.840.1.113883.4.642.3.1)
+Referenziert FHIR ValueSet direkt
 
 2.11 Vertraulichkeitsstufe DocumentEntry.confidentialityCode (OID: 2.16.756.5.30.1.127.3.10.1.5)
 * [Annex 3: Typo confidientialityCode instead of confidentialityCode](https://gazelle.ihe.net/jira/projects/EHS/issue/EHS-237)
@@ -63,13 +62,27 @@ oid 2.16.840.1.113883.5.79 changed to v3-mediaType Codesystem  http://terminolog
 
 2.15 Rolle der bereitstellenden Person SubmissionSet.Author.AuthorRole (OID: 2.16.756.5.30.1.127.3.10.1.41)
 
-general:
-* codesystem names will be registered in refdata by ehealth suisse, will be added to art-decor to by ehealth suisse
+### Annex 9
 
+2.1 Typ der Gesundheitsfachperson Value Set: HCProfessional.hcProfession (OID: 2.16.756.5.30.1.127.3.10.8.1)
+TODO ist noch nicht auf Art-Decor, wird von ehealth suisse noch erledigt
+
+2.2 Spezialisierung der Gesundheitsfachperson Value Set: HCProfessional.hcSpecialisation (OID: 2.16.756.5.30.1.127.3.10.8.2)
+TODO ist noch nicht auf Art-Decor, wird von ehealth suisse noch erledigt
+* Code 1026 - Oral and maxillofacial surgery 
+2.16.756.5.30.1.127.3.6 hat die falsche OID, sollte 2.16.756.5.30.1.127.3.5 sein [Annex 9: Typo 2.2 Spezialisierung der Gesundheitsfachperson](https://gazelle.ihe.net/jira/projects/EHS/issue/EHS-238)
+
+2.3 Zuordnung Spezialisierung Gesundheitsfachperson zum Typ der Gesundheitsfachperson Value Set: HCProfessional.hcProfessionSpecialisationMap (OID: 2.16.756.5.30.1.127.3.10.8.3)
+TODO ConceptMap
+
+### CodeSystems
+
+* codesystem names will be registered in refdata by ehealth suisse, will be added to art-decor to by ehealth suisse
 2.16.756.5.30.1.127.3.4 SNOMED CT Swiss Extension
 2.16.756.5.30.1.127.3.5 ch-ehealth-codesystem-medreg
 2.16.756.5.30.1.127.3.6 ch-ehealth-codesystem-nareg
 2.16.756.5.30.1.127.3.10.6  ch-ehealth-codesystem-role
+2.16.756.5.30.1.127.3.10.9  ch-ehealth-codesystem-hpd
 2.16.756.5.30.1.127.3.10.10 ch-ehealth-codesystem-format
 2.16.756.5.30.1.127.3.10.12 ch-ehealth-codesystem-language
 
