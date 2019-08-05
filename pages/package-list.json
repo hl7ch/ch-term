@@ -15,7 +15,7 @@
       "version": "dev",
       "date": "n/a",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://fhir.ch/ig/ch-epr/index.html",
+      "path": "http://build.fhir.org/ig/ch-epr/index.html",
       "status": "ci-build"
     }
   ]

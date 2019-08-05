@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ch.fhir.ig.epr-2.0.0"/>
+  <id value="ch.fhir.ig.epr"/>
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
       ImplementationGuide for CH-EPR
     </div>
   </text>
-  <url value="http://fhir.ch/ig/ch-epr/ImplementationGuide/ch.fhir.ig.epr-2.0.0"/>
+  <url value="http://fhir.ch/ig/ch-epr/ImplementationGuide/ch.fhir.ig.epr"/>
   <version value="2.0.0"/>
   <name value="CH_EPR"/>
   <title value="CH-EPR"/>

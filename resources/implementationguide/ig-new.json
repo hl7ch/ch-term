@@ -1,6 +1,6 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "ch.fhir.ig.epr-2.0.0",
+  "id" : "ch.fhir.ig.epr",
   "text" : {
     "status" : "additional",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      ImplementationGuide for CH-EPR\n    </div>"
@@ -13,7 +13,7 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
     "valueString" : "/Users/oliveregger/Documents/github/ch-epr/pages"
   }],
-  "url" : "http://fhir.ch/ig/ch-epr/ImplementationGuide/ch.fhir.ig.epr-2.0.0",
+  "url" : "http://fhir.ch/ig/ch-epr/ImplementationGuide/ch.fhir.ig.epr",
   "version" : "2.0.0",
   "name" : "CH_EPR",
   "title" : "CH-EPR",
