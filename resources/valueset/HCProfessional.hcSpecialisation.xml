@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="DocumentEntry.authorSpeciality"/>
+   <id value="HCProfessional.hcSpecialisation"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.4--20180814160421"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.2--20190719141318"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2018-08-14T16:04:21+02:00"/>
+         <start value="2019-07-19T14:13:18+02:00"/>
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr/ValueSet/DocumentEntry.authorSpeciality"/>
+             value="http://fhir.ch/ig/ch-epr/ValueSet/HCProfessional.hcSpecialisation"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.127.3.10.1.1.4"/>
+      <value value="2.16.756.5.30.1.127.3.10.8.2"/>
    </identifier>
-   <version value="2018-08-14T16:04:21"/>
-   <name value="AuthorSpec"/>
-   <title value="DocumentEntry.authorSpeciality"/>
+   <version value="2019-07-19T14:13:18"/>
+   <name value="HcpSpec"/>
+   <title value="HCProfessional.hcSpecialisation"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
@@ -31,474 +31,31 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Speciality of the author as per Annex 3."/>
+   <description value="HCProfessional.hcSpecialisation"/>
    <immutable value="false"/>
    <compose>
       <include>
-         <system value="urn:oid:2.16.756.5.30.1.127.3.6"/>
-         <concept>
-            <code value="5001"/>
-            <display value="Optics"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Augenoptik"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Optique"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Ottica"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5002"/>
-            <display value="Activation"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Aktivierung"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Activation"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Attivazione"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5003"/>
-            <display value="Biomedical analysis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Biomedizinische Analytik"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Analyses biomédicales"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Analisi biomediche"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5004"/>
-            <display value="Dental hygiene"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Dentalhygiene"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Hygiène dentaire"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Igiene dentale"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5005"/>
-            <display value="Pharmaceutical"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Drogist/Drogistin"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Droguiste"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Droghiere/Droghiera"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5006"/>
-            <display value="Occupational Therapy"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Ergotherapie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Ergothérapie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Ergoterapia"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5007"/>
-            <display value="Nutrition an Dietetics"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Ernährungsberatung"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Diététique"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Consulenza alimentare"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5008"/>
-            <display value="Radiologic Technology"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Medizinisch-technische Radiologie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Technique en radiologie médicale"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Tecniche di radiologia medica"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5009"/>
-            <display value="Surgical Technology"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Operationstechnik"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Technique opératoire"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Tecnica operatoria"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5010"/>
-            <display value="Midwifery"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Geburtshilfe"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Sage-femme"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Ostetricia"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5011"/>
-            <display value="Speech and Language Therapy"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Logopädie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Logopédie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Logopedia"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5012"/>
-            <display value="Massage Therapy"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Medizinische Massage"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Massage médical"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Massaggio medico"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5013"/>
-            <display value="Orthoptics"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Orthoptik"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Orthoptique"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Ortottica"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5014"/>
-            <display value="Osteopathy"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Osteopathie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Ostéopathie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Osteopatia"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5015"/>
-            <display value="Nursing"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Pflege"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Soins infirmiers"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Cure infermieristiche"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5016"/>
-            <display value="Physiotherapy"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Physiotherapie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Physiothérapie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Fisioterapia"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5017"/>
-            <display value="Podiatry"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Podologie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Podologie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Podologia"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5018"/>
-            <display value="Paramedics"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Rettungssanität"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Sauvetage"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Soccorso sanitario"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5019"/>
-            <display value="Optometry"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Optometrie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Optométrie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Optometria"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5021"/>
-            <display value="Naturopathy Ayurveda Medicine"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Naturheilpraktiker/-in Ayurveda-Medizin"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Naturopathe médecine ayurvédique"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Naturopata medicina ayurvedica"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5022"/>
-            <display value="Naturopathy Homeopathy"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Naturheilpraktiker/-in Homöopathie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Naturopathe homéopathie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Naturopata omeopatia"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5023"/>
-            <display value="Naturopathy Traditional Chinese Medicine"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Naturheilpraktiker/-in Trad. Chinesische Medizin"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Naturopathe médecine trad. chinoise"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Naturopata medicina trad. cinese"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="5024"/>
-            <display value="Naturopathy European Traditional Medicine"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Naturheilpraktiker/-in Trad. Europäische Naturheilkunde"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Naturopathe médecine naturelle trad. européenne"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Naturopata medicina naturale trad. europea"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="TODO"/>
-            </designation>
-         </concept>
-      </include>
-      <include>
          <system value="urn:oid:2.16.756.5.30.1.127.3.5"/>
+         <concept>
+            <code value="1001"/>
+            <display value="General medicine"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Allgemeinmedizin"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médecine générale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medicina generale"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
          <concept>
             <code value="1002"/>
             <display value="Surgery"/>
@@ -553,6 +110,26 @@
             <designation>
                <language value="it-CH"/>
                <value value="Chirurgia del cuore e dei vasi toracici"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1005"/>
+            <display value="Internal medicine"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Innere Medizin"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médecine interne"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medicina interna"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -1401,7 +978,7 @@
          </concept>
          <concept>
             <code value="1048"/>
-            <display value="Parodontology"/>
+            <display value="Periodontics"/>
             <designation>
                <language value="de-CH"/>
                <value value="Parodontologie"/>
@@ -1461,7 +1038,7 @@
          </concept>
          <concept>
             <code value="1051"/>
-            <display value="General Internal Medicine"/>
+            <display value="General internal medicine"/>
             <designation>
                <language value="de-CH"/>
                <value value="Allgemeine Innere Medizin"/>
@@ -1481,7 +1058,7 @@
          </concept>
          <concept>
             <code value="1052"/>
-            <display value="Offizinpharmazie"/>
+            <display value="Community pharmacy"/>
             <designation>
                <language value="de-CH"/>
                <value value="Offizinpharmazie"/>
@@ -1501,7 +1078,7 @@
          </concept>
          <concept>
             <code value="1053"/>
-            <display value="Spitalpharmazie"/>
+            <display value="Hospital pharmacy"/>
             <designation>
                <language value="de-CH"/>
                <value value="Spitalpharmazie"/>

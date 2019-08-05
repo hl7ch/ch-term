@@ -16,7 +16,7 @@
       <value value="2.16.756.5.30.1.127.3.10.1.13"/>
    </identifier>
    <version value="2019-06-13T11:54:18"/>
-   <name value="ChEhealthCodesystemFormat"/>
+   <name value="ChEhealthCodesystemLanguage"/>
    <title value="ch-ehealth-codesystem-language"/>
    <status value="draft"/>
    <experimental value="false"/>

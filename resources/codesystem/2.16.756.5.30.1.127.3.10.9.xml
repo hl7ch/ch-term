@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="2.16.756.5.30.1.127.3.10.9"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20190719134742"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2019-07-19T13:47:42+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.756.5.30.1.127.3.10.9"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.127.3.10.8.1"/>
+   </identifier>
+   <version value="2019-07-19T13:47:42"/>
+   <name value="ChEhealthCodesystemHpd"/>
+   <title value="ch-ehealth-codesystem-hpd"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="HCProfessional.hcProfession"/>
+   <content value="complete"/>
+   <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+   <concept>
+      <code value="00000"/>
+      <display value="Other"/>
+   </concept>
+   <concept>
+      <code value="00100"/>
+      <display value="Aktivierungsfachfrau/Aktivierungsfachmann"/>
+   </concept>
+   <concept>
+      <code value="00200"/>
+      <display value="Optician"/>
+   </concept>
+   <concept>
+      <code value="00300"/>
+      <display value="Biomedizinische Analytikerin/Biomedizinischer Analytiker"/>
+   </concept>
+   <concept>
+      <code value="00400"/>
+      <display value="Dental hygienist"/>
+   </concept>
+   <concept>
+      <code value="00500"/>
+      <display value="Drogist/Drogistin"/>
+   </concept>
+   <concept>
+      <code value="00600"/>
+      <display value="Fachfrau für medizinisch-technische Radiologie/Fachmann für medizinisch-technische Radiologie"/>
+   </concept>
+   <concept>
+      <code value="00700"/>
+      <display value="Fachfrau Gesundheit/Fachmann Gesundheit"/>
+   </concept>
+   <concept>
+      <code value="00800"/>
+      <display value="Fachfrau Operationstechnik/Fachmann Operationstechnik"/>
+   </concept>
+   <concept>
+      <code value="00900"/>
+      <display value="Medizinische Masseurin/Medizinischer Masseur"/>
+   </concept>
+   <concept>
+      <code value="01000"/>
+      <display value="Naturheilpraktikerin/Naturheilpraktiker"/>
+   </concept>
+   <concept>
+      <code value="01100"/>
+      <display value="Optometrist"/>
+   </concept>
+   <concept>
+      <code value="01200"/>
+      <display value="Orthoptist"/>
+   </concept>
+   <concept>
+      <code value="01300"/>
+      <display value="Osteopath"/>
+   </concept>
+   <concept>
+      <code value="01400"/>
+      <display value="Podologin/Podologe"/>
+   </concept>
+   <concept>
+      <code value="01500"/>
+      <display value="Rettungssanitäterin/Rettungssanitäter"/>
+   </concept>
+</CodeSystem>

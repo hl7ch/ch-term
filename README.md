@@ -65,10 +65,11 @@ oid 2.16.840.1.113883.5.79 changed to v3-mediaType Codesystem  http://terminolog
 ### Annex 9
 
 2.1 Typ der Gesundheitsfachperson Value Set: HCProfessional.hcProfession (OID: 2.16.756.5.30.1.127.3.10.8.1)
-TODO ist noch nicht auf Art-Decor, wird von ehealth suisse noch erledigt
+https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.8.1
 
 2.2 Spezialisierung der Gesundheitsfachperson Value Set: HCProfessional.hcSpecialisation (OID: 2.16.756.5.30.1.127.3.10.8.2)
-TODO ist noch nicht auf Art-Decor, wird von ehealth suisse noch erledigt
+https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.8.2
+
 * Code 1026 - Oral and maxillofacial surgery 
 2.16.756.5.30.1.127.3.6 hat die falsche OID, sollte 2.16.756.5.30.1.127.3.5 sein [Annex 9: Typo 2.2 Spezialisierung der Gesundheitsfachperson](https://gazelle.ihe.net/jira/projects/EHS/issue/EHS-238)
 
@@ -98,7 +99,7 @@ ant
 BUILD SUCCESSFUL
 ```
 
-2. list new resources in implementationguite\ch.fhir.ig.epr-2.x.x.xml
+2. list new resources in implementationguite\ch.fhir.ig.epr.xml
 
 3. run IG publisher
 
