@@ -9,10 +9,10 @@
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/Users/oliveregger/Documents/github/ch-epr/resources"/>
+    <valueString value="C:\Users\micha\Documents\GitHub\ch-epr\resources"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="/Users/oliveregger/Documents/github/ch-epr/pages"/>
+    <valueString value="C:\Users\micha\Documents\GitHub\ch-epr\pages"/>
   </extension>
   <url value="http://fhir.ch/ig/ch-epr/ImplementationGuide/ch.fhir.ig.epr"/>
   <version value="2.0.0"/>
@@ -65,6 +65,12 @@
     <resource>
       <reference>
         <reference value="CodeSystem/2.16.756.5.30.1.127.3.10.6"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/2.16.756.5.30.1.127.3.10.9"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -149,6 +155,18 @@
     <resource>
       <reference>
         <reference value="ValueSet/DocumentEntry.typeCode"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/HCProfessional.hcProfession"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/HCProfessional.hcSpecialisation"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
