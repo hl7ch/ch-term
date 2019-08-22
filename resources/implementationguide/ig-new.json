@@ -87,7 +87,7 @@
     },
     {
       "reference" : {
-        "reference" : "ValueSet/DocumentEntry.author.authorRole"
+        "reference" : "ValueSet/DocumentEntry.authorRole"
       },
       "exampleBoolean" : false
     },

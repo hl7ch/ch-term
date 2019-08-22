@@ -81,7 +81,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/DocumentEntry.author.authorRole"/>
+        <reference value="ValueSet/DocumentEntry.authorRole"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
