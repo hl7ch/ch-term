@@ -53,6 +53,10 @@
                <value value="Procedura"/>
             </designation>
             <designation>
+               <language value="en-US"/>
+               <value value="Procedure"/>
+            </designation>
+            <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
             </designation>
