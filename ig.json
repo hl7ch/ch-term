@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "fixed-business-version": "2.0.0",
   "license": "CC-BY-SA-4.0",
-  "npm-name": "ch.fhir.ig.epr",
+  "npm-name": "ch.fhir.ig.epr.term",
   "paths": {
     "resources": [
       "resources"
@@ -25,8 +25,8 @@
   ],
   "path-pattern": "[type]-[id].html",
   "template": "https://github.com/ahdis/test-template",
-  "canonicalBase": "http://fhir.ch/ig/ch-epr",
-  "source": "implementationguide/ch.fhir.ig.epr.xml",
+  "canonicalBase": "http://fhir.ch/ig/ch-epr-term",
+  "source": "implementationguide/ch.fhir.ig.epr.term.xml",
   "sct-edition": "http://snomed.info/sct/900000000000207008",
   "resources": {},
   "suppressedWarningFile": "suppressedwarnings.txt",

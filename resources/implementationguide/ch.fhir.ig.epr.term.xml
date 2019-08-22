@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ch.fhir.ig.epr"/>
+  <id value="ch.fhir.ig.epr.term"/>
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      ImplementationGuide for CH-EPR
+      ImplementationGuide for CH-EPR terminologies
     </div>
   </text>
-  <url value="http://fhir.ch/ig/ch-epr/ImplementationGuide/ch.fhir.ig.epr"/>
+  <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.epr.term"/>
   <version value="2.0.0"/>
-  <name value="CH_EPR"/>
-  <title value="CH-EPR"/>
+  <name value="CH_EPR_TERM"/>
+  <title value="CH-EPR-TERM"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2019-07-02"/>

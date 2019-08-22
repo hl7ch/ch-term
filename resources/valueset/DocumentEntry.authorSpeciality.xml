@@ -12,7 +12,7 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr/ValueSet/DocumentEntry.authorSpeciality"/>
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.authorSpeciality"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>

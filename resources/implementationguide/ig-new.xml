@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ch.fhir.ig.epr"/>
+  <id value="ch.fhir.ig.epr.term"/>
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      ImplementationGuide for CH-EPR
+      ImplementationGuide for CH-EPR terminologies
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="C:\Users\micha\Documents\GitHub\ch-epr\resources"/>
+    <valueString value="/Users/oliveregger/Documents/github/ch-epr-term/resources"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="C:\Users\micha\Documents\GitHub\ch-epr\pages"/>
+    <valueString value="/Users/oliveregger/Documents/github/ch-epr-term/pages"/>
   </extension>
-  <url value="http://fhir.ch/ig/ch-epr/ImplementationGuide/ch.fhir.ig.epr"/>
+  <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.epr.term"/>
   <version value="2.0.0"/>
-  <name value="CH_EPR"/>
-  <title value="CH-EPR"/>
+  <name value="CH_EPR_TERM"/>
+  <title value="CH-EPR-TERM"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2019-07-02T00:00:00+02:00"/>
@@ -36,7 +36,7 @@
     </coding>
   </jurisdiction>
   <copyright value="CC-BY-SA-4.0"/>
-  <packageId value="ch.fhir.ig.epr"/>
+  <packageId value="ch.fhir.ig.epr.term"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.0"/>
   <fhirVersion value="4.0.0"/>

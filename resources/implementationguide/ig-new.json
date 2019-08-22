@@ -1,22 +1,22 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "ch.fhir.ig.epr",
+  "id" : "ch.fhir.ig.epr.term",
   "text" : {
     "status" : "additional",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      ImplementationGuide for CH-EPR\n    </div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      ImplementationGuide for CH-EPR terminologies\n    </div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "C:\\Users\\micha\\Documents\\GitHub\\ch-epr\\resources"
+    "valueString" : "/Users/oliveregger/Documents/github/ch-epr-term/resources"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "C:\\Users\\micha\\Documents\\GitHub\\ch-epr\\pages"
+    "valueString" : "/Users/oliveregger/Documents/github/ch-epr-term/pages"
   }],
-  "url" : "http://fhir.ch/ig/ch-epr/ImplementationGuide/ch.fhir.ig.epr",
+  "url" : "http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.epr.term",
   "version" : "2.0.0",
-  "name" : "CH_EPR",
-  "title" : "CH-EPR",
+  "name" : "CH_EPR_TERM",
+  "title" : "CH-EPR-TERM",
   "status" : "active",
   "experimental" : false,
   "date" : "2019-07-02T00:00:00+02:00",
@@ -35,7 +35,7 @@
     }]
   }],
   "copyright" : "CC-BY-SA-4.0",
-  "packageId" : "ch.fhir.ig.epr",
+  "packageId" : "ch.fhir.ig.epr.term",
   "license" : "CC-BY-SA-4.0",
   "fhirVersion" : ["4.0.0",
   "4.0.0"],
