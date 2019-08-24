@@ -1,6 +1,6 @@
-# CH-EPR Implementation Guide
+# CH-EPR-TERM Implementation Guide
 
-Implementation Guide for the meta data specified in the framework of Annex 3 of the [FDHA Ordinance](https://www.bag.admin.ch/bag/de/home/gesetze-und-bewilligungen/gesetzgebung/gesetzgebung-mensch-gesundheit/gesetzgebung-elektronisches-patientendossier.html) on the electronic patient record in Switzerland.
+Implementation Guide for the meta data specified in the framework of Annex 3 and Annex 9 of the [FDHA Ordinance](https://www.bag.admin.ch/bag/de/home/gesetze-und-bewilligungen/gesetzgebung/gesetzgebung-mensch-gesundheit/gesetzgebung-elektronisches-patientendossier.html) on the electronic patient record in Switzerland.
 
 This implemenation guide is based on the [CH-EPR - Electronic Patient Record repository](http://ehealthsuisse.art-decor.org/index.php?prefix=ch-epr-) [ART-DECOR®](https://www.art-decor.org/mediawiki/index.php/Main_Page) which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/).
 
