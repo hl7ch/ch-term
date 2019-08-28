@@ -1,5 +1,5 @@
 {
-  "package-id": "ch.fhir.ig.epr.term",
+  "package-id": "ch.fhir.ig.ch-epr-term",
   "title": "CH-EPR (R4)",
   "introduction": "Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland",
   "canonical": "http://fhir.ch/ig/ch-epr-term",
