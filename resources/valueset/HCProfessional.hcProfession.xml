@@ -12,14 +12,14 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr/ValueSet/HCProfessional.hcProfession"/>
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/HCProfessional.hcProfession"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.8.1"/>
    </identifier>
    <version value="2019-07-19T13:47:42"/>
-   <name value="HcpProf"/>
+   <name value="HCProfessional.hcProfession"/>
    <title value="HCProfessional.hcProfession"/>
    <status value="draft"/>
    <experimental value="false"/>
@@ -40,46 +40,222 @@
          <concept>
             <code value="36682004"/>
             <display value="Physiotherapist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="3842006"/>
             <display value="Chiropractor (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="46255001"/>
             <display value="Pharmacist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="59944000"/>
             <display value="Psychologist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="80546007"/>
             <display value="Occupational therapist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="106289002"/>
             <display value="Dentist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="106292003"/>
             <display value="Professional nurse (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="159026005"/>
             <display value="Speech/language therapist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="159033005"/>
             <display value="Dietitian (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="309343006"/>
             <display value="Physician (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="309453006"/>
             <display value="Registered midwife (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
       </include>
       <include>
@@ -87,66 +263,322 @@
          <concept>
             <code value="00000"/>
             <display value="Other"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Andere"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altre"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00100"/>
             <display value="Aktivierungsfachfrau/Aktivierungsfachmann"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Aktivierungsfachfrau/Aktivierungsfachmann"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Spécialiste en activation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Specialista in attivazione"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00200"/>
             <display value="Optician"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00300"/>
             <display value="Biomedizinische Analytikerin/Biomedizinischer Analytiker"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Biomedizinische Analytikerin/Biomedizinischer Analytiker"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Analyste biomédical"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tecnica in analisi biomediche/Tecnico in analisi biomediche"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00400"/>
             <display value="Dental hygienist"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00500"/>
             <display value="Drogist/Drogistin"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Drogist/Drogistin"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Droguiste"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Droghiere/a"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00600"/>
             <display value="Fachfrau für medizinisch-technische Radiologie/Fachmann für medizinisch-technische Radiologie"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Fachfrau für medizinisch-technische Radiologie/Fachmann für medizinisch-technische Radiologie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Technicien/ne en radiologie médicale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tecnica di radiologia medica/Tecnico di radiologia medica"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00700"/>
             <display value="Fachfrau Gesundheit/Fachmann Gesundheit"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Fachfrau Gesundheit/Fachmann Gesundheit"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Assistant/e en soins et santé communautaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Operatrice sociosanitaria/Operatore sociosanitario"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00800"/>
             <display value="Fachfrau Operationstechnik/Fachmann Operationstechnik"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Fachfrau Operationstechnik/Fachmann Operationstechnik"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Technicien/ne en salle d’opération"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tecnica di sala operatoria/Tecnico di sala operatoria"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="00900"/>
             <display value="Medizinische Masseurin/Medizinischer Masseur"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Medizinische Masseurin/Medizinischer Masseur"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Masseur médical/masseuse médicale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Massaggiatrice medicale/Massaggiatore medicale"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="01000"/>
             <display value="Naturheilpraktikerin/Naturheilpraktiker"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Naturheilpraktikerin/Naturheilpraktiker"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Naturopathe"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Naturopata"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="01100"/>
             <display value="Optometrist"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Optometrist"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="01200"/>
             <display value="Orthoptist"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Orthoptist"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="01300"/>
             <display value="Osteopath"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Osteopath"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="01400"/>
             <display value="Podologin/Podologe"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Podologin/Podologe"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ambulancier/ambulancière"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Podologa/Podologo"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
          <concept>
             <code value="01500"/>
             <display value="Rettungssanitäterin/Rettungssanitäter"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Rettungssanitäterin/Rettungssanitäter"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ambulancier/ambulancière"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Soccorritrice/Soccorritore"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
          </concept>
       </include>
    </compose>

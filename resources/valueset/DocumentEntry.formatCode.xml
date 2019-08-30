@@ -12,14 +12,14 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr/ValueSet/DocumentEntry.formatCode"/>
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.formatCode"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.9"/>
    </identifier>
    <version value="2019-06-08T11:29:34"/>
-   <name value="XdsformCo"/>
+   <name value="DocumentEntry.formatCode"/>
    <title value="DocumentEntry.formatCode"/>
    <status value="draft"/>
    <experimental value="false"/>
@@ -31,7 +31,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Document format as per Annex 3  EPRO-FDHA. This unambiguous code defines the format of the XDS document. Together with the mimetype, this should provide the potential consumer with sufficient information as to whether they are in a position to process the document."/>
+   <description value="Document format as per Annex 3  EPRO-FDHA. &#xA;      This unambiguous code defines the format of the XDS document. Together with the mimetype, this should provide the potential consumer with sufficient information as to whether they are in a position to process the document.&#xA;    "/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>

@@ -13,14 +13,14 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr/ValueSet/DocumentEntry.sourcePatientInfo.PID-8"/>
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.sourcePatientInfo.PID-8"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.840.1.113883.4.642.3.1"/>
    </identifier>
    <version value="2019-01-25T16:23:42"/>
-   <name value="XdssourPatInf"/>
+   <name value="DocumentEntry.sourcePatientInfo.PID8"/>
    <title
                value="DocumentEntry.sourcePatientInfo.PID-8"/>
    <status value="draft"/>
@@ -33,7 +33,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Patient’s gender as per Annex 3  EPRO-FDHA."/>
+   <description value="Patient’s gender as per Annex 3  EPRO-FDHA.&#xA;    "/>
    <immutable value="false"/>
    <compose>
       <include>
