@@ -31,7 +31,6 @@ https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.
 
 2.6 Dokumententyp DocumentEntry.typeCode (OID: 2.16.756.5.30.1.127.3.10.1.27) 
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.1.27&effectiveDate=2019-06-08T09:42:21&language=en-US
-* Vesion 2.0: 765492005 Nond-drung prescription record (record artifact) -> Non-drug ... (in Art-Decor korrekt, siehe auch http://browser.ihtsdotools.org/?perspective=full&conceptId1=765492005), created a [created spec issue](https://gazelle.ihe.net/jira/servicedesk/customer/portal/8/EHS-236)
 
 2.7 Zulässige Dokumententypen nach Dokumentenklasse DocumentEntry.classCode_DocumentEntry.typeCode_mapping (OID: 2.16.756.5.30.1.127.77.10.1.30)
 TODO ConceptMap mapping?
@@ -50,7 +49,6 @@ https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.
 Referenziert FHIR ValueSet direkt
 
 2.11 Vertraulichkeitsstufe DocumentEntry.confidentialityCode (OID: 2.16.756.5.30.1.127.3.10.1.5)
-* [Annex 3: Typo confidientialityCode instead of confidentialityCode](https://gazelle.ihe.net/jira/projects/EHS/issue/EHS-237)
 
 2.12 Detailliertes technisches Format DocumentEntry.formatCode (OID: 2.16.756.5.30.1.127.3.10.1.9)
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.1.13&effectiveDate=2019-06-13T11:54:18&language=en-US
@@ -70,9 +68,6 @@ https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.
 2.2 Spezialisierung der Gesundheitsfachperson Value Set: HCProfessional.hcSpecialisation (OID: 2.16.756.5.30.1.127.3.10.8.2)
 https://art-decor.org/art-decor/decor-valuesets--ch-epr-?id=2.16.756.5.30.1.127.3.10.8.2
 
-* Code 1026 - Oral and maxillofacial surgery 
-2.16.756.5.30.1.127.3.6 hat die falsche OID, sollte 2.16.756.5.30.1.127.3.5 sein [Annex 9: Typo 2.2 Spezialisierung der Gesundheitsfachperson](https://gazelle.ihe.net/jira/projects/EHS/issue/EHS-238)
-
 2.3 Zuordnung Spezialisierung Gesundheitsfachperson zum Typ der Gesundheitsfachperson Value Set: HCProfessional.hcProfessionSpecialisationMap (OID: 2.16.756.5.30.1.127.3.10.8.3)
 TODO ConceptMap
 
@@ -86,25 +81,3 @@ TODO ConceptMap
 2.16.756.5.30.1.127.3.10.9  ch-ehealth-codesystem-hpd
 2.16.756.5.30.1.127.3.10.10 ch-ehealth-codesystem-format
 2.16.756.5.30.1.127.3.10.12 ch-ehealth-codesystem-language
-
-## Creation/Update of implementation guide
-
-1. run ant script to convert art-decor valuesets for the necessary ig resources in directory art-decor
-
-```
-cd art-decor/
-ant
-
-...skip
-BUILD SUCCESSFUL
-```
-
-2. list new resources in implementationguite\ch.fhir.ig.epr.xml
-
-3. run IG publisher
-
-```
-java -jar ./org.hl7.fhir.publisher.cli.jar -ig ./ig.json
-```
-
-4. commit or make a pull request, continous build result are [here](http://build.fhir.org/ig/hl7ch/ch-epr/index.html)

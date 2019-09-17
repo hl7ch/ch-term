@@ -21,7 +21,7 @@
    <version value="2019-06-08T11:40:41"/>
    <name value="DocumentEntry.mimeType"/>
    <title value="DocumentEntry.mimeType"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -31,7 +31,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="MIME type of the document as per Annex 3  EPRO-FDHA.&#xA;    "/>
+   <description value="MIME type of the document as per Annex 3  EPRO-FDHA."/>
    <immutable value="false"/>
    <compose>
       <include>

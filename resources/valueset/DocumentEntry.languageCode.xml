@@ -21,7 +21,7 @@
    <version value="2019-06-13T11:54:18"/>
    <name value="DocumentEntry.languageCode"/>
    <title value="DocumentEntry.languageCode"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -377,7 +377,7 @@
          </concept>
          <concept>
             <code value="en-NZ"/>
-            <display value="English (New Zeland)"/>
+            <display value="English (New Zealand)"/>
             <designation>
                <language value="de-CH"/>
                <value value="Englisch (Neuseeland)"/>
@@ -392,7 +392,7 @@
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="English (New Zeland)"/>
+               <value value="English (New Zealand)"/>
             </designation>
             <designation>
                <language value="rm-CH"/>

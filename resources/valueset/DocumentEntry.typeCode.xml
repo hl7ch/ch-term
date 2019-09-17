@@ -21,7 +21,7 @@
    <version value="2019-06-08T09:42:21"/>
    <name value="DocumentEntry.typeCode"/>
    <title value="DocumentEntry.typeCode"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -42,7 +42,7 @@
             <display value="History and physical report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Anamnese / Untersuchungsbericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -66,7 +66,7 @@
             <display value="Record artifact (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Nicht näher bezeichnetes Dokument"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -87,10 +87,10 @@
          </concept>
          <concept>
             <code value="721965002"/>
-            <display value="Laboratory Order (record artifact)"/>
+            <display value="Laboratory order (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Laborauftrag"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -111,10 +111,10 @@
          </concept>
          <concept>
             <code value="721966001"/>
-            <display value="Pathology order (record artifact"/>
+            <display value="Pathology order (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Pathologieauftrag"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -138,7 +138,7 @@
             <display value="Imaging report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Befundbericht zur Bildgebung"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -162,7 +162,7 @@
             <display value="Clinical Management plan (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Behandlungsplan"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -190,7 +190,7 @@
             </designation>
             <designation>
                <language value="de-CH"/>
-               <value value="Nicht-Arzneimittelbezogene Verordnung"/>
+               <value value="Nicht-Arzneimittel-Verschreibung / Rezept"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -210,7 +210,7 @@
             <display value="Nursing care plan (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Pflegeplan"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -234,7 +234,7 @@
             <display value="Rehabilitation care plan (record articact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Rehabilitationsplan"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -258,7 +258,7 @@
             <display value="Medical Prescription record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Arzneimittel-Verschreibung / Rezept"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -282,7 +282,7 @@
             <display value="Allergy record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Allergieausweis"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -306,7 +306,7 @@
             <display value="Medical certificate (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Ärztliches Attest"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -354,7 +354,7 @@
             <display value="Transfer summary report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Verlegungsbericht"/>
+               <value value="Überweisungsbericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -378,7 +378,7 @@
             <display value="Emergency department record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Notfallberichtt"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -402,7 +402,7 @@
             <display value="Professional allied to medicine clinical report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Dokument ausserhalb des Behandlungskontextes"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -426,7 +426,7 @@
             <display value="Clinical consultation report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Konsultationsbericht"/>
+               <value value="Beurteilung durch Fachspezialisten"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -450,7 +450,7 @@
             <display value="Laboratory report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Labor-Befund"/>
+               <value value="Laborbericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -474,7 +474,7 @@
             <display value="Operative report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="OP-Bericht"/>
+               <value value="Operationsbericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -498,7 +498,7 @@
             <display value="Progress report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Klinisches Verlaufsblatt"/>
+               <value value="Verlaufsbericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -522,15 +522,15 @@
             <display value="Image reference (foundation metadata concept)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Referenz auf Bilddaten"/>
+               <value value="Bild"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Référence d'Image"/>
+               <value value="Image"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Referenza nei dati immagine"/>
+               <value value="Immagine"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -538,7 +538,7 @@
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Image reference"/>
+               <value value="Image"/>
             </designation>
          </concept>
          <concept>
@@ -546,15 +546,15 @@
             <display value="Immunization record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Impfausweis/Impfdossier"/>
+               <value value="Impfausweis"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Certificat / carnet de vaccination"/>
+               <value value="Certificat de vaccination"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Certificato/libretto di vaccinazione"/>
+               <value value="Certificato di vaccinazione"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -570,7 +570,7 @@
             <display value="Pathology report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Pathologiebericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -594,7 +594,7 @@
             <display value="Medication summary document (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Medikationsliste"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -621,7 +621,7 @@
             <display value="Imaging order (record articact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Bildgebungsauftrag"/>
             </designation>
             <designation>
                <language value="fr-CH"/>

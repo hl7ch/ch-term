@@ -18,7 +18,7 @@
    <version value="2019-01-24T08:53:05"/>
    <name value="ChEhealthCodesystemRole"/>
    <title value="ch-ehealth-codesystem-role"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -28,7 +28,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Role of the author.&#xA;      This code defines the role of the author of the document. This is a sub-attribute of epd_xds_author.&#xA;    "/>
+   <description value="Role of the author.This code defines the role of the author of the document. This is a sub-attribute of epd_xds_author."/>
    <content value="complete"/>
    <concept>
       <code value="PAT"/>

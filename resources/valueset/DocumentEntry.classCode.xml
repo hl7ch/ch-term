@@ -21,7 +21,7 @@
    <version value="2019-06-07T16:46:39"/>
    <name value="DocumentEntry.classCode"/>
    <title value="DocumentEntry.classCode"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -42,7 +42,7 @@
             <display value="Report of clinical encounter (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Bericht aufgrund einer Konsultation"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -66,15 +66,15 @@
             <display value="Referral note (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Konsilauftrag"/>
+               <value value="Zuweisungsschreiben"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Demande de consultation"/>
+               <value value="TODO"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Richiesta di consulto"/>
+               <value value="TODO"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -90,15 +90,15 @@
             <display value="Order (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Auftrag"/>
+               <value value="Untersuchungsauftrag"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Demande"/>
+               <value value="TODO"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Ordine"/>
+               <value value="TODO"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -114,7 +114,7 @@
             <display value="Summary clinical document (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Zusammenfassender Bericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -138,7 +138,7 @@
             <display value="Clinical procedure report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Untersuchungsbefund"/>
+               <value value="Interventionsbericht / Untersuchungsresultat"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -162,7 +162,7 @@
             <display value="Care Plan (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Behandlungsplan"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -186,7 +186,7 @@
             <display value="Prescription record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Rezept"/>
+               <value value="Verschreibung / Rezept"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -202,7 +202,7 @@
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Drug prescription"/>
+               <value value="Prescription record"/>
             </designation>
          </concept>
          <concept>
@@ -210,7 +210,7 @@
             <display value="Patient record type (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Langzeitdokumentation"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -234,7 +234,7 @@
             <display value="Consent report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Patienteneinwilligung"/>
+               <value value="Einwilligung zur Behandlung"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -250,7 +250,7 @@
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Patient consent"/>
+               <value value="Consent report"/>
             </designation>
          </concept>
          <concept>
@@ -282,15 +282,15 @@
             <display value="Audit trail report (record artifact)"/>
             <designation>
                <language value="fr-CH"/>
-               <value value="Journal d'audit"/>
+               <value value="TODO"/>
             </designation>
             <designation>
                <language value="de-CH"/>
-               <value value="Audit trail"/>
+               <value value="Rückverfolgung der EPD Zugriffe"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Audit trail"/>
+               <value value="TODO"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -298,7 +298,7 @@
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Audit trail"/>
+               <value value="Audit trail report"/>
             </designation>
          </concept>
          <concept>
@@ -306,7 +306,7 @@
             <display value="Emergency medical identification record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Notfallpass"/>
+               <value value="Notfall-ID / Ausweis"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -330,15 +330,15 @@
             <display value="Organ donor card (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Willensäusserung zur Organspende"/>
+               <value value="Organspendeausweis"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Volonté sur le don d'organes"/>
+               <value value="TODO"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Volontà di donare organi"/>
+               <value value="TODO"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -354,7 +354,7 @@
             <display value="Administrative documentation (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Administratives Dokument"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -378,7 +378,7 @@
             <display value="Record of health event (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Dokument zu gesundheitsrelevantem Ereignis"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -402,7 +402,7 @@
             <display value="Record artifact (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Nicht näher bezeichnetes Dokument"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -429,7 +429,7 @@
             <display value="Obstetrical Record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Schwangerschafts-/ Geburtsbericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>

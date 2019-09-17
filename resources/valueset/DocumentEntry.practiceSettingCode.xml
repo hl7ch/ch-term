@@ -21,7 +21,7 @@
    <version value="2019-06-12T15:34:20"/>
    <name value="DocumentEntry.practiceSettingCode"/>
    <title value="DocumentEntry.practiceSettingCode"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -1482,7 +1482,7 @@
             <display value="Clinical specialty (qualifier value)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Andere nicht näher spezifizierte medzinische Fachrichtung"/>
+               <value value="Andere nicht näher spezifizierte medizinische Fachrichtung"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
@@ -1494,7 +1494,7 @@
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="other Clinical specialty"/>
+               <value value="Other clinical specialty"/>
             </designation>
             <designation>
                <language value="rm-CH"/>

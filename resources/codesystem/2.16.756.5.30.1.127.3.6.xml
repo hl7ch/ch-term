@@ -18,7 +18,7 @@
    <version value="2018-08-14T16:04:21"/>
    <name value="ChEhealthCodesystemNareg"/>
    <title value="ch-ehealth-codesystem-nareg"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -152,7 +152,7 @@
    </concept>
    <concept>
       <code value="5007"/>
-      <display value="Nutrition an Dietetics"/>
+      <display value="Nutrition and Dietetics"/>
       <designation>
          <language value="de-CH"/>
          <value value="Ernährungsberatung"/>
@@ -215,7 +215,7 @@
       <display value="Midwifery"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Geburtshilfe"/>
+         <value value="Geburtshilfe - Hebamme"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
