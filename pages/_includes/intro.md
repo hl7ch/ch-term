@@ -4,6 +4,8 @@ Implementation Guide for the meta data specified in the framework of Annex 3 and
 
 This implemenation guide is based on the [CH-EPR](http://ehealthsuisse.art-decor.org/index.php?prefix=ch-epr-) [ART-DECOR](https://www.art-decor.org/mediawiki/index.php/Main_Page) project which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/).
 
+This version SHOULD correspond to the release [201907.0-stable](https://art-decor.org/decor/services/ProjectIndex?prefix=ch-epr-&format=html&language=en-US&version=2019-09-13T18%3A43%3A40)
+
 Please report and note current issues that are pending or errors under [ART-DECOR Issues](https://art-decor.org/art-decor/decor-issues--ch-epr-). 
 
 Further information on the publications and process may be found [here](https://www.e-health-suisse.ch/fileadmin/user_upload/Dokumente/2017/D/171002_Verantwortlichkeiten_Prozess_Metadaten_D.pdf).
