@@ -2,13 +2,13 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="DocumentEntry.languageCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.13--20190613115418"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.13--20191103112828"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-06-13T11:54:18+02:00"/>
+         <start value="2019-11-03T11:28:28+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -18,7 +18,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.13"/>
    </identifier>
-   <version value="2019-06-13T11:54:18"/>
+   <version value="2019-11-03T11:28:28"/>
    <name value="DocumentEntry.languageCode"/>
    <title value="DocumentEntry.languageCode"/>
    <status value="active"/>
@@ -48,11 +48,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Arabe"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Arabo"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -72,11 +72,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Bengali"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Bengalese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -96,11 +96,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Tchèque"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Ceco"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -120,11 +120,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Danois"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Danese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -240,11 +240,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Grec"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Greco"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -456,11 +456,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Espagnol"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Spagnolo"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -480,11 +480,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Espagnol (Argentine)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Spagnolo (Argentina)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -504,11 +504,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Espagnol (Espagne)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Spagnolo (Spagna)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -528,11 +528,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Espagnol (Uruguay)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Spagnolo (Uruguay)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -552,11 +552,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Finnois"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Finlandese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -744,11 +744,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Croate"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Croato"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -840,11 +840,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Japonais"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Giapponese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -864,11 +864,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Coréen"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Coreano"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -888,11 +888,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Néerlandais"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Olandese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -912,11 +912,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Néerlandais (Belgique)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Olandese (Belgio)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -936,11 +936,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Néerlandais (Pays-Bas)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Olandese (Paesi Bassi)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -960,11 +960,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Norvégien"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Norvegese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -980,15 +980,15 @@
             <display value="Norwegian (Norway)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Japanisch"/>
+               <value value="Norwegisch (Norwegen)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Norvégien (Norvège)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Norvegese (Norvegia)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1008,11 +1008,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Panjabi"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Panjabi"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1032,11 +1032,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Polonais"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Polacco"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1056,11 +1056,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Portugais"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Portoghese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1080,11 +1080,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Portugais (Brésil)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Portoghese (Brasile)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1128,11 +1128,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Russe"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Russo"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1152,11 +1152,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Russe (Russie)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Russo (Russia)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1176,11 +1176,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Serbe"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Serbo"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1200,11 +1200,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Serbe (Serbie)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Serbo (Serbia)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1224,11 +1224,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Suédois"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Svedese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1248,11 +1248,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Suédois (Suède)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Svedese (Svezia)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1296,11 +1296,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Chinois"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Cinese"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1320,11 +1320,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Chinois (Chine)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Cinese (Cina)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1344,11 +1344,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Chinois (Hong Kong)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Cinese (Hong Kong)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1368,11 +1368,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Chinois (Singapour)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Cinese (Singapore)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1392,11 +1392,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Chinois (Taïwan)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Cinese (Taiwan)"/>
             </designation>
             <designation>
                <language value="en-US"/>

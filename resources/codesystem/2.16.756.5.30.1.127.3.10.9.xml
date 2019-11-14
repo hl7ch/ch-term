@@ -2,11 +2,11 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.10.9"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20190719134742"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20191103135901"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-07-19T13:47:42+02:00"/>
+         <start value="2019-11-03T13:59:01+01:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.10.9"/>
@@ -15,7 +15,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.8.1"/>
    </identifier>
-   <version value="2019-07-19T13:47:42"/>
+   <version value="2019-11-03T13:59:01"/>
    <name value="ChEhealthCodesystemHpd"/>
    <title value="ch-ehealth-codesystem-hpd"/>
    <status value="active"/>
@@ -44,11 +44,15 @@
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Altre"/>
+         <value value="Altro"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Other"/>
       </designation>
    </concept>
    <concept>
@@ -70,25 +74,33 @@
          <language value="rm-CH"/>
          <value value="TODO"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Activation Therapy Specialist"/>
+      </designation>
    </concept>
    <concept>
       <code value="00200"/>
       <display value="Optician"/>
       <designation>
          <language value="de-CH"/>
-         <value value="TODO"/>
+         <value value="Optikerin/Optiker"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="TODO"/>
+         <value value="Opticien"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="TODO"/>
+         <value value="Ottico"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Optician"/>
       </designation>
    </concept>
    <concept>
@@ -110,25 +122,33 @@
          <language value="rm-CH"/>
          <value value="TODO"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Biomedical analyst"/>
+      </designation>
    </concept>
    <concept>
       <code value="00400"/>
       <display value="Dental hygienist"/>
       <designation>
          <language value="de-CH"/>
-         <value value="TODO"/>
+         <value value="Dentalhygienikerin/Dentalhygieniker"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="TODO"/>
+         <value value="Hygiéniste dentaire"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="TODO"/>
+         <value value="Igienista dentale"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Dental hygienist"/>
       </designation>
    </concept>
    <concept>
@@ -150,6 +170,10 @@
          <language value="rm-CH"/>
          <value value="TODO"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Druggist"/>
+      </designation>
    </concept>
    <concept>
       <code value="00600"/>
@@ -169,6 +193,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Medical-technical Radiology Assistant"/>
       </designation>
    </concept>
    <concept>
@@ -190,6 +218,10 @@
          <language value="rm-CH"/>
          <value value="TODO"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Healthcare assistant"/>
+      </designation>
    </concept>
    <concept>
       <code value="00800"/>
@@ -209,6 +241,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Operating Room Technician"/>
       </designation>
    </concept>
    <concept>
@@ -230,6 +266,10 @@
          <language value="rm-CH"/>
          <value value="TODO"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Medical Masseur"/>
+      </designation>
    </concept>
    <concept>
       <code value="01000"/>
@@ -250,25 +290,33 @@
          <language value="rm-CH"/>
          <value value="TODO"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Naturopathic Practitioner"/>
+      </designation>
    </concept>
    <concept>
       <code value="01100"/>
       <display value="Optometrist"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Optometrist"/>
+         <value value="Optometristin/Optometrist"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="TODO"/>
+         <value value="Optométriste"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="TODO"/>
+         <value value="Optometrista"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Optometrist"/>
       </designation>
    </concept>
    <concept>
@@ -276,19 +324,23 @@
       <display value="Orthoptist"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Orthoptist"/>
+         <value value="Orthoptistin/ Orthoptist"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="TODO"/>
+         <value value="Orthoptiste"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="TODO"/>
+         <value value="Ortottista"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Orthoptist"/>
       </designation>
    </concept>
    <concept>
@@ -296,19 +348,23 @@
       <display value="Osteopath"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Osteopath"/>
+         <value value="Osteopathin/Osteopath"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="TODO"/>
+         <value value="Ostéopathe"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="TODO"/>
+         <value value="Osteopata"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Osteopath"/>
       </designation>
    </concept>
    <concept>
@@ -320,7 +376,7 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Ambulancier/ambulancière"/>
+         <value value="Podologue"/>
       </designation>
       <designation>
          <language value="it-CH"/>
@@ -329,6 +385,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Podiatrist"/>
       </designation>
    </concept>
    <concept>
@@ -340,7 +400,7 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Ambulancier/ambulancière"/>
+         <value value="Ambulancier/Ambulancière"/>
       </designation>
       <designation>
          <language value="it-CH"/>
@@ -349,6 +409,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="TODO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Paramedic"/>
       </designation>
    </concept>
 </CodeSystem>

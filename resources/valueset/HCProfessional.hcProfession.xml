@@ -2,13 +2,13 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="HCProfessional.hcProfession"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20190719134742"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20191103135901"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-07-19T13:47:42+02:00"/>
+         <start value="2019-11-03T13:59:01+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -18,7 +18,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.8.1"/>
    </identifier>
-   <version value="2019-07-19T13:47:42"/>
+   <version value="2019-11-03T13:59:01"/>
    <name value="HCProfessional.hcProfession"/>
    <title value="HCProfessional.hcProfession"/>
    <status value="active"/>
@@ -42,19 +42,23 @@
             <display value="Physiotherapist (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Physiotherapeutin/Physiotherapeut"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Physiothérapeute"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Fisioterapista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Physiotherapist"/>
             </designation>
          </concept>
          <concept>
@@ -62,19 +66,23 @@
             <display value="Chiropractor (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Chiropraktikerin/Chiropraktiker"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Chiropracteur"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Chiropratico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Chiropractor"/>
             </designation>
          </concept>
          <concept>
@@ -82,19 +90,23 @@
             <display value="Pharmacist (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Apothekerin/Apotheker"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Pharmacien"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Farmacista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Pharmacist"/>
             </designation>
          </concept>
          <concept>
@@ -102,19 +114,23 @@
             <display value="Psychologist (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Psychologin/Psychologe"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Psychologue"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Psicologo"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Psychologist"/>
             </designation>
          </concept>
          <concept>
@@ -122,19 +138,23 @@
             <display value="Occupational therapist (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Ergotherapeutin/Ergotherapeut"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Ergothérapeute"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Ergoterapista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Occupational therapist"/>
             </designation>
          </concept>
          <concept>
@@ -142,19 +162,23 @@
             <display value="Dentist (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Zahnärztin/Zahnarzt"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Dentiste"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Dentista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Dentist"/>
             </designation>
          </concept>
          <concept>
@@ -162,19 +186,23 @@
             <display value="Professional nurse (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Pflegefachfrau/Pflegefachmann"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Infirmière professionnelle"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Infermiere diplomato"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Professional nurse"/>
             </designation>
          </concept>
          <concept>
@@ -182,19 +210,23 @@
             <display value="Speech/language therapist (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Sprachtherapeutin/Sprachtherapeut"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Orthophoniste"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Logopedista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Speech/language therapist"/>
             </designation>
          </concept>
          <concept>
@@ -202,19 +234,23 @@
             <display value="Dietitian (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Ernährungsberaterin/Ernährungsberater"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Diététicien"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Dietista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Dietitian"/>
             </designation>
          </concept>
          <concept>
@@ -222,19 +258,23 @@
             <display value="Physician (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Ärztin/Arzt"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Médecin"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Medico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Physician"/>
             </designation>
          </concept>
          <concept>
@@ -242,19 +282,23 @@
             <display value="Registered midwife (occupation)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Registrierte Hebamme"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Sage-femme agréée"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Levatrice"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Registered midwife"/>
             </designation>
          </concept>
       </include>
@@ -273,11 +317,15 @@
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Altre"/>
+               <value value="Altro"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Other"/>
             </designation>
          </concept>
          <concept>
@@ -299,25 +347,33 @@
                <language value="rm-CH"/>
                <value value="TODO"/>
             </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Activation Therapy Specialist"/>
+            </designation>
          </concept>
          <concept>
             <code value="00200"/>
             <display value="Optician"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Optikerin/Optiker"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Opticien"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Ottico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Optician"/>
             </designation>
          </concept>
          <concept>
@@ -339,25 +395,33 @@
                <language value="rm-CH"/>
                <value value="TODO"/>
             </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Biomedical analyst"/>
+            </designation>
          </concept>
          <concept>
             <code value="00400"/>
             <display value="Dental hygienist"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Dentalhygienikerin/Dentalhygieniker"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Hygiéniste dentaire"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Igienista dentale"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Dental hygienist"/>
             </designation>
          </concept>
          <concept>
@@ -379,6 +443,10 @@
                <language value="rm-CH"/>
                <value value="TODO"/>
             </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Druggist"/>
+            </designation>
          </concept>
          <concept>
             <code value="00600"/>
@@ -398,6 +466,10 @@
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Medical-technical Radiology Assistant"/>
             </designation>
          </concept>
          <concept>
@@ -419,6 +491,10 @@
                <language value="rm-CH"/>
                <value value="TODO"/>
             </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Healthcare assistant"/>
+            </designation>
          </concept>
          <concept>
             <code value="00800"/>
@@ -438,6 +514,10 @@
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Operating Room Technician"/>
             </designation>
          </concept>
          <concept>
@@ -459,6 +539,10 @@
                <language value="rm-CH"/>
                <value value="TODO"/>
             </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Medical Masseur"/>
+            </designation>
          </concept>
          <concept>
             <code value="01000"/>
@@ -479,25 +563,33 @@
                <language value="rm-CH"/>
                <value value="TODO"/>
             </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Naturopathic Practitioner"/>
+            </designation>
          </concept>
          <concept>
             <code value="01100"/>
             <display value="Optometrist"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Optometrist"/>
+               <value value="Optometristin/Optometrist"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Optométriste"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Optometrista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Optometrist"/>
             </designation>
          </concept>
          <concept>
@@ -505,19 +597,23 @@
             <display value="Orthoptist"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Orthoptist"/>
+               <value value="Orthoptistin/ Orthoptist"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Orthoptiste"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Ortottista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Orthoptist"/>
             </designation>
          </concept>
          <concept>
@@ -525,19 +621,23 @@
             <display value="Osteopath"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Osteopath"/>
+               <value value="Osteopathin/Osteopath"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Ostéopathe"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Osteopata"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Osteopath"/>
             </designation>
          </concept>
          <concept>
@@ -549,7 +649,7 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Ambulancier/ambulancière"/>
+               <value value="Podologue"/>
             </designation>
             <designation>
                <language value="it-CH"/>
@@ -558,6 +658,10 @@
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Podiatrist"/>
             </designation>
          </concept>
          <concept>
@@ -569,7 +673,7 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Ambulancier/ambulancière"/>
+               <value value="Ambulancier/Ambulancière"/>
             </designation>
             <designation>
                <language value="it-CH"/>
@@ -578,6 +682,10 @@
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Paramedic"/>
             </designation>
          </concept>
       </include>

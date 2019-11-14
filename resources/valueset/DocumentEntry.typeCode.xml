@@ -2,13 +2,13 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="DocumentEntry.typeCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.27--20190608094221"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.27--20191103131150"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-06-08T09:42:21+02:00"/>
+         <start value="2019-11-03T13:11:50+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -18,7 +18,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.27"/>
    </identifier>
-   <version value="2019-06-08T09:42:21"/>
+   <version value="2019-11-03T13:11:50"/>
    <name value="DocumentEntry.typeCode"/>
    <title value="DocumentEntry.typeCode"/>
    <status value="active"/>
@@ -46,11 +46,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Anamnèse / rapport d’analyse"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Anamnesi / Rapporto di visita medica"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -70,11 +70,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Document non précisé"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Documento non meglio specificato"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -94,11 +94,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Mandat d’analyse en laboratoire"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Richiesta di analisi di laboratorio"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -118,11 +118,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Mandat de rapport d’examen pathologique"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Richiesta di esame istologico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -142,11 +142,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Rapport de résultat relatif à l’imagerie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Referto di immaginografia"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -166,11 +166,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Plan de traitement"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Piano di trattamento"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -194,11 +194,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Ordonnance nonmédicamenteuse"/>
+               <value value="Prescription sans médicaments / ordonnance"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Richiesta di prestazione sanitaria"/>
+               <value value="Prescrizione non di medicamenti"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -214,11 +214,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Plan de soins"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Piano di cura"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -238,11 +238,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Plan de réhabilitation"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Piano di riabilitazione"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -261,20 +261,20 @@
                <value value="Arzneimittel-Verschreibung / Rezept"/>
             </designation>
             <designation>
-               <language value="en-US"/>
-               <value value="Medical Prescription record"/>
-            </designation>
-            <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Prescription de médicaments / ordonnance"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Prescrizione di medicamenti"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
                <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Medical Prescription record"/>
             </designation>
          </concept>
          <concept>
@@ -286,11 +286,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Carnet des allergies"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Passaporto delle allergie"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -310,11 +310,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Certificat médical"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Certificato medico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -334,11 +334,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Lettre de sortie"/>
+               <value value="Rapport de sortie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rapporto/lettera d'uscita"/>
+               <value value="Rapporto di dimissione"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -382,11 +382,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Rapport d’urgence"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Referto di pronto soccorso"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -406,11 +406,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Document hors contexte de traitement"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Documento al di fuori del contesto trattato"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -430,11 +430,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport de consultation"/>
+               <value value="Évaluation par des spécialistes"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rapporto di consultazione"/>
+               <value value="Valutazione dello specialista"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -454,7 +454,7 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Résultat de laboratoire"/>
+               <value value="Rapport de laboratoire"/>
             </designation>
             <designation>
                <language value="it-CH"/>
@@ -478,11 +478,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Protocole opératoire"/>
+               <value value="Rapport d’opération"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Referto operatorio"/>
+               <value value="Rapporto operatorio"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -502,11 +502,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Note de suite"/>
+               <value value="Rapport d’historique"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Diario clinico"/>
+               <value value="Rapporto sul decorso"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -550,7 +550,7 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Certificat de vaccination"/>
+               <value value="Carnet de vaccination"/>
             </designation>
             <designation>
                <language value="it-CH"/>
@@ -574,11 +574,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Rapport d’examen pathologique"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Referto istologico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -598,11 +598,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Liste de médication"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Elenco dei medicamenti"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -625,11 +625,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Mandat d’imagerie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Richiesta di immaginografia"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
