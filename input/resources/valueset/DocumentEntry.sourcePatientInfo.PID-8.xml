@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id
+            value="DocumentEntry.sourcePatientInfo.PID-8"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.840.1.113883.4.642.3.1--20191103143410"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2019-11-03T14:34:10+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.sourcePatientInfo.PID-8"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.840.1.113883.4.642.3.1"/>
+   </identifier>
+   <version value="2019-11-03T14:34:10"/>
+   <name value="DocumentEntry.sourcePatientInfo.PID8"/>
+   <title value="DocumentEntry.sourcePatientInfo.PID-8"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Patient’s gender as per Annex 3 EPRO-FDHA."/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="http://hl7.org/fhir/administrative-gender"/>
+         <concept>
+            <code value="female"/>
+            <display value="Female"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Weiblich"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Féminin"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Femminile"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Female"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="male"/>
+            <display value="Male"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Männlich"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Masculin"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Maschile"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Male"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="other"/>
+            <display value="Other"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Anderes"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altro"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Other"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="unknown"/>
+            <display value="Unknown"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Unbekannt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Inconnu"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Sconosciuto"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Unknown"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>
