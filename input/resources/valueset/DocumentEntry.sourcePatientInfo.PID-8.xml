@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="DocumentEntry.sourcePatientInfo.PID-8"/>
+   <id value="DocumentEntry.sourcePatientInfo.PID-8"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.840.1.113883.4.642.3.1--20191103143410"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -21,9 +19,7 @@
    </identifier>
    <version value="2019-11-03T14:34:10"/>
    <name value="DocumentEntrySourcePatientInfoPID-8"/>
-   <title
-              
-               value="DocumentEntry.sourcePatientInfo.PID-8"/>
+   <title value="DocumentEntry.sourcePatientInfo.PID-8"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>

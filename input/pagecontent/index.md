@@ -16,7 +16,6 @@ You can download this Implementation Guide in npm format from [here](package.tgz
 ### ValueSets
 {% include list-simple-valuesets.xhtml %}
 
-
 ### CodeSystems
 {% include list-simple-codesystems.xhtml %}
 

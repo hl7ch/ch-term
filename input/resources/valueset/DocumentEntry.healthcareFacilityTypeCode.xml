@@ -19,9 +19,7 @@
    </identifier>
    <version value="2019-11-03T14:40:46"/>
    <name value="DocumentEntryHealthcareFacilityTypeCode"/>
-   <title
-              
-               value="DocumentEntry.healthcareFacilityTypeCode"/>
+   <title value="DocumentEntry.healthcareFacilityTypeCode"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>

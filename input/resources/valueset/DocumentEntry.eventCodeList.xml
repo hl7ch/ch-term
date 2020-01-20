@@ -11,8 +11,7 @@
          <start value="2019-11-03T14:33:22+01:00"/>
       </valuePeriod>
    </extension>
-   <url
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.eventCodeList"/>
+   <url value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.eventCodeList"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
