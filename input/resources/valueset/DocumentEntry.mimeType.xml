@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="DocumentEntry.mimeType"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.16--20191103143724"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2019-11-03T14:37:24+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.mimeType"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.127.3.10.1.16"/>
+   </identifier>
+   <version value="2019-11-03T14:37:24"/>
+   <name value="DocumentEntryMimeType"/>
+   <title value="DocumentEntry.mimeType"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="MIME type of the document as per Annex; EPRO-FDHA."/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-mediaType"/>
+         <concept>
+            <code value="application/dicom"/>
+            <display value="DICOM"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="DICOM"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="DICOM"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="DICOM"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="DICOM"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="DICOM"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="application/fhir+json"/>
+            <display value="FHIR (JSON)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="FHIR (JSON)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="FHIR (JSON)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="FHIR (JSON)"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="FHIR (JSON)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="FHIR (JSON)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="application/fhir+xml"/>
+            <display value="FHIR (XML)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="FHIR (XML)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="FHIR (XML)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="FHIR (XML)"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="FHIR (XML)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="FHIR (XML)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="application/pdf"/>
+            <display value="PDF"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PDF"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PDF"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PDF"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="PDF"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PDF"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="audio/mp4"/>
+            <display value="MP4 Audio"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MP4 Audio"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MP4 Audio"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MP4 Audio"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="MP4 Audio"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MP4 Audio"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="audio/mpeg"/>
+            <display value="MPEG audio layer 3"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MPEG audio layer 3"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MPEG audio layer 3"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MPEG audio layer 3"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="MPEG audio layer 3"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MPEG audio layer 3"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="image/gif"/>
+            <display value="GIF Graphics Interchange Format"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="GIF Graphics Interchange Format"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="GIF Graphics Interchange Format"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="GIF Graphics Interchange Format"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="GIF Graphics Interchange Format"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="GIF Graphics Interchange Format"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="image/jp2"/>
+            <display value="JPEG 2000 Core Image File"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="JPEG 2000 Core Image File"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="JPEG 2000 Core Image File"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="JPEG 2000 Core Image File"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="JPEG 2000 Core Image File"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="JPEG 2000 Core Image File"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="image/jpeg"/>
+            <display value="JPEG Image"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="JPEG Image"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="JPEG Image"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="JPEG Image"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="JPEG Image"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="JPEG Image"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="image/jpm"/>
+            <display value="JPEG 2000 Compound Image File"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="JPEG 2000 Compound Image File"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="JPEG 2000 Compound Image File"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="JPEG 2000 Compound Image File"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="JPEG 2000 Compound Image File"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="JPEG 2000 Compound Image File"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="image/jpx"/>
+            <display value="JPEG 2000 Image File"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="JPEG 2000 Image File"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="JPEG 2000 Image File"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="JPEG 2000 Image File"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="JPEG 2000 Image File"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="JPEG 2000 Image File"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="image/png"/>
+            <display value="PNG Portable Network Graphics"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PNG Portable Network Graphics"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PNG Portable Network Graphics"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PNG Portable Network Graphics"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="PNG Portable Network Graphics"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PNG Portable Network Graphics"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="image/tiff"/>
+            <display value="TIFF Image"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TIFF Image"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TIFF Image"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TIFF Image"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TIFF Image"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="TIFF Image"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="model/vrml"/>
+            <display value="Virtual Reality Modeling Language"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Virtual Reality Modeling Language"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Virtual Reality Modeling Language"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Virtual Reality Modeling Language"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Virtual Reality Modeling Language"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Virtual Reality Modeling Language"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="model/x3d+xml"/>
+            <display value="Extensible 3D Graphics (XML)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Extensible 3D Graphics (XML)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Extensible 3D Graphics (XML)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Extensible 3D Graphics (XML)"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Extensible 3D Graphics (XML)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Extensible 3D Graphics (XML)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="model/x3d-vrml"/>
+            <display value="Extensible 3D Graphics (VRML)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Extensible 3D Graphics (VRML)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Extensible 3D Graphics (VRML)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Extensible 3D Graphics (VRML)"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Extensible 3D Graphics (VRML)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Extensible 3D Graphics (VRML)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="multipart/multilingual"/>
+            <display value="Multilingual Multipart"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Multilingual Multipart"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Multilingual Multipart"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Multilingual Multipart"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Multilingual Multipart"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Multilingual Multipart"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="multipart/signed"/>
+            <display value="Signed Multipart"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Signed Multipart"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Signed Multipart"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Signed Multipart"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Signed Multipart"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Signed Multipart"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="multipart/x-hl7-cda-level1"/>
+            <display value="CDA Level 1 Multipart"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CDA Level 1 Multipart"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CDA Level 1 Multipart"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CDA Level 1 Multipart"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CDA Level 1 Multipart"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="CDA Level 1 Multipart"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="text/csv"/>
+            <display value="CSV Comma-separated Values"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CSV Comma-separated Values"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CSV Comma-separated Values"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CSV Comma-separated Values"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CSV Comma-separated Values"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="CSV Comma-separated Values"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="text/plain"/>
+            <display value="Plain Text"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Plain Text"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Plain Text"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Plain Text"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Plain Text"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Plain Text"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="text/xml"/>
+            <display value="XML-Text"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="XML-Text"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="XML-Text"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="XML-Text"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="XML-Text"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="XML-Text"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="video/mj2"/>
+            <display value="Motion JPEG 2000"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Motion JPEG 2000"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Motion JPEG 2000"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Motion JPEG 2000"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Motion JPEG 2000"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Motion JPEG 2000"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="video/mp4"/>
+            <display value="MPEG-4 Part 14"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MPEG-4 Part 14"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MPEG-4 Part 14"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MPEG-4 Part 14"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="MPEG-4 Part 14"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MPEG-4 Part 14"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="video/mpeg"/>
+            <display value="MPEG Video"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MPEG Video"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MPEG Video"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MPEG Video"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="MPEG Video"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MPEG Video"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="DocumentEntry.eventCodeList"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.8--20191103143322"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2019-11-03T14:33:22+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.eventCodeList"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.127.3.10.1.8"/>
+   </identifier>
+   <version value="2019-11-03T14:33:22"/>
+   <name value="DocumentEntry.eventCodeList"/>
+   <title value="DocumentEntry.eventCodeList"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="DocumentEntry.eventCodeList"/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that creates en face tomography images of the eye based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded."/>
+            </extension>
+            <code value="OPTENF"/>
+            <display value="Ophthalmic Tomography En Face"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs B-scan volume analysis of tomography images of the eye based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded."/>
+            </extension>
+            <code value="OPTBSV"/>
+            <display value="Ophthalmic Tomography B-scan Volume Analysis"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TODO"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that measures visual fields and perform visual perimetry."/>
+            </extension>
+            <code value="OPV"/>
+            <display value="Ophthalmic Visual Field"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Gesichtsfeld der Augen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Champ visuel ophtalmique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Perimetria computerizzata"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs digital radiography."/>
+            </extension>
+            <code value="DX"/>
+            <display value="Digital Radiography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Digitales Röntgen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Radiologie numérique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Radiografia digitale"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs tomography of the eye that is based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded."/>
+            </extension>
+            <code value="OPT"/>
+            <display value="Ophthalmic Tomography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Augentomografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tomographie ophtalmique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tomografia ottica computerizzata"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs bone mineral densitometry by X-Ray, including dual-energy X-Ray absorptiometry (DXA) and morphometric X-Ray absorptiometry (MXA)."/>
+            </extension>
+            <code value="BMD"/>
+            <display value="Bone Mineral Densitometry"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Knochenmineraldensitometrie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Densitométrie minérale osseuse"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mineralometria ossea computerizzata"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs mammography."/>
+            </extension>
+            <code value="MG"/>
+            <display value="Mammography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Mammografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mammographie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mammografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs slide microscopy."/>
+            </extension>
+            <code value="SM"/>
+            <display value="Slide Microscopy"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Objektträger Mikroskopie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Microscopie avec lamelles"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Microscopia a vetrini"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs ultrasound."/>
+            </extension>
+            <code value="US"/>
+            <display value="Ultrasound"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ultraschall"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ultrason"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ecografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs ophthalmic photography."/>
+            </extension>
+            <code value="OP"/>
+            <display value="Ophthalmic Photography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Augenfotografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Photographie ophtalmique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Fotografia oftalmica"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs intravascular optical coherence tomography."/>
+            </extension>
+            <code value="IVOCT"/>
+            <display value="Intravascular Optical Coherence Tomography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Intravaskuläre optische Kohärenztomografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tomographie en cohérence optique intravasculaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tomografia intravascolare a coerenza ottica"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs magnetic resonance imaging."/>
+            </extension>
+            <code value="MR"/>
+            <display value="Magnetic Resonance"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Magnetresonanz"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Résonance magnétique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Risonanza magnetica"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs magnetic resonance imaging."/>
+            </extension>
+            <code value="ECG"/>
+            <display value="Electrocardiography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Elektrokardiografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Électrocardiographie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Elettrocardiografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs electrocardiography."/>
+            </extension>
+            <code value="GM"/>
+            <display value="General Microscopy"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Allgemeine Mikroskopie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Microscopie générale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Microscopia generale"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs intra-oral radiography."/>
+            </extension>
+            <code value="IO"/>
+            <display value="Intra-oral Radiography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Intraorales Röntgen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Radiographie intra-orale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Radiografia intraorale"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs X-Ray angiography."/>
+            </extension>
+            <code value="XA"/>
+            <display value="X-Ray Angiography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Röntgen-Angiografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Angiographie par rayons X"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Angiografia a raggi X"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs photography with an external camera."/>
+            </extension>
+            <code value="XC"/>
+            <display value="External-camera Photography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Fotografie mit externer Kamera"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Photographie par appareil externe"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Fotografia con fotocamera esterna"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that measures visual acuity."/>
+            </extension>
+            <code value="VA"/>
+            <display value="Visual Acuity"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Sehschärfe"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Acuité visuelle"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Acutezza visiva"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs intravascular ultrasound."/>
+            </extension>
+            <code value="IVUS"/>
+            <display value="Intravascular Ultrasound"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Intravaskulärer Ultraschall"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ultrason intravasculaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ecografia intravascolare"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs computed radiography."/>
+            </extension>
+            <code value="CR"/>
+            <display value="Computed Radiography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Computerradiografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Radiographie numérique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Radiografia computerizzata"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that records images during endoscopy."/>
+            </extension>
+            <code value="ES"/>
+            <display value="Endoscopy"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Endoskopie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Endoscopie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Endoscopia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that measures autorefraction."/>
+            </extension>
+            <code value="AR"/>
+            <display value="Autorefraction"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Autorefraktion"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autoréfraction"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Autorifrazione"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs computed tomography."/>
+            </extension>
+            <code value="CT"/>
+            <display value="Computed Tomography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Computertomografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tomographie numérique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tomografia computerizzata"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs optical surface scanning."/>
+            </extension>
+            <code value="OSS"/>
+            <display value="Optical Surface Scanner"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Optischer Oberflächenscanner"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Scanneur optique de surface"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Scanner ottico per superfici"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs lensometry."/>
+            </extension>
+            <code value="LEN"/>
+            <display value="Lensometry"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Linsenmessung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Lensométrie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Focometria"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs radiographic imaging (conventional film/screen)."/>
+            </extension>
+            <code value="RG"/>
+            <display value="Radiographic imaging"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Röntgenbildgebung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Imagerie radiographique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Imaging radiografico"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs radiofluoroscopy."/>
+            </extension>
+            <code value="RF"/>
+            <display value="Radiofluoroscopy"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Radio-Fluoroskopie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Radio-fluoroscopie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Radiofluoroscopia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs keratometry."/>
+            </extension>
+            <code value="KER"/>
+            <display value="Keratometry"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Keratometrie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Kératométrie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Cheratometria"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that records hemodynamic waveforms."/>
+            </extension>
+            <code value="HD"/>
+            <display value="Hemodynamic Waveform"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Hämodynamische Druckkurve"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Courbe hémodynamique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Monitoraggio emodinamico"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that measures the axial length of the eye."/>
+            </extension>
+            <code value="OAM"/>
+            <display value="Ophthalmic Axial Measurements"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Augenachsenmessungen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mesures axiales ophtalmiques"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Misurazioni oftalmiche assiali"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs nuclear medicine imaging."/>
+            </extension>
+            <code value="NM"/>
+            <display value="Nuclear Medicine"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Nuklearmedizin"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médecine nucléaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medicina nucleare"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that uses an interferometric, non-invasive optical tomographic technique to image 2D slices and 3D volumes of tissue using visible and near visible frequencies."/>
+            </extension>
+            <code value="OCT"/>
+            <display value="Optical Coherence Tomography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Optische Kohärenztomografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tomographie en cohérence optique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tomografia a coerenza ottica"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs ultrasound bone densitometry."/>
+            </extension>
+            <code value="BDUS"/>
+            <display value="Ultrasound Bone Densitometry"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ultraschall-Knochendichtemessung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Densitométrie osseuse par ultrasons"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Densitometria ossea a ultrasuoni"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs positron emission tomography (PET)."/>
+            </extension>
+            <code value="PT"/>
+            <display value="Positron emission tomography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Positronen-Emissions-Tomografie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tomographie par émission de positons"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tomografia a emissione di positroni"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs cardiac electrophysiology."/>
+            </extension>
+            <code value="EPS"/>
+            <display value="Cardiac Electrophysiology"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Herz-Elektrophysiologie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Électrophysiologie cardiaque"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Elettrofisiologia cardiaca"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that performs panoramic X-Rays."/>
+            </extension>
+            <code value="PX"/>
+            <display value="Panoramic X-Ray"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Panoramaröntgen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Radiographie panoramique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Radiografia panoramica"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that records subjective refraction."/>
+            </extension>
+            <code value="SRF"/>
+            <display value="Subjective Refraction"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Subjektive Refraktion"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Réfraction subjective"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rifrazione soggettiva"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that measures corneal topography, corneal or retinal thickness, and other similar parameters that are typically displayed as maps."/>
+            </extension>
+            <code value="OPM"/>
+            <display value="Ophthalmic Mapping"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Augenkartierung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Cartographie ophtalmique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mappatura oftalmica"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="An acquisition device, process or method that measures the refractive characteristics of the eye."/>
+            </extension>
+            <code value="OPR"/>
+            <display value="Ophthalmic Refraction"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Augenrefraktion"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Réfraction ophtalmique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rifrazione oggettiva"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="TODO"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>
