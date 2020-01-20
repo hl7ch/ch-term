@@ -14,11 +14,14 @@ You can download this Implementation Guide in npm format from [here](package.tgz
 
 
 ### ValueSets
+<ul>
 {% include list-simple-valuesets.xhtml %}
+</ul>
 
 ### CodeSystems
+<ul>
 {% include list-simple-codesystems.xhtml %}
-
+</ul>
 
 ### Collaboration
 This guide is the product of collaborative work undertaken with participants from:
