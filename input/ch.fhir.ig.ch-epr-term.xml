@@ -151,13 +151,13 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-     <resource>
+    <resource>
       <reference>
         <reference value="ValueSet/HCProfessional.hcProfession"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-     <resource>
+    <resource>
       <reference>
         <reference value="ValueSet/HCProfessional.hcSpecialisation"/>
       </reference>
@@ -198,6 +198,18 @@
     <parameter>
       <code value="generate-turtle"/>
       <value value="false"/>
+    </parameter>
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="CI build"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages" />
+      <value value="input/pages"/>
+    </parameter>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2019+"/>
     </parameter>
     <parameter>
       <code value="special-url"/>
