@@ -1,14 +1,14 @@
 ### Introduction
 
-Implementation Guide for the meta data specified in the framework of Annex 3 and Annex 9 of the [FDHA Ordinance](https://www.bag.admin.ch/bag/de/home/gesetze-und-bewilligungen/gesetzgebung/gesetzgebung-mensch-gesundheit/gesetzgebung-elektronisches-patientendossier.html) on the electronic patient record in Switzerland.
+Implementation Guide for the meta data specified in the Annexes  of the Swiss EPR [FDHA Ordinance](https://www.bag.admin.ch/bag/de/home/gesetze-und-bewilligungen/gesetzgebung/gesetzgebung-mensch-gesundheit/gesetzgebung-elektronisches-patientendossier.html) on the electronic patient record in Switzerland.
 
-This implemenation guide is based on the [CH-EPR](http://ehealthsuisse.art-decor.org/index.php?prefix=ch-epr-) [ART-DECOR](https://www.art-decor.org/mediawiki/index.php/Main_Page) project which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/).
+This implementation guide is based on the [CH-EPR](http://ehealthsuisse.art-decor.org/index.php?prefix=ch-epr-) [ART-DECOR](https://www.art-decor.org/mediawiki/index.php/Main_Page) project which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/).
 
-This version SHOULD correspond to the release [201907.1-stable](https://art-decor.org/decor/services/ProjectIndex?prefix=ch-epr-&version=2019-11-11T11:50:11&format=html&language=*&ui=en-US)
+This version SHOULD correspond to the release [201907.2-stable](https://art-decor.org/decor/services/ProjectIndex?prefix=ch-epr-&version=2020-02-26T18%3A06%3A20&format=html&language=*&ui=en-US)
 
 Please report and note current issues that are pending or errors under [ART-DECOR Issues](https://art-decor.org/art-decor/decor-issues--ch-epr-). 
 
-Further information on the publications and process may be found [here](https://www.e-health-suisse.ch/fileadmin/user_upload/Dokumente/2017/D/171002_Verantwortlichkeiten_Prozess_Metadaten_D.pdf).
+Further information on the publications and process may be found [here](https://www.e-health-suisse.ch/technik-semantik/semantische-interoperabilitaet/metadaten.html).
 
 You can download this Implementation Guide in npm format from [here](package.tgz).
 

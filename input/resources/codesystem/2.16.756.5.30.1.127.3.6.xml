@@ -2,11 +2,11 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.6"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.4--20191103143219"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.4--20191211080320"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-11-03T14:32:19+01:00"/>
+         <start value="2019-12-11T08:03:20+02:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.6"/>
@@ -15,7 +15,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.1.4"/>
    </identifier>
-   <version value="2019-11-03T14:32:19"/>
+   <version value="2019-12-11T08:03:20"/>
    <name value="ChEhealthCodesystemNareg"/>
    <title value="ch-ehealth-codesystem-nareg"/>
    <status value="active"/>
@@ -47,7 +47,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Optica"/>
       </designation>
    </concept>
    <concept>
@@ -67,7 +67,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Activaziun"/>
       </designation>
    </concept>
    <concept>
@@ -87,7 +87,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Analitica biomedicinala"/>
       </designation>
    </concept>
    <concept>
@@ -107,7 +107,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Igienica dentala"/>
       </designation>
    </concept>
    <concept>
@@ -127,7 +127,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Droghista/droghist"/>
       </designation>
    </concept>
    <concept>
@@ -147,7 +147,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Ergoterapia"/>
       </designation>
    </concept>
    <concept>
@@ -167,7 +167,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Cussegliaziun da nutriment"/>
       </designation>
    </concept>
    <concept>
@@ -187,7 +187,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Tecnica da radiologia (medicinala)"/>
       </designation>
    </concept>
    <concept>
@@ -207,7 +207,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Tecnica d'operaziun"/>
       </designation>
    </concept>
    <concept>
@@ -227,7 +227,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Assistenza al part – spendrera"/>
       </designation>
    </concept>
    <concept>
@@ -247,7 +247,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Logopedia"/>
       </designation>
    </concept>
    <concept>
@@ -267,7 +267,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Massascha medicinala"/>
       </designation>
    </concept>
    <concept>
@@ -287,7 +287,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Ortoptica"/>
       </designation>
    </concept>
    <concept>
@@ -307,7 +307,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Osteopatia"/>
       </designation>
    </concept>
    <concept>
@@ -327,7 +327,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Tgira"/>
       </designation>
    </concept>
    <concept>
@@ -347,7 +347,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Fisioterapia"/>
       </designation>
    </concept>
    <concept>
@@ -367,7 +367,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Podologia"/>
       </designation>
    </concept>
    <concept>
@@ -387,7 +387,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Sanitad da salvament"/>
       </designation>
    </concept>
    <concept>
@@ -407,7 +407,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Optometria"/>
       </designation>
    </concept>
    <concept>
@@ -427,7 +427,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Naturopatia/medischina ayurvedica"/>
       </designation>
    </concept>
    <concept>
@@ -447,7 +447,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Naturopatia/omeopatia"/>
       </designation>
    </concept>
    <concept>
@@ -467,7 +467,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Naturopatia/medischina tradiziunala chinaisa"/>
       </designation>
    </concept>
    <concept>
@@ -487,7 +487,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Naturopatia/medischina tradiziunala europeica"/>
       </designation>
    </concept>
 </CodeSystem>

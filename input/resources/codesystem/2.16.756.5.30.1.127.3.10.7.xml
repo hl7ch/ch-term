@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="2.16.756.5.30.1.127.3.10.7"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.13.2--20191211090336"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2019-12-11T09:03:36+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.756.5.30.1.127.3.10.7"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.127.3.10.13.2"/>
+   </identifier>
+   <version value="2019-12-11T09:03:36"/>
+   <name value="ChEhealthCodesystemAtc"/>
+   <title value="ch-ehealth-codesystem-atc"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Audit Trail Consumption Event Types for CH:ATC"/>
+   <content value="complete"/>
+   <concept>
+      <code value="ATC_DOC_CREATE"/>
+      <display value="Document upload"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Dokument-Upload"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Chargement de documents"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Upload di un documento"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Upload d'in document"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_DOC_READ"/>
+      <display value="Document retrieval"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Dokumentabruf"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Récupération de documents"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Ricerca di un documento"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Consultar in document"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_DOC_UPDATE"/>
+      <display value="Document or Document Metadata update"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Dokument- oder Dokument-Metadaten-Aktualisierung"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Mise à jour de documents ou de métadonnées de documents"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Aggiornamento di un documento o dei metadati di un documento"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Actualisar in document u las metadatas d'in document"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_DOC_DELETE"/>
+      <display value="Document removal"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Dokumentlöschung"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Suppression de documents"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Rimozione di un documento"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Stizzar in document"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_POL_CREATE_AUT_PART_AL"/>
+      <display value="Authorize participants to access level/date"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Teilnehmende für Zugriffsstufe/Datum autorisieren"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Autoriser les participants pour ce niveau d’accès / à cette date"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Autorizzare i partecipanti ad accedere a un livello/una data"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Autorisar las persunas participantas per in stgalim d'access/per ina data"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_POL_UPDATE_AUT_PART_AL"/>
+      <display value="Update access level/date of authorized participants"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Zugriffsstufe/Datum autorisierter Teilnehmender aktualisieren"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Mettre à jour le niveau d’accès / la date des participants autorisés"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Aggiornare il livello/la data di accesso dei partecipanti autorizzati"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Actualisar il stgalim d'access/la data per las persunas participantas autorisadas"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_POL_REMOVE_AUT_PART_AL"/>
+      <display value="Remove authorization for participants to access level/date"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Autorisierung von Teilnehmenden für Zugriffsstufe/Datum aufheben"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Supprimer l’autorisation des participants à ce niveau d’accès / à cette date"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Rimuovere l'autorizzazione di accesso dei partecipanti al livello/alla data"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Annullar l'autorisaziun da persunas participantas per in stgalim d'access/per ina data"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_POL_DEF_CONFLEVEL"/>
+      <display value="Set or update the default Confidentiality Level for new documents"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Standard-Vertraulichkeitsstufe für neue Dokumente setzen oder aktualisieren"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Définir ou mettre à jour le niveau de confidentialité pour les nouveaux documents"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Impostare o aggiornare il livello di confidenzialità di default per i documenti nuovi"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Fixar u actualisar il stgalim da confidenzialitad standard per documents novs"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_POL_DIS_EMER_USE"/>
+      <display value="Disabling Emergency Access"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Notfall-Zugriff deaktivieren"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Désactiver l’accès d’urgence"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Disabilitare l'accesso di emergenza"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Deactivar l'access d'urgenza"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_POL_ENA_EMER_USE"/>
+      <display value="Enabling Emergency Access"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Notfall-Zugriff aktivieren"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Autoriser l’accès d’urgence"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Abilitare l'accesso di emergenza"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Activar l'access d'urgenza"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_POL_INCL_BLACKLIST"/>
+      <display value="Assign a Healthcare Professional to Blacklist"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gesundheitsfachperson auf die schwarze Liste setzen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Ajouter un professionnel de la santé à la liste noire"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Aggiungere un professionista della salute alla lista nera"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Metter sin la glista naira ina persuna spezialisada dal sectur da sanadad"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_POL_EXL_BLACKLIST"/>
+      <display value="Exclude a Healthcare Professional from Blacklist"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gesundheitsfachperson von der schwarzen Liste streichen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Retirer un professionnel de la santé de la liste noire"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Rimuovere un professionista della salute dalla lista nera"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Stritgar da la glista naira ina persuna spezialisada dal sectur da sanadad"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="ATC_LOG_READ"/>
+      <display value="Accessing the Patient Audit Record Repository"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Auf die patientenbezogene Auditprotokoll-Ablage zugreifen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="En cours d’accès au dépôt de contrôle des dossiers de patients"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Accesso all'Audit Record Repository del paziente"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Access al deposit da controlla dals dossiers da pazients"/>
+      </designation>
+   </concept>
+</CodeSystem>

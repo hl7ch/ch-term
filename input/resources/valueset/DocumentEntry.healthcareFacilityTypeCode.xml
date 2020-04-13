@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="DocumentEntry.healthcareFacilityTypeCode"/>
+   <id
+           
+            value="DocumentEntry.healthcareFacilityTypeCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.11--20191103144046"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.11--20191114170839"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-11-03T14:40:46+01:00"/>
+         <start value="2019-11-14T17:08:39+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.healthcareFacilityTypeCode"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.healthcareFacilityTypeCode"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.11"/>
    </identifier>
-   <version value="2019-11-03T14:40:46"/>
+   <version value="2019-11-14T17:08:39"/>
    <name value="DocumentEntryHealthcareFacilityTypeCode"/>
-   <title value="DocumentEntry.healthcareFacilityTypeCode"/>
+   <title
+              
+               value="DocumentEntry.healthcareFacilityTypeCode"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
@@ -30,7 +36,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Type of healthcare facility as per Annex 3 EPRO-FDHA. This code describes the type of healthcare facility in which the document was compiled during the treatment process. In conjunction with the authorisation control, the patient can use this information to assign all documents from a specific type of healthcare facility to a specific confidentiality level in their rights and attributes, for example."/>
+   <description value="Type of healthcare facility as per Annex 3  EPRO-FDHA.This code describes the type of healthcare facility in which the document was compiled during the treatment process. In conjunction with the authorisation control, the patient can use this information to assign all documents from a specific type of healthcare facility to a specific confidentiality level in their rights and attributes, for example."/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
@@ -57,7 +63,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Instituziun per diagnostica medicinala"/>
             </designation>
          </concept>
          <concept>
@@ -81,7 +87,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Servetsch d'urgenza e da salvament"/>
             </designation>
          </concept>
          <concept>
@@ -105,7 +111,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Autoritad da sanadad"/>
             </designation>
          </concept>
          <concept>
@@ -129,7 +135,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Organisaziun per la tgira a chasa"/>
             </designation>
          </concept>
          <concept>
@@ -153,7 +159,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ospital"/>
             </designation>
          </concept>
          <concept>
@@ -177,7 +183,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Servetsch da medischina militara"/>
             </designation>
          </concept>
          <concept>
@@ -201,7 +207,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Structura da sanadad en in stabiliment giudizial"/>
             </designation>
          </concept>
          <concept>
@@ -225,7 +231,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chasa da tgira"/>
             </designation>
          </concept>
          <concept>
@@ -249,7 +255,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Apoteca"/>
             </designation>
          </concept>
          <concept>
@@ -273,7 +279,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Instituziun ambulanta/ambulatori"/>
             </designation>
          </concept>
          <concept>
@@ -297,7 +303,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Institut da reabilitaziun staziunara"/>
             </designation>
          </concept>
          <concept>
@@ -321,7 +327,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Domicil dal pazient"/>
             </designation>
          </concept>
          <concept>
@@ -345,12 +351,12 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Instituziun da telemedischina"/>
             </designation>
          </concept>
          <concept>
             <code value="264358009"/>
-            <display value="General practice premises (environement)"/>
+            <display value="General practice premises (environment)"/>
             <designation>
                <language value="en-US"/>
                <value value="General practice premises"/>
@@ -369,7 +375,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Pratica da medi"/>
             </designation>
          </concept>
          <concept>
@@ -393,7 +399,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Autras organisaziuns dals fatgs da tgira"/>
             </designation>
          </concept>
       </include>

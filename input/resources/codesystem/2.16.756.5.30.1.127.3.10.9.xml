@@ -2,11 +2,11 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.10.9"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20191103135901"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20200226135059"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-11-03T13:59:01+01:00"/>
+         <start value="2020-02-26T13:50:59+02:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.10.9"/>
@@ -15,7 +15,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.8.1"/>
    </identifier>
-   <version value="2019-11-03T13:59:01"/>
+   <version value="2020-02-26T13:50:59"/>
    <name value="ChEhealthCodesystemHpd"/>
    <title value="ch-ehealth-codesystem-hpd"/>
    <status value="active"/>
@@ -48,7 +48,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Auter"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -72,7 +72,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Spezialista/Spezialist d'activaziun"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -96,7 +96,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Opticra/Opticher"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -120,7 +120,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Analiticra biomedicinala/Analiticher biomedicinal"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -144,7 +144,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Igienicra/Igienicher da dents"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -168,7 +168,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Droghista/Droghist"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -192,7 +192,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Spezialista/Spezialist da tecnica da radiologia medicinala"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -216,7 +216,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Spezialista/Spezialist da sanadad"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -240,7 +240,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Spezialista/Spezialist da tecnica d'operaziun"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -264,7 +264,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Massadra medicinala/Massader medicinal"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -288,7 +288,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Naturopata/Naturopat"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -312,7 +312,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Optometrista/Optometrist"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -336,7 +336,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Ortoptista/Ortoptist"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -360,7 +360,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Osteopata/Osteopat"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -384,7 +384,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Podologa/Podolog"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -408,7 +408,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Sanitaria/Sanitari da salvament"/>
       </designation>
       <designation>
          <language value="en-US"/>

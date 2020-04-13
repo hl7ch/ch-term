@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="DocumentEntry.formatCode"/>
+   <id
+           
+            value="DocumentEntry.formatCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20191103143607"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20200226165306"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-11-03T14:36:07+01:00"/>
+         <start value="2020-02-26T16:53:06+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.formatCode"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.formatCode"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.9"/>
    </identifier>
-   <version value="2019-11-03T14:36:07"/>
+   <version value="2020-02-26T16:53:06"/>
    <name value="DocumentEntryFormatCode"/>
-   <title value="DocumentEntry.formatCode"/>
+   <title
+              
+               value="DocumentEntry.formatCode"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
@@ -30,7 +36,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Document format as per Annex; EPRO-FDHA.  This unambiguous code defines the format of the XDS document. Together with the mimetype, this should provide the potential consumer with sufficient information as to whether they are in a position to process the document."/>
+   <description value="Document format as per Annex; EPRO-FDHA. This unambiguous code defines the format of the XDS document. Together with the mimetype, this should provide the potential consumer with sufficient information as to whether they are in a position to process the document."/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
@@ -57,7 +63,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Document DEP betg structurà"/>
             </designation>
          </concept>
       </include>
@@ -84,12 +90,12 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Document KOS"/>
             </designation>
          </concept>
       </include>
       <include>
-         <system value="http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"/>
+         <system value="urn:oid:1.3.6.1.4.1.19376.1.2.3"/>
          <concept>
             <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
                <valueString value="According to Table 4.68.4.1.2.3-1: XDS-I.b-specific Metadata Requirements"/>

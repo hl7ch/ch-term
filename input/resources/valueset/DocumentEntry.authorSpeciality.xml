@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="DocumentEntry.authorSpeciality"/>
+   <id
+           
+            value="DocumentEntry.authorSpeciality"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.4--20191103143219"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.4--20191211080320"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-11-03T14:32:19+01:00"/>
+         <start value="2019-12-11T08:03:20+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.authorSpeciality"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.authorSpeciality"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.1.4"/>
    </identifier>
-   <version value="2019-11-03T14:32:19"/>
+   <version value="2019-12-11T08:03:20"/>
    <name value="DocumentEntryAuthorSpeciality"/>
-   <title value="DocumentEntry.authorSpeciality"/>
+   <title
+              
+               value="DocumentEntry.authorSpeciality"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
@@ -52,7 +58,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Optica"/>
             </designation>
          </concept>
          <concept>
@@ -72,7 +78,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Activaziun"/>
             </designation>
          </concept>
          <concept>
@@ -92,7 +98,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Analitica biomedicinala"/>
             </designation>
          </concept>
          <concept>
@@ -112,7 +118,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Igienica dentala"/>
             </designation>
          </concept>
          <concept>
@@ -132,7 +138,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Droghista/droghist"/>
             </designation>
          </concept>
          <concept>
@@ -152,7 +158,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ergoterapia"/>
             </designation>
          </concept>
          <concept>
@@ -172,7 +178,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Cussegliaziun da nutriment"/>
             </designation>
          </concept>
          <concept>
@@ -192,7 +198,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Tecnica da radiologia (medicinala)"/>
             </designation>
          </concept>
          <concept>
@@ -212,7 +218,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Tecnica d'operaziun"/>
             </designation>
          </concept>
          <concept>
@@ -232,7 +238,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Assistenza al part – spendrera"/>
             </designation>
          </concept>
          <concept>
@@ -252,7 +258,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Logopedia"/>
             </designation>
          </concept>
          <concept>
@@ -272,7 +278,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Massascha medicinala"/>
             </designation>
          </concept>
          <concept>
@@ -292,7 +298,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ortoptica"/>
             </designation>
          </concept>
          <concept>
@@ -312,7 +318,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Osteopatia"/>
             </designation>
          </concept>
          <concept>
@@ -332,7 +338,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Tgira"/>
             </designation>
          </concept>
          <concept>
@@ -352,7 +358,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Fisioterapia"/>
             </designation>
          </concept>
          <concept>
@@ -372,7 +378,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Podologia"/>
             </designation>
          </concept>
          <concept>
@@ -392,7 +398,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Sanitad da salvament"/>
             </designation>
          </concept>
          <concept>
@@ -412,7 +418,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Optometria"/>
             </designation>
          </concept>
          <concept>
@@ -432,7 +438,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Naturopatia/medischina ayurvedica"/>
             </designation>
          </concept>
          <concept>
@@ -452,7 +458,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Naturopatia/omeopatia"/>
             </designation>
          </concept>
          <concept>
@@ -472,7 +478,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Naturopatia/medischina tradiziunala chinaisa"/>
             </designation>
          </concept>
          <concept>
@@ -492,7 +498,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Naturopatia/medischina tradiziunala europeica"/>
             </designation>
          </concept>
       </include>
@@ -515,7 +521,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia"/>
             </designation>
          </concept>
          <concept>
@@ -535,7 +541,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ginecologia ed assistenza al part"/>
             </designation>
          </concept>
          <concept>
@@ -555,7 +561,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia dal cor e chirurgia vasculara dal torax"/>
             </designation>
          </concept>
          <concept>
@@ -575,7 +581,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Pediatria"/>
             </designation>
          </concept>
          <concept>
@@ -595,7 +601,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Oftalmologia"/>
             </designation>
          </concept>
          <concept>
@@ -615,7 +621,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Oto-rino-laringologia"/>
             </designation>
          </concept>
          <concept>
@@ -635,7 +641,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Patologia"/>
             </designation>
          </concept>
          <concept>
@@ -655,7 +661,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ortopedia da la missella"/>
             </designation>
          </concept>
          <concept>
@@ -675,7 +681,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chiropratica speziala"/>
             </designation>
          </concept>
          <concept>
@@ -695,7 +701,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Anestesiologia"/>
             </designation>
          </concept>
          <concept>
@@ -715,7 +721,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Neurochirurgia"/>
             </designation>
          </concept>
          <concept>
@@ -735,7 +741,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Neurologia"/>
             </designation>
          </concept>
          <concept>
@@ -755,7 +761,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia ortopedica e traumatologia da l'apparat motoric"/>
             </designation>
          </concept>
          <concept>
@@ -775,7 +781,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Pneumologia"/>
             </designation>
          </concept>
          <concept>
@@ -795,7 +801,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Psichiatria e psicoterapia"/>
             </designation>
          </concept>
          <concept>
@@ -815,7 +821,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Urologia"/>
             </designation>
          </concept>
          <concept>
@@ -835,7 +841,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Allergologia ed immunologia clinica"/>
             </designation>
          </concept>
          <concept>
@@ -855,7 +861,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Medischina da lavur"/>
             </designation>
          </concept>
          <concept>
@@ -875,7 +881,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Dermatologia e venerologia"/>
             </designation>
          </concept>
          <concept>
@@ -895,7 +901,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Endocrinologia-diabetologia"/>
             </designation>
          </concept>
          <concept>
@@ -915,7 +921,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Gastroenterologia"/>
             </designation>
          </concept>
          <concept>
@@ -935,7 +941,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Hematologia"/>
             </designation>
          </concept>
          <concept>
@@ -955,7 +961,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Cardiologia"/>
             </designation>
          </concept>
          <concept>
@@ -975,7 +981,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia da la bucca, da la missella e da la fatscha"/>
             </designation>
          </concept>
          <concept>
@@ -995,7 +1001,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Psichiatria e psicoterapia d'uffants e da giuvenils"/>
             </designation>
          </concept>
          <concept>
@@ -1015,7 +1021,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia d'uffants"/>
             </designation>
          </concept>
          <concept>
@@ -1035,7 +1041,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Farmacologia e toxicologia clinica"/>
             </designation>
          </concept>
          <concept>
@@ -1055,7 +1061,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Radiologia"/>
             </designation>
          </concept>
          <concept>
@@ -1075,7 +1081,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Medischina nucleara"/>
             </designation>
          </concept>
          <concept>
@@ -1095,7 +1101,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Radio-oncologia/radioterapia"/>
             </designation>
          </concept>
          <concept>
@@ -1115,7 +1121,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Nefrologia"/>
             </designation>
          </concept>
          <concept>
@@ -1135,7 +1141,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Medischina fisicala e reabilitaziun"/>
             </designation>
          </concept>
          <concept>
@@ -1155,7 +1161,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia plastica, reconstructiva ed estetica"/>
             </designation>
          </concept>
          <concept>
@@ -1175,7 +1181,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Prevenziun e sanadad publica"/>
             </designation>
          </concept>
          <concept>
@@ -1195,7 +1201,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Reumatologia"/>
             </designation>
          </concept>
          <concept>
@@ -1215,7 +1221,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Medischina da las tropas e da viadis"/>
             </designation>
          </concept>
          <concept>
@@ -1235,7 +1241,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Infecziologia"/>
             </designation>
          </concept>
          <concept>
@@ -1255,7 +1261,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Media generalista/medi generalist"/>
             </designation>
          </concept>
          <concept>
@@ -1275,7 +1281,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Angiologia"/>
             </designation>
          </concept>
          <concept>
@@ -1295,7 +1301,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Medischina intensiva"/>
             </designation>
          </concept>
          <concept>
@@ -1315,7 +1321,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Genetica medicinala"/>
             </designation>
          </concept>
          <concept>
@@ -1335,7 +1341,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Oncologia medicinala"/>
             </designation>
          </concept>
          <concept>
@@ -1355,7 +1361,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Medischina farmaceutica"/>
             </designation>
          </concept>
          <concept>
@@ -1375,7 +1381,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Medischina forensica"/>
             </designation>
          </concept>
          <concept>
@@ -1395,12 +1401,12 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia orala"/>
             </designation>
          </concept>
          <concept>
             <code value="1048"/>
-            <display value="Parodontology"/>
+            <display value="Paradontology"/>
             <designation>
                <language value="de-CH"/>
                <value value="Parodontologie"/>
@@ -1415,7 +1421,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Parodontologia"/>
             </designation>
          </concept>
          <concept>
@@ -1435,7 +1441,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Odontologia reconstructiva"/>
             </designation>
          </concept>
          <concept>
@@ -1455,7 +1461,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Auter"/>
             </designation>
          </concept>
          <concept>
@@ -1475,7 +1481,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Medischina interna generala"/>
             </designation>
          </concept>
          <concept>
@@ -1495,7 +1501,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Farmazia d'ufficina"/>
             </designation>
          </concept>
          <concept>
@@ -1515,7 +1521,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Farmazia d'ospital"/>
             </designation>
          </concept>
          <concept>
@@ -1527,15 +1533,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="psychothérapie"/>
+               <value value="Psychothérapie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="psicoterapia"/>
+               <value value="Psicoterapia"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Psicoterapia"/>
             </designation>
          </concept>
          <concept>
@@ -1555,7 +1561,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Psicologia d'uffants e da giuvenils"/>
             </designation>
          </concept>
          <concept>
@@ -1575,7 +1581,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Psicologia clinica"/>
             </designation>
          </concept>
          <concept>
@@ -1587,15 +1593,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="neuropsychologie"/>
+               <value value="Neuropsychologie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="neuropsicologia"/>
+               <value value="Neuropsicologia"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Neuropsicologia"/>
             </designation>
          </concept>
          <concept>
@@ -1607,15 +1613,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="psychologie de la santé"/>
+               <value value="Psychologie de la santé"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="psicologia della salute"/>
+               <value value="Psicologia della salute"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Psicologia da sanadad"/>
             </designation>
          </concept>
          <concept>
@@ -1635,7 +1641,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia dal maun"/>
             </designation>
          </concept>
          <concept>
@@ -1655,7 +1661,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia vasculara"/>
             </designation>
          </concept>
          <concept>
@@ -1675,7 +1681,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chirurgia dal torax"/>
             </designation>
          </concept>
       </include>

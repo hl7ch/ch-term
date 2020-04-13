@@ -2,30 +2,30 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id
            
-            value="DocumentEntry.sourcePatientInfo.PID-8"/>
+            value="EprPurposeOfUse"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.840.1.113883.4.642.3.1--20191211085734"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.15.2--20200226172429"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-12-11T08:57:34+02:00"/>
+         <start value="2020-02-26T17:24:29+02:00"/>
       </valuePeriod>
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.sourcePatientInfo.PID-8"/>
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/EprPurposeOfUse"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.840.1.113883.4.642.3.1"/>
+      <value value="2.16.756.5.30.1.127.3.10.15.2"/>
    </identifier>
-   <version value="2019-12-11T08:57:34"/>
-   <name value="DocumentEntrySourcePatientInfoPID-8"/>
+   <version value="2020-02-26T17:24:29"/>
+   <name value="EprPurposeOfUse"/>
    <title
               
-               value="DocumentEntry.sourcePatientInfo.PID-8"/>
+               value="EprPurposeOfUse"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
@@ -36,105 +36,81 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Patient’s gender as per Annex 3; EPRO-FDHA."/>
+   <description value="Purpose Of Use as per Annex 5 EPRO-FDHA, Extension 1."/>
    <immutable value="false"/>
    <compose>
       <include>
-         <system value="http://hl7.org/fhir/administrative-gender"/>
+         <system value="urn:oid:2.16.756.5.30.1.127.3.10.5"/>
          <concept>
-            <code value="female"/>
-            <display value="Female"/>
+            <code value="EMER"/>
+            <display value="Emergency Access"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Weiblich"/>
+               <value value="Notfallzugriff"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Féminin"/>
+               <value value="Accès d’urgence"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Femminile"/>
+               <value value="Accesso di emergenza"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Female"/>
+               <value value="Emergency Access"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Feminin"/>
+               <value value="Access d'urgenza"/>
             </designation>
          </concept>
          <concept>
-            <code value="male"/>
-            <display value="Male"/>
+            <code value="NORM"/>
+            <display value="Normal Access"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Männlich"/>
+               <value value="Normaler Zugriff"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Masculin"/>
+               <value value="Accès normal"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Maschile"/>
+               <value value="Accesso normale"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Male"/>
+               <value value="Normal Access"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Masculin"/>
+               <value value="Access normal"/>
             </designation>
          </concept>
          <concept>
-            <code value="other"/>
-            <display value="Other"/>
+            <code value="AUTO"/>
+            <display value="Automatic Upload"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Anderes"/>
+               <value value="Automatischer Upload"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Autre"/>
+               <value value="Upload automatique"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Altro"/>
+               <value value="Upload automatico"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Other"/>
+               <value value="Automatic Upload"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Auter"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="unknown"/>
-            <display value="Unknown"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Unbekannt"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Inconnu"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Sconosciuto"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Unknown"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Nunenconuschent"/>
+               <value value="Upload automatic"/>
             </designation>
          </concept>
       </include>

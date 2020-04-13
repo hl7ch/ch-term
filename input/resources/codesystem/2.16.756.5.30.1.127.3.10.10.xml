@@ -2,11 +2,11 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.10.10"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20191103143607"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20200226165306"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-11-03T14:36:07+01:00"/>
+         <start value="2020-02-26T16:53:06+02:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.10.10"/>
@@ -15,7 +15,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.9"/>
    </identifier>
-   <version value="2019-11-03T14:36:07"/>
+   <version value="2020-02-26T16:53:06"/>
    <name value="ChEhealthCodesystemFormat"/>
    <title value="ch-ehealth-codesystem-format"/>
    <status value="active"/>
@@ -52,7 +52,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="TODO"/>
+         <value value="Document DEP betg structurà"/>
       </designation>
    </concept>
 </CodeSystem>

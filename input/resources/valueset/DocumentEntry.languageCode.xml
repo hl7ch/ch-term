@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="DocumentEntry.languageCode"/>
+   <id
+           
+            value="DocumentEntry.languageCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.13--20191103112828"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.13--20191211100439"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-11-03T11:28:28+01:00"/>
+         <start value="2019-12-11T10:04:39+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.languageCode"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.languageCode"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.13"/>
    </identifier>
-   <version value="2019-11-03T11:28:28"/>
+   <version value="2019-12-11T10:04:39"/>
    <name value="DocumentEntryLanguageCode"/>
-   <title value="DocumentEntry.languageCode"/>
+   <title
+              
+               value="DocumentEntry.languageCode"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
@@ -59,7 +65,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Arab"/>
             </designation>
          </concept>
          <concept>
@@ -83,7 +89,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Bengal"/>
             </designation>
          </concept>
          <concept>
@@ -107,7 +113,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Tschec"/>
             </designation>
          </concept>
          <concept>
@@ -131,7 +137,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Danais"/>
             </designation>
          </concept>
          <concept>
@@ -155,7 +161,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Tudestg"/>
             </designation>
          </concept>
          <concept>
@@ -179,7 +185,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Tudestg (Austria)"/>
             </designation>
          </concept>
          <concept>
@@ -203,7 +209,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Tudestg (Svizra)"/>
             </designation>
          </concept>
          <concept>
@@ -227,7 +233,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Tudestg (Germania)"/>
             </designation>
          </concept>
          <concept>
@@ -251,7 +257,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Grec"/>
             </designation>
          </concept>
          <concept>
@@ -275,7 +281,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Englais"/>
             </designation>
          </concept>
          <concept>
@@ -299,7 +305,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Englais (Australia)"/>
             </designation>
          </concept>
          <concept>
@@ -323,7 +329,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Englais (Canada)"/>
             </designation>
          </concept>
          <concept>
@@ -347,7 +353,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Englais (Gronda Britannia)"/>
             </designation>
          </concept>
          <concept>
@@ -371,7 +377,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Englais (India)"/>
             </designation>
          </concept>
          <concept>
@@ -395,7 +401,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Englais (Nova Zelanda)"/>
             </designation>
          </concept>
          <concept>
@@ -419,7 +425,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Englais (Singapur)"/>
             </designation>
          </concept>
          <concept>
@@ -443,7 +449,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Englais (USA)"/>
             </designation>
          </concept>
          <concept>
@@ -467,7 +473,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Spagnol"/>
             </designation>
          </concept>
          <concept>
@@ -491,7 +497,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Spagnol (Argentina)"/>
             </designation>
          </concept>
          <concept>
@@ -515,7 +521,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Spagnol (Spagna)"/>
             </designation>
          </concept>
          <concept>
@@ -539,7 +545,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Spagnol (Uruguai)"/>
             </designation>
          </concept>
          <concept>
@@ -563,7 +569,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Finlandais"/>
             </designation>
          </concept>
          <concept>
@@ -587,7 +593,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Franzos"/>
             </designation>
          </concept>
          <concept>
@@ -611,7 +617,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Franzos (Belgia)"/>
             </designation>
          </concept>
          <concept>
@@ -635,7 +641,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Franzos (Svizra)"/>
             </designation>
          </concept>
          <concept>
@@ -659,7 +665,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Franzos (Frantscha)"/>
             </designation>
          </concept>
          <concept>
@@ -683,7 +689,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Fris"/>
             </designation>
          </concept>
          <concept>
@@ -707,7 +713,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Fris (Pajais Bass)"/>
             </designation>
          </concept>
          <concept>
@@ -731,7 +737,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Hindi"/>
             </designation>
          </concept>
          <concept>
@@ -755,7 +761,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Croat"/>
             </designation>
          </concept>
          <concept>
@@ -779,7 +785,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Talian"/>
             </designation>
          </concept>
          <concept>
@@ -803,7 +809,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Talian (Svizra)"/>
             </designation>
          </concept>
          <concept>
@@ -827,7 +833,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Talian (Italia)"/>
             </designation>
          </concept>
          <concept>
@@ -851,7 +857,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Giapunais"/>
             </designation>
          </concept>
          <concept>
@@ -875,7 +881,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Corean"/>
             </designation>
          </concept>
          <concept>
@@ -899,7 +905,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ollandais"/>
             </designation>
          </concept>
          <concept>
@@ -923,7 +929,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ollandais (Belgia)"/>
             </designation>
          </concept>
          <concept>
@@ -947,7 +953,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ollandais (Pajais Bass)"/>
             </designation>
          </concept>
          <concept>
@@ -971,7 +977,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Norvegiais"/>
             </designation>
          </concept>
          <concept>
@@ -995,7 +1001,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Norvegiais (Norvegia)"/>
             </designation>
          </concept>
          <concept>
@@ -1019,7 +1025,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Punjabi"/>
             </designation>
          </concept>
          <concept>
@@ -1043,7 +1049,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Polac"/>
             </designation>
          </concept>
          <concept>
@@ -1067,7 +1073,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Portugais"/>
             </designation>
          </concept>
          <concept>
@@ -1091,7 +1097,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Portugais (Brasilia)"/>
             </designation>
          </concept>
          <concept>
@@ -1115,7 +1121,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Rumantsch"/>
             </designation>
          </concept>
          <concept>
@@ -1139,7 +1145,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Russ"/>
             </designation>
          </concept>
          <concept>
@@ -1163,7 +1169,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Russ (Russia)"/>
             </designation>
          </concept>
          <concept>
@@ -1187,7 +1193,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Serb"/>
             </designation>
          </concept>
          <concept>
@@ -1211,7 +1217,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Serb (Serbia)"/>
             </designation>
          </concept>
          <concept>
@@ -1235,7 +1241,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Svedais"/>
             </designation>
          </concept>
          <concept>
@@ -1259,7 +1265,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Svedais (Svezia)"/>
             </designation>
          </concept>
          <concept>
@@ -1267,15 +1273,15 @@
             <display value="Telegu"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Telegu"/>
+               <value value="Telugu"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Telugu"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Telugu"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1283,7 +1289,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Telugu"/>
             </designation>
          </concept>
          <concept>
@@ -1307,7 +1313,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chinais"/>
             </designation>
          </concept>
          <concept>
@@ -1331,7 +1337,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chinais (China)"/>
             </designation>
          </concept>
          <concept>
@@ -1355,7 +1361,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chinais (HongKong)"/>
             </designation>
          </concept>
          <concept>
@@ -1379,7 +1385,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chinais (Singapur)"/>
             </designation>
          </concept>
          <concept>
@@ -1403,7 +1409,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Chinais (Taiwan)"/>
             </designation>
          </concept>
       </include>
@@ -1430,7 +1436,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Autras linguas"/>
             </designation>
          </concept>
       </include>
