@@ -99,6 +99,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ConceptMap/DocumentEntryClassCodeToDocumentEntryTypeCode"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/DocumentEntry.authorRole"/>
       </reference>
       <exampleBoolean value="false"/>

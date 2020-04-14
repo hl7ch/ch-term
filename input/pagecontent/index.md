@@ -23,6 +23,11 @@ You can download this Implementation Guide in npm format from [here](package.tgz
 {% include list-simple-codesystems.xhtml %}
 </ul>
 
+### ConceptMaps
+<ul>
+{% include list-simple-conceptmaps.xhtml %}
+</ul>
+
 ### Collaboration
 This guide is the product of collaborative work undertaken with participants from:
 
