@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConceptMap xmlns="http://hl7.org/fhir"
+                
+                
+                 xmlns:ahdis="http://ahdis.ch">
+   <id value="HCProfessionalHCProfessionSpecialisationMap"/>
+   <url value="http://fhir.ch/ig/ch-epr-term/HCProfessionalHCProfessionSpecialisationMap"/>
+   <version value="201907.0-beta"/>
+   <name value="HCProfessionalHCProfessionSpecialisationMap"/>
+   <title value="HCProfessionalHCProfessionSpecialisationMap"/>
+   <status value="draft"/>
+   <publisher value="HL7 Switzerland"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+   </contact>
+   <description value=""/>
+   <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+   <sourceUri value="http://fhir.ch/ig/ch-epr-term/ValueSet/HCProfessional.hcProfession"/>
+   <targetUri value="http://fhir.ch/ig/ch-epr-term/ValueSet/HCProfessional.hcSpecialisation"/>
+   <group>
+      <source value="http://snomed.info/sct"/>
+      <target value="urn:oid:2.16.756.5.30.1.127.3.5"/>
+      <element>
+         <code value="46255001"/>
+         <display value="Pharmacist (occupation)"/>
+         <target>
+            <code value="1052"/>
+            <display value="Community pharmacy"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1053"/>
+            <display value="Hospital pharmacy"/>
+            <equivalence value="specializes"/>
+         </target>
+      </element>
+   </group>
+   <group>
+      <source value="http://snomed.info/sct"/>
+      <target value="urn:oid:2.16.756.5.30.1.127.3.5"/>
+      <element>
+         <code value="309343006"/>
+         <display value="Physician (occupation)"/>
+         <target>
+            <code value="1002"/>
+            <display value="Surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1003"/>
+            <display value="Gynaecology and obstetrics"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1004"/>
+            <display value="Cardiac and thoracic vascular surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1006"/>
+            <display value="Paediatrics"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1007"/>
+            <display value="Ophthalmology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1008"/>
+            <display value="Otorhinolaryngology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1009"/>
+            <display value="Pathology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1012"/>
+            <display value="Anaesthesiology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1013"/>
+            <display value="Neurosurgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1014"/>
+            <display value="Neurology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1015"/>
+            <display value="Orthopaedic surgery and traumatology of the locomotor apparatus"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1016"/>
+            <display value="Pneumology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1017"/>
+            <display value="Psychiatry and psychotherapy"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1018"/>
+            <display value="Urology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1019"/>
+            <display value="Allergology and clinical immunology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1020"/>
+            <display value="Occupational medicine"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1021"/>
+            <display value="Dermatology and venereology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1022"/>
+            <display value="Endocrinology – Diabetology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1023"/>
+            <display value="Gastroenterology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1024"/>
+            <display value="Haematology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1025"/>
+            <display value="Cardiology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1026"/>
+            <display value="Oral and maxillofacial surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1027"/>
+            <display value="Child and adolescent psychiatry and psychotherapy"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1028"/>
+            <display value="Paediatric surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1029"/>
+            <display value="Clinical pharmacology and toxicology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1030"/>
+            <display value="Radiology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1031"/>
+            <display value="Nuclear medicine"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1032"/>
+            <display value="Radio-oncology / radiotherapy"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1033"/>
+            <display value="Nephrology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1034"/>
+            <display value="Physical medicine and rehabilitation"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1035"/>
+            <display value="Plastic, reconstructive and aesthetic surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1036"/>
+            <display value="Prevention and public health"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1037"/>
+            <display value="Rheumatology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1038"/>
+            <display value="Tropical and travel medicine"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1039"/>
+            <display value="Infectology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1040"/>
+            <display value="General medical practitioner"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1041"/>
+            <display value="Angiology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1042"/>
+            <display value="Intensive care medicine"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1043"/>
+            <display value="Medical genetics"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1044"/>
+            <display value="Medical oncology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1045"/>
+            <display value="Pharmaceutical medicine"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1046"/>
+            <display value="Forensic medicine"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1051"/>
+            <display value="General Internal Medicine"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1059"/>
+            <display value="Hand surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1060"/>
+            <display value="Vascular surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1061"/>
+            <display value="Thoracic surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+      </element>
+   </group>
+   <group>
+      <source value="http://snomed.info/sct"/>
+      <target value="urn:oid:2.16.756.5.30.1.127.3.5"/>
+      <element>
+         <code value="3842006"/>
+         <display value="Chiropractor (occupation)"/>
+         <target>
+            <code value="1011"/>
+            <display value="Chiropractic specialist"/>
+            <equivalence value="specializes"/>
+         </target>
+      </element>
+   </group>
+   <group>
+      <source value="http://snomed.info/sct"/>
+      <target value="urn:oid:2.16.756.5.30.1.127.3.5"/>
+      <element>
+         <code value="59944000"/>
+         <display value="Psychologist (occupation)"/>
+         <target>
+            <code value="1054"/>
+            <display value="Psychotherapy"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1055"/>
+            <display value="Child and adolescent psychology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1056"/>
+            <display value="Clinical Psychology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1057"/>
+            <display value="Neuropsychology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1058"/>
+            <display value="Health Psychology"/>
+            <equivalence value="specializes"/>
+         </target>
+      </element>
+   </group>
+   <group>
+      <source value="http://snomed.info/sct"/>
+      <target value="urn:oid:2.16.756.5.30.1.127.3.5"/>
+      <element>
+         <code value="106289002"/>
+         <display value="Dentist (occupation)"/>
+         <target>
+            <code value="1010"/>
+            <display value="Orthodontics"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1047"/>
+            <display value="Oral surgery"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1048"/>
+            <display value="Paradontology"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="1049"/>
+            <display value="Reconstructive dentistry"/>
+            <equivalence value="specializes"/>
+         </target>
+      </element>
+   </group>
+</ConceptMap>
