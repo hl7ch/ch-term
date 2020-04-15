@@ -36,7 +36,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Role of the author.&#xA;      This code defines the role of the author of the document. This is a sub-attribute of epd_xds_author.&#xA;    "/>
+   <description value="Role of the author. This code defines the role of the author of the document. This is a sub-attribute of epd_xds_author."/>
    <immutable value="false"/>
    <compose>
       <include>
