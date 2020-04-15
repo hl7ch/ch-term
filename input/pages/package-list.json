@@ -17,7 +17,7 @@
       "date": "2020-02-26",
       "desc": "Version 201907.2-stable, see http://ehealthsuisse.art-decor.org/ch-epr-html-20200226T180620/project.html#_20200226180620 for changelog",
       "path": "http://fhir.ch/ig/ch-epr-term",
-      "status": "draft",
+      "status": "trial-use+normative",
       "fhirVersion": "4.0.1",
       "current": true,
       "sequence": "STU"
@@ -26,8 +26,8 @@
       "version": "2.0.1",
       "date": "2019-11-11",
       "desc": "EPR Annex 3 and 9, Version 201907.1-stable",
-      "path": "http://fhir.ch/ig/ch-epr-term",
-      "status": "draft",
+      "path": "http://fhir.ch/ig/ch-epr-term/2.0.1",
+      "status": "trial-use+normative",
       "fhirVersion": "4.0.1",
       "sequence": "STU"
     },
@@ -36,7 +36,7 @@
       "date": "2019-09-13",
       "desc": "EPR Annex 3 and 9, Version 201907.0-stable",
       "path": "http://fhir.ch/ig/ch-epr-term/2.0.0",
-      "status": "draft",
+      "status": "trial-use+normative",
       "fhirVersion": "4.0.0",
       "sequence": "STU"
     }

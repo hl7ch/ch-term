@@ -255,7 +255,8 @@
     </parameter>
     <parameter>
       <code value="releaselabel"/>
-      <value value="CI build"/>
+      <!--<value value="CI build"/>-->
+      <value value="trial-use + normative"/>
     </parameter>
     <parameter>
       <code value="path-pages" />
