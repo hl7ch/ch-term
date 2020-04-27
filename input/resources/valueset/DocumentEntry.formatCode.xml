@@ -95,7 +95,7 @@
          </concept>
       </include>
       <include>
-         <system value="urn:oid:1.3.6.1.4.1.19376.1.2.3"/>
+         <system value="http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"/>
          <concept>
             <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
                <valueString value="According to Table 4.68.4.1.2.3-1: XDS-I.b-specific Metadata Requirements"/>

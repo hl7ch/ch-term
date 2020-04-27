@@ -4,13 +4,13 @@
            
             value="DocumentEntry.confidentialityCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.5--20191211095217"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.5--20200423114404"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-12-11T09:52:17+02:00"/>
+         <start value="2020-04-23T11:44:04+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.5"/>
    </identifier>
-   <version value="2019-12-11T09:52:17"/>
+   <version value="2020-04-23T11:44:04"/>
    <name value="DocumentEntryConfidentialityCode"/>
    <title
               
@@ -47,15 +47,15 @@
             <display value="Normal (qualifier value)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Normal zugänglich"/>
+               <value value="Normal zugängliche Dokumente"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Normalement accessible"/>
+               <value value="Normal"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Normalmente accessibile"/>
+               <value value="Dati normalmente accessibili"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -71,15 +71,15 @@
             <display value="Restricted (qualifier value)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Eingeschränkt zugänglich"/>
+               <value value="Eingeschränkt zugängliche Dokumente"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Restreint accessible"/>
+               <value value="Restreint"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Accessibile limitato"/>
+               <value value="Dati limitatamente accessibili"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -98,15 +98,15 @@
             <display value="Secret (qualifier value)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Geheim"/>
+               <value value="Geheime Dokumente"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Confidentiel"/>
+               <value value="Secret"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Segreto"/>
+               <value value="Dati segreti"/>
             </designation>
             <designation>
                <language value="en-US"/>

@@ -5,10 +5,10 @@
                  xmlns:ahdis="http://ahdis.ch">
    <id value="HCProfessionalHCProfessionSpecialisationMap"/>
    <url value="http://fhir.ch/ig/ch-epr-term/HCProfessionalHCProfessionSpecialisationMap"/>
-   <version value="201907.0-beta"/>
+   <version value="202004.0-stable"/>
    <name value="HCProfessionalHCProfessionSpecialisationMap"/>
    <title value="HCProfessionalHCProfessionSpecialisationMap"/>
-   <status value="draft"/>
+   <status value="active"/>
    <publisher value="HL7 Switzerland"/>
    <contact>
       <name value="eHealth Suisse"/>

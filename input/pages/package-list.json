@@ -13,13 +13,22 @@
       "sequence": "STU"
     },
     {
+      "version": "2.0.3",
+      "date": "2020-04-23",
+      "desc": "Version 202004.0-stable, see http://ehealthsuisse.art-decor.org/ch-epr-html-20200423T125505/project.html#_20200423125505 for changelog",
+      "path": "http://fhir.ch/ig/ch-epr-term",
+      "status": "draft",
+      "fhirVersion": "4.0.1",
+      "current": true,
+      "sequence": "STU"
+    },
+    {
       "version": "2.0.2",
       "date": "2020-02-26",
       "desc": "Version 201907.2-stable, see http://ehealthsuisse.art-decor.org/ch-epr-html-20200226T180620/project.html#_20200226180620 for changelog",
       "path": "http://fhir.ch/ig/ch-epr-term",
       "status": "trial-use",
       "fhirVersion": "4.0.1",
-      "current": true,
       "sequence": "STU"
     },
     {

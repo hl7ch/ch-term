@@ -84,15 +84,15 @@
       <display value="Secret (qualifier value)"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Geheim"/>
+         <value value="Geheime Dokumente"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Confidentiel"/>
+         <value value="Secret"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Segreto"/>
+         <value value="Dati segreti"/>
       </designation>
       <designation>
          <language value="en-US"/>
