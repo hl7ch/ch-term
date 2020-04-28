@@ -1,6 +1,6 @@
 {
   "package-id": "ch.fhir.ig.ch-epr-term",
-  "title": "CH-EPR-TERM (R4)",
+  "title": "CH EPR Term (R4)",
   "introduction": "Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland",
   "canonical": "http://fhir.ch/ig/ch-epr-term",
   "list": [
@@ -26,7 +26,7 @@
       "version": "2.0.2",
       "date": "2020-02-26",
       "desc": "Version 201907.2-stable, see http://ehealthsuisse.art-decor.org/ch-epr-html-20200226T180620/project.html#_20200226180620 for changelog",
-      "path": "http://fhir.ch/ig/ch-epr-term",
+      "path": "http://fhir.ch/ig/ch-epr-term/2.0.2",
       "status": "trial-use",
       "fhirVersion": "4.0.1",
       "sequence": "STU"
