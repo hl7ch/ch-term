@@ -5,7 +5,7 @@
                  xmlns:ahdis="http://ahdis.ch">
    <id value="HCProfessionalHCProfessionSpecialisationMap"/>
    <url value="http://fhir.ch/ig/ch-epr-term/HCProfessionalHCProfessionSpecialisationMap"/>
-   <version value="202004.0-stable"/>
+   <version value="202004.1-stable"/>
    <name value="HCProfessionalHCProfessionSpecialisationMap"/>
    <title value="HCProfessionalHCProfessionSpecialisationMap"/>
    <status value="active"/>
@@ -13,7 +13,7 @@
    <contact>
       <name value="eHealth Suisse"/>
    </contact>
-   <description value="Concept Map"/>
+   <description value=""/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <sourceUri value="http://fhir.ch/ig/ch-epr-term/ValueSet/HCProfessional.hcProfession"/>
    <targetUri value="http://fhir.ch/ig/ch-epr-term/ValueSet/HCProfessional.hcSpecialisation"/>
@@ -253,7 +253,7 @@
          </target>
          <target>
             <code value="1051"/>
-            <display value="General Internal Medicine"/>
+            <display value="General internal medicine"/>
             <equivalence value="specializes"/>
          </target>
          <target>
@@ -304,7 +304,7 @@
          </target>
          <target>
             <code value="1056"/>
-            <display value="Clinical Psychology"/>
+            <display value="Clinical psychology"/>
             <equivalence value="specializes"/>
          </target>
          <target>
@@ -314,7 +314,7 @@
          </target>
          <target>
             <code value="1058"/>
-            <display value="Health Psychology"/>
+            <display value="Health psychology"/>
             <equivalence value="specializes"/>
          </target>
       </element>
