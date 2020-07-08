@@ -9,12 +9,12 @@
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term"/>
-  <version value="2.0.3"/>
+  <version value="2.0.4"/>
   <name value="CH_EPR_TERM"/>
   <title value="CH EPR Term"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2020-04-23"/>
+  <date value="2020-07-08"/>
   <publisher value="HL7 Switzerland"/>
   <contact>
     <name value="HL7 Switzerland"/>
