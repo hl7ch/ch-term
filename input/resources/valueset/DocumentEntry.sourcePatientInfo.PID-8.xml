@@ -22,7 +22,7 @@
       <value value="2.16.840.1.113883.4.642.3.1"/>
    </identifier>
    <version value="2019-12-11T08:57:34"/>
-   <name value="DocumentEntrySourcePatientInfoPID8"/>
+   <name value="DocumentEntrySourcePatientInfoPID-8"/>
    <title
               
                value="DocumentEntry.sourcePatientInfo.PID-8"/>

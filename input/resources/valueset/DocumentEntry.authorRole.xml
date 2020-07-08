@@ -4,13 +4,13 @@
            
             value="DocumentEntry.authorRole"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.3--20191211091532"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.3--20200622095724"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-12-11T09:15:32+02:00"/>
+         <start value="2020-06-22T09:57:24+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,8 +21,8 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.1.3"/>
    </identifier>
-   <version value="2019-12-11T09:15:32"/>
-   <name value="DocumentEntryAuthorRole"/>
+   <version value="2020-06-22T09:57:24"/>
+   <name value="DocumentEntryAuthorAuthorRole"/>
    <title
               
                value="DocumentEntry.authorRole"/>
@@ -36,7 +36,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Role of the author. This code defines the role of the author of the document. This is a sub-attribute of epd_xds_author."/>
+   <description value="Role of the author.&#xA;      This code defines the role of the author of the document. This is a sub-attribute of epd_xds_author.&#xA;    "/>
    <immutable value="false"/>
    <compose>
       <include>
