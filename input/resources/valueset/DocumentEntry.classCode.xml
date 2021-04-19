@@ -4,13 +4,13 @@
            
             value="DocumentEntry.classCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.3--20200622100530"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.3--20210401163217"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2020-06-22T10:05:30+02:00"/>
+         <start value="2021-04-01T16:32:17+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.3"/>
    </identifier>
-   <version value="2020-06-22T10:05:30"/>
+   <version value="2021-04-01T16:32:17"/>
    <name value="DocumentEntryClassCode"/>
    <title
               
@@ -164,7 +164,7 @@
          </concept>
          <concept>
             <code value="734163000"/>
-            <display value="Care plan (record artifact)"/>
+            <display value="Care Plan (record artifact)"/>
             <designation>
                <language value="de-CH"/>
                <value value="Behandlungsplan"/>
@@ -183,7 +183,7 @@
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Care plan"/>
+               <value value="Care Plan"/>
             </designation>
          </concept>
          <concept>
@@ -431,7 +431,7 @@
          <system value="urn:oid:2.16.756.5.30.1.127.3.4"/>
          <concept>
             <code value="2171000195109"/>
-            <display value="Obstetrical record (record artifact)"/>
+            <display value="Obstetrical Record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
                <value value="Schwangerschafts-/ Geburtsbericht"/>

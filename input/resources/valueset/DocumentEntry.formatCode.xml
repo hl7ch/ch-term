@@ -4,13 +4,13 @@
            
             value="DocumentEntry.formatCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20200622101808"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20210401170652"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2020-06-22T10:18:08+02:00"/>
+         <start value="2021-04-01T17:06:52+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.9"/>
    </identifier>
-   <version value="2020-06-22T10:18:08"/>
+   <version value="2021-04-01T17:06:52"/>
    <name value="DocumentEntryFormatCode"/>
    <title
               
@@ -68,7 +68,7 @@
          </concept>
       </include>
       <include>
-         <system value="urn:oid:1.2.840.10008.2.6.1"/>
+         <system value="urn:dicom:uid"/>
          <concept>
             <code value="1.2.840.10008.5.1.4.1.1.88.59"/>
             <display value="DICOM Manifest (DICOM KOS SOP Class UID)"/>
@@ -95,7 +95,7 @@
          </concept>
       </include>
       <include>
-         <system value="http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"/>
+         <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
          <concept>
             <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
                <valueString value="According to Table 4.68.4.1.2.3-1: XDS-I.b-specific Metadata Requirements"/>

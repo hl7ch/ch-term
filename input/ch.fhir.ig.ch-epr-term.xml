@@ -9,7 +9,7 @@
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term"/>
-  <version value="2.0.4"/>
+  <version value="2.0.5"/>
   <name value="CH_EPR_TERM"/>
   <title value="CH EPR Term"/>
   <status value="active"/>
@@ -33,6 +33,10 @@
   <packageId value="ch.fhir.ig.ch-epr-term"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
+	<dependsOn id="IHEformatcode">
+		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
+		<version value="current"/>
+	</dependsOn>
   <definition>
     <grouping>
       <name value="CH-EPR"/>
@@ -178,6 +182,12 @@
     <resource>
       <reference>
         <reference value="ValueSet/DocumentEntry.typeCode"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/DocumentEntry.originalProviderRole"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

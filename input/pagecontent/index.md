@@ -4,7 +4,7 @@ Implementation Guide for the meta data specified in the Annexes  of the Swiss EP
 
 This implementation guide is based on the [CH-EPR](http://ehealthsuisse.art-decor.org/index.php?prefix=ch-epr-) [ART-DECOR](https://www.art-decor.org/mediawiki/index.php/Main_Page) project which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/).
 
-This version SHOULD correspond to the release [202004.1-stable](http://ehealthsuisse.art-decor.org/ch-epr-html-20200622T124207/index.html)
+This version SHOULD correspond to the release [202104.1-stable](http://ehealthsuisse.art-decor.org/ch-epr-html-20210416T020411/terminology.html)
 
 Please report and note current issues that are pending or errors under [ART-DECOR Issues](https://art-decor.org/art-decor/decor-issues--ch-epr-). 
 

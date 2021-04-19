@@ -2,11 +2,11 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.4"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.3--20200622100530"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.3--20210401163217"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2020-06-22T10:05:30+02:00"/>
+         <start value="2021-04-01T16:32:17+02:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.4"/>
@@ -15,7 +15,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.3"/>
    </identifier>
-   <version value="2020-06-22T10:05:30"/>
+   <version value="2021-04-01T16:32:17"/>
    <name value="SNOMEDCTSwissExtension"/>
    <title value="SNOMED CT Swiss Extension"/>
    <status value="active"/>
@@ -33,7 +33,7 @@
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <concept>
       <code value="2171000195109"/>
-      <display value="Obstetrical record (record artifact)"/>
+      <display value="Obstetrical Record (record artifact)"/>
       <designation>
          <language value="de-CH"/>
          <value value="Schwangerschafts-/ Geburtsbericht"/>
@@ -57,7 +57,7 @@
    </concept>
    <concept>
       <code value="2161000195103"/>
-      <display value="Imaging order (record articact)"/>
+      <display value="Imaging order (record artifact)"/>
       <designation>
          <language value="de-CH"/>
          <value value="Bildgebungsauftrag"/>

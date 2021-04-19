@@ -4,13 +4,13 @@
            
             value="DocumentEntry.practiceSettingCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.18--20191211150419"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.18--20210401161935"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-12-11T15:04:19+02:00"/>
+         <start value="2021-04-01T16:19:35+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.127.3.10.1.18"/>
    </identifier>
-   <version value="2019-12-11T15:04:19"/>
+   <version value="2021-04-01T16:19:35"/>
    <name value="DocumentEntryPracticeSettingCode"/>
    <title
               
