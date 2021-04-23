@@ -14,7 +14,7 @@
   <title value="CH EPR Term"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2020-07-08"/>
+  <date value="2021-04-23"/>
   <publisher value="HL7 Switzerland"/>
   <contact>
     <name value="HL7 Switzerland"/>
@@ -23,6 +23,7 @@
       <value value="https://www.hl7.ch/"/>
     </telecom>
   </contact>
+  <description value="Implementation guide for the meta data specified in the framework of Annex 3 and 9 of the FDHA Ordinance on the electronic patient record in Switzerland" />
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -34,8 +35,10 @@
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
 	<dependsOn id="IHEformatcode">
-		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
-		<version value="current"/>
+  		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
+<!--		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir" /> 		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" /> -->
+<!-- 	<version value="0.2.4"/> -->
+    <version value="current"/>
 	</dependsOn>
   <definition>
     <grouping>
@@ -265,7 +268,7 @@
     </parameter>
     <parameter>
       <code value="releaselabel"/>
-      <value value="CI build"/>
+      <value value="Trial use"/>
       <!--<value value="Trial use"/>-->
     </parameter>
     <parameter>
