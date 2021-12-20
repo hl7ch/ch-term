@@ -10,7 +10,7 @@
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2021-04-01T17:04:31+02:00"/>
+         <start value="2021-04-01T17:04:31+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -18,11 +18,13 @@
              value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.sourcePatientInfo.PID-8"/>
    <identifier>
       <use value="official"/>
-      <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.840.1.113883.4.642.3.1"/>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:oid:2.16.840.1.113883.4.642.3.1"/>
    </identifier>
    <version value="2021-04-01T17:04:31"/>
-   <name value="DocumentEntrySourcePatientInfoPID8"/>
+   <name
+             
+              value="DocumentEntrySourcePatientInfoPID8"/>
    <title
               
                value="DocumentEntry.sourcePatientInfo.PID-8"/>
