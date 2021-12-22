@@ -12,13 +12,22 @@
       "current": true
     },
     {
-      "version": "2.0.5",
-      "date": "2021-04-23",
+      "version": "2.0.6",
+      "date": "2021-12-22",
       "desc": "Version 202104.0-stable, see http://ehealthsuisse.art-decor.org/ch-epr-html-20210416T020411/terminology.html",
       "path": "http://fhir.ch/ig/ch-epr-term",
       "status": "trial-use",
       "fhirversion": "4.0.1",
-      "current": true,
+      "sequence": "STU",
+      "current": true
+    },
+    {
+      "version": "2.0.5",
+      "date": "2021-04-23",
+      "desc": "Version 202104.0-stable, see http://ehealthsuisse.art-decor.org/ch-epr-html-20210416T020411/terminology.html",
+      "path": "http://fhir.ch/ig/ch-epr-term/2.0.5",
+      "status": "trial-use",
+      "fhirversion": "4.0.1",
       "sequence": "STU"
     },
     {
