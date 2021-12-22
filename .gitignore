@@ -4,10 +4,9 @@ temp/**
 template/**
 .vscode/**
 resources/implementationguide/ig-*.*
-org.hl7.*.jar
 qa
 txCache
 www/*
 !www/package-list.json
 !www/publish.ini
-publisher.jar
+*.jar
