@@ -14,7 +14,7 @@
     {
       "version": "2.0.6",
       "date": "2021-12-22",
-      "desc": "Version 202104.0-stable, see http://ehealthsuisse.art-decor.org/ch-epr-html-20210416T020411/terminology.html",
+      "desc": "Version 202104.0-stable, see http://ehealthsuisse.art-decor.org/ch-epr-html-20210416T020411/terminology.html (minor update, see also https://github.com/hl7ch/ch-epr-term/issues/6)",
       "path": "http://fhir.ch/ig/ch-epr-term",
       "status": "trial-use",
       "fhirversion": "4.0.1",
