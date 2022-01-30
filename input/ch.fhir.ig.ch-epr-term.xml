@@ -9,7 +9,7 @@
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term"/>
-  <version value="2.0.6"/>
+  <version value="2.0.7"/>
   <name value="CH_EPR_TERM"/>
   <title value="CH EPR Term"/>
   <status value="active"/>
@@ -38,7 +38,7 @@
   		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
 <!--		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir" /> 		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" /> -->
 <!-- 	<version value="0.2.4"/> -->
-    <version value="current"/>
+    <version value="1.0.0"/>
 	</dependsOn>
   <definition>
     <grouping>
