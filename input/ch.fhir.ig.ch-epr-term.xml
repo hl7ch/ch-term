@@ -5,7 +5,7 @@
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      ImplementationGuide for CH-EPR terminologies
+      Implementation Guide for CH EPR Terminologies
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term"/>
@@ -14,7 +14,7 @@
   <title value="CH EPR Term"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2022-01-30"/>
+  <date value="2022-12-09"/>
   <publisher value="HL7 Switzerland"/>
   <contact>
     <name value="HL7 Switzerland"/>
@@ -35,7 +35,7 @@
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
 	<dependsOn id="IHEformatcode">
-  		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
+  	<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
 <!--		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir" /> 		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" /> -->
 <!-- 	<version value="0.2.4"/> -->
     <version value="1.0.0"/>
@@ -253,19 +253,12 @@
         <title value="Home"/>
         <generation value="markdown"/>
       </page>
+      <page>
+        <nameUrl value="terminology.html"/>
+        <title value="Terminology"/>
+        <generation value="markdown"/>
+      </page>
     </page>
-    <parameter>
-      <code value="generate-json"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="generate-xml"/>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code value="generate-turtle"/>
-      <value value="false"/>
-    </parameter>
     <parameter>
       <code value="releaselabel"/>
       <value value="Trial use"/>
