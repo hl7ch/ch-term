@@ -35,10 +35,9 @@
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
 	<dependsOn id="IHEformatcode">
-  	<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
-<!--		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir" /> 		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" /> -->
-<!-- 	<version value="0.2.4"/> -->
-    <version value="1.0.0"/>
+  	<uri value="https://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
+    <packageId value="ihe.formatcode.fhir"/>
+    <version value="1.1.0"/>
 	</dependsOn>
   <definition>
     <grouping>
