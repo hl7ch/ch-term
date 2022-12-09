@@ -4,13 +4,13 @@
            
             value="DocumentEntry.formatCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20210401170652"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20221130144424"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2021-04-01T17:06:52+01:00"/>
+         <start value="2022-11-30T14:44:24+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,14 +21,14 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.9"/>
    </identifier>
-   <version value="2021-04-01T17:06:52"/>
+   <version value="2022-11-30T14:44:24"/>
    <name
              
               value="DocumentEntryFormatCode"/>
    <title
               
                value="DocumentEntry.formatCode"/>
-   <status value="active"/>
+   <status value="draft"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -66,6 +66,222 @@
             <designation>
                <language value="rm-CH"/>
                <value value="Document DEP betg structurà"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-vacd:immunization-administration:2022"/>
+            <display value="CH VACD Immunization Administration"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH VACD Immunization Administration"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH VACD Immunization Administration"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH VACD Immunization Administration"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH VACD Immunization Administration"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH VACD Immunization Administration"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-vacd:vaccination-record:2022"/>
+            <display value="CH VACD Vaccination Record"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH VACD Vaccination Record"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH VACD Vaccination Record"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH VACD Vaccination Record"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH VACD Vaccination Record"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH VACD Vaccination Record"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:medication-card:2022"/>
+            <display value="CH EMED Medication Card document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:cda-ch-emed:medication-card:2022"/>
+            <display value="CDA-CH-EMED Medication Card document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CDA-CH-EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CDA-CH-EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CDA-CH-EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CDA-CH-EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CDA-CH-EMED Medication Card document"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:mtp:2022"/>
+            <display value="CH EMED Medication Treatment Plan"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Treatment Plan"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Treatment Plan"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Treatment Plan"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Treatment Plan"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Treatment Plan"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:pre:2022"/>
+            <display value="CH EMED Medication Prescription"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Prescription"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Prescription"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Prescription"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Prescription"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Prescription"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:dis:2022"/>
+            <display value="CH EMED Medication Dispense"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Dispense"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Dispense"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Dispense"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Dispense"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Dispense"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:padv:2022"/>
+            <display value="CH EMED Pharmaceutical Advice"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Pharmaceutical Advice"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Pharmaceutical Advice"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Pharmaceutical Advice"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Pharmaceutical Advice"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Pharmaceutical Advice"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:pml:2022"/>
+            <display value="CH EMED Medication List"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication List"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication List"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication List"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication List"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication List"/>
             </designation>
          </concept>
       </include>
@@ -390,6 +606,30 @@
             <designation>
                <language value="rm-CH"/>
                <value value="MimeType sufficient"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:ihe:iti:appc:2016:consent"/>
+            <display value="Advanced Patient Privacy Consents"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="Advanced Patient Privacy Consents"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Advanced Patient Privacy Consents"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Advanced Patient Privacy Consents"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Advanced Patient Privacy Consents"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Advanced Patient Privacy Consents"/>
             </designation>
          </concept>
       </include>

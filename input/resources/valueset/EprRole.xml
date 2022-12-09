@@ -4,13 +4,13 @@
            
             value="EprRole"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.15.1--20191211170159"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.15.1--20220626152355"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2019-12-11T17:01:59+01:00"/>
+         <start value="2022-06-26T15:23:55+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,14 +21,14 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.15.1"/>
    </identifier>
-   <version value="2019-12-11T17:01:59"/>
+   <version value="2022-06-26T15:23:55"/>
    <name
              
               value="EprRole"/>
    <title
               
                value="EprRole"/>
-   <status value="active"/>
+   <status value="draft"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -168,7 +168,7 @@
             <display value="Document Administrator"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Dokumentenadministrator"/>
+               <value value="Dokumenten-Administrator"/>
             </designation>
             <designation>
                <language value="fr-CH"/>

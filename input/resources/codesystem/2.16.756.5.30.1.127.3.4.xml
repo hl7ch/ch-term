@@ -2,11 +2,11 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.4"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.3--20210401163217"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.3--20221129133059"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2021-04-01T16:32:17+01:00"/>
+         <start value="2022-11-29T13:30:59+01:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.4"/>
@@ -15,7 +15,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.3"/>
    </identifier>
-   <version value="2021-04-01T16:32:17"/>
+   <version value="2022-11-29T13:30:59"/>
    <name value="SNOMEDCTSwissExtension"/>
    <title value="SNOMED CT Swiss Extension"/>
    <status value="active"/>
