@@ -4,7 +4,7 @@
            
             value="DocumentEntry.languageCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.13--20210401170300"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.13--20210401170300"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
@@ -41,6 +41,33 @@
    <description value="Document language as per Annex 3 EPRO-FDHA. Defines the language in which the document was written."/>
    <immutable value="false"/>
    <compose>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.127.3.10.12"/>
+         <concept>
+            <code value="OTHER"/>
+            <display value="Other language"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Andere Sprache"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autre langue"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altra lingua"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Other language"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Autras linguas"/>
+            </designation>
+         </concept>
+      </include>
       <include>
          <system value="urn:ietf:bcp:47"/>
          <concept>
@@ -1409,33 +1436,6 @@
             <designation>
                <language value="rm-CH"/>
                <value value="Chinais (Taiwan)"/>
-            </designation>
-         </concept>
-      </include>
-      <include>
-         <system value="urn:oid:2.16.756.5.30.1.127.3.10.12"/>
-         <concept>
-            <code value="OTHER"/>
-            <display value="Other language"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Andere Sprache"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Autre langue"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Altra lingua"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Other language"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Autras linguas"/>
             </designation>
          </concept>
       </include>

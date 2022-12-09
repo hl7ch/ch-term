@@ -4,7 +4,7 @@
            
             value="HCProfessional.hcProfession"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20200423123623"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.1--20200423123623"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
@@ -42,273 +42,6 @@
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
-      <include>
-         <system value="http://snomed.info/sct"/>
-         <concept>
-            <code value="36682004"/>
-            <display value="Physiotherapist (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Physiotherapeutin/Physiotherapeut"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Physiothérapeute"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Fisioterapista"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Fisioterapeuta/fisioterapeut"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Physiotherapist"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="3842006"/>
-            <display value="Chiropractor (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Chiropraktikerin/Chiropraktiker"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Chiropracteur"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Chiropratico"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Chiropraticra/Chiropraticher"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Chiropractor"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="46255001"/>
-            <display value="Pharmacist (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Apothekerin/Apotheker"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Pharmacien"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Farmacista"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Apotecra/Apotecher"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Pharmacist"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="59944000"/>
-            <display value="Psychologist (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Psychologin/Psychologe"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Psychologue"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Psicologo"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Psicologa/Psicolog"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Psychologist"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="80546007"/>
-            <display value="Occupational therapist (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Ergotherapeutin/Ergotherapeut"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Ergothérapeute"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Ergoterapista"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Ergoterapeuta/Ergoterapeut"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Occupational therapist"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="106289002"/>
-            <display value="Dentist (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Zahnärztin/Zahnarzt"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Dentiste"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Dentista"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Dentista/Dentist"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Dentist"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="106292003"/>
-            <display value="Professional nurse (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Pflegefachfrau/Pflegefachmann"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Infirmière professionnelle"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Infermiere diplomato"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Tgirunza diplomada/Tgirunz diplomà"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Professional nurse"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="159026005"/>
-            <display value="Speech/language therapist (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Sprachtherapeutin/Sprachtherapeut"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Orthophoniste"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Logopedista"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Logopeda/Logoped"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Speech/language therapist"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="159033005"/>
-            <display value="Dietitian (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Ernährungsberaterin/Ernährungsberater"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Diététicien"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Dietista"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Cussegliadra/Cussegliader da nutriment"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Dietitian"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="309343006"/>
-            <display value="Physician (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Ärztin/Arzt"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Médecin"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Medico"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Media/Medi"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Physician"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="309453006"/>
-            <display value="Registered midwife (occupation)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Registrierte Hebamme"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Sage-femme agréée"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Levatrice"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Spendrera registrada"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Registered midwife"/>
-            </designation>
-         </concept>
-      </include>
       <include>
          <system value="urn:oid:2.16.756.5.30.1.127.3.10.9"/>
          <concept>
@@ -693,6 +426,273 @@
             <designation>
                <language value="en-US"/>
                <value value="Paramedic"/>
+            </designation>
+         </concept>
+      </include>
+      <include>
+         <system value="http://snomed.info/sct"/>
+         <concept>
+            <code value="36682004"/>
+            <display value="Physiotherapist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Physiotherapeutin/Physiotherapeut"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Physiothérapeute"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Fisioterapista"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Fisioterapeuta/fisioterapeut"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Physiotherapist"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="3842006"/>
+            <display value="Chiropractor (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Chiropraktikerin/Chiropraktiker"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Chiropracteur"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Chiropratico"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Chiropraticra/Chiropraticher"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Chiropractor"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="46255001"/>
+            <display value="Pharmacist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Apothekerin/Apotheker"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pharmacien"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Farmacista"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Apotecra/Apotecher"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Pharmacist"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="59944000"/>
+            <display value="Psychologist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Psychologin/Psychologe"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Psychologue"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Psicologo"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Psicologa/Psicolog"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Psychologist"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="80546007"/>
+            <display value="Occupational therapist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ergotherapeutin/Ergotherapeut"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ergothérapeute"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ergoterapista"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Ergoterapeuta/Ergoterapeut"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Occupational therapist"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="106289002"/>
+            <display value="Dentist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Zahnärztin/Zahnarzt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Dentiste"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dentista"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Dentista/Dentist"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Dentist"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="106292003"/>
+            <display value="Professional nurse (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Pflegefachfrau/Pflegefachmann"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Infirmière professionnelle"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infermiere diplomato"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Tgirunza diplomada/Tgirunz diplomà"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Professional nurse"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="159026005"/>
+            <display value="Speech/language therapist (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Sprachtherapeutin/Sprachtherapeut"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Orthophoniste"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Logopedista"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Logopeda/Logoped"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Speech/language therapist"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="159033005"/>
+            <display value="Dietitian (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ernährungsberaterin/Ernährungsberater"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Diététicien"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dietista"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Cussegliadra/Cussegliader da nutriment"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Dietitian"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="309343006"/>
+            <display value="Physician (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ärztin/Arzt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médecin"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medico"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Media/Medi"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Physician"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="309453006"/>
+            <display value="Registered midwife (occupation)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Registrierte Hebamme"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Sage-femme agréée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Levatrice"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Spendrera registrada"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Registered midwife"/>
             </designation>
          </concept>
       </include>
