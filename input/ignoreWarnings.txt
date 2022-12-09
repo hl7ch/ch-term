@@ -5,3 +5,6 @@ The value provided ('rm-CH') is not in the value set 'Common Languages' (http://
 
 # https://art-decor.org/art-decor/decor-issues--ch-epr-?id=2.16.756.5.30.1.127.77.10.6.26
 The code urn:ihe:pcc:ic:2009 is not valid in the system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
+
+# Build error
+The link 'CodeSystem-2.16.756.5.30.1.127.3.4.html#2.16.756.5.30.1.127.3.4-4201000179104' for "4201000179104" cannot be resolved (valid targets: [segment-header, publish-box, 2.16.756.5.30.1.127.3.4-1141000195107, bottom, hl7-logo, segment-post-footer, 2.16.756.5.30.1.127.3.4-2161000195103, ig-status, 2.16.756.5.30.1.127.3.4-2171000195109, codesystem-snomed-ct-swiss-extension, top, root, stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
