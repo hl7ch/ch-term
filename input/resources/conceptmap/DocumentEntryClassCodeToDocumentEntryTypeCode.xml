@@ -4,7 +4,7 @@
                 
                  xmlns:ahdis="http://ahdis.ch">
    <id value="DocumentEntryClassCodeToDocumentEntryTypeCode"/>
-   <url value="http://fhir.ch/ig/ch-epr-term/DocumentEntryClassCodeToDocumentEntryTypeCode"/>
+   <url value="http://fhir.ch/ig/ch-epr-term/ConceptMap/DocumentEntryClassCodeToDocumentEntryTypeCode"/>
    <version value="202212.0-stable"/>
    <name value="DocumentEntryClassCodeToDocumentEntryTypeCode"/>
    <title value="DocumentEntryClassCodeToDocumentEntryTypeCode"/>

@@ -4,7 +4,7 @@
                 
                  xmlns:ahdis="http://ahdis.ch">
    <id value="HCProfessionalHCProfessionSpecialisationMap"/>
-   <url value="http://fhir.ch/ig/ch-epr-term/HCProfessionalHCProfessionSpecialisationMap"/>
+   <url value="http://fhir.ch/ig/ch-epr-term/ConceptMap/HCProfessionalHCProfessionSpecialisationMap"/>
    <version value="202004.1-stable"/>
    <name value="HCProfessionalHCProfessionSpecialisationMap"/>
    <title value="HCProfessionalHCProfessionSpecialisationMap"/>
