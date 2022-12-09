@@ -29,6 +29,7 @@
       </telecom>
    </contact>
    <description value="Purpose Of Use as per Annex 5 EPRO-FDHA, Extension 1."/>
+   <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>
       <code value="EMER"/>

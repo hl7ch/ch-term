@@ -29,6 +29,7 @@
       </telecom>
    </contact>
    <description value="Speciality of the author as per Annex 3."/>
+   <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>
       <code value="5001"/>

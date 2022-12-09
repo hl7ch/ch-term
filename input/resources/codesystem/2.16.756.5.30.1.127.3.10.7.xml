@@ -29,6 +29,7 @@
       </telecom>
    </contact>
    <description value="Audit Trail Consumption Event Types for CH:ATC"/>
+   <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>
       <code value="ATC_DOC_CREATE"/>

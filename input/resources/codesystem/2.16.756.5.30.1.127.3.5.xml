@@ -29,6 +29,7 @@
       </telecom>
    </contact>
    <description value="HCProfessional.hcSpecialisation"/>
+   <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>
       <code value="1002"/>

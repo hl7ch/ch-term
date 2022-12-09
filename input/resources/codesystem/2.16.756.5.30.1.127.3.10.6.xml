@@ -29,6 +29,7 @@
       </telecom>
    </contact>
    <description value="Role codes as per Annex 5 EPRO-FDHA, version July 2019"/>
+   <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>
       <code value="PAT"/>

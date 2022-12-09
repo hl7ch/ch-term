@@ -29,6 +29,7 @@
       </telecom>
    </contact>
    <description value="Document language as per Annex 3 EPRO-FDHA. Defines the language in which the document was written."/>
+   <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>
       <code value="OTHER"/>
