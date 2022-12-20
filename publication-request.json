@@ -1,0 +1,9 @@
+{
+  "package-id" : "ch.fhir.ig.ch-epr-term",
+  "version" : "2.0.8",
+  "path" : "http://fhir.ch/ig/ch-epr-term/2.0.8",
+  "milestone" : false,
+  "status" : "trial-use",
+  "sequence" : "STU",
+  "desc" : "Version 202212.0-stable, see https://ehealthsuisse.art-decor.org/ch-epr-html-20221201T141037/project.html for changelog"
+}
