@@ -4,13 +4,13 @@
            
             value="DocumentEntry.typeCode"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.27--20210401164920"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.27--20221129135714"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2021-04-01T16:49:20+01:00"/>
+         <start value="2022-11-29T13:57:14+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.27"/>
    </identifier>
-   <version value="2021-04-01T16:49:20"/>
+   <version value="2022-11-29T13:57:14"/>
    <name
              
               value="DocumentEntryTypeCode"/>
@@ -42,6 +42,33 @@
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.127.3.4"/>
+         <concept>
+            <code value="2161000195103"/>
+            <display value="Imaging order (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Bildgebungsauftrag"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mandat d’imagerie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Richiesta di immaginografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Incumbensa da far in maletg"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Imaging Order"/>
+            </designation>
+         </concept>
+      </include>
       <include>
          <system value="http://snomed.info/sct"/>
          <concept>
@@ -618,33 +645,6 @@
             <designation>
                <language value="en-US"/>
                <value value="Medication summary document"/>
-            </designation>
-         </concept>
-      </include>
-      <include>
-         <system value="urn:oid:2.16.756.5.30.1.127.3.4"/>
-         <concept>
-            <code value="2161000195103"/>
-            <display value="Imaging order (record artifact)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Bildgebungsauftrag"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Mandat d’imagerie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Richiesta di immaginografia"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Incumbensa da far in maletg"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Imaging Order"/>
             </designation>
          </concept>
       </include>

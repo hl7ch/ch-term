@@ -2,13 +2,13 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="DocumentEntry.eventCodeList"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.8--20210401170007"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.8--20221129133456"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2021-04-01T17:00:07+01:00"/>
+         <start value="2022-11-29T13:34:56+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -18,7 +18,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.8"/>
    </identifier>
-   <version value="2021-04-01T17:00:07"/>
+   <version value="2022-11-29T13:34:56"/>
    <name value="DocumentEntryEventCodeList"/>
    <title value="DocumentEntry.eventCodeList"/>
    <status value="active"/>
@@ -44,19 +44,23 @@
             <display value="Ophthalmic Tomography En Face"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Ophthalmische Tomographie En Face"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Tomographie ophtalmique en face"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Tomografia oftalmica En Face"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ophthalmische Tomographie En Face"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ophthalmic Tomography En Face"/>
             </designation>
          </concept>
          <concept>
@@ -67,19 +71,23 @@
             <display value="Ophthalmic Tomography B-scan Volume Analysis"/>
             <designation>
                <language value="de-CH"/>
-               <value value="TODO"/>
+               <value value="Ophthalmologische Tomographie B-Scan Volumenanalyse"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="TODO"/>
+               <value value="Analyse du volume de la tomographie ophtalmique B-scan"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="TODO"/>
+               <value value="Analisi del volume della scansione B della tomografia oftalmica"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ophthalmologische Tomographie B-Scan Volumenanalyse"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ophthalmic Tomography B-scan Volume Analysis"/>
             </designation>
          </concept>
          <concept>
@@ -102,7 +110,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Gesichtsfeld der Augen"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ophthalmic Visual Field"/>
             </designation>
          </concept>
          <concept>
@@ -125,7 +137,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Digitales Röntgen"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Digital Radiography"/>
             </designation>
          </concept>
          <concept>
@@ -148,7 +164,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Augentomografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ophthalmic Tomography"/>
             </designation>
          </concept>
          <concept>
@@ -171,7 +191,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Knochenmineraldensitometrie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Bone Mineral Densitometry"/>
             </designation>
          </concept>
          <concept>
@@ -194,7 +218,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Mammografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Mammography"/>
             </designation>
          </concept>
          <concept>
@@ -217,7 +245,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Objektträger Mikroskopie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Slide Microscopy"/>
             </designation>
          </concept>
          <concept>
@@ -240,7 +272,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ultraschall"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ultrasound"/>
             </designation>
          </concept>
          <concept>
@@ -263,7 +299,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Augenfotografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ophthalmic Photography"/>
             </designation>
          </concept>
          <concept>
@@ -286,7 +326,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Intravaskuläre optische Kohärenztomografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Intravascular Optical Coherence Tomography"/>
             </designation>
          </concept>
          <concept>
@@ -309,7 +353,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Magnetresonanz"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Magnetic Resonance"/>
             </designation>
          </concept>
          <concept>
@@ -332,7 +380,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Elektrokardiografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Electrocardiography"/>
             </designation>
          </concept>
          <concept>
@@ -355,7 +407,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Allgemeine Mikroskopie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="General Microscopy"/>
             </designation>
          </concept>
          <concept>
@@ -378,7 +434,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Intraorales Röntgen"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Intra-oral Radiography"/>
             </designation>
          </concept>
          <concept>
@@ -401,7 +461,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Röntgen-Angiografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="X-Ray Angiography"/>
             </designation>
          </concept>
          <concept>
@@ -424,7 +488,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Fotografie mit externer Kamera"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="External-camera Photography"/>
             </designation>
          </concept>
          <concept>
@@ -447,7 +515,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Sehschärfe"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Visual Acuity"/>
             </designation>
          </concept>
          <concept>
@@ -470,7 +542,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Intravaskulärer Ultraschall"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Intravascular Ultrasound"/>
             </designation>
          </concept>
          <concept>
@@ -493,7 +569,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Computerradiografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Computed Radiography"/>
             </designation>
          </concept>
          <concept>
@@ -516,7 +596,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Endoskopie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Endoscopy"/>
             </designation>
          </concept>
          <concept>
@@ -539,7 +623,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Autorefraktion"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Autorefraction"/>
             </designation>
          </concept>
          <concept>
@@ -562,7 +650,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Computertomografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Computed Tomography"/>
             </designation>
          </concept>
          <concept>
@@ -585,7 +677,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Optischer Oberflächenscanner"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Optical Surface Scanner"/>
             </designation>
          </concept>
          <concept>
@@ -608,7 +704,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Linsenmessung"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Lensometry"/>
             </designation>
          </concept>
          <concept>
@@ -631,7 +731,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Röntgenbildgebung"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Radiographic imaging"/>
             </designation>
          </concept>
          <concept>
@@ -654,7 +758,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Radio-Fluoroskopie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Radiofluoroscopy"/>
             </designation>
          </concept>
          <concept>
@@ -677,7 +785,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Keratometrie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Keratometry"/>
             </designation>
          </concept>
          <concept>
@@ -700,7 +812,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Hämodynamische Druckkurve"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Hemodynamic Waveform"/>
             </designation>
          </concept>
          <concept>
@@ -723,7 +839,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Augenachsenmessungen"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ophthalmic Axial Measurements"/>
             </designation>
          </concept>
          <concept>
@@ -746,7 +866,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Nuklearmedizin"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Nuclear Medicine"/>
             </designation>
          </concept>
          <concept>
@@ -769,7 +893,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Optische Kohärenztomografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Optical Coherence Tomography"/>
             </designation>
          </concept>
          <concept>
@@ -792,7 +920,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Ultraschall-Knochendichtemessun"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ultrasound Bone Densitometry"/>
             </designation>
          </concept>
          <concept>
@@ -815,7 +947,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Positronen-Emissions-Tomografie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Positron emission tomography"/>
             </designation>
          </concept>
          <concept>
@@ -838,7 +974,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Herz-Elektrophysiologie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Cardiac Electrophysiology"/>
             </designation>
          </concept>
          <concept>
@@ -863,6 +1003,10 @@
                <language value="rm-CH"/>
                <value value="TODO"/>
             </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Panoramic X-Ray"/>
+            </designation>
          </concept>
          <concept>
             <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
@@ -884,7 +1028,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Subjektive Refraktion"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Subjective Refraction"/>
             </designation>
          </concept>
          <concept>
@@ -907,7 +1055,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Augenkartierung"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ophthalmic Mapping"/>
             </designation>
          </concept>
          <concept>
@@ -930,7 +1082,11 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Augenrefraktion"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ophthalmic Refraction"/>
             </designation>
          </concept>
       </include>

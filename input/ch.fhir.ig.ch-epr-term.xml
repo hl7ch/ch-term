@@ -9,12 +9,12 @@
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term"/>
-  <version value="2.0.7"/>
+  <version value="2.0.8"/>
   <name value="CH_EPR_TERM"/>
   <title value="CH EPR Term"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2022-12-09"/>
+  <date value="2022-12-13"/>
   <publisher value="HL7 Switzerland"/>
   <contact>
     <name value="HL7 Switzerland"/>
@@ -35,10 +35,9 @@
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
 	<dependsOn id="IHEformatcode">
-  	<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
-<!--		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir" /> 		<uri value="http://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" /> -->
-<!-- 	<version value="0.2.4"/> -->
-    <version value="1.0.0"/>
+  	<uri value="https://profiles.ihe.net/fhir/ihe.formatcode.fhir/ImplementationGuide/ihe.formatcode.fhir" />
+    <packageId value="ihe.formatcode.fhir"/>
+    <version value="1.1.0"/>
 	</dependsOn>
   <definition>
     <grouping>
@@ -298,6 +297,18 @@
     <parameter>
       <code value="special-url"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.12"/>
+    </parameter>
+    <parameter>
+      <code value="special-url"/>
+      <value value="urn:oid:2.16.756.5.30.1.127.3.10.14"/>
+    </parameter>
+    <parameter>
+      <code value="special-url"/>
+      <value value="urn:oid:2.16.756.5.30.1.127.3.10.5"/>
+    </parameter>
+    <parameter>
+      <code value="special-url"/>
+      <value value="urn:oid:2.16.756.5.30.1.127.3.10.7"/>
     </parameter>
   </definition>
 </ImplementationGuide>

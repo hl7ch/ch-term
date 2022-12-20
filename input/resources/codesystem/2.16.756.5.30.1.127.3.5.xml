@@ -2,23 +2,18 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.5"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.2--20200518195417"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.8.2--20220626160205"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2020-05-18T19:54:17+01:00"/>
+         <start value="2022-06-26T16:02:05+01:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.5"/>
-   <identifier>
-      <use value="official"/>
-      <system value="urn:ietf:rfc:3986"/>
-      <value value="urn:oid:2.16.756.5.30.1.127.3.10.8.2"/>
-   </identifier>
-   <version value="2020-05-18T19:54:17"/>
+   <version value="2022-06-26T16:02:05"/>
    <name value="ChEhealthCodesystemMedreg"/>
    <title value="ch-ehealth-codesystem-medreg"/>
-   <status value="active"/>
+   <status value="draft"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -29,6 +24,7 @@
       </telecom>
    </contact>
    <description value="HCProfessional.hcSpecialisation"/>
+   <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>
       <code value="1002"/>
@@ -48,6 +44,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Chirurgia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Surgery"/>
       </designation>
    </concept>
    <concept>
@@ -69,6 +69,10 @@
          <language value="rm-CH"/>
          <value value="Ginecologia ed assistenza al part"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Gynaecology and obstetrics"/>
+      </designation>
    </concept>
    <concept>
       <code value="1004"/>
@@ -88,6 +92,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Chirurgia dal cor e chirurgia vasculara dal torax"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Cardiac and thoracic vascular surgery"/>
       </designation>
    </concept>
    <concept>
@@ -109,6 +117,10 @@
          <language value="rm-CH"/>
          <value value="Pediatria"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Paediatrics"/>
+      </designation>
    </concept>
    <concept>
       <code value="1007"/>
@@ -128,6 +140,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Oftalmologia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Ophthalmology"/>
       </designation>
    </concept>
    <concept>
@@ -149,6 +165,10 @@
          <language value="rm-CH"/>
          <value value="Oto-rino-laringologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Otorhinolaryngology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1009"/>
@@ -168,6 +188,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Patologia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Pathology"/>
       </designation>
    </concept>
    <concept>
@@ -189,6 +213,10 @@
          <language value="rm-CH"/>
          <value value="Ortopedia da la missella"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Orthodontics"/>
+      </designation>
    </concept>
    <concept>
       <code value="1011"/>
@@ -208,6 +236,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Chiropratica speziala"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Chiropractic specialist"/>
       </designation>
    </concept>
    <concept>
@@ -229,6 +261,10 @@
          <language value="rm-CH"/>
          <value value="Anestesiologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Anaesthesiology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1013"/>
@@ -248,6 +284,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Neurochirurgia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Neurosurgery"/>
       </designation>
    </concept>
    <concept>
@@ -269,6 +309,10 @@
          <language value="rm-CH"/>
          <value value="Neurologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Neurology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1015"/>
@@ -288,6 +332,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Chirurgia ortopedica e traumatologia da l'apparat motoric"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Orthopaedic surgery and traumatology of the locomotor apparatus"/>
       </designation>
    </concept>
    <concept>
@@ -309,6 +357,10 @@
          <language value="rm-CH"/>
          <value value="Pneumologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Pneumology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1017"/>
@@ -328,6 +380,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Psichiatria e psicoterapia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Psychiatry and psychotherapy"/>
       </designation>
    </concept>
    <concept>
@@ -349,6 +405,10 @@
          <language value="rm-CH"/>
          <value value="Urologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Urology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1019"/>
@@ -368,6 +428,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Allergologia ed immunologia clinica"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Allergology and clinical immunology"/>
       </designation>
    </concept>
    <concept>
@@ -389,6 +453,10 @@
          <language value="rm-CH"/>
          <value value="Medischina da lavur"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Occupational medicine"/>
+      </designation>
    </concept>
    <concept>
       <code value="1021"/>
@@ -409,17 +477,21 @@
          <language value="rm-CH"/>
          <value value="Dermatologia e venerologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Dermatology and venereology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1022"/>
       <display value="Endocrinology – Diabetology"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Endokrinologie-Diabetologie"/>
+         <value value="Endokrinologie und Diabetologie"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Endocrinologie-diabétologie"/>
+         <value value="Endocrinologie et diabétologie"/>
       </designation>
       <designation>
          <language value="it-CH"/>
@@ -427,7 +499,11 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="Endocrinologia-diabetologia"/>
+         <value value="Endocrinologia e diabetologia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Endocrinology and diabetology"/>
       </designation>
    </concept>
    <concept>
@@ -449,6 +525,10 @@
          <language value="rm-CH"/>
          <value value="Gastroenterologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Gastroenterology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1024"/>
@@ -468,6 +548,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Hematologia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Haematology"/>
       </designation>
    </concept>
    <concept>
@@ -489,6 +573,10 @@
          <language value="rm-CH"/>
          <value value="Cardiologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Cardiology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1026"/>
@@ -508,6 +596,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Chirurgia da la bucca, da la missella e da la fatscha"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Oral and maxillofacial surgery"/>
       </designation>
    </concept>
    <concept>
@@ -529,6 +621,10 @@
          <language value="rm-CH"/>
          <value value="Psichiatria e psicoterapia d'uffants e da giuvenils"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Child and adolescent psychiatry and psychotherapy"/>
+      </designation>
    </concept>
    <concept>
       <code value="1028"/>
@@ -548,6 +644,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Chirurgia d'uffants"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Paediatric surgery"/>
       </designation>
    </concept>
    <concept>
@@ -569,6 +669,10 @@
          <language value="rm-CH"/>
          <value value="Farmacologia e toxicologia clinica"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Clinical pharmacology and toxicology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1030"/>
@@ -588,6 +692,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Radiologia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Radiology"/>
       </designation>
    </concept>
    <concept>
@@ -609,25 +717,33 @@
          <language value="rm-CH"/>
          <value value="Medischina nucleara"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Nuclear medicine"/>
+      </designation>
    </concept>
    <concept>
       <code value="1032"/>
       <display value="Radio-oncology / radiotherapy"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Radio-Onkologie_Strahlentherapie"/>
+         <value value="Radio-Onkologie/Strahlentherapie"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Radio-oncologie_radiothérapie"/>
+         <value value="Radio-oncologie/radiothérapie"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Radio-oncologia_radioterapia"/>
+         <value value="Radio-oncologia/radioterapia"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="Radio-oncologia/radioterapia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Radio-oncology/radiotherapy"/>
       </designation>
    </concept>
    <concept>
@@ -649,6 +765,10 @@
          <language value="rm-CH"/>
          <value value="Nefrologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Nephrology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1034"/>
@@ -668,6 +788,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Medischina fisicala e reabilitaziun"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Physical medicine and rehabilitation"/>
       </designation>
    </concept>
    <concept>
@@ -689,6 +813,10 @@
          <language value="rm-CH"/>
          <value value="Chirurgia plastica, reconstructiva ed estetica"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Plastic, reconstructive and aesthetic surgery"/>
+      </designation>
    </concept>
    <concept>
       <code value="1036"/>
@@ -708,6 +836,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Prevenziun e sanadad publica"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Prevention and public health"/>
       </designation>
    </concept>
    <concept>
@@ -729,6 +861,10 @@
          <language value="rm-CH"/>
          <value value="Reumatologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Rheumatology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1038"/>
@@ -748,6 +884,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Medischina da las tropas e da viadis"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Tropical and travel medicine"/>
       </designation>
    </concept>
    <concept>
@@ -769,13 +909,17 @@
          <language value="rm-CH"/>
          <value value="Infecziologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Infectology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1040"/>
       <display value="General medical practitioner"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Praktische Ärztin _ Praktischer Arzt"/>
+         <value value="Praktischer Arzt/Praktische Ärztin"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
@@ -788,6 +932,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Media generalista/medi generalist"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="General medical practitioner"/>
       </designation>
    </concept>
    <concept>
@@ -809,6 +957,10 @@
          <language value="rm-CH"/>
          <value value="Angiologia"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Angiology"/>
+      </designation>
    </concept>
    <concept>
       <code value="1042"/>
@@ -828,6 +980,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Medischina intensiva"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Intensive care medicine"/>
       </designation>
    </concept>
    <concept>
@@ -849,6 +1005,10 @@
          <language value="rm-CH"/>
          <value value="Genetica medicinala"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Medical genetics"/>
+      </designation>
    </concept>
    <concept>
       <code value="1044"/>
@@ -868,6 +1028,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Oncologia medicinala"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Medical oncology"/>
       </designation>
    </concept>
    <concept>
@@ -889,6 +1053,10 @@
          <language value="rm-CH"/>
          <value value="Medischina farmaceutica"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Pharmaceutical medicine"/>
+      </designation>
    </concept>
    <concept>
       <code value="1046"/>
@@ -908,6 +1076,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Medischina forensica"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Forensic medicine"/>
       </designation>
    </concept>
    <concept>
@@ -929,6 +1101,10 @@
          <language value="rm-CH"/>
          <value value="Chirurgia orala"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Oral surgery"/>
+      </designation>
    </concept>
    <concept>
       <code value="1048"/>
@@ -948,6 +1124,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Parodontologia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Paradontology"/>
       </designation>
    </concept>
    <concept>
@@ -969,6 +1149,10 @@
          <language value="rm-CH"/>
          <value value="Odontologia reconstructiva"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Reconstructive dentistry"/>
+      </designation>
    </concept>
    <concept>
       <code value="1050"/>
@@ -988,6 +1172,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Auter"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Other"/>
       </designation>
    </concept>
    <concept>
@@ -1009,6 +1197,10 @@
          <language value="rm-CH"/>
          <value value="Medischina interna generala"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="General internal medicine"/>
+      </designation>
    </concept>
    <concept>
       <code value="1052"/>
@@ -1028,6 +1220,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Farmazia d'ufficina"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Community pharmacy"/>
       </designation>
    </concept>
    <concept>
@@ -1049,6 +1245,10 @@
          <language value="rm-CH"/>
          <value value="Farmazia d'ospital"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Hospital pharmacy"/>
+      </designation>
    </concept>
    <concept>
       <code value="1054"/>
@@ -1059,15 +1259,19 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="psychothérapie"/>
+         <value value="Psychothérapie"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="psicoterapia"/>
+         <value value="Psicoterapia"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="Psicoterapia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Psychotherapy"/>
       </designation>
    </concept>
    <concept>
@@ -1079,15 +1283,19 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="psychologie des enfants et des adolescents"/>
+         <value value="Psychologie des enfants et des adolescents"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="psicologia dell’età evolutiva"/>
+         <value value="Psicologia dell’età evolutiva"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="Psicologia d'uffants e da giuvenils"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Child and adolescent psychology"/>
       </designation>
    </concept>
    <concept>
@@ -1099,15 +1307,19 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="psychologie clinique"/>
+         <value value="Psychologie clinique"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="psicologia clinica"/>
+         <value value="Psicologia clinica"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="Psicologia clinica"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Clinical psychology"/>
       </designation>
    </concept>
    <concept>
@@ -1119,15 +1331,19 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="neuropsychologie"/>
+         <value value="Neuropsychologie"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="neuropsicologia"/>
+         <value value="Neuropsicologia"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="Neuropsicologia"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Neuropsychology"/>
       </designation>
    </concept>
    <concept>
@@ -1139,15 +1355,19 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="psychologie de la santé"/>
+         <value value="Psychologie de la santé"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="psicologia della salute"/>
+         <value value="Psicologia della salute"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
          <value value="Psicologia da sanadad"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Health psychology"/>
       </designation>
    </concept>
    <concept>
@@ -1169,6 +1389,10 @@
          <language value="rm-CH"/>
          <value value="Chirurgia dal maun"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Hand surgery"/>
+      </designation>
    </concept>
    <concept>
       <code value="1060"/>
@@ -1189,6 +1413,10 @@
          <language value="rm-CH"/>
          <value value="Chirurgia vasculara"/>
       </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Vascular surgery"/>
+      </designation>
    </concept>
    <concept>
       <code value="1061"/>
@@ -1208,6 +1436,10 @@
       <designation>
          <language value="rm-CH"/>
          <value value="Chirurgia dal torax"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Thoracic surgery"/>
       </designation>
    </concept>
 </CodeSystem>
