@@ -10,7 +10,7 @@
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-06-26T15:48:04+01:00"/>
+         <start value="2022-06-26T15:48:04+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -430,7 +430,12 @@
          </concept>
       </include>
       <include>
-         <system value="http://snomed.info/sct"/>
+         <system
+                     
+                      value="http://snomed.info/sct"/>
+         <version
+                      
+                       value="http://snomed.info/sct/2011000195101"/>
          <concept>
             <code value="36682004"/>
             <display value="Physiotherapist (occupation)"/>

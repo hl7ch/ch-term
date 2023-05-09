@@ -10,7 +10,7 @@
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-06-26T16:02:05+01:00"/>
+         <start value="2022-06-26T16:02:05+02:00"/>
       </valuePeriod>
    </extension>
    <url
