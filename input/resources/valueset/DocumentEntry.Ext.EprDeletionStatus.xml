@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id
+           
+            value="DocumentEntry.Ext.EprDeletionStatus"/>
+   <meta>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.15.3--20230531200428"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2023-05-31T20:04:28+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url
+            
+             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.Ext.EprDeletionStatus"/>
+   <identifier>
+      <use value="official"/>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:oid:2.16.756.5.30.1.127.3.10.15.3"/>
+   </identifier>
+   <version value="2023-05-31T20:04:28"/>
+   <name
+             
+              value="DocumentEntryExtEprDeletionStauts"/>
+   <title
+              
+               value="DocumentEntry.Ext.EprDeletionStatus"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Deletion codes as per &#xA;s&#xA;&#xA;    upplement 1 to&#xA;&#xA; Annex 5 EPRO-FDHA."/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.127.3.10.18"/>
+         <concept>
+            <code value="urn:e-health-suisse:2019:deletionStatus:deletionProhibited"/>
+            <display value="Deletion prohibited"/>
+         </concept>
+         <concept>
+            <code value="urn:e-health-suisse:2019:deletionStatus:deletionRequested"/>
+            <display value="Deletion requested"/>
+         </concept>
+         <concept>
+            <code value="urn:e-health-suisse:2019:deletionStatus:deletionNotRequested"/>
+            <display value="Deletion not Requested"/>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>
