@@ -23,7 +23,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Role codes as per Annex 5 EPRO-FDHA, CH:ATC, version July 2019 &#xD;&#xA;"/>
+   <description value="Role codes as per Annex 5 EPRO-FDHA, CH:ATC, version July 2019"/>
    <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>

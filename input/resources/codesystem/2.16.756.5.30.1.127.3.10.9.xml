@@ -13,7 +13,7 @@
    <version value="2022-06-26T15:48:04"/>
    <name value="ChEhealthCodesystemHpd"/>
    <title value="ch-ehealth-codesystem-hpd"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -68,7 +68,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="spezialista/spezialist d'activaziun"/>
+         <value value="spezialist(-a) d'activaziun"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -88,11 +88,11 @@
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="ottico"/>
+         <value value="ottico(-a)"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="ottico(-a)"/>
+         <value value="opticra/opticher"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -164,7 +164,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="droghista/droghist"/>
+         <value value="droghist(-a)"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -188,7 +188,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="spezialista/spezialist da tecnica da radiologia medicinala"/>
+         <value value="spezialist(-a) da tecnica da radiologia medicinala"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -212,7 +212,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="spezialista/spezialist da sanadad"/>
+         <value value="spezialist(-a) da sanadad"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -232,11 +232,11 @@
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="tecnica di sala operatoria/tecnico di sala operatoria"/>
+         <value value="tecnico(-a) di sala operatoria"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="Spezialistas/spezialist da tecnica d'operaziun"/>
+         <value value="Spezialist(-as) da tecnica d'operaziun"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -284,7 +284,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="naturopata/naturopat"/>
+         <value value="naturopat(-a)"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -308,7 +308,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="optometrista/optometrist"/>
+         <value value="optometrist(-a)"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -332,7 +332,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="ortoptista/ortoptist"/>
+         <value value="ortoptist(-a)"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -356,7 +356,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="osteopata/osteopat"/>
+         <value value="osteopat(-a)"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -376,11 +376,11 @@
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="podologa/podologo"/>
+         <value value="podologo(-a)"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="podologa/podolog"/>
+         <value value="podolog(-a)"/>
       </designation>
       <designation>
          <language value="en-US"/>
@@ -404,7 +404,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="sanitaria/sanitari da salvament"/>
+         <value value="sanitari(-a) da salvament"/>
       </designation>
       <designation>
          <language value="en-US"/>

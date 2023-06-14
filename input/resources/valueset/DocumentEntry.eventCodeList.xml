@@ -2,13 +2,13 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="DocumentEntry.eventCodeList"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.8--20221129133456"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.8--20220626134421"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-11-29T13:34:56+02:00"/>
+         <start value="2022-06-26T13:44:21+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -18,7 +18,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.8"/>
    </identifier>
-   <version value="2022-11-29T13:34:56"/>
+   <version value="2022-06-26T13:44:21"/>
    <name value="DocumentEntryEventCodeList"/>
    <title value="DocumentEntry.eventCodeList"/>
    <status value="active"/>
@@ -37,9 +37,6 @@
       <include>
          <system value="http://dicom.nema.org/resources/ontology/DCM"/>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that creates en face tomography images of the eye based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded."/>
-            </extension>
             <code value="OPTENF"/>
             <display value="Ophthalmic Tomography En Face"/>
             <designation>
@@ -64,9 +61,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs B-scan volume analysis of tomography images of the eye based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded."/>
-            </extension>
             <code value="OPTBSV"/>
             <display value="Ophthalmic Tomography B-scan Volume Analysis"/>
             <designation>
@@ -91,9 +85,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that measures visual fields and perform visual perimetry."/>
-            </extension>
             <code value="OPV"/>
             <display value="Ophthalmic Visual Field"/>
             <designation>
@@ -118,9 +109,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs digital radiography."/>
-            </extension>
             <code value="DX"/>
             <display value="Digital Radiography"/>
             <designation>
@@ -145,9 +133,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs tomography of the eye that is based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded."/>
-            </extension>
             <code value="OPT"/>
             <display value="Ophthalmic Tomography"/>
             <designation>
@@ -172,9 +157,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs bone mineral densitometry by X-Ray, including dual-energy X-Ray absorptiometry (DXA) and morphometric X-Ray absorptiometry (MXA)."/>
-            </extension>
             <code value="BMD"/>
             <display value="Bone Mineral Densitometry"/>
             <designation>
@@ -199,9 +181,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs mammography."/>
-            </extension>
             <code value="MG"/>
             <display value="Mammography"/>
             <designation>
@@ -226,9 +205,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs slide microscopy."/>
-            </extension>
             <code value="SM"/>
             <display value="Slide Microscopy"/>
             <designation>
@@ -253,9 +229,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs ultrasound."/>
-            </extension>
             <code value="US"/>
             <display value="Ultrasound"/>
             <designation>
@@ -280,9 +253,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs ophthalmic photography."/>
-            </extension>
             <code value="OP"/>
             <display value="Ophthalmic Photography"/>
             <designation>
@@ -307,9 +277,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs intravascular optical coherence tomography."/>
-            </extension>
             <code value="IVOCT"/>
             <display value="Intravascular Optical Coherence Tomography"/>
             <designation>
@@ -334,9 +301,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs magnetic resonance imaging."/>
-            </extension>
             <code value="MR"/>
             <display value="Magnetic Resonance"/>
             <designation>
@@ -361,9 +325,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs magnetic resonance imaging."/>
-            </extension>
             <code value="ECG"/>
             <display value="Electrocardiography"/>
             <designation>
@@ -388,9 +349,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs electrocardiography."/>
-            </extension>
             <code value="GM"/>
             <display value="General Microscopy"/>
             <designation>
@@ -415,9 +373,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs intra-oral radiography."/>
-            </extension>
             <code value="IO"/>
             <display value="Intra-oral Radiography"/>
             <designation>
@@ -442,9 +397,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs X-Ray angiography."/>
-            </extension>
             <code value="XA"/>
             <display value="X-Ray Angiography"/>
             <designation>
@@ -469,9 +421,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs photography with an external camera."/>
-            </extension>
             <code value="XC"/>
             <display value="External-camera Photography"/>
             <designation>
@@ -496,9 +445,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that measures visual acuity."/>
-            </extension>
             <code value="VA"/>
             <display value="Visual Acuity"/>
             <designation>
@@ -523,9 +469,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs intravascular ultrasound."/>
-            </extension>
             <code value="IVUS"/>
             <display value="Intravascular Ultrasound"/>
             <designation>
@@ -550,9 +493,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs computed radiography."/>
-            </extension>
             <code value="CR"/>
             <display value="Computed Radiography"/>
             <designation>
@@ -577,9 +517,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that records images during endoscopy."/>
-            </extension>
             <code value="ES"/>
             <display value="Endoscopy"/>
             <designation>
@@ -604,9 +541,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that measures autorefraction."/>
-            </extension>
             <code value="AR"/>
             <display value="Autorefraction"/>
             <designation>
@@ -631,9 +565,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs computed tomography."/>
-            </extension>
             <code value="CT"/>
             <display value="Computed Tomography"/>
             <designation>
@@ -658,9 +589,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs optical surface scanning."/>
-            </extension>
             <code value="OSS"/>
             <display value="Optical Surface Scanner"/>
             <designation>
@@ -685,9 +613,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs lensometry."/>
-            </extension>
             <code value="LEN"/>
             <display value="Lensometry"/>
             <designation>
@@ -712,9 +637,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs radiographic imaging (conventional film/screen)."/>
-            </extension>
             <code value="RG"/>
             <display value="Radiographic imaging"/>
             <designation>
@@ -739,9 +661,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs radiofluoroscopy."/>
-            </extension>
             <code value="RF"/>
             <display value="Radiofluoroscopy"/>
             <designation>
@@ -766,9 +685,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs keratometry."/>
-            </extension>
             <code value="KER"/>
             <display value="Keratometry"/>
             <designation>
@@ -793,9 +709,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that records hemodynamic waveforms."/>
-            </extension>
             <code value="HD"/>
             <display value="Hemodynamic Waveform"/>
             <designation>
@@ -820,9 +733,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that measures the axial length of the eye."/>
-            </extension>
             <code value="OAM"/>
             <display value="Ophthalmic Axial Measurements"/>
             <designation>
@@ -847,9 +757,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs nuclear medicine imaging."/>
-            </extension>
             <code value="NM"/>
             <display value="Nuclear Medicine"/>
             <designation>
@@ -874,9 +781,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that uses an interferometric, non-invasive optical tomographic technique to image 2D slices and 3D volumes of tissue using visible and near visible frequencies."/>
-            </extension>
             <code value="OCT"/>
             <display value="Optical Coherence Tomography"/>
             <designation>
@@ -901,9 +805,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs ultrasound bone densitometry."/>
-            </extension>
             <code value="BDUS"/>
             <display value="Ultrasound Bone Densitometry"/>
             <designation>
@@ -928,9 +829,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs positron emission tomography (PET)."/>
-            </extension>
             <code value="PT"/>
             <display value="Positron emission tomography"/>
             <designation>
@@ -955,9 +853,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs cardiac electrophysiology."/>
-            </extension>
             <code value="EPS"/>
             <display value="Cardiac Electrophysiology"/>
             <designation>
@@ -982,9 +877,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that performs panoramic X-Rays."/>
-            </extension>
             <code value="PX"/>
             <display value="Panoramic X-Ray"/>
             <designation>
@@ -1001,7 +893,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="TODO"/>
+               <value value="Panoramaröntgen"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -1009,9 +901,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that records subjective refraction."/>
-            </extension>
             <code value="SRF"/>
             <display value="Subjective Refraction"/>
             <designation>
@@ -1036,9 +925,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that measures corneal topography, corneal or retinal thickness, and other similar parameters that are typically displayed as maps."/>
-            </extension>
             <code value="OPM"/>
             <display value="Ophthalmic Mapping"/>
             <designation>
@@ -1063,9 +949,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="An acquisition device, process or method that measures the refractive characteristics of the eye."/>
-            </extension>
             <code value="OPR"/>
             <display value="Ophthalmic Refraction"/>
             <designation>

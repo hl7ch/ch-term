@@ -2,15 +2,15 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.6"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.4--20221129132713"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.1.4--20220624110129"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-11-29T13:27:13+02:00"/>
+         <start value="2022-06-24T11:01:29+02:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.6"/>
-   <version value="2022-11-29T13:27:13"/>
+   <version value="2022-06-24T11:01:29"/>
    <name value="ChEhealthCodesystemNareg"/>
    <title value="ch-ehealth-codesystem-nareg"/>
    <status value="active"/>
@@ -34,6 +34,10 @@
          <value value="Augenoptik"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Optica"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Optique"/>
       </designation>
@@ -42,8 +46,8 @@
          <value value="Ottica"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Optica"/>
+         <language value="en-US"/>
+         <value value="Optics"/>
       </designation>
    </concept>
    <concept>
@@ -54,6 +58,10 @@
          <value value="Aktivierung"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Activaziun"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Activation"/>
       </designation>
@@ -62,8 +70,8 @@
          <value value="Attivazione"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Activaziun"/>
+         <language value="en-US"/>
+         <value value="Activation"/>
       </designation>
    </concept>
    <concept>
@@ -74,6 +82,10 @@
          <value value="Biomedizinische Analytik"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Analitica biomedicinala"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Analyses biomédicales"/>
       </designation>
@@ -82,8 +94,8 @@
          <value value="Analisi biomediche"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Analitica biomedicinala"/>
+         <language value="en-US"/>
+         <value value="Biomedical analysis"/>
       </designation>
    </concept>
    <concept>
@@ -94,6 +106,10 @@
          <value value="Dentalhygiene"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Igienica dentala"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Hygiène dentaire"/>
       </designation>
@@ -102,8 +118,8 @@
          <value value="Igiene dentale"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Igienica dentala"/>
+         <language value="en-US"/>
+         <value value="Dental hygiene"/>
       </designation>
    </concept>
    <concept>
@@ -114,6 +130,10 @@
          <value value="Drogist/Drogistin"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Droghista/droghist"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Droguiste"/>
       </designation>
@@ -122,8 +142,8 @@
          <value value="Droghiere/Droghiera"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Droghista/droghist"/>
+         <language value="en-US"/>
+         <value value="Pharmaceutical"/>
       </designation>
    </concept>
    <concept>
@@ -134,6 +154,10 @@
          <value value="Ergotherapie"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Ergoterapia"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Ergothérapie"/>
       </designation>
@@ -142,8 +166,8 @@
          <value value="Ergoterapia"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Ergoterapia"/>
+         <language value="en-US"/>
+         <value value="Occupational therapy"/>
       </designation>
    </concept>
    <concept>
@@ -154,6 +178,10 @@
          <value value="Ernährungsberatung"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Cussegliaziun da nutriment"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Diététique"/>
       </designation>
@@ -162,8 +190,8 @@
          <value value="Consulenza alimentare"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Cussegliaziun da nutriment"/>
+         <language value="en-US"/>
+         <value value="Nutrition and dietetics"/>
       </designation>
    </concept>
    <concept>
@@ -174,6 +202,10 @@
          <value value="Medizinisch-technische Radiologie"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Tecnica da radiologia (medicinala)"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Technique en radiologie médicale"/>
       </designation>
@@ -182,8 +214,8 @@
          <value value="Tecniche di radiologia medica"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Tecnica da radiologia (medicinala)"/>
+         <language value="en-US"/>
+         <value value="Radiologic technology"/>
       </designation>
    </concept>
    <concept>
@@ -194,6 +226,10 @@
          <value value="Operationstechnik"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Tecnica d'operaziun"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Technique opératoire"/>
       </designation>
@@ -202,8 +238,8 @@
          <value value="Tecnica operatoria"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Tecnica d'operaziun"/>
+         <language value="en-US"/>
+         <value value="Surgical technology"/>
       </designation>
    </concept>
    <concept>
@@ -211,19 +247,23 @@
       <display value="Midwifery"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Geburtshilfe - Hebamme"/>
+         <value value="Geburtshilfe"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Assistenza al part – spendrera"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Sage-femme"/>
+         <value value="Obstétrique"/>
       </designation>
       <designation>
          <language value="it-CH"/>
          <value value="Ostetricia"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Assistenza al part – spendrera"/>
+         <language value="en-US"/>
+         <value value="Midwifery"/>
       </designation>
    </concept>
    <concept>
@@ -234,6 +274,10 @@
          <value value="Logopädie"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Logopedia"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Logopédie"/>
       </designation>
@@ -242,8 +286,8 @@
          <value value="Logopedia"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Logopedia"/>
+         <language value="en-US"/>
+         <value value="Speech and language therapy"/>
       </designation>
    </concept>
    <concept>
@@ -254,6 +298,10 @@
          <value value="Medizinische Massage"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Massascha medicinala"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Massage médical"/>
       </designation>
@@ -262,8 +310,8 @@
          <value value="Massaggio medico"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Massascha medicinala"/>
+         <language value="en-US"/>
+         <value value="Massage Therapy"/>
       </designation>
    </concept>
    <concept>
@@ -274,6 +322,10 @@
          <value value="Orthoptik"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Ortoptica"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Orthoptique"/>
       </designation>
@@ -282,8 +334,8 @@
          <value value="Ortottica"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Ortoptica"/>
+         <language value="en-US"/>
+         <value value="Orthoptics"/>
       </designation>
    </concept>
    <concept>
@@ -294,6 +346,10 @@
          <value value="Osteopathie"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Osteopatia"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Ostéopathie"/>
       </designation>
@@ -302,8 +358,8 @@
          <value value="Osteopatia"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Osteopatia"/>
+         <language value="en-US"/>
+         <value value="Osteopathy"/>
       </designation>
    </concept>
    <concept>
@@ -314,6 +370,10 @@
          <value value="Pflege"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Tgira"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Soins infirmiers"/>
       </designation>
@@ -322,8 +382,8 @@
          <value value="Cure infermieristiche"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Tgira"/>
+         <language value="en-US"/>
+         <value value="Nursing"/>
       </designation>
    </concept>
    <concept>
@@ -334,6 +394,10 @@
          <value value="Physiotherapie"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Fisioterapia"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Physiothérapie"/>
       </designation>
@@ -342,8 +406,8 @@
          <value value="Fisioterapia"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Fisioterapia"/>
+         <language value="en-US"/>
+         <value value="Physiotherapy"/>
       </designation>
    </concept>
    <concept>
@@ -354,6 +418,10 @@
          <value value="Podologie"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Podologia"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Podologie"/>
       </designation>
@@ -362,8 +430,8 @@
          <value value="Podologia"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Podologia"/>
+         <language value="en-US"/>
+         <value value="Podiatry"/>
       </designation>
    </concept>
    <concept>
@@ -374,6 +442,10 @@
          <value value="Rettungssanität"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Sanitad da salvament"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Sauvetage"/>
       </designation>
@@ -382,8 +454,8 @@
          <value value="Soccorso sanitario"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Sanitad da salvament"/>
+         <language value="en-US"/>
+         <value value="Paramedics"/>
       </designation>
    </concept>
    <concept>
@@ -394,6 +466,10 @@
          <value value="Optometrie"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Optometria"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Optométrie"/>
       </designation>
@@ -402,8 +478,8 @@
          <value value="Optometria"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Optometria"/>
+         <language value="en-US"/>
+         <value value="Optometry"/>
       </designation>
    </concept>
    <concept>
@@ -414,6 +490,10 @@
          <value value="Naturheilpraktiker/-in Ayurveda-Medizin"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Naturopatia/medischina ayurvedica"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Naturopathe médecine ayurvédique"/>
       </designation>
@@ -422,8 +502,8 @@
          <value value="Naturopata medicina ayurvedica"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Naturopatia/medischina ayurvedica"/>
+         <language value="en-US"/>
+         <value value="Naturopathy ayurveda medicine"/>
       </designation>
    </concept>
    <concept>
@@ -434,6 +514,10 @@
          <value value="Naturheilpraktiker/-in Homöopathie"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Naturopatia/omeopatia"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Naturopathe homéopathie"/>
       </designation>
@@ -442,8 +526,8 @@
          <value value="Naturopata omeopatia"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Naturopatia/omeopatia"/>
+         <language value="en-US"/>
+         <value value="Naturopathy homeopathy"/>
       </designation>
    </concept>
    <concept>
@@ -454,6 +538,10 @@
          <value value="Naturheilpraktiker/-in Trad. Chinesische Medizin"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Naturopatia/medischina tradiziunala chinaisa"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Naturopathe médecine trad. chinoise"/>
       </designation>
@@ -462,8 +550,8 @@
          <value value="Naturopata medicina trad. cinese"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Naturopatia/medischina tradiziunala chinaisa"/>
+         <language value="en-US"/>
+         <value value="Naturopathy traditional chinese medicine"/>
       </designation>
    </concept>
    <concept>
@@ -474,6 +562,10 @@
          <value value="Naturheilpraktiker/-in Trad. Europäische Naturheilkunde"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Naturopatia/medischina tradiziunala europeica"/>
+      </designation>
+      <designation>
          <language value="fr-CH"/>
          <value value="Naturopathe médecine naturelle trad. européenne"/>
       </designation>
@@ -482,8 +574,8 @@
          <value value="Naturopata medicina naturale trad. europea"/>
       </designation>
       <designation>
-         <language value="rm-CH"/>
-         <value value="Naturopatia/medischina tradiziunala europeica"/>
+         <language value="en-US"/>
+         <value value="Naturopathy traditional european medicine"/>
       </designation>
    </concept>
 </CodeSystem>

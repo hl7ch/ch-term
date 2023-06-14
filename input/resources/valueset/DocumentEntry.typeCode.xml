@@ -4,13 +4,13 @@
            
             value="DocumentEntry.typeCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.27--20221129135714"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.27--20230608144510"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-11-29T13:57:14+02:00"/>
+         <start value="2023-06-08T14:45:10+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.27"/>
    </identifier>
-   <version value="2022-11-29T13:57:14"/>
+   <version value="2023-06-08T14:45:10"/>
    <name
              
               value="DocumentEntryTypeCode"/>
@@ -38,7 +38,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Type of document as per Annex 3 EPRO-FDHA.&#xD;&#xA;&#xD;&#xA;The code defines a document’s type (e.g. discharge report, laboratory report). Each document type should be assigned to precisely one document class.&#xD;&#xA;"/>
+   <description value="Type of document as per Annex 3 EPRO-FDHA.&#xD;&#xA;&#xA;&#xD;&#xA;The code defines a document’s type (e.g. discharge report, laboratory report). Each document type should be assigned to precisely one document class."/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
@@ -58,19 +58,19 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Mandat d’imagerie"/>
+               <value value="demande d'imagerie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Richiesta di immaginografia"/>
+               <value value="richiesta di immaginografia"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Incumbensa da far in maletg"/>
+               <value value="incumbensa da far in maletg"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Imaging Order"/>
+               <value value="Imaging order"/>
             </designation>
          </concept>
       </include>
@@ -82,23 +82,47 @@
                       
                        value="http://snomed.info/sct/2011000195101"/>
          <concept>
+            <code value="787148009"/>
+            <display value="Digital representation of specimen (record artifact)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Bild/Video/Audio"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="image/vidéo/audio"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="immagine/video/audio"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Picture/Video/Audio"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="maletg/video/audio"/>
+            </designation>
+         </concept>
+         <concept>
             <code value="371529009"/>
             <display value="History and physical report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Anamnese / Untersuchungsbericht"/>
+               <value value="Anamnese"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Anamnèse / rapport d’analyse"/>
+               <value value="anamnèse"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Anamnesi / Rapporto di visita medica"/>
+               <value value="anamnesi"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Anamnesa / rapport da consultaziun"/>
+               <value value="anamnesa"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -110,19 +134,19 @@
             <display value="Record artifact (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Nicht näher bezeichnetes Dokument"/>
+               <value value="Sonstige Dokumentation"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Document non précisé"/>
+               <value value="autre documentation"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Documento non meglio specificato"/>
+               <value value="altra documentazione"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Document betg specifitgà pli precis"/>
+               <value value="autra documentaziun"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -138,19 +162,19 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Mandat d’analyse en laboratoire"/>
+               <value value="demande de laboratoire"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Richiesta di analisi di laboratorio"/>
+               <value value="richiesta di laboratorio"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Incumbensa da labor"/>
+               <value value="incumbensa da labor"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Laboratory Order"/>
+               <value value="Laboratory order"/>
             </designation>
          </concept>
          <concept>
@@ -162,15 +186,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Mandat de rapport d’examen pathologique"/>
+               <value value="demande de pathologie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Richiesta di esame istologico"/>
+               <value value="richiesta di patologia"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Incumbensa da patologia"/>
+               <value value="incumbensa da patologia"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -182,19 +206,19 @@
             <display value="Imaging report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Befundbericht zur Bildgebung"/>
+               <value value="Bericht zur Bildgebung"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport de résultat relatif à l’imagerie"/>
+               <value value="rapport sur l'imagerie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Referto di immaginografia"/>
+               <value value="referto di immaginografia"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport dal resultat dals maletgs"/>
+               <value value="rapport dals maletgs"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -206,23 +230,23 @@
             <display value="Clinical management plan (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Behandlungsplan"/>
+               <value value="Ärztlicher behandlungsplan"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Plan de traitement"/>
+               <value value="plan de traitement médical"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Piano di trattamento"/>
+               <value value="piano di cure mediche"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Plan da tractament"/>
+               <value value="plan da tractament medical"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Clinical Management plan"/>
+               <value value="Medical care plan"/>
             </designation>
          </concept>
          <concept>
@@ -234,19 +258,19 @@
             </designation>
             <designation>
                <language value="de-CH"/>
-               <value value="Nicht-Arzneimittel-Verschreibung / Rezept"/>
+               <value value="Nicht-Arzneimittel-Verschreibung"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Prescription sans médicaments / ordonnance"/>
+               <value value="prescription non médicamenteuse"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Prescrizione non di medicamenti"/>
+               <value value="prescrizione non di medicamenti"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Prescripziun senza medischinas / recept"/>
+               <value value="prescripziun senza medischinas"/>
             </designation>
          </concept>
          <concept>
@@ -258,15 +282,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Plan de soins"/>
+               <value value="plan de soins infirmier"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Piano di cura"/>
+               <value value="piano di cure infermieristiche"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Plan da tgira"/>
+               <value value="plan da tgira"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -282,15 +306,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Plan de réhabilitation"/>
+               <value value="plan de réhabilitation"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Piano di riabilitazione"/>
+               <value value="piano di riabilitazione"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Plan da reabilitaziun"/>
+               <value value="plan da reabilitaziun"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -299,26 +323,26 @@
          </concept>
          <concept>
             <code value="761938008"/>
-            <display value="Medical prescription record (record artifact)"/>
+            <display value="Medicinal prescription record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Arzneimittel-Verschreibung / Rezept"/>
+               <value value="Arzneimittelrezept"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Prescription de médicaments / ordonnance"/>
+               <value value="prescription de médicaments"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Prescrizione di medicamenti"/>
+               <value value="prescrizione di medicamenti"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Prescripziun da medischinas / recept"/>
+               <value value="recept da medicaments"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Medical Prescription record"/>
+               <value value="Drug prescription"/>
             </designation>
          </concept>
          <concept>
@@ -330,15 +354,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Carnet des allergies"/>
+               <value value="carnet des allergies"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Passaporto delle allergie"/>
+               <value value="passaporto delle allergie"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Attest d'allergia"/>
+               <value value="attest d'allergia"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -354,15 +378,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Certificat médical"/>
+               <value value="certificat médical"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Certificato medico"/>
+               <value value="certificato medico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Attest medical"/>
+               <value value="attest medical"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -378,15 +402,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport de sortie"/>
+               <value value="rapport de sortie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rapporto di dimissione"/>
+               <value value="rapporto di dimissione"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport d’extrada"/>
+               <value value="rapport d'extrada"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -402,19 +426,19 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport de transfert"/>
+               <value value="rapport de transfert"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rapporto di trasferimento"/>
+               <value value="rapporto di trasferimento"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport d'assegnaziun"/>
+               <value value="rapport d'assegnaziun"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Transfer summary report"/>
+               <value value="Transfer summary"/>
             </designation>
          </concept>
          <concept>
@@ -422,23 +446,23 @@
             <display value="Emergency department record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Notfallberichtt"/>
+               <value value="Notfallbericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport d’urgence"/>
+               <value value="rapport d'urgence"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Referto di pronto soccorso"/>
+               <value value="rapporto d'urgenza"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport davart in cas d'urgenza"/>
+               <value value="rapport davart in cas d'urgenza"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Emergency department record"/>
+               <value value="Emergency report"/>
             </designation>
          </concept>
          <concept>
@@ -446,23 +470,23 @@
             <display value="Professional allied to medicine clinical report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Dokument ausserhalb des Behandlungskontextes"/>
+               <value value="Nichtmedizinischer Bericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Document hors contexte de traitement"/>
+               <value value="rapport non médical"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Documento al di fuori del contesto trattato"/>
+               <value value="rapporto non medico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Document ordaifer il context dal tractament"/>
+               <value value="rapport nunmedical"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Professional allied to medicine clinical report"/>
+               <value value="Non-medical report"/>
             </designation>
          </concept>
          <concept>
@@ -470,19 +494,19 @@
             <display value="Clinical consultation report (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Beurteilung durch Fachspezialisten"/>
+               <value value="Konsultationsbericht"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Évaluation par des spécialistes"/>
+               <value value="rapport de consultation"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Valutazione dello specialista"/>
+               <value value="rapporto di consultazione"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport da la consultaziun clinica"/>
+               <value value="rapport da la consultaziun clinica"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -498,15 +522,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport de laboratoire"/>
+               <value value="rapport de laboratoire"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Referto di laboratorio"/>
+               <value value="referto di laboratorio"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport da labor"/>
+               <value value="rapport da labor"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -522,15 +546,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport d’opération"/>
+               <value value="rapport d'opération"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rapporto operatorio"/>
+               <value value="rapporto operatorio"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport d'operaziun"/>
+               <value value="rapport d'operaziun"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -546,15 +570,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport d’historique"/>
+               <value value="rapport de suivi"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rapporto sul decorso"/>
+               <value value="referto sul decorso"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport da l'andament"/>
+               <value value="rapport da l'andament"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -570,15 +594,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Image"/>
+               <value value="image"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Immagine"/>
+               <value value="immagine"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Maletg"/>
+               <value value="maletg"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -590,19 +614,19 @@
             <display value="Immunization record (record artifact)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Impfausweis"/>
+               <value value="Impfdokument"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Carnet de vaccination"/>
+               <value value="document de vaccination"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Certificato di vaccinazione"/>
+               <value value="documento di vaccinazione"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Attest da vaccinaziun"/>
+               <value value="document da vaccinaziun"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -618,15 +642,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rapport d’examen pathologique"/>
+               <value value="rapport de pathologie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Referto istologico"/>
+               <value value="rapporto di patologia"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Rapport da la patologia"/>
+               <value value="rapport da la patologia"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -642,19 +666,19 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Liste de médication"/>
+               <value value="liste des médicaments"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Elenco dei medicamenti"/>
+               <value value="elenco dei medicamenti"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Glista da medicaziun"/>
+               <value value="glista da medicaziun"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Medication summary document"/>
+               <value value="Medication list"/>
             </designation>
          </concept>
       </include>

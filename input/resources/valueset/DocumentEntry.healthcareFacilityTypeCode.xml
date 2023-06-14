@@ -4,13 +4,13 @@
            
             value="DocumentEntry.healthcareFacilityTypeCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.11--20221129134050"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.11--20230608145502"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-11-29T13:40:50+02:00"/>
+         <start value="2023-06-08T14:55:02+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.11"/>
    </identifier>
-   <version value="2022-11-29T13:40:50"/>
+   <version value="2023-06-08T14:55:02"/>
    <name
              
               value="DocumentEntryHealthcareFacilityTypeCode"/>
@@ -54,15 +54,15 @@
             <display value="Diagnostic institution (environment)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Institution für medizinische Diagnostik"/>
+               <value value="Diagnostische Einrichtung"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Institut d’aide au diagnostic"/>
+               <value value="institut diagnostic"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Istituto di diagnostica medica"/>
+               <value value="istituto diagnostica"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -70,7 +70,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Instituziun per diagnostica medicinala"/>
+               <value value="instituziun diagnostica"/>
             </designation>
          </concept>
          <concept>
@@ -78,15 +78,15 @@
             <display value="Accident and Emergency department (environment)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Notfall-/Rettungsdienste"/>
+               <value value="Notfall- und Rettungsdienste"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Service d'urgence et de sauvetage"/>
+               <value value="service d'urgence et de sauvetage"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Servizio di pronto soccorso e di salvataggio"/>
+               <value value="servizio di pronto soccorso e di salvataggio"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -94,7 +94,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Servetsch d'urgenza e da salvament"/>
+               <value value="servetsch d'urgenza e da salvament"/>
             </designation>
          </concept>
          <concept>
@@ -106,11 +106,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Autorité sanitaire"/>
+               <value value="autorité sanitaire"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Autorità sanitaria"/>
+               <value value="autorità sanitaria"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -118,7 +118,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Autoritad da sanadad"/>
+               <value value="autoritad da sanadad"/>
             </designation>
          </concept>
          <concept>
@@ -130,11 +130,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Soins à domicile"/>
+               <value value="soins à domicile"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Servizio di assistenza e cura a domicilio"/>
+               <value value="servizio di assistenza e cura a domicilio"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -142,7 +142,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Organisaziun per la tgira a chasa"/>
+               <value value="organisaziun per la tgira a chasa"/>
             </designation>
          </concept>
          <concept>
@@ -150,15 +150,15 @@
             <display value="Hospital (environment)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Stationäre Einrichtung/Spital"/>
+               <value value="Spital"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Hôpital"/>
+               <value value="hôpital"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Ospedale"/>
+               <value value="ospedale"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -166,7 +166,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Ospital"/>
+               <value value="ospital"/>
             </designation>
          </concept>
          <concept>
@@ -178,11 +178,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Service sanitaire de l'armée"/>
+               <value value="service sanitaire de l'armée"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Servizio di medicina militare"/>
+               <value value="servizio di medicina militare"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -190,7 +190,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Servetsch da medischina militara"/>
+               <value value="servetsch da medischina militara"/>
             </designation>
          </concept>
          <concept>
@@ -202,11 +202,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Service de santé en milieu carcéral"/>
+               <value value="service de santé en milieu carcéral"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Struttura sanitaria in uno stabilimento carcerario"/>
+               <value value="struttura sanitaria in uno stabilimento carcerario"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -214,7 +214,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Structura da sanadad en in stabiliment giudizial"/>
+               <value value="structura da sanadad en in stabiliment giudizial"/>
             </designation>
          </concept>
          <concept>
@@ -226,11 +226,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Etablissement médico-social"/>
+               <value value="etablissement médico-social"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Casa di cura"/>
+               <value value="casa di cura"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -238,7 +238,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Chasa da tgira"/>
+               <value value="chasa da tgira"/>
             </designation>
          </concept>
          <concept>
@@ -250,11 +250,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Pharmacie"/>
+               <value value="pharmacie"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Farmacia"/>
+               <value value="farmacia"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -262,7 +262,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Apoteca"/>
+               <value value="apoteca"/>
             </designation>
          </concept>
          <concept>
@@ -270,15 +270,15 @@
             <display value="Ambulatory care site (environment)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Ambulante Einrichtung/Ambulatorium"/>
+               <value value="Ambulante Einrichtung"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Etablissement ambulatoire"/>
+               <value value="etablissement ambulatoire"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Struttura ambulatoriale, incl. gli studi medici"/>
+               <value value="struttura ambulatoriale"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -286,7 +286,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Instituziun ambulanta/ambulatori"/>
+               <value value="instituziun ambulanta"/>
             </designation>
          </concept>
          <concept>
@@ -298,11 +298,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Réadaptation stationnaire"/>
+               <value value="réadaptation stationnaire"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Istituto di riabilitazione stazionaria"/>
+               <value value="istituto di riabilitazione stazionaria"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -310,7 +310,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Institut da reabilitaziun staziunara"/>
+               <value value="institut da reabilitaziun staziunara"/>
             </designation>
          </concept>
          <concept>
@@ -322,11 +322,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Domicile du patient"/>
+               <value value="domicile du patient"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Domicilio del paziente"/>
+               <value value="domicilio del paziente"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -334,7 +334,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Domicil dal pazient"/>
+               <value value="domicil dal pazient"/>
             </designation>
          </concept>
          <concept>
@@ -346,11 +346,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Institut de télémédecine"/>
+               <value value="institut de télémédecine"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Centro di telemedicina"/>
+               <value value="centro di telemedicina"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -358,7 +358,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Instituziun da telemedischina"/>
+               <value value="instituziun da telemedischina"/>
             </designation>
          </concept>
          <concept>
@@ -374,15 +374,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Cabinet médical"/>
+               <value value="cabinet médical"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Studio medico"/>
+               <value value="studio medico"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Pratica da medi"/>
+               <value value="pratica da medi"/>
             </designation>
          </concept>
          <concept>
@@ -393,20 +393,60 @@
                <value value="Andere Gesundheitsorganisation"/>
             </designation>
             <designation>
+               <language value="de-CH"/>
+               <value value="Behandlungsort"/>
+            </designation>
+            <designation>
                <language value="fr-CH"/>
-               <value value="Autres prestataires de soins"/>
+               <value value="autres prestataires de soins"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="lieu de traitement"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Altre organizzazioni sanitarie"/>
+               <value value="altre organizzazioni sanitarie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="luogo di trattamento"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Other Site of Care"/>
+               <value value="Other site of care"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Site of care"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Autras organisaziuns dals fatgs da tgira"/>
+               <value value="autras organisaziuns dals fatgs da tgira"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="91154008"/>
+            <display value="Free-standing birthing center (environment)"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="Birthing center"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Geburtshaus"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="maison de naissance"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="casa di nascita"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="chasa da parturir"/>
             </designation>
          </concept>
       </include>

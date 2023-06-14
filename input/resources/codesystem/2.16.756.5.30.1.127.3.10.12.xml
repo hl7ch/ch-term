@@ -2,15 +2,15 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="2.16.756.5.30.1.127.3.10.12"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.13--20221129134212"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.13--20230522173732"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-11-29T13:42:12+02:00"/>
+         <start value="2023-05-22T17:37:32+02:00"/>
       </valuePeriod>
    </extension>
    <url value="urn:oid:2.16.756.5.30.1.127.3.10.12"/>
-   <version value="2022-11-29T13:42:12"/>
+   <version value="2023-05-22T17:37:32"/>
    <name value="ChEhealthCodesystemLanguage"/>
    <title value="ch-ehealth-codesystem-language"/>
    <status value="active"/>

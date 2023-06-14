@@ -5,7 +5,7 @@
                  xmlns:ahdis="http://ahdis.ch">
    <id value="DocumentEntryClassCodeToDocumentEntryTypeCode"/>
    <url value="http://fhir.ch/ig/ch-epr-term/ConceptMap/DocumentEntryClassCodeToDocumentEntryTypeCode"/>
-   <version value="202212.0-stable"/>
+   <version value="202306.0-stable"/>
    <name value="DocumentEntryClassCodeToDocumentEntryTypeCode"/>
    <title value="DocumentEntryClassCodeToDocumentEntryTypeCode"/>
    <status value="active"/>
@@ -66,17 +66,17 @@
          <display value="Order (record artifact)"/>
          <target>
             <code value="721965002"/>
-            <display value="Laboratory Order (record artifact)"/>
+            <display value="Laboratory order (record artifact)"/>
             <equivalence value="specializes"/>
          </target>
          <target>
             <code value="721966001"/>
-            <display value="Pathology order (record artifact"/>
+            <display value="Pathology order (record artifact)"/>
             <equivalence value="specializes"/>
          </target>
          <target>
             <code value="2161000195103"/>
-            <display value="Imaging Order (record artifact)"/>
+            <display value="Imaging order (record artifact)"/>
             <equivalence value="specializes"/>
          </target>
          <target>
@@ -136,8 +136,18 @@
             <equivalence value="specializes"/>
          </target>
          <target>
+            <code value="4201000179104"/>
+            <display value="Imaging report (record artifact)"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
             <code value="900000000000471006"/>
             <display value="Image reference (foundation metadata concept)"/>
+            <equivalence value="specializes"/>
+         </target>
+         <target>
+            <code value="787148009"/>
+            <display value="Digital representation of specimen (record artifact)"/>
             <equivalence value="specializes"/>
          </target>
          <target>
@@ -151,24 +161,11 @@
       <source value="http://snomed.info/sct"/>
       <target value="http://snomed.info/sct"/>
       <element>
-         <code value="371525003"/>
-         <display value="Clinical procedure report (record artifact)"/>
-         <target>
-            <code value="4201000179104"/>
-            <display value="Imaging report (record artifact)"/>
-            <equivalence value="specializes"/>
-         </target>
-      </element>
-   </group>
-   <group>
-      <source value="http://snomed.info/sct"/>
-      <target value="http://snomed.info/sct"/>
-      <element>
          <code value="734163000"/>
-         <display value="Care Plan (record artifact)"/>
+         <display value="Care plan (record artifact)"/>
          <target>
             <code value="737427001"/>
-            <display value="Clinical Management plan (record artifact)"/>
+            <display value="Clinical management plan (record artifact)"/>
             <equivalence value="specializes"/>
          </target>
          <target>
@@ -196,7 +193,7 @@
          <display value="Prescription record (record artifact)"/>
          <target>
             <code value="761938008"/>
-            <display value="Medical Prescription record (record artifact)"/>
+            <display value="Medicinal prescription record (record artifact)"/>
             <equivalence value="specializes"/>
          </target>
          <target>
@@ -345,7 +342,7 @@
       <target value="http://snomed.info/sct"/>
       <element>
          <code value="2171000195109"/>
-         <display value="Obstetrical Record (record artifact)"/>
+         <display value="Obstetrical record (record artifact)"/>
          <target>
             <code value="419891008"/>
             <display value="Record artifact (record artifact)"/>

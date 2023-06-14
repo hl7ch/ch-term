@@ -28,7 +28,7 @@
    <title
               
                value="HCProfessional.hcProfession"/>
-   <status value="draft"/>
+   <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
    <contact>
@@ -85,7 +85,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="spezialista/spezialist d'activaziun"/>
+               <value value="spezialist(-a) d'activaziun"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -105,11 +105,11 @@
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="ottico"/>
+               <value value="ottico(-a)"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="ottico(-a)"/>
+               <value value="opticra/opticher"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -181,7 +181,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="droghista/droghist"/>
+               <value value="droghist(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -205,7 +205,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="spezialista/spezialist da tecnica da radiologia medicinala"/>
+               <value value="spezialist(-a) da tecnica da radiologia medicinala"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -229,7 +229,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="spezialista/spezialist da sanadad"/>
+               <value value="spezialist(-a) da sanadad"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -249,11 +249,11 @@
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="tecnica di sala operatoria/tecnico di sala operatoria"/>
+               <value value="tecnico(-a) di sala operatoria"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Spezialistas/spezialist da tecnica d'operaziun"/>
+               <value value="Spezialist(-as) da tecnica d'operaziun"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -301,7 +301,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="naturopata/naturopat"/>
+               <value value="naturopat(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -325,7 +325,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="optometrista/optometrist"/>
+               <value value="optometrist(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -349,7 +349,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="ortoptista/ortoptist"/>
+               <value value="ortoptist(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -373,7 +373,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="osteopata/osteopat"/>
+               <value value="osteopat(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -393,11 +393,11 @@
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="podologa/podologo"/>
+               <value value="podologo(-a)"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="podologa/podolog"/>
+               <value value="podolog(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -421,7 +421,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="sanitaria/sanitari da salvament"/>
+               <value value="sanitari(-a) da salvament"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -453,7 +453,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="fisioterapeuta/fisioterapeut"/>
+               <value value="fisioterapeut(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -469,11 +469,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="chiropracteur"/>
+               <value value="chiropraticien(ne)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="chiropratico"/>
+               <value value="chiropratico(-a)"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
@@ -493,7 +493,7 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="pharmacien"/>
+               <value value="pharmacien(ne)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
@@ -521,11 +521,11 @@
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="psicologo"/>
+               <value value="psicologo(-a)"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="psicologa/psicolog"/>
+               <value value="psicolog(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -549,7 +549,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="ergoterapeuta/ergoterapeut"/>
+               <value value="ergoterapeut(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -573,7 +573,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="dentista/dentist"/>
+               <value value="dentist(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -589,15 +589,15 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="infirmière professionnelle"/>
+               <value value="infirmier(-ère)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="infermiere diplomato"/>
+               <value value="infermiere(-a)"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="tgirunza diplomada/tgirunz diplomà"/>
+               <value value="tgirunz(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -621,7 +621,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="logopeda/logoped"/>
+               <value value="logoped(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -637,7 +637,7 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="diététicien"/>
+               <value value="diététicien(ne)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
@@ -669,7 +669,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="media/medi"/>
+               <value value="medi(-a)"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -685,7 +685,7 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="sage-femme agréée"/>
+               <value value="sage-femme"/>
             </designation>
             <designation>
                <language value="it-CH"/>
@@ -693,7 +693,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="spendrera registrada"/>
+               <value value="spendrera"/>
             </designation>
             <designation>
                <language value="en-US"/>

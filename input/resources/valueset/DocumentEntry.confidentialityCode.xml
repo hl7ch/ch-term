@@ -4,13 +4,13 @@
            
             value="DocumentEntry.confidentialityCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.5--20221129133405"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.5--20220626133515"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-11-29T13:34:05+02:00"/>
+         <start value="2022-06-26T13:35:15+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.5"/>
    </identifier>
-   <version value="2022-11-29T13:34:05"/>
+   <version value="2022-06-26T13:35:15"/>
    <name
              
               value="DocumentEntryConfidentialityCode"/>
@@ -54,15 +54,15 @@
             <display value="Secret (qualifier value)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Geheime Dokumente"/>
+               <value value="Geheim"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Secret"/>
+               <value value="secret"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Dati segreti"/>
+               <value value="segreto"/>
             </designation>
             <designation>
                <language value="en-US"/>
@@ -70,7 +70,7 @@
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Secret"/>
+               <value value="secret"/>
             </designation>
          </concept>
       </include>
@@ -86,23 +86,23 @@
             <display value="Normal (qualifier value)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Normal zugängliche Dokumente"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
                <value value="Normal"/>
             </designation>
             <designation>
+               <language value="fr-CH"/>
+               <value value="normal"/>
+            </designation>
+            <designation>
                <language value="it-CH"/>
-               <value value="Dati normalmente accessibili"/>
+               <value value="normale"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Normally accessible"/>
+               <value value="Normal"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Accessibel en moda normala"/>
+               <value value="normal"/>
             </designation>
          </concept>
          <concept>
@@ -110,23 +110,23 @@
             <display value="Restricted (qualifier value)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Eingeschränkt zugängliche Dokumente"/>
+               <value value="Eingeschränkt"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Restreint"/>
+               <value value="restreint"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Dati limitatamente accessibili"/>
+               <value value="limitato"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Restricted accessible"/>
+               <value value="Restricted"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Accessibel en moda restrenschida"/>
+               <value value="restrenschida"/>
             </designation>
          </concept>
       </include>

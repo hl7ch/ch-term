@@ -4,13 +4,13 @@
            
             value="DocumentEntry.formatCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20220720193638"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20220626164017"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-07-20T19:36:38+02:00"/>
+         <start value="2022-06-26T16:40:17+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.9"/>
    </identifier>
-   <version value="2022-07-20T19:36:38"/>
+   <version value="2022-06-26T16:40:17"/>
    <name
              
               value="DocumentEntryFormatCode"/>
@@ -66,6 +66,30 @@
             <designation>
                <language value="rm-CH"/>
                <value value="Document DEP betg structurà"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:medication-card:2023"/>
+            <display value="CH EMED Medication Card document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Card document"/>
             </designation>
          </concept>
          <concept>
@@ -120,9 +144,6 @@
       <include>
          <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="According to Table 4.68.4.1.2.3-1: XDS-I.b-specific Metadata Requirements"/>
-            </extension>
             <code value="urn:ihe:rad:TEXT"/>
             <display value="XDS-I CDA Wrapped Text Report (XDS-I)"/>
             <designation>
@@ -147,9 +168,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="According to Table 4.68.4.1.2.3-1: XDS-I.b-specific Metadata Requirements"/>
-            </extension>
             <code value="urn:ihe:rad:PDF"/>
             <display value="XDS-I PDF (XDS-I)"/>
             <designation>
@@ -174,9 +192,6 @@
             </designation>
          </concept>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value="According to Table 4.68.4.1.2.3-1: XDS-I.b-specific Metadata Requirements"/>
-            </extension>
             <code value="urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013"/>
             <display value="XDS-I Imaging Report with Structured Headings (XDS-I)"/>
             <designation>
@@ -201,51 +216,27 @@
             </designation>
          </concept>
          <concept>
-            <code value="urn:ihe:iti:xds-sd:pdf:2008"/>
-            <display value="Scanned Documents (PDF)"/>
-            <designation>
-               <language value="en-US"/>
-               <value value="PDF embedded in CDA per XDS-SD profile"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
-               <value value="PDF embedded in CDA per XDS-SD profile"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="PDF embedded in CDA per XDS-SD profile"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="PDF embedded in CDA per XDS-SD profile"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="PDF embedded in CDA per XDS-SD profile"/>
-            </designation>
-         </concept>
-         <concept>
             <code value="urn:ihe:iti:xds-sd:text:2008"/>
             <display value="Scanned Documents (text)"/>
             <designation>
                <language value="en-US"/>
-               <value value="Text embedded in CDA per XDS-SD profile"/>
+               <value value="Scanned Documents (text)"/>
             </designation>
             <designation>
                <language value="de-CH"/>
-               <value value="Text embedded in CDA per XDS-SD profile"/>
+               <value value="Scanned Documents (text)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Text embedded in CDA per XDS-SD profile"/>
+               <value value="Scanned Documents (text)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Text embedded in CDA per XDS-SD profile"/>
+               <value value="Scanned Documents (text)"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Text embedded in CDA per XDS-SD profile"/>
+               <value value="Scanned Documents (text)"/>
             </designation>
          </concept>
          <concept>
@@ -438,6 +429,30 @@
             <designation>
                <language value="rm-CH"/>
                <value value="MimeType sufficient"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:ihe:iti:xds-sd:pdf:2008"/>
+            <display value="Scanned Documents (PDF)"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="Scanned Documents (PDF)"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Scanned Documents (PDF)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Scanned Documents (PDF)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Scanned Documents (PDF)"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Scanned Documents (PDF)"/>
             </designation>
          </concept>
       </include>
