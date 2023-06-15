@@ -23,7 +23,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Deletion codes as per &#xA;s&#xA;&#xA;    upplement 1 to&#xA;&#xA; Annex 5 EPRO-FDHA.&#xA;&#xD;&#xA;"/>
+   <description value="Deletion codes as per supplement 1 to Annex 5 EPRO-FDHA."/>
    <caseSensitive value="true"/>
    <content value="complete"/>
    <concept>
