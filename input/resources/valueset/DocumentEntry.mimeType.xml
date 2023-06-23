@@ -42,7 +42,7 @@
    <immutable value="false"/>
    <compose>
       <include>
-         <system value="http://terminology.hl7.org/CodeSystem/v3-mediaType"/>
+         <system value="urn:ietf:bcp:13"/>
          <concept>
             <code value="application/dicom"/>
             <display value="DICOM"/>
