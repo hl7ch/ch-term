@@ -9,7 +9,7 @@
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term"/>
-  <version value="2.0.9"/>
+  <version value="2.0.10-cibuild"/>
   <name value="CH_EPR_TERM"/>
   <title value="CH EPR Term"/>
   <status value="active"/>
@@ -271,7 +271,7 @@
     </page>
     <parameter>
       <code value="releaselabel"/>
-      <value value="Trial use"/>
+      <value value="ci-build"/>
     </parameter>
     <parameter>
       <code value="path-pages" />

@@ -1,0 +1,10 @@
+{
+  "package-id" : "ch.fhir.ig.ch-epr-term",
+  "version" : "2.0.10-cibuild",
+  "path" : "http://fhir.ch/ig/ch-epr-term/2.0.10-cibuild",
+  "mode" : "milestone",
+  "status" : "trial-use",
+  "sequence" : "STU",
+  "desc" : "",
+  "first": false
+}
