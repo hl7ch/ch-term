@@ -46,9 +46,10 @@
          <system
                      
                       value="http://snomed.info/sct"/>
+<!-- need to manually remove         <version
          <version
                       
-                       value="http://snomed.info/sct/2011000195101"/>
+                       value="http://snomed.info/sct/2011000195101"/> -->
          <concept>
             <code value="408470005"/>
             <display value="Obstetrics (qualifier value)"/>

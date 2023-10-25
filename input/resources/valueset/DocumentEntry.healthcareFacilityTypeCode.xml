@@ -46,9 +46,9 @@
          <system
                      
                       value="http://snomed.info/sct"/>
-         <version
+<!-- need to manually remove         <version
                       
-                       value="http://snomed.info/sct/2011000195101"/>
+                       value="http://snomed.info/sct/2011000195101"/> -->
          <concept>
             <code value="722171005"/>
             <display value="Diagnostic institution (environment)"/>
