@@ -1,10 +1,10 @@
 {
   "package-id" : "ch.fhir.ig.ch-epr-term",
-  "version" : "2.0.10-cibuild",
-  "path" : "http://fhir.ch/ig/ch-epr-term/2.0.10-cibuild",
+  "version" : "2.0.10",
+  "path" : "http://fhir.ch/ig/ch-epr-term/2.0.10",
   "mode" : "milestone",
   "status" : "trial-use",
   "sequence" : "STU",
-  "desc" : "",
+  "desc" : "Version 202306.1-stable, see https://ehealthsuisse.art-decor.org/ch-epr-html-20230608T154548/project.html for changelog",
   "first": false
 }

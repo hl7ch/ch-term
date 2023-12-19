@@ -9,12 +9,12 @@
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term"/>
-  <version value="2.0.10-cibuild"/>
+  <version value="2.0.10"/>
   <name value="CH_EPR_TERM"/>
   <title value="CH EPR Term"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-06-27"/>
+  <date value="2023-12-19"/>
   <publisher value="HL7 Switzerland"/>
   <contact>
     <name value="HL7 Switzerland"/>
@@ -42,7 +42,7 @@
   <dependsOn id="cheprterm">
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology"/>
-    <version value="5.1.0"/>
+    <version value="5.4.0"/>
   </dependsOn>
   <definition>
     <grouping>
@@ -271,7 +271,7 @@
     </page>
     <parameter>
       <code value="releaselabel"/>
-      <value value="ci-build"/>
+      <value value="trial-use"/>
     </parameter>
     <parameter>
       <code value="path-pages" />
