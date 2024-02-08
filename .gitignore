@@ -10,3 +10,4 @@ www/*
 !www/package-list.json
 !www/publish.ini
 *.jar
+fsh-generated/** 

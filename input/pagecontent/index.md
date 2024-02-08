@@ -10,6 +10,12 @@ Please report and note current issues that are pending or errors under [ART-DECO
 
 Further information on the publications and process may be found [here](https://www.e-health-suisse.ch/technik-semantik/semantische-interoperabilitaet/metadaten.html).
 
+<div markdown="1" class="stu-note">
+
+[Significant changes, open and closed issues](changelog.html)
+
+</div>
+
 **Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
 ### Scope
