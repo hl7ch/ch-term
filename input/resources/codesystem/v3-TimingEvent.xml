@@ -4,7 +4,7 @@
    <meta>
       <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.77.4.11.2--20200710002808"/>
    </meta>
-   <url value="http://fhir.ch/ig/ch-epr-term/CodeSystem/v3-TimingEvent"/>
+   <url value="http://fhir.ch/ig/ch-term/CodeSystem/v3-TimingEvent"/>
    <version value="2.0.0"/>
    <name value="TimingEvent"/>
    <title value="TimingEvent"/>

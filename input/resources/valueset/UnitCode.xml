@@ -14,7 +14,7 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/UnitCode"/>
+             value="http://fhir.ch/ig/ch-term/ValueSet/UnitCode"/>
    <identifier>
       <use value="official"/>
       <system value="urn:ietf:rfc:3986"/>

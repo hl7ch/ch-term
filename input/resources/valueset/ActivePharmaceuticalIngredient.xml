@@ -14,7 +14,7 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/ActivePharmaceuticalIngredient"/>
+             value="http://fhir.ch/ig/ch-term/ValueSet/ActivePharmaceuticalIngredient"/>
    <identifier>
       <use value="official"/>
       <system value="urn:ietf:rfc:3986"/>

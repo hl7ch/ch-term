@@ -12,7 +12,7 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.eventCodeList"/>
+             value="http://fhir.ch/ig/ch-term/ValueSet/DocumentEntry.eventCodeList"/>
    <identifier>
       <use value="official"/>
       <system value="urn:ietf:rfc:3986"/>

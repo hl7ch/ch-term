@@ -1,10 +1,10 @@
 # https://fshschool.org/docs/sushi/configuration/#exhaustive-example
-id: ch.fhir.ig.ch-epr-term
-canonical: http://fhir.ch/ig/ch-epr-term
-url: http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term
-name: CH_EPR_TERM
-title: CH EPR Term (R4)
-description: Implementation Guide for CH EPR Terminologies
+id: ch.fhir.ig.ch-term
+canonical: http://fhir.ch/ig/ch-term
+url: http://fhir.ch/ig/ch-term/ImplementationGuide/ch.fhir.ig.ch-term
+name: CH_TERM
+title: CH Term (R4)
+description: Implementation Guide for Swiss Terminologies
 status: active
 experimental: false
 date: 2024-02-08

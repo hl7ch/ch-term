@@ -14,7 +14,7 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/ihe-pharmaceuticaladvicestatuslist"/>
+             value="http://fhir.ch/ig/ch-term/ValueSet/ihe-pharmaceuticaladvicestatuslist"/>
    <identifier>
       <use value="official"/>
       <system value="urn:ietf:rfc:3986"/>

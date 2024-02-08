@@ -15,7 +15,7 @@
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.authorRole"/>
+             value="http://fhir.ch/ig/ch-term/ValueSet/DocumentEntry.authorRole"/>
    <identifier>
       <use value="official"/>
       <system value="urn:ietf:rfc:3986"/>
