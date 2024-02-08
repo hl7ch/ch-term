@@ -1,7 +1,7 @@
 == Suppressed Messages ==
 
 # External CodeSystem
-Unknown System 'urn:oid:1.2.840.10008.2.6.1' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:1.2.840.10008.2.6.1 is unknown (from Tx-Server))
+Unknown System 'urn:oid:1.2.840.10008.2.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.6.1' could not be found, so the code cannot be validated)
 Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.840.10008.2.6.1
 
 # https://art-decor.org/art-decor/decor-issues--ch-epr-?id=2.16.756.5.30.1.127.77.10.6.26
@@ -13,3 +13,6 @@ The code 'OPTBSV' is not valid in the system http://dicom.nema.org/resources/ont
 
 # https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/New.20ConceptMap.20Warning.20--.20induced.20by.20IG.20Publisher
 The modifier extension http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence from FHIR version {3} is not allowed to be used at this point (allowed = e:ConceptMap.element.target; this element is [[BackboneElement, ConceptMap.group.element.target]; this is a warning since contexts may be renamed between FHIR versions)
+
+# Swiss specific value
+The value provided ('rm-CH') was not found in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code 'urn:ietf:bcp:47#rm-CH' was not found in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1')

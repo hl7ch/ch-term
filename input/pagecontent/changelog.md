@@ -2,6 +2,9 @@
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
 ### v3.0.0 (2024)
+* [#23](https://github.com/hl7ch/ch-epr-term/issues/23): Rename IG from CH EPR Term to CH EPR
+   * Update section introduction on home
+   * Change canonical URLs (ValueSets & ConceptMaps)
 * Integration of terminology from the following exchange formats:
    * [CH EMED #256](https://github.com/hl7ch/ch-emed/issues/256)
    * CH VACD
