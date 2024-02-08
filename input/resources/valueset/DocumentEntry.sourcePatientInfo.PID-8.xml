@@ -15,7 +15,7 @@
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.sourcePatientInfo.PID-8"/>
+             value="http://fhir.ch/ig/ch-term/ValueSet/DocumentEntry.sourcePatientInfo.PID-8"/>
    <identifier>
       <use value="official"/>
       <system value="urn:ietf:rfc:3986"/>

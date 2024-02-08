@@ -14,7 +14,7 @@
       </valuePeriod>
    </extension>
    <url
-             value="http://fhir.ch/ig/ch-epr-term/ValueSet/edqm-routeofadministration"/>
+             value="http://fhir.ch/ig/ch-term/ValueSet/edqm-routeofadministration"/>
    <identifier>
       <use value="official"/>
       <system value="urn:ietf:rfc:3986"/>
