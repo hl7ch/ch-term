@@ -11,6 +11,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * CH AllergyIntolerance
    * etc.
 * Enabling fsh files as source
+* [CH EMED #245](https://github.com/hl7ch/ch-emed/issues/245): Add EDQM MOA (method of application)
 
 ### v2.0.10 (2023-12-19)
 * Version 202306.1-stable
