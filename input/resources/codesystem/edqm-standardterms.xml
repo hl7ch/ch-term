@@ -10199,7 +10199,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Administraziun"/>
       </designation>
    </concept>
    <concept>
@@ -10219,7 +10219,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Applicaziun"/>
       </designation>
    </concept>
    <concept>
@@ -10239,7 +10239,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Bogn"/>
       </designation>
    </concept>
    <concept>
@@ -10259,7 +10259,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Tschavera"/>
       </designation>
    </concept>
    <concept>
@@ -10279,7 +10279,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Sgarguglias"/>
       </designation>
    </concept>
    <concept>
@@ -10299,7 +10299,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Infusiun"/>
       </designation>
    </concept>
    <concept>
@@ -10319,7 +10319,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Inhalaziun"/>
       </designation>
    </concept>
    <concept>
@@ -10339,7 +10339,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Injecziun"/>
       </designation>
    </concept>
    <concept>
@@ -10359,7 +10359,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Inserziun"/>
       </designation>
    </concept>
    <concept>
@@ -10379,7 +10379,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Installaziun"/>
       </designation>
    </concept>
    <concept>
@@ -10387,19 +10387,19 @@
       <display value="Orodispersion"/>
       <designation>
          <language value="de-CH"/>
-         <value value="null"/>
+         <value value="Orodispersion"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="null"/>
+         <value value="Orodispersion"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="null"/>
+         <value value="Orodispersione"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Dispersiun d'odi"/>
       </designation>
    </concept>
    <concept>
@@ -10419,7 +10419,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Derschentar/Lavar"/>
       </designation>
    </concept>
    <concept>
@@ -10439,7 +10439,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Squitta"/>
       </designation>
    </concept>
    <concept>
@@ -10459,7 +10459,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Luschezza"/>
       </designation>
    </concept>
    <concept>
@@ -10479,7 +10479,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Tragutter"/>
       </designation>
    </concept>
    <concept>
@@ -10499,7 +10499,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Naginas indicaziuns"/>
       </designation>
    </concept>
    <concept>
@@ -10519,7 +10519,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Arder"/>
       </designation>
    </concept>
    <concept>
@@ -10539,7 +10539,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Dialisa"/>
       </designation>
    </concept>
    <concept>
@@ -10559,7 +10559,7 @@
       </designation>
       <designation>
          <language value="rm-CH"/>
-         <value value="null"/>
+         <value value="Implantaziun"/>
       </designation>
    </concept>
 </CodeSystem>

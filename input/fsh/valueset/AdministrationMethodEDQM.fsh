@@ -2,11 +2,6 @@ ValueSet: AdministrationMethodEDQM
 Id: edqm-administrationmethod
 Title: "EDQM - Administration Method"
 Description: "ValueSet Administration method from EDQM, AME, see https://standardterms.edqm.eu/#"
-/* TODO
-* ^identifier.use = #official
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.756.5.30.1.1.11.2"
-*/
 * ^experimental = false
 * urn:oid:0.4.0.127.0.16.1.1.2.1#0004 "Administration"
 * urn:oid:0.4.0.127.0.16.1.1.2.1#0004 ^designation[0].language = #de-CH
