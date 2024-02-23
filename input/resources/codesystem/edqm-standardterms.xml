@@ -10181,4 +10181,385 @@
          <value value="Intraputaminale Anwendung"/>
       </designation>
    </concept>
+   <!-- MOA: manually added -->
+   <concept>
+      <code value="0004"/>
+      <display value="Administration"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Administration"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Administration"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Somministrazione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Administraziun"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0005"/>
+      <display value="Application"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Applikation"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Application"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Applicazione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Applicaziun"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0006"/>
+      <display value="Bathing"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Baden"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Baigner"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Bagnare"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Bogn"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0007"/>
+      <display value="Chewing"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Kauen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Mâcher"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Masticare"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Tschavera"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0008"/>
+      <display value="Gargling"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gurgeln"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Se gargariser"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Gargarizzare"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Sgarguglias"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0009"/>
+      <display value="Infusion"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Infusion"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Perfusion"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Infusione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Infusiun"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0010"/>
+      <display value="Inhalation"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Inhalation"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Inhalation"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Inalazione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Inhalaziun"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0011"/>
+      <display value="Injection"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Injektion"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Injection"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Iniezione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Injecziun"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0012"/>
+      <display value="Insertion"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Insertion"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Insertion"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Inserzione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Inserziun"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0013"/>
+      <display value="Instillation"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Instillation"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Instillation"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Instillazione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Installaziun"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0014"/>
+      <display value="Orodispersion"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Orodispersion"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Orodispersion"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Orodispersione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Dispersiun d'odi"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0015"/>
+      <display value="Rinsing/washing"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Spülen/Waschen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Rincer/Laver"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Sciacquare/Lavare"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Derschentar/Lavar"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0017"/>
+      <display value="Spraying"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Sprühen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pulvériser"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Spray"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Squitta"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0018"/>
+      <display value="Sucking"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Lutschen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Sucer"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Succhiare"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Luschezza"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0019"/>
+      <display value="Swallowing"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Schlucken"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Avaler"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Per deglutizione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Tragutter"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0020"/>
+      <display value="Not specified"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Keine Angaben"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Non spécifié"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Non specificato"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Naginas indicaziuns"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0111"/>
+      <display value="Burning"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Brennen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Brûler"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Bruciare"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Arder"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0112"/>
+      <display value="Dialysis"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Dialyse"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Dialyse"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Dialisi"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Dialisa"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="0113"/>
+      <display value="Implantation"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Implantation"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Implantation"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Impianto"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="Implantaziun"/>
+      </designation>
+   </concept>
 </CodeSystem>
