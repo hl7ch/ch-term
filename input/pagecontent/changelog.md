@@ -11,6 +11,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * CH AllergyIntolerance
    * etc.
 * Enabling fsh files as source
+* [CH EMED #253](https://github.com/hl7ch/ch-emed/issues/253): EDQM Standard Terms: change value for CodeSystem.content from 'complete' to 'fragment' because not all EDQM codes are included
 
 ### v2.0.10 (2023-12-19)
 * Version 202306.1-stable
