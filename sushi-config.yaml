@@ -32,14 +32,23 @@ dependencies:
 pages:
   index.md:
     title: Home
-  terminology.md:
-    title: Terminology 
+  codesystems.md:
+    title: Code Systems
+  valuesets.md:
+    title: Value Sets
+  conceptmaps.md:
+    title: Concept Maps     
+  namingsystems.md:
+    title: Naming Systems 
   changelog.md:
     title: Changelog
 
 menu:
   Home: index.html
-  Terminology: terminology.html
+  Code Systems: codesystems.html
+  Value Sets: valuesets.html
+  Concept Maps: conceptmaps.html
+  Naming Systems: namingsystems.html
   Artifacts: artifacts.html
 
 FSHOnly: false
