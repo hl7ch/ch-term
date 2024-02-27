@@ -95,6 +95,7 @@ parameters:
     - http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritaldata-separation
     - http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritalstatus
     - http://fhir.ch/ig/ch-core/CodeSystem/ech-11-sex
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-11-religion
     - http://fhir.ch/ig/ch-core/CodeSystem/ech-46-emailcategory
     - http://fhir.ch/ig/ch-core/CodeSystem/ech-46-internetcategory
     - http://fhir.ch/ig/ch-core/CodeSystem/ech-46-phonecategory
