@@ -41,7 +41,9 @@ menu:
   Home: index.html
   Terminology: terminology.html
   Artifacts: artifacts.html
-      
+
+FSHOnly: false
+
 # For parameters defined by core FHIR see: 
 # http://build.fhir.org/codesystem-guide-parameter-code.html.
 # For parameters defined by the FHIR Tools IG  see:
@@ -70,8 +72,49 @@ parameters:
     - urn:oid:2.16.756.5.30.1.127.3.10.7
     - urn:oid:0.4.0.127.0.16.1.1.2.1 # edqm-standardterms
     - urn:oid:1.3.6.1.4.1.19376.1.9.2.1 # ihe-pharmaceuticaladvicestatuslist
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-7-cantonflabbreviation
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-17-admitsource
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-18-admittype
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-19-admitrole
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-20-encounterclass
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-21-encountertype
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-27-dischargedecision
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-28-dischargedestination
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-29-dischargeencounter
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-10
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-11
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritaldata-separation
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritalstatus
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-11-sex
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-46-emailcategory
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-46-internetcategory
+    - http://fhir.ch/ig/ch-core/CodeSystem/ech-46-phonecategory
+    - http://fhir.ch/ig/ch-core/ConceptMap/bfs-encounter-class-to-fhir
+    - http://fhir.ch/ig/ch-core/ConceptMap/documententry-confidentialitycode-to-fhir
+    - http://fhir.ch/ig/ch-core/ConceptMap/ech-46-emailcategory-to-fhir
+    - http://fhir.ch/ig/ch-core/ConceptMap/ech-46-internetcategory-to-fhir
+    - http://fhir.ch/ig/ch-core/ConceptMap/ech-46-phonecategory-to-fhir
+    - http://fhir.ch/ig/ch-core/ConceptMap/maritalstatus-ech11-to-fhir
+    - http://fhir.ch/ig/ch-core/ConceptMap/sex-ech11-to-fhir
     - http://fhir.ch/ig/ch-core/ValueSet/ech-7-cantonabbreviation
     - http://fhir.ch/ig/ch-core/ValueSet/ech-7-cantonflabbreviation
-    - http://fhir.ch/ig/ch-core/CodeSystem/ech-7-cantonflabbreviation
-
-FSHOnly: false
+    - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-17-admitsource
+    - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-18-admittype
+    - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-19-admitrole
+    - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-20-encounterclass
+    - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-21-encountertype
+    - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-27-dischargedecision
+    - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-28-dischargedestination
+    - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-29-dischargeencounter
+    - http://fhir.ch/ig/ch-core/ValueSet/ch-core-encounter-participation-type
+    - http://fhir.ch/ig/ch-core/ValueSet/ch-core-maritalstatus
+    - http://fhir.ch/ig/ch-core/ValueSet/ch-core-religion
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-10-linetype
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-11-firstnamedatatype
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-11-maritaldata-separation
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-11-maritalstatus
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-11-namedatatype
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-11-sex
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-46-emailcategory
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-46-internetcategory
+    - http://fhir.ch/ig/ch-core/ValueSet/ech-46-phonecategory
