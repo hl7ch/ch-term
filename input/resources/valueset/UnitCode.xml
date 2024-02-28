@@ -2,15 +2,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="UnitCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.83--20220608150046"/>
-      <lastUpdated value="2024-01-31T07:54:19Z"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.83--20240223073651"/>
+      <lastUpdated value="2024-02-23T07:37:14Z"/>
       <source value="https://art-decor.org/fhir/4.0/ch-pharm-"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-06-08T15:00:46+01:00"/>
+         <start value="2024-02-23T07:36:51+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -20,7 +20,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.1.11.83"/>
    </identifier>
-   <version value="2022-06-08T15:00:46"/>
+   <version value="2024-02-23T07:36:51"/>
    <name value="UnitCode"/>
    <title value="UnitCode"/>
    <status value="active"/>
@@ -832,8 +832,8 @@
             </designation>
          </concept>
          <concept>
-            <code value="{Piece}"/>
-            <display value="Piece"/>
+            <code value="246205007"/>
+            <display value="Quantity (attribute)"/>
             <designation>
                <language value="de-CH"/>
                <value value="Stk"/>
