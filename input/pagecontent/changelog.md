@@ -5,7 +5,10 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#23](https://github.com/hl7ch/ch-epr-term/issues/23): Rename IG from CH EPR Term to CH EPR
    * Update section introduction on home
    * Change canonical URLs (ValueSets & ConceptMaps)
-* Integration of terminology from the following exchange formats:
+* [#24](https://github.com/hl7ch/ch-epr-term/issues/24): Integration of terminology from CH Core and the following exchange formats:
+   * [CH Core #274](https://github.com/hl7ch/ch-core/issues/274)
+      * [#30](https://github.com/hl7ch/ch-epr-term/issues/30): Add missing CS eCH-011 Religion
+      * [#31](https://github.com/hl7ch/ch-epr-term/issues/31): Replace OID
    * [CH EMED #256](https://github.com/hl7ch/ch-emed/issues/256)
    * CH VACD
    * CH AllergyIntolerance

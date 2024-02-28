@@ -8,6 +8,7 @@ Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:
 The code 'urn:ihe:pcc:ic:2009' is not valid in the system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
 
 # Codes are included in https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html
+Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01'
 The code 'OPTENF' is not valid in the system http://dicom.nema.org/resources/ontology/DCM
 The code 'OPTBSV' is not valid in the system http://dicom.nema.org/resources/ontology/DCM
 
@@ -16,3 +17,6 @@ The modifier extension http://hl7.org/fhir/1.0/StructureDefinition/extension-Con
 
 # Swiss specific value
 The value provided ('rm-CH') was not found in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code 'urn:ietf:bcp:47#rm-CH' was not found in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1')
+
+# No suitable code
+None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://terminology.hl7.org/CodeSystem/v2-0203#NI)
