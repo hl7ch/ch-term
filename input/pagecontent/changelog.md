@@ -10,13 +10,13 @@ All significant changes to this FHIR implementation guide will be documented on 
       * [#30](https://github.com/hl7ch/ch-epr-term/issues/30): Add missing CS eCH-011 Religion
       * [#31](https://github.com/hl7ch/ch-epr-term/issues/31): Replace OID
    * [CH EMED #256](https://github.com/hl7ch/ch-emed/issues/256)
-   * [CH EMED #252](https://github.com/hl7ch/ch-emed/issues/252): SCT code for {Piece} 'Piece' (UCUM) 
+   * [CH AllergyIntolerance #91](https://github.com/hl7ch/ch-allergyintolerance/issues/91)
    * CH VACD
-   * CH AllergyIntolerance
    * etc.
 * Enabling fsh files as source
 * [CH EMED #245](https://github.com/hl7ch/ch-emed/issues/245): Add EDQM Administration Method
 * [CH EMED #253](https://github.com/hl7ch/ch-emed/issues/253): EDQM Standard Terms: change value for CodeSystem.content from 'complete' to 'fragment' because not all EDQM codes are included
+* [CH EMED #252](https://github.com/hl7ch/ch-emed/issues/252): SCT code for {Piece} 'Piece' (UCUM)
 
 ### v2.0.10 (2023-12-19)
 * Version 202306.1-stable

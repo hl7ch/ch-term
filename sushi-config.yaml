@@ -7,7 +7,7 @@ title: CH Term (R4)
 description: Implementation Guide for Swiss Terminology
 status: active
 experimental: false
-date: 2024-02-23
+date: 2024-02-29
 version: 3.0.0-ci-build
 fhirVersion: 4.0.1
 copyrightYear: 2019+
@@ -127,3 +127,13 @@ parameters:
     - http://fhir.ch/ig/ch-core/ValueSet/ech-46-emailcategory
     - http://fhir.ch/ig/ch-core/ValueSet/ech-46-internetcategory
     - http://fhir.ch/ig/ch-core/ValueSet/ech-46-phonecategory
+    - http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-category-supplement
+    - http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-clinical-supplement
+    - http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-criticality-supplement
+    - http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-severity-supplement
+    - http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-type-supplement
+    - http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-verification-supplement
+    - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceConditionValueSet
+    - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceReactionManifestationValueSet
+    - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceReactionSubstanceValueSet
+    - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet
