@@ -10,6 +10,7 @@ All significant changes to this FHIR implementation guide will be documented on 
       * [#30](https://github.com/hl7ch/ch-epr-term/issues/30): Add missing CS eCH-011 Religion
       * [#31](https://github.com/hl7ch/ch-epr-term/issues/31): Replace OID
    * [CH EMED #256](https://github.com/hl7ch/ch-emed/issues/256)
+   * [CH EMED #252](https://github.com/hl7ch/ch-emed/issues/252): SCT code for {Piece} 'Piece' (UCUM) 
    * CH VACD
    * CH AllergyIntolerance
    * etc.
