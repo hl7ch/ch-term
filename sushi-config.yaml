@@ -137,3 +137,10 @@ parameters:
     - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceReactionManifestationValueSet
     - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceReactionSubstanceValueSet
     - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet
+    - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs
+    - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs
+    
