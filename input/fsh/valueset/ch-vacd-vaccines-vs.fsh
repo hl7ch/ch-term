@@ -1,6 +1,6 @@
 ValueSet: SwissVaccines
 Id: ch-vacd-vaccines-vs
-Title: "Swissmedic code for vaccine code"
+Title: "CH VACD Swissmedic code for vaccine code"
 Description: "The list of vaccines available (Swissmedic authorized) or earlier available in Switzerland."
 * ^url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 * ^status = #active

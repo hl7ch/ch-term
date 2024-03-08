@@ -1,6 +1,6 @@
 ValueSet: ChVacdTargetDiseasesAndIllnessesUndergoneForImmunization
 Id: ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
-Title: "Target disease and illnesses undergone for immunization"
+Title: "CH VACD Target disease and illnesses undergone for immunization"
 Description: "This valueset contains all entries defining target deseases or illnesses undergone for immunization reasons."
 * ^url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs"
 * ^status = #active

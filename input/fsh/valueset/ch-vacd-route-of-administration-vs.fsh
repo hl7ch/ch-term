@@ -1,6 +1,6 @@
 ValueSet: RouteOfAdministrationImmunization
 Id: ch-vacd-route-of-administration-vs
-Title: "Route of Administration for Immunization"
+Title: "CH VACD Route of Administration for Immunization"
 Description: "The route of immunization administration codes. This list is only a sublist of the List used for eMedication."
 * ^url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs"
 * ^status = #active
