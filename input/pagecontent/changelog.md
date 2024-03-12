@@ -11,8 +11,7 @@ All significant changes to this FHIR implementation guide will be documented on 
       * [#31](https://github.com/hl7ch/ch-epr-term/issues/31): Replace OID
    * [CH EMED #256](https://github.com/hl7ch/ch-emed/issues/256)
    * [CH AllergyIntolerance #91](https://github.com/hl7ch/ch-allergyintolerance/issues/91)
-   * CH VACD
-   * etc.
+   * [CH VACD #212](https://github.com/hl7ch/ch-vacd/issues/212)
 * Enabling fsh files as source
 * [CH EMED #245](https://github.com/hl7ch/ch-emed/issues/245): Add EDQM Administration Method
 * [CH EMED #253](https://github.com/hl7ch/ch-emed/issues/253): EDQM Standard Terms: change value for CodeSystem.content from 'complete' to 'fragment' because not all EDQM codes are included
