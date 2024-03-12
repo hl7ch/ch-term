@@ -137,3 +137,20 @@ parameters:
     - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceReactionManifestationValueSet
     - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceReactionSubstanceValueSet
     - http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet
+    - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs
+    - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs
+    - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-categories-cs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs
+    - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-targetdiseases-vaccines-cm
+    - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sct-sm-cm
+    - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sct-targetdiseases-cm
+    - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sm-sct-cm
+    - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-targetdiseases-cm
+    
+
+    
