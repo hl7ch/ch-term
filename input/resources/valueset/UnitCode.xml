@@ -2159,7 +2159,7 @@
             </designation>
          </concept>
          <concept>
-            <code value="246205007"/>
+            <code value="246205007"/> 
             <display value="Quantity (attribute)"/>
             <designation>
                <language value="de-CH"/>
