@@ -2,6 +2,7 @@ CodeSystem: SwissImmunizationRecommendationCategoriesCodesystem
 Id: ch-vacd-recommendation-categories-cs
 Title: "CH VACD Swiss Immunization Recommendation Categories"
 Description: "Immunization recommendation categories available in Switzerland."
+* ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-categories-cs"
 * ^meta.source = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-01-24T00:00:00+01:00"
