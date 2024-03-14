@@ -19,38 +19,38 @@ Description: "Immunization recommendation categories available in Switzerland."
 * ^content = #complete
 * ^caseSensitive = true
 * #41501 "Empfohlene Basisimpfungen"
-* #41501 ^designation[0].language = #de-CH
-* #41501 ^designation[=].value = "Empfohlene Basisimpfungen"
-* #41501 ^designation[+].language = #fr-CH
-* #41501 ^designation[=].value = "Empfohlene Basisimpfungen"
-* #41501 ^designation[+].language = #it-CH
-* #41501 ^designation[=].value = "Empfohlene Basisimpfungen"
-* #41501 ^designation[+].language = #en-US
-* #41501 ^designation[=].value = "Empfohlene Basisimpfungen"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Empfohlene Basisimpfungen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Empfohlene Basisimpfungen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Empfohlene Basisimpfungen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Empfohlene Basisimpfungen"
 * #41502 "Empfohlene ergänzende Impfungen"
-* #41502 ^designation[0].language = #de-CH
-* #41502 ^designation[=].value = "Empfohlene ergänzende Impfungen"
-* #41502 ^designation[+].language = #fr-CH
-* #41502 ^designation[=].value = "Empfohlene ergänzende Impfungen"
-* #41502 ^designation[+].language = #it-CH
-* #41502 ^designation[=].value = "Empfohlene ergänzende Impfungen"
-* #41502 ^designation[+].language = #en-US
-* #41502 ^designation[=].value = "Empfohlene ergänzende Impfungen"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Empfohlene ergänzende Impfungen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Empfohlene ergänzende Impfungen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Empfohlene ergänzende Impfungen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Empfohlene ergänzende Impfungen"
 * #41503 "Empfohlene Impfungen für Risikogruppen"
-* #41503 ^designation[0].language = #de-CH
-* #41503 ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
-* #41503 ^designation[+].language = #fr-CH
-* #41503 ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
-* #41503 ^designation[+].language = #it-CH
-* #41503 ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
-* #41503 ^designation[+].language = #en-US
-* #41503 ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
 * #41504 "Impfungen ohne Empfehlungen"
-* #41504 ^designation[0].language = #de-CH
-* #41504 ^designation[=].value = "Impfungen ohne Empfehlungen"
-* #41504 ^designation[+].language = #fr-CH
-* #41504 ^designation[=].value = "Impfungen ohne Empfehlungen"
-* #41504 ^designation[+].language = #it-CH
-* #41504 ^designation[=].value = "Impfungen ohne Empfehlungen"
-* #41504 ^designation[+].language = #en-US
-* #41504 ^designation[=].value = "Impfungen ohne Empfehlungen"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Impfungen ohne Empfehlungen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Impfungen ohne Empfehlungen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Impfungen ohne Empfehlungen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Impfungen ohne Empfehlungen"
