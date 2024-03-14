@@ -1,7 +1,7 @@
 ValueSet: SwissRecommendationForecastStatus
 Id: ch-vacd-recommendation-forecast-status-vs
 Title: "CH VACD Swiss Recommendation Forecast Status"
-Description: "Swiss Recommendation Forecast Status"
+Description: "Immunization recommendation forecast status values."
 * ^url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-forecast-status-vs"
 * ^status = #active
 * ^experimental = false
