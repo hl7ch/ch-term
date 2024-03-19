@@ -17,7 +17,8 @@ Usage: #definition
 // //////////////////////////////////////////////////////////////////////////////////////////
 // vaccines with swiss medic number                                                       ///
 // //////////////////////////////////////////////////////////////////////////////////////////
-* group[0].source = "http://snomed.info/sct"
+* group[0].id = "group1"
+* group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * group[=].element[0].code = #397430003
 * group[=].element[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
@@ -397,14 +398,8 @@ Usage: #definition
 * group[=].element[=].target[+].code = #627
 * group[=].element[=].target[=].display = "Encepur N"
 * group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[+].code = #628
-* group[=].element[=].target[=].display = "Encepur N Kinder / Enfants"
-* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #683
 * group[=].element[=].target[=].display = "FSME-Immun 0.25 ml Junior"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[+].code = #627
-* group[=].element[=].target[=].display = "Encepur N"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #450
 * group[=].element[=].target[=].display = "FSME-Immun CC"
@@ -508,9 +503,6 @@ Usage: #definition
 * group[=].element[=].display = "Rabies (disorder)"
 * group[=].element[=].target[+].code = #685
 * group[=].element[=].target[=].display = "Rabipur"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[+].code = #417
-* group[=].element[=].target[=].display = "Tollwut Impfstoff Mérieux"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #417
 * group[=].element[=].target[=].display = "Tollwut Impfstoff Mérieux"
@@ -726,7 +718,8 @@ Usage: #definition
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////
-* group[+].source = "http://snomed.info/sct"
+* group[+].id = "group2"
+* group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].element[0].code = #397430003
 * group[=].element[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
@@ -851,7 +844,6 @@ Usage: #definition
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-
 * group[=].element[+].code = #27836007
 * group[=].element[=].display = "Pertussis (disorder)"
 * group[=].element[=].target[+].code = #39
@@ -893,6 +885,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #398102009
 * group[=].element[=].display = "Acute poliomyelitis (disorder)"
 * group[=].element[=].target[+].code = #39
@@ -928,6 +921,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #709410003
 * group[=].element[=].display = "Haemophilus influenzae type b infection (disorder)"
 * group[=].element[=].target[+].code = #92
@@ -954,6 +948,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #40468003
 * group[=].element[=].display = "Viral hepatitis, type A (disorder)"
 * group[=].element[=].target[+].code = #165
@@ -968,6 +963,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #110
 * group[=].element[=].target[=].display = "Vaqta"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #66071002
 * group[=].element[=].display = "Viral hepatitis type B (disorder)"
 * group[=].element[=].target[+].code = #39
@@ -1000,6 +996,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #14189004
 * group[=].element[=].display = "Measles (disorder)"
 * group[=].element[=].target[+].code = #14
@@ -1035,6 +1032,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #123
 * group[=].element[=].target[=].display = "Trimovax"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #36989005
 * group[=].element[=].display = "Mumps (disorder)"
 * group[=].element[=].target[+].code = #75
@@ -1058,6 +1056,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #88
 * group[=].element[=].target[=].display = "Biviraten"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #36653000
 * group[=].element[=].display = "Rubella (disorder)"
 * group[=].element[=].target[+].code = #117
@@ -1096,21 +1095,25 @@ Usage: #definition
 * group[=].element[=].target[+].code = #112
 * group[=].element[=].target[=].display = "Rudivax"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #712986001
 * group[=].element[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target.code = #128
 * group[=].element[=].target.display = "FSME-Immun Injekt"
 * group[=].element[=].target.equivalence = #relatedto
+
 * group[=].element[+].code = #63650001
 * group[=].element[=].display = "Cholera (disorder)"
 * group[=].element[=].target.code = #16
 * group[=].element[=].target.display = "Orochol E"
 * group[=].element[=].target.equivalence = #relatedto
+
 * group[=].element[+].code = #14168008
 * group[=].element[=].display = "Rabies (disorder)"
 * group[=].element[=].target.code = #94
 * group[=].element[=].target.display = "Lyssavac Berna"
 * group[=].element[=].target.equivalence = #relatedto
+
 * group[=].element[+].code = #4834000
 * group[=].element[=].display = "Typhoid fever (disorder)"
 * group[=].element[=].target[+].code = #25
@@ -1119,6 +1122,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #143
 * group[=].element[=].target[=].display = "TAB oral"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #56717001
 * group[=].element[=].display = "Tuberculosis (disorder)"
 * group[=].element[=].target[+].code = #87
@@ -1127,6 +1131,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #48
 * group[=].element[=].target[=].display = "BCG"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #16541001
 * group[=].element[=].display = "Yellow fever (disorder)"
 * group[=].element[=].target.code = #86
@@ -1144,6 +1149,7 @@ Usage: #definition
 * group[=].element[=].target.code = #55
 * group[=].element[=].target.display = "Meningokokken-Impfstoff A+C Mérieux"
 * group[=].element[=].target.equivalence = #relatedto
+
 * group[=].element[+].code = #719865001
 * group[=].element[=].display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target[+].code = #136
@@ -1155,6 +1161,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #141
 * group[=].element[=].target[=].display = "Pandemrix"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #67924001
 * group[=].element[=].display = "Smallpox (disorder)"
 * group[=].element[=].target[+].code = #169
