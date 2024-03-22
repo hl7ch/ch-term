@@ -2,6 +2,7 @@ CodeSystem: ChEtocConditionCategory
 Id: ch-etoc-conditioncategory
 Title: "Condition Category"
 Description: "Additional codes for condition category."
+* ^url = "http://fhir.ch/ig/ch-etoc/CodeSystem/ch-etoc-conditioncategory"
 * ^experimental = false
 * ^caseSensitive = true
 * #illness "Illness"
