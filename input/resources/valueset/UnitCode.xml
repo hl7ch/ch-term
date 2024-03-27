@@ -2,15 +2,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="UnitCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.83--20240229070658"/>
-      <lastUpdated value="2024-02-29T07:07:20Z"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.83--20240326155851"/>
+      <lastUpdated value="2024-03-26T16:03:57Z"/>
       <source value="https://art-decor.org/fhir/4.0/ch-pharm-"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2024-02-29T07:06:58+01:00"/>
+         <start value="2024-03-26T15:58:51+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -20,7 +20,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.1.11.83"/>
    </identifier>
-   <version value="2024-02-29T07:06:58"/>
+   <version value="2024-03-26T15:58:51"/>
    <name value="UnitCode"/>
    <title value="UnitCode"/>
    <status value="active"/>
@@ -397,6 +397,30 @@
             <designation>
                <language value="en-US"/>
                <value value="mmol"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="nmol"/>
+            <display value="nanomole"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="nmol"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="nmol"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="nmol"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="nmol"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="nmol"/>
             </designation>
          </concept>
          <concept>
@@ -956,6 +980,30 @@
             <designation>
                <language value="en-US"/>
                <value value="Ampule"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="413568008"/>
+            <display value="Application - unit of product usage (qualifier value)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Application - unit of product usage (qualifier value)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Application - unit of product usage (qualifier value)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Application - unit of product usage (qualifier value)"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Application - unit of product usage (qualifier value)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Application - unit of product usage (qualifier value)"/>
             </designation>
          </concept>
          <concept>
