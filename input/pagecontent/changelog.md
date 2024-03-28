@@ -17,6 +17,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [CH EMED #245](https://github.com/hl7ch/ch-emed/issues/245): Add EDQM Administration Method
 * [CH EMED #253](https://github.com/hl7ch/ch-emed/issues/253): EDQM Standard Terms: change value for CodeSystem.content from 'complete' to 'fragment' because not all EDQM codes are included
 * [CH EMED #252](https://github.com/hl7ch/ch-emed/issues/252): SCT code for {Piece} 'Piece' (UCUM)
+* [CH EMED #250](https://github.com/hl7ch/ch-emed/issues/250): Add nmol 'nanomole' (UCUM) and 413568008 'Application - unit of product usage (qualifier value)' (SCT) to VS UnitCode
 
 ### v2.0.10 (2023-12-19)
 * Version 202306.1-stable
