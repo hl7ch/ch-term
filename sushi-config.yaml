@@ -7,7 +7,7 @@ title: CH Term (R4)
 description: Implementation Guide for Swiss Terminology
 status: active
 experimental: false
-date: 2024-02-29
+date: 2024-04-12
 version: 3.0.0-ci-build
 fhirVersion: 4.0.1
 copyrightYear: 2019+
@@ -27,7 +27,7 @@ jurisdiction: urn:iso:std:iso:3166#CH
 
 dependencies:
   ihe.formatcode.fhir: 1.1.0
-  hl7.terminology: 5.4.0
+  hl7.terminology: 5.5.0
   
 pages:
   index.md:

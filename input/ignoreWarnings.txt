@@ -3,16 +3,15 @@
 # External CodeSystem
 Unknown System 'urn:oid:1.2.840.10008.2.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.6.1' could not be found, so the code cannot be validated)
 Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.840.10008.2.6.1
-Source Code System http://snomed.info/sct doesn't have all content (content = not-present), so the source codes cannot be checked
-Target Code System http://snomed.info/sct doesn't have all content (content = not-present), so the target codes cannot be checked
+Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
 
 # https://art-decor.org/art-decor/decor-issues--ch-epr-?id=2.16.756.5.30.1.127.77.10.6.26
-The code 'urn:ihe:pcc:ic:2009' is not valid in the system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode
+The code 'urn:ihe:pcc:ic:2009' is not valid in the system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode (Unknown code 'urn:ihe:pcc:ic:2009' in the CodeSystem 'http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode' version '1.1.0')
 
 # Codes are included in https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html
 Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01'
-The code 'OPTENF' is not valid in the system http://dicom.nema.org/resources/ontology/DCM
-The code 'OPTBSV' is not valid in the system http://dicom.nema.org/resources/ontology/DCM
+The code 'OPTENF' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'OPTBSV' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'OPTBSV' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 
 # https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/New.20ConceptMap.20Warning.20--.20induced.20by.20IG.20Publisher
 The modifier extension http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence from FHIR version 1.0 is not allowed to be used at this point (allowed = e:ConceptMap.element.target; this element is [[BackboneElement, ConceptMap.group.element.target]; this is a warning since contexts may be renamed between FHIR versions)
@@ -21,7 +20,7 @@ The modifier extension http://hl7.org/fhir/1.0/StructureDefinition/extension-Con
 The value set references CodeSystem 'urn:oid:0.4.0.127.0.16.1.1.2.1' which has status 'fragment'
 
 # Swiss specific value
-The value provided ('rm-CH') was not found in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The System URI could not be determined for the code 'rm-CH' in the ValueSet 'http://hl7.org/fhir/ValueSet/languages|4.0.1'; The provided code '#rm-CH' was not found in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1')
+The value provided ('rm-CH') was not found in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code 'urn:ietf:bcp:47#rm-CH' was not found in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1')
 
 # No suitable code
 None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://terminology.hl7.org/CodeSystem/v2-0203#NI)
