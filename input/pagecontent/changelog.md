@@ -13,12 +13,13 @@ All significant changes to this FHIR implementation guide will be documented on 
    * [CH AllergyIntolerance #91](https://github.com/hl7ch/ch-allergyintolerance/issues/91)
    * [CH VACD #212](https://github.com/hl7ch/ch-vacd/issues/212)
    * [CH eTOC #82](https://github.com/hl7ch/ch-etoc/issues/82)
-   * ServiceRequest Category (used in CH LAB-Order and CH RAD-Order) (see [#39](https://github.com/hl7ch/ch-epr-term/issues/39))
+   * ServiceRequest Category (origin in CH LAB-Order and CH RAD-Order) (see [#39](https://github.com/hl7ch/ch-epr-term/issues/39))
 * Enabling fsh files as source
 * [CH EMED #245](https://github.com/hl7ch/ch-emed/issues/245): Add EDQM Administration Method
 * [CH EMED #253](https://github.com/hl7ch/ch-emed/issues/253): EDQM Standard Terms: change value for CodeSystem.content from 'complete' to 'fragment' because not all EDQM codes are included
 * [CH EMED #252](https://github.com/hl7ch/ch-emed/issues/252): SCT code for {Piece} 'Piece' (UCUM)
 * [CH EMED #250](https://github.com/hl7ch/ch-emed/issues/250): Add nmol 'nanomole' (UCUM) and 413568008 'Application - unit of product usage (qualifier value)' (SCT) to VS UnitCode
+* [CH Core #116](https://github.com/hl7ch/ch-core/issues/116): Add CS/VS for main guarantor (Coverage.type)
 
 ### v2.0.10 (2023-12-19)
 * Version 202306.1-stable

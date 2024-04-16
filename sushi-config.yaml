@@ -86,6 +86,8 @@ parameters:
     - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-19-admitrole
     - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-20-encounterclass
     - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-21-encountertype
+    - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-25-mainguarantor
+    - http://fhir.ch/ig/ch-core/CodeSystem/mainguarantor
     - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-27-dischargedecision
     - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-28-dischargedestination
     - http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-29-dischargeencounter
@@ -112,6 +114,7 @@ parameters:
     - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-19-admitrole
     - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-20-encounterclass
     - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-21-encountertype
+    - http://fhir.ch/ig/ch-core/ValueSet/mainguarantor
     - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-27-dischargedecision
     - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-28-dischargedestination
     - http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-29-dischargeencounter
@@ -154,7 +157,3 @@ parameters:
     - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sm-sct-cm
     - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-targetdiseases-cm
     - http://fhir.ch/ig/ch-etoc/CodeSystem/ch-etoc-conditioncategory
-   
-    
-
-    
