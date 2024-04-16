@@ -1,6 +1,7 @@
-ValueSet: Mainguarantor
+ValueSet: MainGuarantor
 Id: mainguarantor
-Title: "Codes for the different types of a main guarantor."
+Title: "Main Guarantor"
+Description: "Codes for the different types of a main guarantor."
 * ^experimental = false
 
 * $bfs-medstats-25-mainguarantor#1 "Krankenversicherung (obligat.)"
