@@ -26,4 +26,4 @@ Description: "BFS defines variables for the main guarantor, see [CodeSystem BfsM
 * ^caseSensitive = true
 * ^url = "http://fhir.ch/ig/ch-core/CodeSystem/mainguarantor"
 
-* #ZV "Zusatzversicherung
+* #ZV "Zusatzversicherung"
