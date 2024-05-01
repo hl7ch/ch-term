@@ -15802,7 +15802,7 @@ Description: "CH AllergyIntolerance coding value set. This value set includes co
   * ^designation[0].language = #en-US
   * ^designation[=].value = "Allergy to ceftriaxone"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "allergie to ceftriaxone"
+  * ^designation[=].value = "allergie au ceftriaxone"
   * ^designation[+].language = #de-CH
   * ^designation[=].value = "Allergie gegen Ceftriaxon"
   * ^designation[+].language = #it-CH
