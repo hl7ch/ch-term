@@ -6,7 +6,7 @@ Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:
 Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
 
 # https://art-decor.org/art-decor/decor-issues--ch-epr-?id=2.16.756.5.30.1.127.77.10.6.26
-The code 'urn:ihe:pcc:ic:2009' is not valid in the system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode (Unknown code 'urn:ihe:pcc:ic:2009' in the CodeSystem 'http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode' version '1.1.0')
+The code 'urn:ihe:pcc:ic:2009' is not valid in the system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode (Unknown code 'urn:ihe:pcc:ic:2009' in the CodeSystem 'http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode' version '1.2.0')
 
 # Codes are included in https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html
 Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01'
