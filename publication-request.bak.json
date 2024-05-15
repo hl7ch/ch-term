@@ -1,7 +1,7 @@
 {
-  "package-id" : "ch.fhir.ig.ch-epr-term",
-  "version" : "2.0.10",
-  "path" : "http://fhir.ch/ig/ch-epr-term/2.0.10",
+  "package-id" : "ch.fhir.ig.ch-term",
+  "version" : "3.0.0-ballot",
+  "path" : "http://fhir.ch/ig/ch-term/3.0.0-ballot",
   "mode" : "milestone",
   "status" : "trial-use",
   "sequence" : "STU",

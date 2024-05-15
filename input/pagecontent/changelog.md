@@ -1,19 +1,19 @@
 
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
-### v3.0.0 (2024)
-* [#23](https://github.com/hl7ch/ch-epr-term/issues/23): Rename IG from CH EPR Term to CH EPR
+### v3.0.0 (2024-05-17)
+* [#23](https://github.com/hl7ch/ch-term/issues/23): Rename IG from CH EPR Term to CH EPR
    * Update section introduction on home
    * Change canonical URLs (ValueSets & ConceptMaps)
-* [#24](https://github.com/hl7ch/ch-epr-term/issues/24): Integration of terminology from CH Core and the following exchange formats:
+* [#24](https://github.com/hl7ch/ch-term/issues/24): Integration of terminology from CH Core and the following exchange formats:
    * [CH Core #274](https://github.com/hl7ch/ch-core/issues/274)
-      * [#30](https://github.com/hl7ch/ch-epr-term/issues/30): Add missing CS eCH-011 Religion
-      * [#31](https://github.com/hl7ch/ch-epr-term/issues/31): Replace OID
+      * [#30](https://github.com/hl7ch/ch-term/issues/30): Add missing CS eCH-011 Religion
+      * [#31](https://github.com/hl7ch/ch-term/issues/31): Replace OID
    * [CH EMED #256](https://github.com/hl7ch/ch-emed/issues/256)
    * [CH AllergyIntolerance #91](https://github.com/hl7ch/ch-allergyintolerance/issues/91)
    * [CH VACD #212](https://github.com/hl7ch/ch-vacd/issues/212)
    * [CH eTOC #82](https://github.com/hl7ch/ch-etoc/issues/82)
-   * ServiceRequest Category (origin in CH LAB-Order and CH RAD-Order) (see [#39](https://github.com/hl7ch/ch-epr-term/issues/39))
+   * ServiceRequest Category (origin in CH LAB-Order and CH RAD-Order) (see [#39](https://github.com/hl7ch/ch-term/issues/39))
 * Enabling fsh files as source
 * [CH EMED #245](https://github.com/hl7ch/ch-emed/issues/245): Add EDQM Administration Method
 * [CH EMED #253](https://github.com/hl7ch/ch-emed/issues/253): EDQM Standard Terms: change value for CodeSystem.content from 'complete' to 'fragment' because not all EDQM codes are included
@@ -41,7 +41,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### v2.0.6 (2021-12-22)
 * Version 202104.0-stable
    * See [http://ehealthsuisse.art-decor.org/ch-epr-html-20210416T020411/terminology.html](http://ehealthsuisse.art-decor.org/ch-epr-html-20210416T020411/terminology.html)
-   * Minor update, see also [#6](https://github.com/hl7ch/ch-epr-term/issues/6)	     
+   * Minor update, see also [#6](https://github.com/hl7ch/ch-term/issues/6)	     
 
 ### v2.0.5 (2021-04-23)
 * Version 202104.0-stable
