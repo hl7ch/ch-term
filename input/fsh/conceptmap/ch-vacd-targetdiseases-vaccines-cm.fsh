@@ -147,9 +147,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[+].code = #66940
-* group[=].element[=].target[=].display = "Vaxelis"
-* group[=].element[=].target[=].equivalence = #relatedto
+//* group[=].element[=].target[+].code = #66940
+//* group[=].element[=].target[=].display = "Vaxelis"
+//* group[=].element[=].target[=].equivalence = #relatedto
 // added 2022-11-03
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
