@@ -437,11 +437,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #63650001
 * group[=].element[=].target[=].display = "Cholera (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[+].code = #417
-* group[=].element[=].display = "Tollwut Impfstoff Mérieux"
-* group[=].element[=].target[+].code = #14168008
-* group[=].element[=].target[=].display = "Rabies (disorder)"
-* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #483
 * group[=].element[=].display = "Rimevax"
 * group[=].element[=].target[+].code = #14189004
@@ -557,16 +552,6 @@ Usage: #definition
 * group[=].element[=].display = "Te Anatoxal N"
 * group[=].element[=].target[+].code = #76902006
 * group[=].element[=].target[=].display = "Tetanus (disorder)"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[+].code = #627
-* group[=].element[=].display = "Encepur N"
-* group[=].element[=].target[+].code = #712986001
-* group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[+].code = #628
-* group[=].element[=].display = "Encepur N Kinder / Enfants"
-* group[=].element[=].target[+].code = #712986001
-* group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #62961
 * group[=].element[=].display = "Fluarix Tetra"
