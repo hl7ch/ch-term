@@ -885,6 +885,43 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|'AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #69310
+* group[=].element[=].display = "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension"
+* group[=].element[=].target[+].code = #55735004 
+* group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69173|'Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69173|Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #69173
+* group[=].element[=].display = "Jynneos, Injektionssuspension"
+* group[=].element[=].target[+].code = #359814004
+* group[=].element[=].target[=].display = "Monkeypox (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|'Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #69222
+* group[=].element[=].display = "Prevenar 20, Injektionssuspension in einer Fertigspritze"
+* group[=].element[=].target[+].code = #16814004 
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69815|'Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG'
+* group[=].element[+].code = #69815
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG'
+* group[=].element[+].code = #69403
+* group[=].element[=].display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* group[=].element[=].target[+].code = #38362002
+* group[=].element[=].target[=].display = "Dengue (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////
@@ -1438,3 +1475,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #66071002
 * group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #95
+* group[=].element[=].display = "Vaccin méningococcique A+C Mérieux"
+* group[=].element[=].target[+].code = #23511006 
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+		

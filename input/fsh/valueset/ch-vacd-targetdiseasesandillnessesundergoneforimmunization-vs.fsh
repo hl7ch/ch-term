@@ -15,6 +15,7 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[=].value = "Erbrechen"
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "vomito"
+
 * $sct#38907003 "Varicella (disorder)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Windpocken"
@@ -380,3 +381,43 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+
+  // added 2024-06-28
+* $sct#55735004 "Respiratory syncytial virus infection (disorder)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+
+// added 2024-08-09
+* $sct#38362002 "Dengue (disorder)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Dengue (disorder)"
+
+
+// added 2024-08-09
+* $sct#111852003 "Vaccinia (disorder)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccinia (disorder)"

@@ -1432,6 +1432,75 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
 
+// 69310	01	AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	02.05.2024	02.05.2024	01.05.2029	J07BX05	X	X	X
+// added 2024-06-13
+* $ch-vacd-swissmedic-cs#69310 "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "AREXVY"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "AREXVY"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "AREXVY"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "AREXVY"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "AREXVY"
+
+// 69173	01	Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG	B	01.03.2024	01.03.2024	28.02.2029	J07BX	X		X	X
+// added 2024-06-13
+* $ch-vacd-swissmedic-cs#69173 "Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Jynneos"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Jynneos"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Jynneos"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Jynneos"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Jynneos"
+
+// 69222	01	Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	26.03.2024	26.03.2024	25.03.2029	J07AL02	X		X	X
+// added 2024-06-13
+* $ch-vacd-swissmedic-cs#69222 "Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Prevenar 20"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Prevenar 20"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Prevenar 20"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Prevenar 20"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Prevenar 20"
+
+  // 69815	01	Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	26.06.2024	26.06.2024	25.06.2029	J07BN01	X		X	X
+// added 2024-08-09
+* $ch-vacd-swissmedic-cs#69815 "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+
+// 69403	01	Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG	B	29.07.2024	29.07.2024	28.07.2029	J07BX04	X		X	X
+// added 2024-08-09
+* $ch-vacd-swissmedic-cs#69403 "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
 
 
 
