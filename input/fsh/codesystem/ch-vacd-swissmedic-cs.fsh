@@ -3,7 +3,7 @@ Id: ch-vacd-swissmedic-cs
 Title: "CH VACD Swissmedic Authorized Vaccines"
 Description: "The vaccines swissmedic has given an autorization number."
 * ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-* ^meta.source = "http://myvaccines.ch"
+* ^meta.source = "https://www.swissmedic.ch"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-01-24T00:00:00+01:00"
 * ^identifier.use = #official
