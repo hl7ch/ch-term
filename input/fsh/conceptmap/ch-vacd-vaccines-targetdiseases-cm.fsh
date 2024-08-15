@@ -887,21 +887,21 @@ Usage: #definition
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|'AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #69310
-* group[=].element[=].display = "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension"
+* group[=].element[=].display = "AREXVY"
 * group[=].element[=].target[+].code = #55735004 
 * group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69173|'Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69173|Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #69173
-* group[=].element[=].display = "Jynneos, Injektionssuspension"
+* group[=].element[=].display = "Jynneos"
 * group[=].element[=].target[+].code = #359814004
 * group[=].element[=].target[=].display = "Monkeypox (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|'Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #69222
-* group[=].element[=].display = "Prevenar 20, Injektionssuspension in einer Fertigspritze"
+* group[=].element[=].display = "Prevenar 20"
 * group[=].element[=].target[+].code = #16814004 
 * group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto

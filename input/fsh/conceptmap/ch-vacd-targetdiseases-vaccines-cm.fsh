@@ -555,7 +555,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #69222
-* group[=].element[=].target[=].display = "Prevenar 20, Injektionssuspension in einer Fertigspritze"
+* group[=].element[=].target[=].display = "Prevenar 20"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -719,14 +719,14 @@ Usage: #definition
 * group[=].element[+].code = #359814004
 * group[=].element[=].display = "Monkeypox (disorder)"
 * group[=].element[=].target[+].code = #69173	
-* group[=].element[=].target[=].display = "Jynneos, Injektionssuspension"
+* group[=].element[=].target[=].display = "Jynneos"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2024-06-21
 * group[=].element[+].code = #55735004
 * group[=].element[=].display = "Respiratory syncytial virus infection (disorder)"
 * group[=].element[=].target[+].code = #69310	
-* group[=].element[=].target[=].display = "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension"
+* group[=].element[=].target[=].display = "AREXVY"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -741,11 +741,16 @@ Usage: #definition
 // TODO
 //ERROR, http://snomed.info/sct|111852003|'Vaccinia (disorder)': The source code '111852003|Vaccinia (disorder)' is defined in the valueset but not in the conceptmap.
 // added 2024-08-
+* group[+].id = "group3"
+* group[=].source = "http://snomed.info/sct"
+* group[=].target = "http://snomed.info/sct"
 * group[=].element[+].code = #111852003
 * group[=].element[=].display = "Vaccinia (disorder)"
-//* group[=].element[=].target[+].code = #	
-//* group[=].element[=].target[=].display = ""
-//* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////

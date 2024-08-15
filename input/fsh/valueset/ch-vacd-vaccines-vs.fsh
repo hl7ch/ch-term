@@ -6,7 +6,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 * ^status = #active
 * ^experimental = false
 
-* $sct##787859002 "Vaccine product (medicinal product)"
+* $sct#787859002 "Vaccine product (medicinal product)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Unbekannter Impfstoff"
   * ^designation[+].language = #fr-CH

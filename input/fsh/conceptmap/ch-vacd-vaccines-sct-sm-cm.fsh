@@ -580,21 +580,24 @@ Usage: #definition
 * group[=].element[=].display = "Vaccine product containing Vaccinia virus antigen (medicinal product)"
 //* group[=].element[=].target[+].code = #
 //* group[=].element[=].target[=].display = ""
-//* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://snomed.info/sct|836402002|'Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)': The source code '836402002|Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #836402002
 * group[=].element[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
 //* group[=].element[=].target[+].code = #
 //* group[=].element[=].target[=].display = ""
-//* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://snomed.info/sct|836401009|'Vaccine product containing Neisseria meningitidis antigen (medicinal product)': The source code '836401009|Vaccine product containing Neisseria meningitidis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #836401009
 * group[=].element[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
 //* group[=].element[=].target[+].code = #
 //* group[=].element[=].target[=].display = ""
-//* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 
 
@@ -820,7 +823,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Orochol E"
 * group[=].element[=].target[=].equivalence = #equivalent
 
-// TODO
+
 //ERROR, http://snomed.info/sct|871873006|'Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)': The source code 'http://snomed.info/sct|871873006|Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #871873006
 * group[=].element[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
@@ -828,7 +831,6 @@ Usage: #definition
 * group[=].element[=].target.display = "Meningokokken-Impfstoff A+C Mérieux"
 * group[=].element[=].target.equivalence = #relatedto
 
-//ERROR, http://snomed.info/sct|871919004|'Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)': The source code 'http://snomed.info/sct|871919004|Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //ERROR, http://snomed.info/sct|1119254000|'Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119254000|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #1119254000
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119254000|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
@@ -843,6 +845,8 @@ Usage: #definition
 * group[=].element[=].target.display = "Pnu-Immune"
 * group[=].element[=].target.equivalence = #relatedto
 
+// TODO ??
+//ERROR, http://snomed.info/sct|871919004|'Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)': The source code 'http://snomed.info/sct|871919004|Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //ERROR, http://snomed.info/sct|1181000221105|'Vaccine product containing only Influenza virus antigen (medicinal product)': The source code 'http://snomed.info/sct|1181000221105|Vaccine product containing only Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //ERROR, http://snomed.info/sct|1861000221106|'Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)': The source code 'http://snomed.info/sct|1861000221106|Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //ERROR, http://snomed.info/sct|1991000221106|'Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)': The source code 'http://snomed.info/sct|1991000221106|Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
