@@ -374,15 +374,236 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
 * group[=].element[=].target[=].equivalence = #equivalent
 
-
 // added 2023-05-19
 * group[=].element[+].code = #1252708008
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[+].code = #68752
 * group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
 * group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[+].code = #60129
+* group[=].element[=].target[=].display = "Prevenar 13"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|871873006|'Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)': The source code 'http://snomed.info/sct|871873006|Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #871873006
+* group[=].element[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
+* group[=].element[=].target[+].code = #654
+* group[=].element[=].target[=].display = "Meningitec"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #62502
+* group[=].element[=].target[=].display = "Menveo"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #656
+* group[=].element[=].target[=].display = "NeisVac-C"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #652
+* group[=].element[=].target[=].display = "Mencevax ACWY"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #657
+* group[=].element[=].target[=].display = "Menjugate"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|871919004|'Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)': The source code 'http://snomed.info/sct|871919004|Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #871919004
+* group[=].element[=].display = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
+* group[=].element[=].target[+].code = #688
+* group[=].element[=].target[=].display = "Varivax"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #585
+* group[=].element[=].target[=].display = "Varilrix"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #58158
+* group[=].element[=].target[=].display = "Priorix-Tetra"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
+//ERROR, http://snomed.info/sct|1119254000|'Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119254000|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1119254000
+* group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119254000|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
+* group[=].element[=].target[+].code = #60129
+* group[=].element[=].target[=].display = "Prevenar 13"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #643
+* group[=].element[=].target[=].display = "Prevenar-7"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #509
+* group[=].element[=].target[=].display = "Pneumovax-23"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|981000221107|'Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product': The source code 'http://snomed.info/sct|981000221107|Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #981000221107
+* group[=].element[=].display = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
+* group[=].element[=].target[+].code = #60129
+* group[=].element[=].target[=].display = "Prevenar 13"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #643
+* group[=].element[=].target[=].display = "Prevenar-7"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #509
+* group[=].element[=].target[=].display = "Pneumovax-23"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|1181000221105|'Vaccine product containing only Influenza virus antigen (medicinal product)': The source code 'http://snomed.info/sct|1181000221105|Vaccine product containing only Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1181000221105
+* group[=].element[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #583
+* group[=].element[=].target[=].display = "Fluarix"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #614
+* group[=].element[=].target[=].display = "Inflexal V"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #58271
+* group[=].element[=].target[=].display = "Optaflu"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #660
+* group[=].element[=].target[=].display = "Influvac plus"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #373
+* group[=].element[=].target[=].display = "Mutagrip"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #62961
+* group[=].element[=].target[=].display = "Fluarix Tetra"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #58317
+* group[=].element[=].target[=].display = "Fluad"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #59267
+* group[=].element[=].target[=].display = "Agrippal"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #485
+* group[=].element[=].target[=].display = "Influvac"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #66427
+* group[=].element[=].target[=].display = "VaxigripTetra"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #68087	
+* group[=].element[=].target[=].display = "Influvac Tetra"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #66161
+* group[=].element[=].target[=].display = "Foclivia (Durchstechflasche)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #66156
+* group[=].element[=].target[=].display = "Foclivia (Fertigspritze)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|1861000221106|'Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)': The source code 'http://snomed.info/sct|1861000221106|Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1861000221106
+* group[=].element[=].display = "Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)"
+* group[=].element[=].target.code = #696
+* group[=].element[=].target.display = "BCG SSI"
+* group[=].element[=].target.equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|1991000221106|'Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)': The source code 'http://snomed.info/sct|1991000221106|Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1991000221106
+* group[=].element[=].display = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
+* group[=].element[=].target[+].code = #57814
+* group[=].element[=].target[=].display = "Cervarix"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #57735
+* group[=].element[=].target[=].display = "Gardasil"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #65387
+* group[=].element[=].target[=].display = "Gardasil 9"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//ERROR, http://snomed.info/sct|1209197008|'Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)': The source code 'http://snomed.info/sct|1209197008|Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1209197008
+* group[=].element[=].display = "Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)"
+* group[=].element[=].target[+].code = #65387
+* group[=].element[=].target[=].display = "Gardasil 9"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|1981000221108|'Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)': The source code 'http://snomed.info/sct|1981000221108|Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1981000221108
+* group[=].element[=].display = "Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)"
+* group[=].element[=].target[+].code = #66037	
+* group[=].element[=].target[=].display = "Menjugate liquid"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//ERROR, http://snomed.info/sct|1119220001|'Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119220001|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1119220001
+* group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119220001|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)"
+* group[=].element[=].target[+].code = #68752
+* group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+// ERROR, http://snomed.info/sct|840563003|'Vaccine product containing Dengue virus antigen (medicinal product)': The source code '840563003|Vaccine product containing Dengue virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2024-08-14
+* group[=].element[+].code = #840563003
+* group[=].element[=].display = "Vaccine product containing Dengue virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #69403
+* group[=].element[=].target[=].display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// ERROR, http://snomed.info/sct|836421005|'Vaccine product containing Ebolavirus antigen (medicinal product)': The source code '836421005|Vaccine product containing Ebolavirus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2024-08-14
+* group[=].element[+].code = #836421005
+* group[=].element[=].display = "Vaccine product containing Ebolavirus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #68358
+* group[=].element[=].target[=].display = "Ervebo, Injektionslösung"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// ERROR, http://snomed.info/sct|836375003|'Vaccine product containing Hepatitis A virus antigen (medicinal product)': The source code '836375003|Vaccine product containing Hepatitis A virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2024-08-14
+* group[=].element[+].code = #836375003
+* group[=].element[=].display = "Vaccine product containing Hepatitis A virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #68003
+* group[=].element[=].target[=].display = "Supemtek 0.5 ml"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// ERROR, http://snomed.info/sct|836495005|'Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)': The source code '836495005|Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #836495005
+* group[=].element[=].display = "Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)"
+* group[=].element[=].target[+].code = #585
+* group[=].element[=].target[=].display = "Varilrix"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #688
+* group[=].element[=].target[=].display = "Varivax"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// ERROR, http://snomed.info/sct|836377006|'Vaccine product containing Influenza virus antigen (medicinal product)': The source code '836377006|Vaccine product containing Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #836377006
+* group[=].element[=].display = "Vaccine product containing Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #66161
+* group[=].element[=].target[=].display = "Foclivia (Durchstechflasche)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #66156
+* group[=].element[=].target[=].display = "Foclivia (Fertigspritze)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// TODO
+//ERROR, http://snomed.info/sct|836389008|'Vaccine product containing Vaccinia virus antigen (medicinal product)': The source code '836389008|Vaccine product containing Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #836389008
+* group[=].element[=].display = "Vaccine product containing Vaccinia virus antigen (medicinal product)"
+//* group[=].element[=].target[+].code = #
+//* group[=].element[=].target[=].display = ""
+* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://snomed.info/sct|836402002|'Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)': The source code '836402002|Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #836402002
+* group[=].element[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
+//* group[=].element[=].target[+].code = #
+//* group[=].element[=].target[=].display = ""
+* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://snomed.info/sct|836401009|'Vaccine product containing Neisseria meningitidis antigen (medicinal product)': The source code '836401009|Vaccine product containing Neisseria meningitidis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #836401009
+* group[=].element[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
+//* group[=].element[=].target[+].code = #
+//* group[=].element[=].target[=].display = ""
+* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+// Old vaccines, missing swiss medic number                                               ///
+// //////////////////////////////////////////////////////////////////////////////////////////
 
 * group[+].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
@@ -603,4 +824,33 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 
 
+//ERROR, http://snomed.info/sct|871873006|'Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)': The source code 'http://snomed.info/sct|871873006|Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #871873006
+* group[=].element[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
+* group[=].element[=].target.code = #55
+* group[=].element[=].target.display = "Meningokokken-Impfstoff A+C Mérieux"
+* group[=].element[=].target.equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|1119254000|'Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119254000|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1119254000
+* group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119254000|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
+* group[=].element[=].target.code = #100
+* group[=].element[=].target.display = "Pnu-Immune"
+* group[=].element[=].target.equivalence = #relatedto
+
+//ERROR, http://snomed.info/sct|981000221107|'Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product': The source code 'http://snomed.info/sct|981000221107|Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #981000221107
+* group[=].element[=].display = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product': The source code 'http://snomed.info/sct|981000221107|Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
+* group[=].element[=].target.code = #100
+* group[=].element[=].target.display = "Pnu-Immune"
+* group[=].element[=].target.equivalence = #relatedto
+
+// TODO ??
+//ERROR, http://snomed.info/sct|871919004|'Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)': The source code 'http://snomed.info/sct|871919004|Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+//ERROR, http://snomed.info/sct|1181000221105|'Vaccine product containing only Influenza virus antigen (medicinal product)': The source code 'http://snomed.info/sct|1181000221105|Vaccine product containing only Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+//ERROR, http://snomed.info/sct|1861000221106|'Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)': The source code 'http://snomed.info/sct|1861000221106|Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+//ERROR, http://snomed.info/sct|1991000221106|'Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)': The source code 'http://snomed.info/sct|1991000221106|Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+//ERROR, http://snomed.info/sct|1209197008|'Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)': The source code 'http://snomed.info/sct|1209197008|Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
+//ERROR, http://snomed.info/sct|1981000221108|'Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)': The source code 'http://snomed.info/sct|1981000221108|Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+//ERROR, http://snomed.info/sct|1119220001|'Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119220001|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
 

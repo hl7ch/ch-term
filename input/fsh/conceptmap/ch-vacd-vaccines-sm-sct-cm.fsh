@@ -565,6 +565,232 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69815|'Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG': The source code '69815|Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG' is defined in the valueset but not in the conceptmap.
+// added 2024-08-09
+* group[=].element[+].code = #69815
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG': The source code '69403|Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG' is defined in the valueset but not in the conceptmap.
+// added 2024-08-09 840563003|Vaccine product containing Dengue virus antigen (medicinal product) 
+* group[=].element[+].code = #69403
+* group[=].element[=].display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* group[=].element[=].target[+].code = #840563003
+* group[=].element[=].target[=].display = "Vaccine product containing Dengue virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|'Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG': The source code '69222|Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG' is defined in the valueset but not in the conceptmap.
+// added 2024-08-09 
+* group[=].element[+].code = #69222
+* group[=].element[=].display = "Prevenar 20"
+* group[=].element[=].target[+].code = #1052328007
+* group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|614|'Inflexal V': The source code '614|Inflexal V' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #614
+* group[=].element[=].display = "Inflexal V"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|583|'Fluarix': The source code '583|Fluarix' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #583
+* group[=].element[=].display = "Fluarix"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|373|'Mutagrip': The source code '373|Mutagrip' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #373
+* group[=].element[=].display = "Mutagrip"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|485|'Influvac': The source code '485|Influvac' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #485
+* group[=].element[=].display = "Influvac"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|660|'Influvac plus': The source code '660|Influvac plus' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #660
+* group[=].element[=].display = "Influvac plus"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|58317|'Fluad': The source code '58317|Fluad' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #58317
+* group[=].element[=].display = "Fluad"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|59267|'Agrippal': The source code '59267|Agrippal' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #59267
+* group[=].element[=].display = "Agrippal"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|58271|'Optaflu': The source code '58271|Optaflu' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #58271
+* group[=].element[=].display = "Optaflu"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|62961|'Fluarix Tetra': The source code '62961|Fluarix Tetra' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #62961
+* group[=].element[=].display = "Fluarix Tetra"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|66427|'VaxigripTetra': The source code '66427|VaxigripTetra' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #66427
+* group[=].element[=].display = "VaxigripTetra"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|68087|'Influvac Tetra': The source code '68087|Influvac Tetra' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #68087
+* group[=].element[=].display = "Influvac Tetra"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|67482|'Flucelvax Tetra': The source code '67482|Flucelvax Tetra' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #67482
+* group[=].element[=].display = "Flucelvax Tetra"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|67704|'Efluelda 0.7 ml': The source code '67704|Efluelda 0.7 ml' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #67704
+* group[=].element[=].display = "Efluelda 0.7 ml"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|68462|'Fluenz Tetra': The source code '68462|Fluenz Tetra' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #68462
+* group[=].element[=].display = "Fluenz Tetra"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|66161|'Foclivia (Durchstechflasche)': The source code '66161|Foclivia (Durchstechflasche)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #66161
+* group[=].element[=].display = "Foclivia (Durchstechflasche)"
+* group[=].element[=].target[+].code = #836377006 
+* group[=].element[=].target[=].display = "Vaccine product containing Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|66156|'Foclivia (Fertigspritze)': The source code '66156|Foclivia (Fertigspritze)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #66156
+* group[=].element[=].display = "Foclivia (Fertigspritze)"
+* group[=].element[=].target[+].code = #836377006 
+* group[=].element[=].target[=].display = "Vaccine product containing Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|585|'Varilrix': The source code '585|Varilrix' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #585
+* group[=].element[=].display = "Varilrix"
+* group[=].element[=].target[+].code = #836495005
+* group[=].element[=].target[=].display = "Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|688|'Varivax': The source code '688|Varivax' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #688
+* group[=].element[=].display = "Varivax"
+* group[=].element[=].target[+].code = #836495005
+* group[=].element[=].target[=].display = "Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|696|'BCG SSI': The source code '696|BCG SSI' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #696
+* group[=].element[=].display = "BCG SSI"
+* group[=].element[=].target[+].code = #836402002 
+* group[=].element[=].target[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|68003|'Supemtek 0.5 ml': The source code '68003|Supemtek 0.5 ml' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #68003
+* group[=].element[=].display = "Supemtek 0.5 ml"
+* group[=].element[=].target[+].code = #836375003 
+* group[=].element[=].target[=].display = "Vaccine product containing Hepatitis A virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|68358|'Ervebo, Injektionslösung': The source code '68358|Ervebo, Injektionslösung' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #68358
+* group[=].element[=].display = "Ervebo"
+* group[=].element[=].target[+].code = #836421005 
+* group[=].element[=].target[=].display = "Vaccine product containing Ebolavirus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+
+// TODO
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|652|'Mencevax ACWY': The source code '652|Mencevax ACWY' is defined in the valueset but not in the conceptmap.
+// added 2024-08-14 
+* group[=].element[+].code = #652
+* group[=].element[=].display = "Mencevax ACWY"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|66037|'Menjugate liquid': The source code '66037|Menjugate liquid' is defined in the valueset but not in the conceptmap.
+// added 2024-08-14 
+* group[=].element[+].code = #66037
+* group[=].element[=].display = "Menjugate liquid"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|65730|'Bexsero': The source code '65730|Bexsero' is defined in the valueset but not in the conceptmap.
+// added 2024-08-14 
+* group[=].element[+].code = #65730
+* group[=].element[=].display = "Bexsero"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69173|'Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG': The source code '69173|Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG' is defined in the valueset but not in the conceptmap.
+// added 2024-08-09 
+* group[=].element[+].code = #69173
+* group[=].element[=].display = "Jynneos"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|'AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG': The source code '69310|AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG' is defined in the valueset but not in the conceptmap.
+// added 2024-08-09 
+* group[=].element[+].code = #69310
+* group[=].element[=].display = "AREXVY"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|68221|'MenQuadfi': The source code '68221|MenQuadfi' is defined in the valueset but not in the conceptmap.
+// added 2024-08-09 
+* group[=].element[+].code = #68221
+* group[=].element[=].display = "MenQuadfi"
+//* group[=].element[=].target[+].code = #836401009
+//* group[=].element[=].target[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
+//* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+	
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
@@ -883,4 +1109,229 @@ Usage: #definition
 * group[=].element[=].target[+].code = #991000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
+
+// TODO
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|14|'MoRu-Viraten': The source code '14|MoRu-Viraten' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #14
+* group[=].element[=].display = "MoRu-Viraten"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|23|'Triviraten': The source code '23|Triviraten' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #23
+* group[=].element[=].display = "Triviraten"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|39|'Infanrix Penta': The source code '39|Infanrix Penta' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #39
+* group[=].element[=].display = "Infanrix Penta"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|48|'BCG': The source code '48|BCG' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #48
+* group[=].element[=].display = "BCG"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|56|'Meruvax': The source code '56|Meruvax' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #56
+* group[=].element[=].display = "Meruvax"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|73|'Infanrix DTPa+Hib': The source code '73|Infanrix DTPa+Hib' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #73
+* group[=].element[=].display = "Infanrix DTPa+Hib"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|77|'Acel P': The source code '77|Acel P' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #77
+* group[=].element[=].display = "Acel P"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|82|'Anatoxal Di': The source code '82|Anatoxal Di' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #82
+* group[=].element[=].display = "Anatoxal Di"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|87|'BCG Vaccin Mérieux': The source code '87|BCG Vaccin Mérieux' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #87
+* group[=].element[=].display = "BCG Vaccin Mérieux"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|88|'Biviraten': The source code '88|Biviraten' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #88
+* group[=].element[=].display = "Biviraten"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|91|'Ervevax': The source code '91|Ervevax' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #91
+* group[=].element[=].display = "Ervevax"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|93|'Infanrix DTPa-HBV': The source code '93|Infanrix DTPa-HBV' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #93
+* group[=].element[=].display = "Infanrix DTPa-HBV"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|95|'Vaccin méningococcique A+C Mérieux': The source code '95|Vaccin méningococcique A+C Mérieux' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #95
+* group[=].element[=].display = "Vaccin méningococcique A+C Mérieux"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|96|'MM Vax': The source code '96|MM Vax' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #96
+* group[=].element[=].display = "MM Vax"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|107|'Tetramune': The source code '107|Tetramune' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #107
+* group[=].element[=].display = "Tetramune"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|111|'Rubeaten': The source code '111|Rubeaten' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #111
+* group[=].element[=].display = "Rubeaten"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|112|'Rudivax': The source code '112|Rudivax' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #112
+* group[=].element[=].display = "Rudivax"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|117|'Almevax': The source code '117|Almevax' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #117
+* group[=].element[=].display = "Almevax"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|121|'Rimparix': The source code '121|Rimparix' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #121
+* group[=].element[=].display = "Rimparix"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|122|'Rubevac': The source code '122|Rubevac' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #122
+* group[=].element[=].display = "Rubevac"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|127|'Eolarix': The source code '127|Eolarix' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #127
+* group[=].element[=].display = "Eolarix"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|136|'Celtura': The source code '136|Celtura' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #136
+* group[=].element[=].display = "Celtura"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|137|'Focetria': The source code '137|Focetria' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #137
+* group[=].element[=].display = "Focetria"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|141|'Pandemrix': The source code '141|Pandemrix' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #141
+* group[=].element[=].display = "Pandemrix"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|142|'Prohibit DTP': The source code '142|Prohibit DTP' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #142
+* group[=].element[=].display = "Prohibit DTP"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|144|'Variola': The source code '144|Variola' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #144
+* group[=].element[=].display = "Variola"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|151|'Di Anatoxal': The source code '151|Di Anatoxal' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #151
+* group[=].element[=].display = "Di Anatoxal"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|169|'Vaccin variole': The source code '169|Vaccin variole' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #169
+* group[=].element[=].display = "Vaccin variole"
+* group[=].element[=].target[+].code = #787859002  
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
 

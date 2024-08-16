@@ -554,9 +554,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68752
 * group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
 * group[=].element[=].target[=].equivalence = #relatedto
-
-
-
+* group[=].element[=].target[+].code = #69222
+* group[=].element[=].target[=].display = "Prevenar 20"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
 * group[=].element[+].code = #240532009
@@ -682,6 +682,12 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69815|'Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG'
+// added 2024-08-09
+* group[=].element[=].target[+].code = #69815
+* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 
 // added 2021-11-19
 //66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
@@ -709,6 +715,41 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Menjugate liquid"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+// added 2024-06-28
+* group[=].element[+].code = #359814004
+* group[=].element[=].display = "Monkeypox (disorder)"
+* group[=].element[=].target[+].code = #69173	
+* group[=].element[=].target[=].display = "Jynneos"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2024-06-21
+* group[=].element[+].code = #55735004
+* group[=].element[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[+].code = #69310	
+* group[=].element[=].target[=].display = "AREXVY"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG'
+// added 2024-08-09
+* group[=].element[+].code = #38362002
+* group[=].element[=].display = "Dengue (disorder)"
+* group[=].element[=].target[+].code = #69403	
+* group[=].element[=].target[=].display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// TODO
+//ERROR, http://snomed.info/sct|111852003|'Vaccinia (disorder)': The source code '111852003|Vaccinia (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2024-08-
+* group[+].id = "group3"
+* group[=].source = "http://snomed.info/sct"
+* group[=].target = "http://snomed.info/sct"
+* group[=].element[+].code = #111852003
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 
 
@@ -1167,4 +1208,3 @@ Usage: #definition
 * group[=].element[=].target[+].code = #144
 * group[=].element[=].target[=].display = "Variola"
 * group[=].element[=].target[=].equivalence = #relatedto
-

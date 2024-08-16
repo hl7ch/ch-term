@@ -534,3 +534,95 @@ Description: "The list of vaccine products in Snomed CT list."
   * ^designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
+
+// addded 2023-09-14
+* $sct#840563003 "Vaccine product containing Dengue virus antigen (medicinal product)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccine product containing Dengue virus antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccine product containing Dengue virus antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccine product containing Dengue virus antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccine product containing Dengue virus antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccine product containing Dengue virus antigen"
+
+
+// ERROR, http://snomed.info/sct|836401009|'Vaccine product containing Neisseria meningitidis antigen (medicinal product)': The target code '836401009|Vaccine product containing Neisseria meningitidis antigen (medicinal product)' is not defined in the corresponding valueset.
+* $sct#836401009 "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccine product containing Neisseria meningitidis antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccine product containing Neisseria meningitidis antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccine product containing Neisseria meningitidis antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccine product containing Neisseria meningitidis antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccine product containing Neisseria meningitidis antigen"
+
+// ERROR, http://snomed.info/sct|836377006|'Vaccine product containing Influenza virus antigen (medicinal product)': The target code '836377006|Vaccine product containing Influenza virus antigen (medicinal product)' is not defined in the corresponding valueset.
+* $sct#836377006 "Vaccine product containing Influenza virus antigen (medicinal product)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccine product containing Influenza virus antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccine product containing Influenza virus antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccine product containing Influenza virus antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccine product containing Influenza virus antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccine product containing Influenza virus antigen"
+  
+// ERROR, http://snomed.info/sct|836495005|'Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)': The target code '836495005|Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)' is not defined in the corresponding valueset.
+* $sct#836495005 "Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccine product containing Human alphaherpesvirus 3 antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccine product containing Human alphaherpesvirus 3 antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccine product containing Human alphaherpesvirus 3 antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccine product containing Human alphaherpesvirus 3 antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccine product containing Human alphaherpesvirus 3 antigen"
+
+// ERROR, http://snomed.info/sct|836402002|'Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)': The target code '836402002|Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)' is not defined in the corresponding valueset.
+* $sct#836402002 "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccine product containing live attenuated Mycobacterium bovis antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccine product containing live attenuated Mycobacterium bovis antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccine product containing live attenuated Mycobacterium bovis antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccine product containing live attenuated Mycobacterium bovis antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccine product containing live attenuated Mycobacterium bovis antigen"
+
+// ERROR, http://snomed.info/sct|836375003|'Vaccine product containing Hepatitis A virus antigen (medicinal product)': The target code '836375003|Vaccine product containing Hepatitis A virus antigen (medicinal product)' is not defined in the corresponding valueset.
+* $sct#836375003 "Vaccine product containing Hepatitis A virus antigen (medicinal product)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccine product containing Hepatitis A virus antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccine product containing Hepatitis A virus antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccine product containing Hepatitis A virus antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccine product containing Hepatitis A virus antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccine product containing Hepatitis A virus antigen"
+
+// ERROR, http://snomed.info/sct|836421005|'Vaccine product containing Ebolavirus antigen (medicinal product)': The target code '836421005|Vaccine product containing Ebolavirus antigen (medicinal product)' is not defined in the corresponding valueset.
+* $sct#836421005 "Vaccine product containing Ebolavirus antigen (medicinal product)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccine product containing Ebolavirus antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccine product containing Ebolavirus antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccine product containing Ebolavirus antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccine product containing Ebolavirus antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccine product containing Ebolavirus antigen"
