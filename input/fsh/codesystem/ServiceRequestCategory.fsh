@@ -1,7 +1,7 @@
 CodeSystem: ServiceRequestCategory
 Id: servicerequest-category
 Title: "ServiceRequest Category"
-Description: "Codes supplement with translations for the category of service requests used to define the requested service."
+Description: "Code system supplement with translations for the SNOMED CT codes for categories of service requests used to define the requested service."
 * ^experimental = false
 * ^caseSensitive = true
 * ^content = #supplement
