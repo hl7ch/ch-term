@@ -627,7 +627,7 @@ Usage: #definition
 //68473	01	Nuvaxovid 0.5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	20.09.2028	J07BX03
 // added 2022-06-08
 * group[=].element[+].code = #68473
-* group[=].element[=].display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
+* group[=].element[=].display = "Nuvaxovid 0.5 ml"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -838,7 +838,7 @@ Usage: #definition
 //69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
 // added 2023-05-19
 * group[=].element[+].code = #69189
-* group[=].element[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron BA.4-5"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -854,7 +854,7 @@ Usage: #definition
 //68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
 // added 2023-05-19
 * group[=].element[+].code = #68752
-* group[=].element[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].display = "Vaxneuvance"
 * group[=].element[=].target[+].code = #16814004
 * group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -863,7 +863,7 @@ Usage: #definition
 //69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
 * group[=].element[+].code = #69465
-* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -871,7 +871,7 @@ Usage: #definition
 //69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
 * group[=].element[+].code = #69484
-* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -879,7 +879,7 @@ Usage: #definition
 //69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
 // added 2023-10-10
 * group[=].element[+].code = #69488
-* group[=].element[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -908,14 +908,14 @@ Usage: #definition
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69815|'Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG'
 * group[=].element[+].code = #69815
-* group[=].element[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG'
 * group[=].element[+].code = #69403
-* group[=].element[=].display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* group[=].element[=].display = "Qdenga 0.5 ml"
 * group[=].element[=].target[+].code = #38362002
 * group[=].element[=].target[=].display = "Dengue (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
