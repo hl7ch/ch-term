@@ -536,7 +536,7 @@ Usage: #definition
 //68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
 // added 2023-05-19
 * group[=].element[+].code = #68752
-* group[=].element[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].display = "Vaxneuvance"
 * group[=].element[=].target[+].code = #1252708008
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -544,7 +544,7 @@ Usage: #definition
 //69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
 * group[=].element[+].code = #69465
-* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group[=].element[=].target[+].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -552,7 +552,7 @@ Usage: #definition
 //69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
 * group[=].element[+].code = #69484
-* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group[=].element[=].target[+].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -560,7 +560,7 @@ Usage: #definition
 //69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
 // added 2023-10-10
 * group[=].element[+].code = #69488
-* group[=].element[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
 * group[=].element[=].target[+].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -568,7 +568,7 @@ Usage: #definition
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69815|'Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG': The source code '69815|Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG' is defined in the valueset but not in the conceptmap.
 // added 2024-08-09
 * group[=].element[+].code = #69815
-* group[=].element[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[+].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -576,7 +576,7 @@ Usage: #definition
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG': The source code '69403|Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG' is defined in the valueset but not in the conceptmap.
 // added 2024-08-09 840563003|Vaccine product containing Dengue virus antigen (medicinal product) 
 * group[=].element[+].code = #69403
-* group[=].element[=].display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* group[=].element[=].display = "Qdenga 0.5 ml"
 * group[=].element[=].target[+].code = #840563003
 * group[=].element[=].target[=].display = "Vaccine product containing Dengue virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
