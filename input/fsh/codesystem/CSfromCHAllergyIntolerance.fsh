@@ -3,8 +3,8 @@ Id: allergyintolerance-clinical-supplement
 Title: "CH AllergyIntolerance Clinical Status"
 Description: "Code supplement with translations of CHAllergyIntolerance clinical status"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-clinical-supplement"
-* ^status = #draft
-* ^experimental = true
+* ^status = #active
+* ^experimental = false
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
 * #active "Active"
@@ -34,8 +34,8 @@ Id: allergyintolerance-verification-supplement
 Title: "CH AllergyIntolerance Verification Status"
 Description: "Code supplement with translations of CHAllergyIntolerance verification status"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-verification-supplement"
-* ^status = #draft
-* ^experimental = true
+* ^status = #active
+* ^experimental = false
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
 * #unconfirmed "Unconfirmed"
@@ -72,8 +72,8 @@ Id: allergyintolerance-type-supplement
 Title: "CH AllergyIntolerance Type"
 Description: "Code supplement with translations of CHAllergyIntolerance type"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-type-supplement"
-* ^status = #draft
-* ^experimental = true
+* ^status = #active
+* ^experimental = false
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/allergy-intolerance-type"
 * #allergy "Allergy"
@@ -96,8 +96,8 @@ Id: allergyintolerance-criticality-supplement
 Title: "CH AllergyIntolerance Criticality Status"
 Description: "Code supplement with translations of CHAllergyIntolerance criticality status"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-criticality-supplement"
-* ^status = #draft
-* ^experimental = true
+* ^status = #active
+* ^experimental = false
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/allergy-intolerance-criticality"
 * #low "Low Risk"
@@ -127,8 +127,8 @@ Id: allergyintolerance-severity-supplement
 Title: "CH AllergyIntolerance Severity Status"
 Description: "Code supplement with translations of CHAllergyIntolerance severity status"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-severity-supplement"
-* ^status = #draft
-* ^experimental = true
+* ^status = #active
+* ^experimental = false
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/reaction-event-severity"
 * #mild "Mild"
@@ -158,8 +158,8 @@ Id: allergyintolerance-category-supplement
 Title: "CH AllergyIntolerance Category"
 Description: "Code supplement with translations of CHAllergyIntolerance category"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/CodeSystem/allergyintolerance-category-supplement"
-* ^status = #draft
-* ^experimental = true
+* ^status = #active
+* ^experimental = false
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/allergy-intolerance-category"
 * #food "Food"
