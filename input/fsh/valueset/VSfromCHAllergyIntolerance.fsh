@@ -2,7 +2,6 @@ ValueSet: CHAllergyIntoleranceReactionManifestationValueSet
 Id: CHAllergyIntoleranceReactionManifestationValueSet
 Title: "CH AllergyIntolerance Reaction Manifestation"
 Description: "CH AllergyIntolerance reaction manifestation value set, including codes values according to the Allergy Reaction (GPS) - IPS value set from SNOMED Clinical Terms®  for the documentation of manifestation of allergy or intolerance reactions"
-* ^meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.82--20200925110235"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceReactionManifestationValueSet"
 * ^status = #draft
 * ^experimental = true
@@ -293,7 +292,6 @@ ValueSet: CHAllergyIntoleranceReactionSubstanceValueSet
 Id: CHAllergyIntoleranceReactionSubstanceValueSet
 Title: "CH AllergyIntolerance Reaction Substance"
 Description: "CH AllergyIntolerance reation substance value set. This value set includes codes from SNOMED Clinical Terms® substances for the documentation of substancies of allergy or intolerance reactions"
-* ^meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.82--20200925110235"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceReactionSubstanceValueSet"
 * ^status = #draft
 * ^experimental = true
@@ -12680,7 +12678,6 @@ ValueSet: CHAllergyIntoleranceValueSet
 Id: CHAllergyIntoleranceValueSet
 Title: "CH AllergyIntolerance"
 Description: "CH AllergyIntolerance coding value set. This value set includes codes values  from SNOMED Clinical Terms® for no known [xy] allergies AND findings AND substances for the documentation of allergy or intolerance"
-* ^meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.82--20200925110235"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet"
 * ^status = #draft
 * ^experimental = true
@@ -30727,7 +30724,6 @@ ValueSet: CHAllergyIntoleranceConditionValueSet
 Id: CHAllergyIntoleranceConditionValueSet
 Title: "CH AllergyIntolerance Condition"
 Description: "CH AllergyIntolerance condition value set. This value set includes codes from SNOMED Clinical Terms®  values  for values from the manifestation of reactions value set PLUS findings for the documentation of allergy or intolerances in conditions as problem-list or as encounter-diagnosis as well as its absence (no know allergies)"
-* ^meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.82--20200925110235"
 * ^url = "http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceConditionValueSet"
 * ^status = #draft
 * ^experimental = true
