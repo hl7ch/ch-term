@@ -4,6 +4,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### v3.0.1
 * [#45](https://github.com/hl7ch/ch-term/issues/45): remove duplicated entries in ConceptMaps
 * [#38](https://github.com/hl7ch/ch-term/issues/38): Monthly Check of CS/VS for Swissmedic Vaccines
+* [#58](https://github.com/hl7ch/ch-term/issues/58): Update Vaccines CS/VS/CM with August/September 2024 vaccines
 
 ### v3.0.0 (2024-05-15)
 * [#23](https://github.com/hl7ch/ch-term/issues/23): Rename IG from CH EPR Term to CH EPR
