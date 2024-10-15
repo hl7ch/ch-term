@@ -6,6 +6,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#38](https://github.com/hl7ch/ch-term/issues/38): Monthly Check of CS/VS for Swissmedic Vaccines
 * [#54](https://github.com/hl7ch/ch-term/issues/54): 
    * CS/VS for CH AllergyIntolerance: change experimental from true to false and status from draft to active
+   * ConceptMap for CH VACD: change status from draft to active 
+* [#61](https://github.com/hl7ch/ch-term/issues/61): Remove wrong meta.source from all CH AllergyIntolerance ValueSets (they are not imported from Art-Decor)
 
 ### v3.0.0 (2024-05-15)
 * [#23](https://github.com/hl7ch/ch-term/issues/23): Rename IG from CH EPR Term to CH EPR
