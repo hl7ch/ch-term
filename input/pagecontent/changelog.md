@@ -4,6 +4,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### v3.0.1
 * [#45](https://github.com/hl7ch/ch-term/issues/45): remove duplicated entries in ConceptMaps
 * [#38](https://github.com/hl7ch/ch-term/issues/38): Monthly Check of CS/VS for Swissmedic Vaccines
+* [#61](https://github.com/hl7ch/ch-term/issues/61): Remove wrong meta.source from all CH AllergyIntolerance ValueSets (they are not imported from Art-Decor)
 * [#54](https://github.com/hl7ch/ch-term/issues/54): 
    * ConceptMap for CH VACD: change status from draft to active
 
