@@ -1501,3 +1501,73 @@ Description: "The vaccines swissmedic has given an autorization number."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
 
+// 69913 	01 	Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze 	Pfizer AG 	B 	12.08.2024 	12.08.2024 	11.08.2029 	J07BN01
+// added 2024-10-17
+* #69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+  * ^definition = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
+// 69912 	01 	Comirnaty JN.1 30 μg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
+// added 2024-10-17
+* #69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+  * ^definition = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+// 69912 	02 	Comirnaty JN.1 10 μg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
+// added 2024-10-17
+* #69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+  * ^definition = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+// 69691 	01 	Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung 	Pfizer AG 	B 	23.08.2024 	23.08.2024 	22.08.2029 	J07BX
+// added 2024-10-17
+* #69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+  * ^definition = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Abrysvo"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Abrysvo"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Abrysvo"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Abrysvo"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Abrysvo"
+// 69788 	01 	Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion 	Moderna Switzerland GmbH 	B 	09.09.2024 	09.09.2024 	08.09.2029 	J07BX
+// added 2024-10-17
+* #69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+  * ^definition = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"

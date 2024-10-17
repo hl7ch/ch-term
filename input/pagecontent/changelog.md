@@ -7,6 +7,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#54](https://github.com/hl7ch/ch-term/issues/54): 
    * CS/VS for CH AllergyIntolerance: change experimental from true to false and status from draft to active
    * ConceptMap for CH VACD: change status from draft to active 
+* [#58](https://github.com/hl7ch/ch-term/issues/58): Update Vaccines CS/VS/CM with August/September 2024 vaccines
 * [#61](https://github.com/hl7ch/ch-term/issues/61): Remove wrong meta.source from all CH AllergyIntolerance ValueSets (they are not imported from Art-Decor)
 
 ### v3.0.0 (2024-05-15)

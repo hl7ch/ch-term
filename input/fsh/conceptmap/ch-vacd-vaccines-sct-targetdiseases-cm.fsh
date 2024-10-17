@@ -407,6 +407,14 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Ebola virus disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+// added 2024-10-17
+// $sct#51311000087100 "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
+* group[=].element[+].code = #51311000087100
+* group[=].element[=].display = "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #55735004 
+* group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 // TODO
 // ERROR, http://snomed.info/sct|836402002|'Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)': The source code '836402002|Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 // added 2024-08-14
