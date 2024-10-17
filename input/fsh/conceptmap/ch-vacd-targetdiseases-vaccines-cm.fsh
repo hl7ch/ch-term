@@ -688,6 +688,30 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+// added 2024-10-17
+* group[=].element[=].target[+].code = #69913
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+// added 2024-10-17
+* group[=].element[=].target[+].code = #69912-01
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+// added 2024-10-17
+* group[=].element[=].target[+].code = #69912-02
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+// added 2024-10-17
+* group[=].element[=].target[+].code = #69788
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 
 // added 2021-11-19
 //66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
@@ -728,6 +752,12 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69310	
 * group[=].element[=].target[=].display = "AREXVY"
 * group[=].element[=].target[=].equivalence = #relatedto
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69691|Abrysvo
+// added 2024-10-17
+* group[=].element[=].target[+].code = #69691	
+* group[=].element[=].target[=].display = "Abrysvo"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG'

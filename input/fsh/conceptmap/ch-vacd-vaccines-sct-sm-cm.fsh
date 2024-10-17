@@ -574,6 +574,18 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Foclivia (Fertigspritze)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+// $sct#51311000087100 "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
+// added 2024-10-17
+* group[=].element[+].code = #51311000087100
+* group[=].element[=].display = "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #69310
+* group[=].element[=].target[=].display = "AREXVY"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #69691 
+* group[=].element[=].target[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
 // TODO
 //ERROR, http://snomed.info/sct|836389008|'Vaccine product containing Vaccinia virus antigen (medicinal product)': The source code '836389008|Vaccine product containing Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #836389008
