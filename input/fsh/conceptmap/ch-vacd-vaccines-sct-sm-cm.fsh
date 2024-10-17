@@ -4,7 +4,7 @@ Usage: #definition
 * name = "VaccineCodeSMToVaccineCodeSCT"
 * title = "Snomed CT VaccineCode  To SwissMedic VaccineCode"
 * description = "Mappings from vaccine code to vaccine code"
-* status = #draft
+* status = #active
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
