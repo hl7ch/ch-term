@@ -4,6 +4,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### v3.0.1
 * [#45](https://github.com/hl7ch/ch-term/issues/45): remove duplicated entries in ConceptMaps
 * [#38](https://github.com/hl7ch/ch-term/issues/38): Monthly Check of CS/VS for Swissmedic Vaccines
+* [#52](https://github.com/hl7ch/ch-term/issues/52): Translation CH VACD Swiss Recommendation Forecast Status
 * [#54](https://github.com/hl7ch/ch-term/issues/54): 
    * CS/VS for CH AllergyIntolerance: change experimental from true to false and status from draft to active
    * ConceptMap for CH VACD: change status from draft to active 
