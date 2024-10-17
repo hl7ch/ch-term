@@ -296,7 +296,7 @@ Description: "This valueset contains all entries defining target deseases or ill
 // new by ballot 3 input
 * $sct#359814004 "Monkeypox (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Affenpocken"
+  * ^designation[=].value = "Mpox"
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "variole du singe"
   * ^designation[+].language = #it-CH
