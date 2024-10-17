@@ -757,7 +757,7 @@ Description: "The vaccines swissmedic has given an autorization number."
   * ^designation[=].value = "Rotarix"
 //703	01	M-M-RVAXPRO, Lyophilisat und Lösungsmittel	MSD Merck Sharp & Dohme AG	B	13.02.2007	13.02.2007	unbegrenzt	J07BD52
 * #703 "M-M-RVAXPRO"
-  * ^definition = "M-M-RVAXPRO, Lyophilisat und Lösungsmittel	MSD Merck Sharp & Dohme AG B 13.02.2007	13.02.2007	unbegrenzt	J07BD52"
+  * ^definition = "M-M-RVAXPRO, Lyophilisat und Lösungsmittel	MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "MMRVaxPro"
   * ^designation[+].language = #fr-CH
