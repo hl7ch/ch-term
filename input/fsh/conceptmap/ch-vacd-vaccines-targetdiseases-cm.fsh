@@ -921,6 +921,47 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69913
+* group[=].element[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69912-01
+* group[=].element[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69912-02
+* group[=].element[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69691
+* group[=].element[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* group[=].element[=].target[+].code = #55735004 
+* group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+// added 2024-10-17
+* group[=].element[+].code = #69788
+* group[=].element[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
 
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///

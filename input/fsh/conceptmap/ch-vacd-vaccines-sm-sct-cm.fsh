@@ -4,7 +4,7 @@ Usage: #definition
 * name = "VaccineCodeSMToVaccineCodeSCT"
 * title = "SwissMedic VaccineCode To Snomed CT VaccineCode"
 * description = "Mappings from vaccine code to vaccine code"
-* status = #draft
+* status = #active
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
@@ -737,6 +737,54 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 
 
+// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|'AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG': The source code '69310|AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG' is defined in the valueset but not in the conceptmap.
+// added 2024-08-09 
+* group[=].element[+].code = #69310
+* group[=].element[=].display = "AREXVY"
+* group[=].element[=].target[+].code = #51311000087100 
+* group[=].element[=].target[=].display = "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69913
+* group[=].element[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69912-01
+* group[=].element[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69912-02
+* group[=].element[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+// added 2024-10-17
+* group[=].element[+].code = #69788
+* group[=].element[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69691
+* group[=].element[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* group[=].element[=].target[+].code = #51311000087100 
+* group[=].element[=].target[=].display = "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
 // TODO
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|652|'Mencevax ACWY': The source code '652|Mencevax ACWY' is defined in the valueset but not in the conceptmap.
 // added 2024-08-14 
@@ -770,14 +818,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
-// ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|'AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG': The source code '69310|AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG' is defined in the valueset but not in the conceptmap.
-// added 2024-08-09 
-* group[=].element[+].code = #69310
-* group[=].element[=].display = "AREXVY"
-* group[=].element[=].target[+].code = #787859002  
-* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|68221|'MenQuadfi': The source code '68221|MenQuadfi' is defined in the valueset but not in the conceptmap.
 // added 2024-08-09 
 * group[=].element[+].code = #68221
@@ -789,7 +830,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
-	
+
 
 
 

@@ -626,3 +626,16 @@ Description: "The list of vaccine products in Snomed CT list."
   * ^designation[=].value = "Vaccine product containing Ebolavirus antigen"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Vaccine product containing Ebolavirus antigen"
+
+//Vaccine product containing only Human orthopneumovirus antigen (medicinal product) 
+* $sct#51311000087100 "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaccine product containing only Human orthopneumovirus antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaccine product containing only Human orthopneumovirus antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaccine product containing only Human orthopneumovirus antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaccine product containing only Human orthopneumovirus antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Vaccine product containing only Human orthopneumovirus antigen"
