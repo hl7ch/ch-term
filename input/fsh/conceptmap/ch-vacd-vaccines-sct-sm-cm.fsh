@@ -335,7 +335,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 // added 2023-05-19
 * group[=].element[=].target[+].code = #69189
-* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5"
 * group[=].element[=].target[=].equivalence = #equivalent
 // added 2023-05-19
 * group[=].element[=].target[+].code = #69211
@@ -345,26 +345,26 @@ Usage: #definition
 //69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
 * group[=].element[=].target[+].code = #69465
-* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 //69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
 * group[=].element[=].target[+].code = #69484
-* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 //69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
 // added 2023-10-10
 * group[=].element[=].target[+].code = #69488
-* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 
 * group[=].element[+].code = #1162643001
 * group[=].element[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
 * group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 
@@ -378,7 +378,7 @@ Usage: #definition
 * group[=].element[+].code = #1252708008
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[+].code = #68752
-* group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].target[=].display = "Vaxneuvance"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #60129
 * group[=].element[=].target[=].display = "Prevenar 13"
@@ -526,7 +526,7 @@ Usage: #definition
 * group[=].element[+].code = #1119220001
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)': The source code 'http://snomed.info/sct|1119220001|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)"
 * group[=].element[=].target[+].code = #68752
-* group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].target[=].display = "Vaxneuvance"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -535,7 +535,7 @@ Usage: #definition
 * group[=].element[+].code = #840563003
 * group[=].element[=].display = "Vaccine product containing Dengue virus antigen (medicinal product)"
 * group[=].element[=].target[+].code = #69403
-* group[=].element[=].target[=].display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* group[=].element[=].target[=].display = "Qdenga 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // ERROR, http://snomed.info/sct|836421005|'Vaccine product containing Ebolavirus antigen (medicinal product)': The source code '836421005|Vaccine product containing Ebolavirus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
@@ -543,7 +543,7 @@ Usage: #definition
 * group[=].element[+].code = #836421005
 * group[=].element[=].display = "Vaccine product containing Ebolavirus antigen (medicinal product)"
 * group[=].element[=].target[+].code = #68358
-* group[=].element[=].target[=].display = "Ervebo, Injektionslösung"
+* group[=].element[=].target[=].display = "Ervebo"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // ERROR, http://snomed.info/sct|836375003|'Vaccine product containing Hepatitis A virus antigen (medicinal product)': The source code '836375003|Vaccine product containing Hepatitis A virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.

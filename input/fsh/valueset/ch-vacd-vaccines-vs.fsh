@@ -853,7 +853,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
   * ^designation[=].value = "Cervarix"
 
 //60129	01	Prevenar 13, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	12.08.2010	12.08.2010	unbegrenzt	J07AL02
-* $ch-vacd-swissmedic-cs#60129 "Prevenar 13"
+* $ch-vacd-swissmedic-cs#60129 "Prevenar"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Prevenar 13"
   * ^designation[+].language = #fr-CH
@@ -1147,17 +1147,17 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 // 68473	01	Nuvaxovid 0.5 ml	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03
 // added 2022-06-08
-* $ch-vacd-swissmedic-cs#68473  "Nuvaxovid 0.5 ml, Injektionsdispersion"
+* $ch-vacd-swissmedic-cs#68473  "Nuvaxovid 0.5 ml"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Nuvaxovid 0.5 ml, Injektionsdispersion"
+  * ^designation[=].value = "Nuvaxovid 0.5 ml"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Nuvaxovid 0.5 ml, dispersion injectable"
+  * ^designation[=].value = "Nuvaxovid 0.5 ml"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Nuvaxovid 0.5 ml, dispersione per iniezione"
+  * ^designation[=].value = "Nuvaxovid 0.5 ml"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Nuvaxovid 0.5 ml, dispersiun d’injecziun"
+  * ^designation[=].value = "Nuvaxovid 0.5 ml"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Nuvaxovid 0.5 ml, injection dispersion"
+  * ^designation[=].value = "Nuvaxovid 0.5 ml"
 
 
 //68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
@@ -1348,17 +1348,17 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 //69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
 // added 2023-05-19
-* $ch-vacd-swissmedic-cs#69189 "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* $ch-vacd-swissmedic-cs#69189 "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
 
 //69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
 // added 2023-05-19
@@ -1376,65 +1376,65 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 //68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
 // added 2023-05-19
-* $ch-vacd-swissmedic-cs#68752 "Vaxneuvance, Injektionssuspension"
+* $ch-vacd-swissmedic-cs#68752 "Vaxneuvance"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+  * ^designation[=].value = "Vaxneuvance"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+  * ^designation[=].value = "Vaxneuvance"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+  * ^designation[=].value = "Vaxneuvance"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+  * ^designation[=].value = "Vaxneuvance"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+  * ^designation[=].value = "Vaxneuvance"
 
 //69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
-* $ch-vacd-swissmedic-cs#69465 "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* $ch-vacd-swissmedic-cs#69465 "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
 
 
 //69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
-* $ch-vacd-swissmedic-cs#69484 "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* $ch-vacd-swissmedic-cs#69484 "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+  * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
 
 
 //69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
 // added 2023-10-10
-* $ch-vacd-swissmedic-cs#69488 "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* $ch-vacd-swissmedic-cs#69488 "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/dose"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/dose"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/dosa"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/dose"
 
 // 69310	01	AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	02.05.2024	02.05.2024	01.05.2029	J07BX05	X	X	X
 // added 2024-06-13
-* $ch-vacd-swissmedic-cs#69310 "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG"
+* $ch-vacd-swissmedic-cs#69310 "AREXVY"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "AREXVY"
   * ^designation[+].language = #fr-CH
@@ -1448,7 +1448,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 // 69173	01	Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG	B	01.03.2024	01.03.2024	28.02.2029	J07BX	X		X	X
 // added 2024-06-13
-* $ch-vacd-swissmedic-cs#69173 "Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG"
+* $ch-vacd-swissmedic-cs#69173 "Jynneos"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Jynneos"
   * ^designation[+].language = #fr-CH
@@ -1462,7 +1462,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 // 69222	01	Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	26.03.2024	26.03.2024	25.03.2029	J07AL02	X		X	X
 // added 2024-06-13
-* $ch-vacd-swissmedic-cs#69222 "Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG"
+* $ch-vacd-swissmedic-cs#69222 "Prevenar 20"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Prevenar 20"
   * ^designation[+].language = #fr-CH
@@ -1476,31 +1476,31 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
   // 69815	01	Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	26.06.2024	26.06.2024	25.06.2029	J07BN01	X		X	X
 // added 2024-08-09
-* $ch-vacd-swissmedic-cs#69815 "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+* $ch-vacd-swissmedic-cs#69815 "Comirnaty Omicron XBB.1.5, 0.042 mg"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+  * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 
 // 69403	01	Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG	B	29.07.2024	29.07.2024	28.07.2029	J07BX04	X		X	X
 // added 2024-08-09
-* $ch-vacd-swissmedic-cs#69403 "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG"
+* $ch-vacd-swissmedic-cs#69403 "Qdenga 0.5 ml"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[=].value = "Qdenga 0.5 ml"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[=].value = "Qdenga 0.5 ml"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[=].value = "Qdenga 0.5 ml"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[=].value = "Qdenga 0.5 ml"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+  * ^designation[=].value = "Qdenga 0.5 ml"
 
 
   // 69913 	01 	Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze 	Pfizer AG 	B 	12.08.2024 	12.08.2024 	11.08.2029 	J07BN01

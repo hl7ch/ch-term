@@ -552,7 +552,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2023-05-19
 * group[=].element[=].target[+].code = #68752
-* group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].target[=].display = "Vaxneuvance"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #69222
 * group[=].element[=].target[=].display = "Prevenar 20"
@@ -607,7 +607,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2022-06-27
 * group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2022-11-03
 * group[=].element[=].target[+].code = #68710-01
@@ -654,7 +654,7 @@ Usage: #definition
 //69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
 // added 2023-05-19
 * group[=].element[=].target[+].code = #69189
-* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
@@ -667,25 +667,25 @@ Usage: #definition
 //69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
 * group[=].element[=].target[+].code = #69465
-* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
 * group[=].element[=].target[+].code = #69484
-* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
 // added 2023-10-10
 * group[=].element[=].target[+].code = #69488
-* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69815|'Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG'
 // added 2024-08-09
 * group[=].element[=].target[+].code = #69815
-* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
@@ -765,7 +765,7 @@ Usage: #definition
 * group[=].element[+].code = #38362002
 * group[=].element[=].display = "Dengue (disorder)"
 * group[=].element[=].target[+].code = #69403	
-* group[=].element[=].target[=].display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* group[=].element[=].target[=].display = "Qdenga 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // TODO
