@@ -20,13 +20,13 @@ Description: "Immunization recommendation forecast status values."
 * #due "Due"
   * ^definition = "The patient is due for their next vaccination."
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Die nächste Impfung des Patienten ist fällig."
+  * ^designation[=].value = "Die nächste Impfung des Patienten/der Patientin ist fällig."
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "Le patient doit recevoir son prochain vaccin."
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "Il paziente deve effettuare la prossima vaccinazione."
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Die nächste Impfung des Patienten ist fällig."
+  * ^designation[=].value = "La pazienta sto survegnir la proxima vaccinaziun."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "The patient is due for their next vaccination."
 
@@ -34,52 +34,52 @@ Description: "Immunization recommendation forecast status values."
 * #overdue "Overdue"
   * ^definition = "The patient is considered overdue for their next vaccination."
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Die nächste Impfung des Patienten gilt als überfällig."
+  * ^designation[=].value = "Die nächste Impfung des Patienten/der Patientin ist überfällig."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Le patient est considéré comme étant en retard pour sa prochaine vaccination."
+  * ^designation[=].value = "Le patient est en retard pour son prochain vaccin."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Il paziente è considerato in ritardo per la prossima vaccinazione."
+  * ^designation[=].value = "Il paziente è in ritardo per la prossima vaccinazione."
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Die nächste Impfung des Patienten gilt als überfällig."
+  * ^designation[=].value = "La pazienta vegn considerada sco danvanz per sia proxima vaccinaziun."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "The patient is considered overdue for their next vaccination."
 
 * #immune "Immune"
   * ^definition = "The patient is immune to the target disease and further immunization against the disease is not likely to provide benefit."
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Der Patient ist immun gegen die Zielkrankheit, und eine weitere Immunisierung gegen die Krankheit wird wahrscheinlich keinen Nutzen bringen."
+  * ^designation[=].value = "Der Patient/die Patientin ist gegen die Zielkrankheit immun, und eine weitere Impfung dagegen würde wahrscheinlich keinen Nutzen bringen."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Le patient est immunisé contre la maladie cible et une nouvelle immunisation contre la maladie n'est pas susceptible d'apporter un bénéfice."
+  * ^designation[=].value = "Le patient est immunisé contre la maladie cible, et une immunisation supplémentaire n’est pas susceptible d’apporter de bénéfice."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Il paziente è immune alla malattia bersaglio e non è probabile che un'ulteriore immunizzazione contro la malattia apporti benefici."
+  * ^designation[=].value = "Il paziente è immune alla malattia target ed è improbabile che un'ulteriore immunizzazione apporti benefici."
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Der Patient ist immun gegen die Zielkrankheit, und eine weitere Immunisierung gegen die Krankheit wird wahrscheinlich keinen Nutzen bringen."
+  * ^designation[=].value = "Il pazient è immun cunter la malsogna da mira, ed in'ulteriura immunisaziun cunter la malsogna na po betg chaschunar avantatgs."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "The patient is immune to the target disease and further immunization against the disease is not likely to provide benefit."
 
 * #consultadvise "Consult Advice"
   * ^definition = "The patient may be contraindicated but get health care advice."
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Der Patient kann kontraindiziert sein, aber lassen Sie sich vom Arzt beraten."
+  * ^designation[=].value = "Der Patient/die Patientin kann eine Kontraindikation aufweisen, erhält aber eine Gesundheitsberatung."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Le patient peut être contre-indiqué, mais demandez conseil à votre médecin."
+  * ^designation[=].value = "Le patient pourrait présenter une contre-indication. Demandez conseil à un spécialiste."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Il paziente potrebbe essere controindicato, ma è bene chiedere il parere dell'assistenza sanitaria."
+  * ^designation[=].value = "Il paziente potrebbe avere una controindicazione, ma riceve una consulenza sanitaria."
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Der Patient kann kontraindiziert sein, aber lassen Sie sich vom Arzt beraten."
+  * ^designation[=].value = "Il pazient po s'annunziar, ma po sa laschar cussegliar en il sectur da sanadad."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "The patient may be contraindicated but get health care advice."
 
 * #indicated "Indicated"
   * ^definition = "The patient is indicated for further doses."
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Der Patient ist für weitere Dosen indiziert."
+  * ^designation[=].value = "Für den Patienten/die Patientin sind weitere Dosen indiziert."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Le patient est indiqué pour d'autres doses."
+  * ^designation[=].value = "Des doses supplémentaires sont indiquées pour le patient."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Il paziente è indicato per ulteriori dosi."
+  * ^designation[=].value = "Il paziente può ricevere ulteriori dosi."
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Der Patient ist für weitere Dosen indiziert."
+  * ^designation[=].value = "Il pazient è inditgà per ulteriuras dosas."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "The patient is indicated for further doses."
 
@@ -87,38 +87,38 @@ Description: "Immunization recommendation forecast status values."
 * #contraindicated "Contraindicated"
   * ^definition = "The patient is contraindicated for further doses."
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Der Patient ist für weitere Dosen kontraindiziert."
+  * ^designation[=].value = "Für den Patienten/die Patientin sind weitere Dosen kontraindiziert."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Le patient est contre-indiqué pour d'autres doses."
+  * ^designation[=].value = "Des doses supplémentaires sont contre-indiquées pour le patient."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Il paziente è controindicato per ulteriori dosi."
+  * ^designation[=].value = "Per il paziente è controdindicato  ricevere ulteriori dosi."
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Der Patient ist für weitere Dosen kontraindiziert."
+  * ^designation[=].value = "Tar ulteriuras dosas vegn la pazienta u il pazient annunzià fauss."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "The patient is contraindicated for further doses."
 
 * #complete "Complete"
   * ^definition = "The patient is fully protected and no further doses are recommended."
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Der Patient ist vollständig geschützt und es werden keine weiteren Dosen empfohlen."
+  * ^designation[=].value = "Der Patient/die Patientin ist vollständig geschützt, und es werden keine weiteren Dosen empfohlen."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Le patient est entièrement protégé et aucune autre dose n'est recommandée."
+  * ^designation[=].value = "Le patient bénéficie d’une protection complète, et aucune autre dose n’est recommandée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Il paziente è completamente protetto e non sono raccomandate ulteriori dosi."
+  * ^designation[=].value = "Il paziente dispone di una protezione completa e non sono raccomandate ulteriori dosi."
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Der Patient ist vollständig geschützt und es werden keine weiteren Dosen empfohlen."
+  * ^designation[=].value = "Il pazient è protegì cumplainamain ed i na vegnan recumandadas naginas ulteriuras dosas."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "The patient is fully protected and no further doses are recommended."
 
 * #notrelevant "NotRelevant"
   * ^definition = "There is no relevance for this patient."
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Es gibt keine Relevanz für diesen Patienten."
+  * ^designation[=].value = "Die Impfung ist für den Patienten/die Patientin nicht relevant."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Il n'y a pas de pertinence pour ce patient."
+  * ^designation[=].value = "Cette vaccination n’est pas pertinente pour ce patient."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Non c'è alcuna rilevanza per questo paziente."
+  * ^designation[=].value = "Non rilevante per questo paziente."
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Es gibt keine Relevanz für diesen Patienten."
+  * ^designation[=].value = "Per quest pazient n'è nagina relevanza."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "There is no relevance for this patient."
