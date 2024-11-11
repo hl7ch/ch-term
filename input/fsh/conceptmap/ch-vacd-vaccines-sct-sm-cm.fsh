@@ -1,6 +1,7 @@
 Instance: ch-vacd-vaccines-sct-sm-cm
 InstanceOf: ConceptMap
 Usage: #definition
+* url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sct-sm-cm"
 * name = "VaccineCodeSMToVaccineCodeSCT"
 * title = "Snomed CT VaccineCode  To SwissMedic VaccineCode"
 * description = "Mappings from vaccine code to vaccine code"

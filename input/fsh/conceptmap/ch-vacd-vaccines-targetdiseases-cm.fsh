@@ -1,6 +1,7 @@
 Instance: ch-vacd-vaccines-targetdiseases-cm
 InstanceOf: ConceptMap
 Usage: #definition
+* url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-targetdiseases-cm"
 * name = "VaccineCodeToTargetDiseaseMapping"
 * title = "VaccineCode To TargetDisease Mapping"
 * description = "Mappings from vaccine code to target disease according to the correcsponding valuesets"
