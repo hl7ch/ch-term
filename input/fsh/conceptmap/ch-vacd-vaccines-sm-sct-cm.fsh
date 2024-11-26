@@ -793,7 +793,7 @@ Usage: #definition
 * group[=].element[=].display = "Mencevax ACWY"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|66037|'Menjugate liquid': The source code '66037|Menjugate liquid' is defined in the valueset but not in the conceptmap.
 // added 2024-08-14 
@@ -801,7 +801,7 @@ Usage: #definition
 * group[=].element[=].display = "Menjugate liquid"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|65730|'Bexsero': The source code '65730|Bexsero' is defined in the valueset but not in the conceptmap.
 // added 2024-08-14 
@@ -809,7 +809,7 @@ Usage: #definition
 * group[=].element[=].display = "Bexsero"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69173|'Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG': The source code '69173|Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG' is defined in the valueset but not in the conceptmap.
 // added 2024-08-09 
@@ -817,7 +817,7 @@ Usage: #definition
 * group[=].element[=].display = "Jynneos"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|68221|'MenQuadfi': The source code '68221|MenQuadfi' is defined in the valueset but not in the conceptmap.
@@ -829,7 +829,7 @@ Usage: #definition
 //* group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 
@@ -1158,7 +1158,7 @@ Usage: #definition
 * group[=].element[=].display = "MoRu-Viraten"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|23|'Triviraten': The source code '23|Triviraten' is defined in the valueset but not in the conceptmap.
@@ -1166,7 +1166,7 @@ Usage: #definition
 * group[=].element[=].display = "Triviraten"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|39|'Infanrix Penta': The source code '39|Infanrix Penta' is defined in the valueset but not in the conceptmap.
@@ -1174,7 +1174,7 @@ Usage: #definition
 * group[=].element[=].display = "Infanrix Penta"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|48|'BCG': The source code '48|BCG' is defined in the valueset but not in the conceptmap.
@@ -1182,7 +1182,7 @@ Usage: #definition
 * group[=].element[=].display = "BCG"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|56|'Meruvax': The source code '56|Meruvax' is defined in the valueset but not in the conceptmap.
@@ -1190,7 +1190,7 @@ Usage: #definition
 * group[=].element[=].display = "Meruvax"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|73|'Infanrix DTPa+Hib': The source code '73|Infanrix DTPa+Hib' is defined in the valueset but not in the conceptmap.
@@ -1198,7 +1198,7 @@ Usage: #definition
 * group[=].element[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|77|'Acel P': The source code '77|Acel P' is defined in the valueset but not in the conceptmap.
@@ -1206,7 +1206,7 @@ Usage: #definition
 * group[=].element[=].display = "Acel P"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|82|'Anatoxal Di': The source code '82|Anatoxal Di' is defined in the valueset but not in the conceptmap.
@@ -1214,7 +1214,7 @@ Usage: #definition
 * group[=].element[=].display = "Anatoxal Di"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|87|'BCG Vaccin Mérieux': The source code '87|BCG Vaccin Mérieux' is defined in the valueset but not in the conceptmap.
@@ -1222,7 +1222,7 @@ Usage: #definition
 * group[=].element[=].display = "BCG Vaccin Mérieux"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|88|'Biviraten': The source code '88|Biviraten' is defined in the valueset but not in the conceptmap.
@@ -1230,7 +1230,7 @@ Usage: #definition
 * group[=].element[=].display = "Biviraten"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|91|'Ervevax': The source code '91|Ervevax' is defined in the valueset but not in the conceptmap.
@@ -1238,7 +1238,7 @@ Usage: #definition
 * group[=].element[=].display = "Ervevax"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|93|'Infanrix DTPa-HBV': The source code '93|Infanrix DTPa-HBV' is defined in the valueset but not in the conceptmap.
@@ -1246,7 +1246,7 @@ Usage: #definition
 * group[=].element[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|95|'Vaccin méningococcique A+C Mérieux': The source code '95|Vaccin méningococcique A+C Mérieux' is defined in the valueset but not in the conceptmap.
@@ -1254,7 +1254,7 @@ Usage: #definition
 * group[=].element[=].display = "Vaccin méningococcique A+C Mérieux"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|96|'MM Vax': The source code '96|MM Vax' is defined in the valueset but not in the conceptmap.
@@ -1262,7 +1262,7 @@ Usage: #definition
 * group[=].element[=].display = "MM Vax"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|107|'Tetramune': The source code '107|Tetramune' is defined in the valueset but not in the conceptmap.
@@ -1270,7 +1270,7 @@ Usage: #definition
 * group[=].element[=].display = "Tetramune"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|111|'Rubeaten': The source code '111|Rubeaten' is defined in the valueset but not in the conceptmap.
@@ -1278,7 +1278,7 @@ Usage: #definition
 * group[=].element[=].display = "Rubeaten"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|112|'Rudivax': The source code '112|Rudivax' is defined in the valueset but not in the conceptmap.
@@ -1286,7 +1286,7 @@ Usage: #definition
 * group[=].element[=].display = "Rudivax"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|117|'Almevax': The source code '117|Almevax' is defined in the valueset but not in the conceptmap.
@@ -1294,7 +1294,7 @@ Usage: #definition
 * group[=].element[=].display = "Almevax"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|121|'Rimparix': The source code '121|Rimparix' is defined in the valueset but not in the conceptmap.
@@ -1302,7 +1302,7 @@ Usage: #definition
 * group[=].element[=].display = "Rimparix"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|122|'Rubevac': The source code '122|Rubevac' is defined in the valueset but not in the conceptmap.
@@ -1310,7 +1310,7 @@ Usage: #definition
 * group[=].element[=].display = "Rubevac"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|127|'Eolarix': The source code '127|Eolarix' is defined in the valueset but not in the conceptmap.
@@ -1318,7 +1318,7 @@ Usage: #definition
 * group[=].element[=].display = "Eolarix"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|136|'Celtura': The source code '136|Celtura' is defined in the valueset but not in the conceptmap.
@@ -1326,7 +1326,7 @@ Usage: #definition
 * group[=].element[=].display = "Celtura"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|137|'Focetria': The source code '137|Focetria' is defined in the valueset but not in the conceptmap.
@@ -1334,7 +1334,7 @@ Usage: #definition
 * group[=].element[=].display = "Focetria"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|141|'Pandemrix': The source code '141|Pandemrix' is defined in the valueset but not in the conceptmap.
@@ -1342,7 +1342,7 @@ Usage: #definition
 * group[=].element[=].display = "Pandemrix"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|142|'Prohibit DTP': The source code '142|Prohibit DTP' is defined in the valueset but not in the conceptmap.
@@ -1350,7 +1350,7 @@ Usage: #definition
 * group[=].element[=].display = "Prohibit DTP"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|144|'Variola': The source code '144|Variola' is defined in the valueset but not in the conceptmap.
@@ -1358,7 +1358,7 @@ Usage: #definition
 * group[=].element[=].display = "Variola"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|151|'Di Anatoxal': The source code '151|Di Anatoxal' is defined in the valueset but not in the conceptmap.
@@ -1366,7 +1366,7 @@ Usage: #definition
 * group[=].element[=].display = "Di Anatoxal"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs|169|'Vaccin variole': The source code '169|Vaccin variole' is defined in the valueset but not in the conceptmap.
@@ -1374,6 +1374,6 @@ Usage: #definition
 * group[=].element[=].display = "Vaccin variole"
 * group[=].element[=].target[+].code = #787859002  
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
