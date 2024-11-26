@@ -1,7 +1,7 @@
 
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
-### v3.0.1
+### v3.1.0 (2024-12-17)
 * [#45](https://github.com/hl7ch/ch-term/issues/45): remove duplicated entries in ConceptMaps
 * [#38](https://github.com/hl7ch/ch-term/issues/38): Monthly Check of CS/VS for Swissmedic Vaccines
 * [#52](https://github.com/hl7ch/ch-term/issues/52): Translation CH VACD Swiss Recommendation Forecast Status
@@ -11,6 +11,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#58](https://github.com/hl7ch/ch-term/issues/58): Update Vaccines CS/VS/CM with August/September 2024 vaccines
 * [#59](https://github.com/hl7ch/ch-term/issues/59): Adapt translation in the vaccination VS/CS
 * [#61](https://github.com/hl7ch/ch-term/issues/61): Remove wrong meta.source from all CH AllergyIntolerance ValueSets (they are not imported from Art-Decor)
+* [#70](https://github.com/hl7ch/ch-term/issues/70): Update dependencies: ihe.formatcode.fhir#1.3.0, hl7.terminology#6.1.0
 
 ### v3.0.0 (2024-05-15)
 * [#23](https://github.com/hl7ch/ch-term/issues/23): Rename IG from CH EPR Term to CH EPR
