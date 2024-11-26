@@ -11,6 +11,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#58](https://github.com/hl7ch/ch-term/issues/58): Update Vaccines CS/VS/CM with August/September 2024 vaccines
 * [#59](https://github.com/hl7ch/ch-term/issues/59): Adapt translation in the vaccination VS/CS
 * [#61](https://github.com/hl7ch/ch-term/issues/61): Remove wrong meta.source from all CH AllergyIntolerance ValueSets (they are not imported from Art-Decor)
+* [#73](https://github.com/hl7ch/ch-term/issues/73): Fix Mapping link error in CM Snomed CT VaccineCode To SwissMedic VaccineCode
 
 ### v3.0.0 (2024-05-15)
 * [#23](https://github.com/hl7ch/ch-term/issues/23): Rename IG from CH EPR Term to CH EPR
