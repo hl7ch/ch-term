@@ -593,7 +593,7 @@ Usage: #definition
 * group[=].element[=].display = "Vaccine product containing Vaccinia virus antigen (medicinal product)"
 //* group[=].element[=].target[+].code = #
 //* group[=].element[=].target[=].display = ""
-* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[+].equivalence = #unmatched
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://snomed.info/sct|836402002|'Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)': The source code '836402002|Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
@@ -601,7 +601,7 @@ Usage: #definition
 * group[=].element[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
 //* group[=].element[=].target[+].code = #
 //* group[=].element[=].target[=].display = ""
-* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[+].equivalence = #unmatched
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 // ERROR, http://snomed.info/sct|836401009|'Vaccine product containing Neisseria meningitidis antigen (medicinal product)': The source code '836401009|Vaccine product containing Neisseria meningitidis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
@@ -609,7 +609,7 @@ Usage: #definition
 * group[=].element[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
 //* group[=].element[=].target[+].code = #
 //* group[=].element[=].target[=].display = ""
-* group[=].element[=].target[+].equivalence = #relatedto
+* group[=].element[=].target[+].equivalence = #unmatched
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 
