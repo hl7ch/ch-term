@@ -899,6 +899,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #359814004
 * group[=].element[=].target[=].display = "Monkeypox (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #67924001
+* group[=].element[=].target[=].display = "Smallpox (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|'Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #69222

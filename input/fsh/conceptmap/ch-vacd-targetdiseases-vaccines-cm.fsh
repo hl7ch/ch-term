@@ -747,6 +747,14 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Jynneos"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+// added 2024-11-27
+* group[=].element[+].code = #67924001
+* group[=].element[=].display = "Smallpox (disorder)"
+* group[=].element[=].target[+].code = #69173
+* group[=].element[=].target[=].display = "Jynneos"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
 // added 2024-06-21
 * group[=].element[+].code = #55735004
 * group[=].element[=].display = "Respiratory syncytial virus infection (disorder)"
