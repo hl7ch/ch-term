@@ -4,13 +4,15 @@
            
             value="DocumentEntry.formatCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20220626164017"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.9--20241119162640"/>
+      <lastUpdated value="2024-11-20T10:13:55Z"/>
+      <source value="https://art-decor.org/fhir/4.0/ch-epr-"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-06-26T16:40:17+02:00"/>
+         <start value="2024-11-19T16:26:40+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +23,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.9"/>
    </identifier>
-   <version value="2022-06-26T16:40:17"/>
+   <version value="2024-11-19T16:26:40"/>
    <name
              
               value="DocumentEntryFormatCode"/>
@@ -38,7 +40,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Document format as per Annex; EPRO-FDHA.&#xA;      &#x9;&#x9;This unambiguous code defines the format of the XDS document. Together with the mimetype, this should provide the potential consumer with sufficient information as to whether they are in a position to process the document.&#xA;    &#x9;"/>
+   <description value="Document format as per Annex; EPRO-FDHA.       &#x9;&#x9;This unambiguous code defines the format of the XDS document. Together with the mimetype, this should provide the potential consumer with sufficient information as to whether they are in a position to process the document."/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
@@ -66,30 +68,6 @@
             <designation>
                <language value="rm-CH"/>
                <value value="Document DEP betg structurà"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="urn:che:epr:ch-emed:medication-card:2023"/>
-            <display value="CH EMED Medication Card document"/>
-            <designation>
-               <language value="en-US"/>
-               <value value="CH EMED Medication Card document"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
-               <value value="CH EMED Medication Card document"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="CH EMED Medication Card document"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="CH EMED Medication Card document"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="CH EMED Medication Card document"/>
             </designation>
          </concept>
          <concept>
@@ -138,6 +116,174 @@
             <designation>
                <language value="rm-CH"/>
                <value value="CH VACD Vaccination Record"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:medication-card:2023"/>
+            <display value="CH EMED Medication Card document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Card document"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:mtp:2024"/>
+            <display value="CH EMED Medication Treatment Plan document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Treatment Plan document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Treatment Plan document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Treatment Plan document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Treatment Plan document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Treatment Plan document"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:pre:2024"/>
+            <display value="CH EMED Medication Prescription document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Prescription document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Prescription document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Prescription document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Prescription document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Prescription document"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:dis:2024"/>
+            <display value="CH EMED Medication Dispense document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication Dispense document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication Dispense document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication Dispense document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication Dispense document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication Dispense document"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:padv:2024"/>
+            <display value="CH EMED Pharmaceutical Advice document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Pharmaceutical Advice document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Pharmaceutical Advice document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Pharmaceutical Advice document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Pharmaceutical Advice document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Pharmaceutical Advice document"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-emed:pml:2024"/>
+            <display value="CH EMED Medication List document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH EMED Medication List document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH EMED Medication List document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH EMED Medication List document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH EMED Medication List document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH EMED Medication List document"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="urn:che:epr:ch-allergyintolerance:2024"/>
+            <display value="CH AllergyIntolerance document"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="CH AllergyIntolerance document"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CH AllergyIntolerance document"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CH AllergyIntolerance document"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CH AllergyIntolerance document"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="CH AllergyIntolerance document"/>
             </designation>
          </concept>
       </include>
@@ -216,27 +362,51 @@
             </designation>
          </concept>
          <concept>
+            <code value="urn:ihe:iti:xds-sd:pdf:2008"/>
+            <display value="Scanned Documents (PDF)"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="PDF embedded in CDA per XDS-SD profile"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PDF embedded in CDA per XDS-SD profile"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PDF embedded in CDA per XDS-SD profile"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PDF embedded in CDA per XDS-SD profile"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="PDF embedded in CDA per XDS-SD profile"/>
+            </designation>
+         </concept>
+         <concept>
             <code value="urn:ihe:iti:xds-sd:text:2008"/>
             <display value="Scanned Documents (text)"/>
             <designation>
                <language value="en-US"/>
-               <value value="Scanned Documents (text)"/>
+               <value value="Text embedded in CDA per XDS-SD profile"/>
             </designation>
             <designation>
                <language value="de-CH"/>
-               <value value="Scanned Documents (text)"/>
+               <value value="Text embedded in CDA per XDS-SD profile"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Scanned Documents (text)"/>
+               <value value="Text embedded in CDA per XDS-SD profile"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Scanned Documents (text)"/>
+               <value value="Text embedded in CDA per XDS-SD profile"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Scanned Documents (text)"/>
+               <value value="Text embedded in CDA per XDS-SD profile"/>
             </designation>
          </concept>
          <concept>
@@ -432,27 +602,23 @@
             </designation>
          </concept>
          <concept>
-            <code value="urn:ihe:iti:xds-sd:pdf:2008"/>
-            <display value="Scanned Documents (PDF)"/>
-            <designation>
-               <language value="en-US"/>
-               <value value="Scanned Documents (PDF)"/>
-            </designation>
+            <code value="urn:ihe:pcc:ic:2008"/>
+            <display value="Immunization Registry Content (IRC)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Scanned Documents (PDF)"/>
+               <value value="Immunization Registry Content (IRC)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Scanned Documents (PDF)"/>
+               <value value="Immunization Registry Content (IRC)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Scanned Documents (PDF)"/>
+               <value value="Immunization Registry Content (IRC)"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="Scanned Documents (PDF)"/>
+               <value value="Immunization Registry Content (IRC)"/>
             </designation>
          </concept>
       </include>

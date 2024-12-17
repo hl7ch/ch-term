@@ -73,6 +73,11 @@
                <value value="Imaging order"/>
             </designation>
          </concept>
+         <!-- manually added -->
+         <concept>
+            <code value="82291000195104"/>
+            <display value="Medication dispense document (record artifact)"/>
+         </concept>
       </include>
       <include>
          <system
@@ -681,6 +686,15 @@
                <language value="en-US"/>
                <value value="Medication list"/>
             </designation>
+         </concept>
+         <!-- manually added because not in art-decor -->
+         <concept>
+            <code value="736378000"/>
+            <display value="Medication management plan (record artifact)"/>
+         </concept>
+         <concept>
+            <code value="761931002"/>
+            <display value="Medication treatment plan report (record artifact)"/>
          </concept>
       </include>
    </compose>
