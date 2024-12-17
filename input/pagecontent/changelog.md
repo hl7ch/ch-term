@@ -1,7 +1,7 @@
 
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
-### v3.1.0 (2024-12-17)
+### v3.1.0 (2024-12-17) 
 * [#45](https://github.com/hl7ch/ch-term/issues/45): remove duplicated entries in ConceptMaps
 * [#38](https://github.com/hl7ch/ch-term/issues/38): Monthly Check of CS/VS for Swissmedic Vaccines
 * [#52](https://github.com/hl7ch/ch-term/issues/52): Translation CH VACD Swiss Recommendation Forecast Status
