@@ -1,6 +1,9 @@
 
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
+### Next version 
+
+
 ### v3.1.0 (2024-12-17) 
 * [#76](https://github.com/hl7ch/ch-term/issues/76): updates for typeCode, classCode, formatCode and practiceSettingCode
 * [#45](https://github.com/hl7ch/ch-term/issues/45): remove duplicated entries in ConceptMaps
