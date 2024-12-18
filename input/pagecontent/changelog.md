@@ -2,6 +2,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
 ### Next version 
+* [#49](https://github.com/hl7ch/ch-term/issues/49): Include VS Treatment Reason
 
 
 ### v3.1.0 (2024-12-17) 
