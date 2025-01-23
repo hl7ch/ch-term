@@ -20,15 +20,13 @@ This implementation guide contains the Swiss terminology defined via FHIR proces
 * [Naming Systems](namingsystems.html)
 
 ### Collaboration & Governance
+This implementation guide is the result of collaborative work undertaken with participants from [HL7 Switzerland](https://www.hl7.ch) and [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html).
 
-This implementation guide is the product of collaborative work undertaken with participants from [HL7 Switzerland](https://www.hl7.ch) and [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html)
-
-- a yearly major release is foreseen to support the swiss balloted ig's with a interim version published for supporting the Hl7 switzerland ballot phase
-- addition / changes can only be done through reviewed pull requests
-- in addition pull requests (PR) needs to be accepted / reviewed by the responsible of the different swiss HL7.ch work groups, if the terminology resources are used within their implementation guides
-- patch releases can be done on request to the FHIR work group, dependent IG's on CH Term should allow patched versions
-- for terminology resources where CH Term is not the authority/master, the conformance resource needs to indicate the authority in meta.source ([example for art-decor](https://fhir.ch/ig/ch-term/ValueSet-DocumentEntry.authorRole.json.html))
-- only stable versions of ValueSets will be published if there a multiple versions of ValueSets (e.g. DocumentEntry.typeCode) due that the tooling supports currently one version [background](https://github.com/hl7ch/ch-term/issues/5).
+- A yearly major release is foreseen to support the Swiss balloted IGs, with an interim version published to support the HL7 Switzerland ballot phase.
+- Additions or changes can only be made through reviewed pull requests (PRs). In addition, PRs must be reviewed and accepted by the responsible parties of the respective HL7 Switzerland working groups, if the terminology resources are used within their implementation guides.
+- Patch releases can be made upon request to the FHIR working group. Dependent IGs on CH Term should allow patched versions.
+- For terminology resources where CH Term is not the authority or master, the conformance resource needs to indicate the authority in `meta.source` (see [example](https://fhir.ch/ig/ch-term/ValueSet-DocumentEntry.authorRole.json.html) for ART-DECOR).
+- Only stable versions of ValueSets are published when there are multiple versions of ValueSets (e.g. DocumentEntry.typeCode), due to the fact that the tooling currently supports only one version ([background](https://github.com/hl7ch/ch-term/issues/5)).
 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
