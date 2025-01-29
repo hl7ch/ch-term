@@ -4,7 +4,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### Next version (2025)
 * [#49](https://github.com/hl7ch/ch-term/issues/49): Include VS Treatment Reason
 * [#78](https://github.com/hl7ch/ch-term/issues/78): updates for typeCode
-* [#83](https://github.com/hl7ch/ch-term/issues/83): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension
+* [#83](https://github.com/hl7ch/ch-term/issues/83): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension, incl. [guidance](guidance.html#snomed-ct-swiss-extension) for the usage of the SNOMED CT Swiss Extension
 
 
 ### v3.1.0 (2024-12-17) 
