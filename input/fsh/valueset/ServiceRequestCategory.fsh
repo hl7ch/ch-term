@@ -1,4 +1,4 @@
-ValueSet: ServiceRequestCategory
+ValueSet: VSServiceRequestCategory
 Id: servicerequest-category
 Title: "ServiceRequest Category"
 Description: "Codes for the category of service request used to define the requested service."
