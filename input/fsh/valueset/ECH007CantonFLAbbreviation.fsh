@@ -7,14 +7,14 @@ Title: "eCH-0007 Canton Abbreviation"
 Description: "eCH-0007: Each municipality has a unique cantonal affiliation, which can be defined by the cantonal abbreviation commonly used in Switzerland."
 * ^experimental = false
 * ^url = "http://fhir.ch/ig/ch-core/ValueSet/ech-7-cantonabbreviation"
-* include codes from system ECH007CantonFLAbbreviation
+* include codes from system CSECH007CantonFLAbbreviation
 * exclude http://fhir.ch/ig/ch-core/CodeSystem/ech-7-cantonflabbreviation#FL
 
 
-ValueSet: ECH007CantonFLAbbreviation
+ValueSet: VSECH007CantonFLAbbreviation
 Id: ech-7-cantonflabbreviation
 Title: "eCH-0007 Canton Abbreviation incl. FL (Fürstentum Liechtenstein)"
 Description: "eCH-0007: Analogous to cantonAbbreviation, but contains the entry 'FL' for the Principality of Liechtenstein in addition to the actual cantons. "
 * ^experimental = false
 * ^url = "http://fhir.ch/ig/ch-core/ValueSet/ech-7-cantonflabbreviation"
-* include codes from system ECH007CantonFLAbbreviation
+* include codes from system CSECH007CantonFLAbbreviation
