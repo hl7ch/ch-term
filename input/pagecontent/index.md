@@ -19,12 +19,14 @@ This implementation guide contains the Swiss terminology defined via FHIR proces
 * [Concept Maps](conceptmaps.html)
 * [Naming Systems](namingsystems.html)
 
-### Collaboration
-This implementation guide is the product of collaborative work undertaken with participants from:
+### Collaboration & Governance
+This implementation guide is the result of collaborative work undertaken with participants from [HL7 Switzerland](https://www.hl7.ch) and [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html).
 
-* [Swiss FHIR Implementers Community](https://www.fhir.ch)
-* [HL7 Switzerland](https://www.hl7.ch)
-* [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html)
+- A yearly major release is foreseen to support the Swiss balloted IGs, with an interim version published to support the HL7 Switzerland ballot phase.
+- Additions or changes can only be made through pull requests (PRs) reviewed by the leader of the working group or the HL7 Switzerland technical manager. In addition, PRs must be reviewed and accepted by the leader of the respective HL7 Switzerland working groups, if the terminology resources are used within their implementation guides.
+- Patch releases can be made upon request to the FHIR working group. Dependent IGs on CH Term should allow patched versions.
+- For terminology resources where CH Term is not the authority or master, the conformance resource needs to indicate the authority in `meta.source` (see [example](https://fhir.ch/ig/ch-term/ValueSet-DocumentEntry.authorRole.json.html) for ART-DECOR).
+- Only stable versions of ValueSets are published when there are multiple versions of ValueSets (e.g. DocumentEntry.typeCode), due to the fact that the tooling currently supports only one version ([background](https://github.com/hl7ch/ch-term/issues/5)).
 
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
