@@ -9,4 +9,5 @@ Alias: $ch-vacd-recommendation-forecast-status-cs =     http://fhir.ch/ig/ch-vac
 Alias: $bfs-medstats-25-mainguarantor =                 http://fhir.ch/ig/ch-core/CodeSystem/bfs-medstats-25-mainguarantor
 Alias: $mainguarantor =                                 http://fhir.ch/ig/ch-core/CodeSystem/mainguarantor
 
-Alias: $ch-vacd-swissmedic-imunsera-and-globuline-cs =  http://fhir.ch/ig/ch-term/CodeSystem/ch-vacd-swissmedic-imunsera-and-globuline-cs
+Alias: $ch-vacd-swissmedic-imunglobuline-cs =  http://fhir.ch/ig/ch-term/CodeSystem/ch-vacd-swissmedic-imunglobuline-cs
+Alias: $ch-vacd-swissmedic-imunsera-cs =  http://fhir.ch/ig/ch-term/CodeSystem/ch-vacd-swissmedic-imunsera-cs
