@@ -2,6 +2,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
 ### Next version (2025)
+* [#88](https://github.com/hl7ch/ch-term/issues/88): CH VACD Swissmedic CS and VS for imunsera and -globulines
 * [#49](https://github.com/hl7ch/ch-term/issues/49): Include VS Treatment Reason
 * [#78](https://github.com/hl7ch/ch-term/issues/78): updates for typeCode
 * [#81](https://github.com/hl7ch/ch-term/issues/81): update governance
