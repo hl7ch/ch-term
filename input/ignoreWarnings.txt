@@ -28,5 +28,5 @@ The link 'CodeSystem-ch-vacd-swissmedic-cs.html#ch-vacd-swissmedic-cs-ValueSet-c
 The link 'CodeSystem-ch-vacd-myvaccines-cs.html#ch-vacd-myvaccines-cs-ValueSet-ch-vacd-vaccines-vs.46html' for "ValueSet-ch-vacd-vaccines-vs.html" cannot be resolved (valid targets: 100 targets)
 
 # Valid SCT code: https://browser.ihtsdotools.org/?perspective=full&conceptId1=51311000087100
-The code '51311000087100' is not valid in the system http://snomed.info/sct (Unknown code '51311000087100' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/2011000195101/version/20230607')
-The code '51311000087100' in the system http://snomed.info/sct is not valid in the value set 'http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs'
+#The code '51311000087100' in the system http://snomed.info/sct is not valid in the value set 'http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs'
+
