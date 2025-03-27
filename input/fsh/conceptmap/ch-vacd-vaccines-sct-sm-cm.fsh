@@ -587,31 +587,6 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
-// TODO
-//ERROR, http://snomed.info/sct|836389008|'Vaccine product containing Vaccinia virus antigen (medicinal product)': The source code '836389008|Vaccine product containing Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
-* group[=].element[+].code = #836389008
-* group[=].element[=].display = "Vaccine product containing Vaccinia virus antigen (medicinal product)"
-//* group[=].element[=].target[+].code = #
-//* group[=].element[=].target[=].display = ""
-* group[=].element[=].target[+].equivalence = #unmatched
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
-
-// ERROR, http://snomed.info/sct|836402002|'Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)': The source code '836402002|Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
-* group[=].element[+].code = #836402002
-* group[=].element[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
-//* group[=].element[=].target[+].code = #
-//* group[=].element[=].target[=].display = ""
-* group[=].element[=].target[+].equivalence = #unmatched
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
-
-// ERROR, http://snomed.info/sct|836401009|'Vaccine product containing Neisseria meningitidis antigen (medicinal product)': The source code '836401009|Vaccine product containing Neisseria meningitidis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
-* group[=].element[+].code = #836401009
-* group[=].element[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
-//* group[=].element[=].target[+].code = #
-//* group[=].element[=].target[=].display = ""
-* group[=].element[=].target[+].equivalence = #unmatched
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
-
 
 //	TODO, http://snomed.info/sct|37146000|'Typhus vaccine': The source code '37146000|Typhus vaccine' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|409568008|'Pentavalent botulinum toxoid vaccine': The source code '409568008|Pentavalent botulinum toxoid vaccine' is defined in the valueset but not in the conceptmap.
@@ -632,11 +607,37 @@ Usage: #definition
 //	TODO, http://snomed.info/sct|836385002|'Yellow fever virus antigen-containing vaccine product': The source code '836385002|Yellow fever virus antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|836387005|'Rotavirus antigen-containing vaccine product': The source code '836387005|Rotavirus antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|836388000|'Vaccine product containing Rubella virus antigen (medicinal product)': The source code '836388000|Vaccine product containing Rubella virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+//TODO, http://snomed.info/sct|836389008|'Vaccine product containing Vaccinia virus antigen (medicinal product)': The source code '836389008|Vaccine product containing Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #836389008
+* group[=].element[=].display = "Vaccine product containing Vaccinia virus antigen (medicinal product)"
+//* group[=].element[=].target[+].code = #
+//* group[=].element[=].target[=].display = ""
+* group[=].element[=].target[+].equivalence = #unmatched
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+
 //	TODO, http://snomed.info/sct|836390004|'Vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)': The source code '836390004|Vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|836393002|'Vaccine product containing Rabies lyssavirus antigen (medicinal product)': The source code '836393002|Vaccine product containing Rabies lyssavirus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|836397001|'Vaccine product containing Coxiella burnetii antigen (medicinal product)': The source code '836397001|Vaccine product containing Coxiella burnetii antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|836398006|'Vaccine product containing Streptococcus pneumoniae antigen (medicinal product)': The source code '836398006|Vaccine product containing Streptococcus pneumoniae antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|836400005|'Adenovirus antigen-containing vaccine product': The source code '836400005|Adenovirus antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
+
+//TODO, http://snomed.info/sct|836401009|'Vaccine product containing Neisseria meningitidis antigen (medicinal product)': The source code '836401009|Vaccine product containing Neisseria meningitidis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #836401009
+* group[=].element[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
+//* group[=].element[=].target[+].code = #
+//* group[=].element[=].target[=].display = ""
+* group[=].element[=].target[+].equivalence = #unmatched
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+//TODO, http://snomed.info/sct|836402002|'Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)': The source code '836402002|Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #836402002
+* group[=].element[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
+//* group[=].element[=].target[+].code = #
+//* group[=].element[=].target[=].display = ""
+* group[=].element[=].target[+].equivalence = #unmatched
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
 //	TODO, http://snomed.info/sct|836403007|'Tick-borne encephalitis virus antigen-containing vaccine product': The source code '836403007|Tick-borne encephalitis virus antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|836498007|'Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)': The source code '836498007|Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 //	TODO, http://snomed.info/sct|836500008|'Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)': The source code '836500008|Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)' is defined in the valueset but not in the conceptmap.
