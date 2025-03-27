@@ -15,7 +15,7 @@
     </telecom>
   </contact>
   <responsible value="GS1"/>
-  <description value="Each healthcare partner (natural or legal person) is referenced with a unique code of type GLN (former name: EAN code) of the [GS1](https://www.gs1.ch/de/home) system. See [refdata](https://www.refdata.ch/content/partner_d.aspx)"/>
+  <description value="Each healthcare partner (natural or legal person) is referenced with a unique code of type GLN (former name: EAN code) of the [GS1](https://www.gs1.ch/de/home) system, see [refdata](https://www.refdata.ch/)."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
