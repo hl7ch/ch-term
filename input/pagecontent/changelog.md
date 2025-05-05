@@ -9,6 +9,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#83](https://github.com/hl7ch/ch-term/issues/83): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension, incl. [guidance](guidance.html#snomed-ct-swiss-extension) for the usage of the SNOMED CT Swiss Extension
 * [#87](https://github.com/hl7ch/ch-term/issues/87): Fix (and update) terminology dependency to avoid version mismatch: hl7.terminology#6.1.0 -> hl7.terminology.r4#6.2.0
 * [#92](https://github.com/hl7ch/ch-term/issues/92): Fix refdata link in NamingSystem GLN
+* [#98](https://github.com/hl7ch/ch-term/issues/98): Add NamingSystem for VEKA and GTIN
 
 ### v3.1.0 (2024-12-17) 
 * [#76](https://github.com/hl7ch/ch-term/issues/76): updates for typeCode, classCode, formatCode and practiceSettingCode
