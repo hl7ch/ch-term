@@ -7,7 +7,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#78](https://github.com/hl7ch/ch-term/issues/78): updates for typeCode
 * [#81](https://github.com/hl7ch/ch-term/issues/81): update governance
 * [#83](https://github.com/hl7ch/ch-term/issues/83): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension, incl. [guidance](guidance.html#snomed-ct-swiss-extension) for the usage of the SNOMED CT Swiss Extension
-* [#87](https://github.com/hl7ch/ch-term/issues/87): Fix (and update) terminology dependency to avoid version mismatch: hl7.terminology#6.1.0 -> hl7.terminology.r4#6.2.0
+* [#87](https://github.com/hl7ch/ch-term/issues/87): Fix (and update) terminology dependency to avoid version mismatch: hl7.terminology#6.1.0 -> hl7.terminology.r4#6.3.0
 * [#92](https://github.com/hl7ch/ch-term/issues/92): Fix refdata link in NamingSystem GLN
 
 ### v3.1.0 (2024-12-17) 
