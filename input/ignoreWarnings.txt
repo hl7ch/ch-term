@@ -30,3 +30,8 @@ The link 'CodeSystem-ch-vacd-myvaccines-cs.html#ch-vacd-myvaccines-cs-ValueSet-c
 # Valid SCT code: https://browser.ihtsdotools.org/?perspective=full&conceptId1=51311000087100
 The code '51311000087100' is not valid in the system http://snomed.info/sct (Unknown code '51311000087100' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/2011000195101/version/20230607')
 The code '51311000087100' in the system http://snomed.info/sct is not valid in the value set 'http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs'
+
+# Not expected to resolve (https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/.E2.9C.94.20CapabilityStatement.20some.20Canonical.20URLs.20do.20not.20resolve/near/516300365)
+URL value 'urn:ietf:bcp:13' does not resolve
+URL value 'https://art-decor.org/fhir/%
+
