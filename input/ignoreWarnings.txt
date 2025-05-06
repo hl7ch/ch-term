@@ -30,3 +30,6 @@ The link 'CodeSystem-ch-vacd-myvaccines-cs.html#ch-vacd-myvaccines-cs-ValueSet-c
 # Valid SCT code: https://browser.ihtsdotools.org/?perspective=full&conceptId1=51311000087100
 The code '51311000087100' is not valid in the system http://snomed.info/sct (Unknown code '51311000087100' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/2011000195101/version/20230607')
 The code '51311000087100' in the system http://snomed.info/sct is not valid in the value set 'http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs'
+
+# Die Unabhängigkeit Serbiens (8248) wurde am 17.02.2008 deklariert. Bitte beachten Sie, dass der ISO 3166-1 Alpha-2 XK Code vom Benutzer zugewiesen wird (user-assigned) und daher nicht universell ist.
+The code 'XK' is not valid in the system urn:iso:std:iso:3166 (Unknown code 'XK' in the CodeSystem 'urn:iso:std:iso:3166' version '2018')
