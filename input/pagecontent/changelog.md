@@ -10,6 +10,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#103](https://github.com/hl7ch/ch-term/issues/103): Add [pin-canonicals](http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html#:~:text=for%20further%20information-,pin%2Dcanonicals,-Pin%20Canonical%20Versions) parameter to define the handling of unversioned canonical references
 * [#87](https://github.com/hl7ch/ch-term/issues/87): Fix (and update) terminology dependency to avoid version mismatch: hl7.terminology#6.1.0 -> hl7.terminology.r4#6.3.0
 * [#92](https://github.com/hl7ch/ch-term/issues/92): Fix refdata link in NamingSystem GLN
+* [#98](https://github.com/hl7ch/ch-term/issues/98): Add NamingSystem for VEKA and GTIN
 
 ### v3.1.0 (2024-12-17) 
 * [#76](https://github.com/hl7ch/ch-term/issues/76): updates for typeCode, classCode, formatCode and practiceSettingCode
