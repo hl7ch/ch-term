@@ -3,20 +3,8 @@ Id: ch-vacd-swissmedic-cs
 Title: "CH VACD Swissmedic Authorized Vaccines"
 Description: "The vaccines swissmedic has given an autorization number."
 * ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-* ^meta.source = "https://www.swissmedic.ch"
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2021-01-24T00:00:00+01:00"
-* ^identifier.use = #official
-* ^identifier.system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-* ^identifier.value = "authorized-vaccines"
-* ^version = "2021-01-24T00:00:00"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "eHealth Suisse"
-* ^contact.name = "eHealth Suisse"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "www.e-health-suisse.ch"
-* ^content = #complete
 * ^caseSensitive = true
 //683	01	FSME-Immun 0.25 ml Junior, Suspension zur intramuskulären Injektion	Pfizer AG	B	10.10.2003	10.10.2003	09.10.2023	J07BA01
 * #683 "FSME-Immun 0.25 ml Junior"
