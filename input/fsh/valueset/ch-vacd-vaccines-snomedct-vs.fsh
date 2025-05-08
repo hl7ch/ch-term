@@ -1,6 +1,6 @@
 ValueSet: SnomedCTForVaccineCode
 Id: ch-vacd-vaccines-snomedct-vs
-Title: "CH VACD Snomed CT for vaccine code"
+Title: "CH VACD Snomed CT for VaccineCode"
 Description: "The list of vaccine products in Snomed CT list."
 * ^url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 * ^status = #active

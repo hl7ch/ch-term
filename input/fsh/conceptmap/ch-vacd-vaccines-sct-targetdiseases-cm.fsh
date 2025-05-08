@@ -4,7 +4,7 @@ Usage: #definition
 * url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sct-targetdiseases-cm"
 * name = "SnomedCTVaccineCodeToTargetDiseaseMapping"
 * title = "Snomed CT VaccineCode To TargetDisease Mapping"
-* description = "Mappings from SnomedCT vaccine code to target disease according to the correcsponding valuesets"
+* description = "Mappings from SnomedCT VaccineCode to TargetDisease according to the correcsponding valuesets"
 * status = #active
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"

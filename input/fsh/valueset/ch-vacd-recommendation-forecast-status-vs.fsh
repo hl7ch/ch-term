@@ -41,7 +41,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Il pazient è immun cunter la malsogna da mira, ed in'ulteriura immunisaziun cunter la malsogna na po betg chaschunar avantatgs."
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "The patient is immune to the target disease and further immunization against the disease is not likely to provide benefit."
+  * ^designation[=].value = "The patient is immune to the TargetDisease and further immunization against the disease is not likely to provide benefit."
 
 * $ch-vacd-recommendation-forecast-status-cs#consultadvise "Consult Advice"
   * ^designation[0].language = #de-CH
