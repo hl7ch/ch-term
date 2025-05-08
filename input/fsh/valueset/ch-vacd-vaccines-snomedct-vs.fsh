@@ -2042,7 +2042,7 @@ Description: "The list of vaccine products in Snomed CT list."
 
 // addded 2025-03-21
 // Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)
-* $sct#69346004 "Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)"
+* $sct#1269346004 "Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "TRLT: Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)"
   * ^designation[+].language = #fr-CH
@@ -2997,7 +2997,7 @@ Description: "The list of vaccine products in Snomed CT list."
 
 // addded 2025-03-21
 // Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)
-* $sct#451000087105 "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
+* $sct#51451000087105 "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "TRLT: Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
   * ^designation[+].language = #fr-CH

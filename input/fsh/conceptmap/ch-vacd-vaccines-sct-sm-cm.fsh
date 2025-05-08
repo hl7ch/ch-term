@@ -669,14 +669,15 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836402002
 * group[=].element[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
-* group[=].element[=].target.code = #696
-* group[=].element[=].target.display = "BCG SSI"
-* group[=].element[=].target.equivalence = #narrower
+* group[=].element[=].target[0].code = #696
+* group[=].element[=].target[=].display = "BCG SSI"
+* group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #37146000
 * group[=].element[=].display = "Typhus vaccine"
-* group[=].element[=].target.code = #467
-* group[=].element[=].target.display = "Vivotif"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[0].code = #467
+* group[=].element[=].target[=].display = "Vivotif"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #774618008
 * group[=].element[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[0].code = #686
@@ -1407,59 +1408,76 @@ Usage: #definition
 * group[=].element[=].target[0].code = #572
 * group[=].element[=].target[=].display = "Epaxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #467
 * group[=].element[=].target[=].display = "Vivotif"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #558
 * group[=].element[=].target[=].display = "Havrix 1440"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #599
 * group[=].element[=].target[=].display = "Havrix 720"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871806004
 * group[=].element[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1494,6 +1512,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #533
 * group[=].element[=].target[=].display = "Moraten"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #615
 * group[=].element[=].target[=].display = "Priorix"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1503,6 +1522,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #483
 * group[=].element[=].target[=].display = "Rimevax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #58158
 * group[=].element[=].target[=].display = "Priorix-Tetra"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1512,6 +1532,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #58506
 * group[=].element[=].target[=].display = "Measles vaccine live"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #699
 * group[=].element[=].target[=].display = "ProQuad"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1570,6 +1591,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1579,6 +1601,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1669,24 +1692,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1699,39 +1729,50 @@ Usage: #definition
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1740,9 +1781,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1752,6 +1795,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1767,6 +1811,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1776,24 +1821,31 @@ Usage: #definition
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1822,96 +1874,125 @@ Usage: #definition
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1920,24 +2001,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1947,45 +2035,57 @@ Usage: #definition
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1994,90 +2094,117 @@ Usage: #definition
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2100,96 +2227,125 @@ Usage: #definition
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2198,18 +2354,22 @@ Usage: #definition
 * group[=].element[=].target[0].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2222,12 +2382,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2237,30 +2399,38 @@ Usage: #definition
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2338,188 +2508,247 @@ Usage: #definition
 * group[=].element[=].target[0].code = #533
 * group[=].element[=].target[=].display = "Moraten"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #615
 * group[=].element[=].target[=].display = "Priorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #268
 * group[=].element[=].target[=].display = "MMR-II"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #483
 * group[=].element[=].target[=].display = "Rimevax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #58158
 * group[=].element[=].target[=].display = "Priorix-Tetra"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #703
 * group[=].element[=].target[=].display = "MMRVaxPro"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #58506
 * group[=].element[=].target[=].display = "Measles vaccine live"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #699
 * group[=].element[=].target[=].display = "ProQuad"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871929006
 * group[=].element[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2575,24 +2804,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2605,39 +2841,50 @@ Usage: #definition
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2739,93 +2986,121 @@ Usage: #definition
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2902,99 +3177,129 @@ Usage: #definition
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3003,99 +3308,129 @@ Usage: #definition
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3559,48 +3894,62 @@ Usage: #definition
 * group[=].element[=].target[0].code = #572
 * group[=].element[=].target[=].display = "Epaxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #558
 * group[=].element[=].target[=].display = "Havrix 1440"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #599
 * group[=].element[=].target[=].display = "Havrix 720"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #1296864005
 * group[=].element[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[0].code = #544
@@ -4150,24 +4499,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4180,39 +4536,50 @@ Usage: #definition
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4221,96 +4588,125 @@ Usage: #definition
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4319,24 +4715,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4346,45 +4749,57 @@ Usage: #definition
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4393,99 +4808,129 @@ Usage: #definition
 * group[=].element[=].target[0].code = #544
 * group[=].element[=].target[=].display = "Heprecomb"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #642
 * group[=].element[=].target[=].display = "Heprecomb Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #551
 * group[=].element[=].target[=].display = "Engerix-B 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #534
 * group[=].element[=].target[=].display = "Engerix-B 20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #640
 * group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #592
 * group[=].element[=].target[=].display = "Twinrix 720/20"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #545
 * group[=].element[=].target[=].display = "HBVAXPRO 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #610
 * group[=].element[=].target[=].display = "Gen H-B-Vax 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #663
 * group[=].element[=].target[=].display = "HBVAXPRO 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #613
 * group[=].element[=].target[=].display = "Pentavac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4692,7 +5137,7 @@ Usage: #definition
 * group[=].element[=].target.code = #68358
 * group[=].element[=].target.display = "Ervebo, Injektionslösung"
 * group[=].element[=].target.equivalence = #equal
-* group[=].element[+].code = #451000087105
+* group[=].element[+].code = #51451000087105
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[0].code = #509
 * group[=].element[=].target[=].display = "Pneumovax-23"
@@ -4714,24 +5159,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #702
 * group[=].element[=].target[=].display = "Td-pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #681
 * group[=].element[=].target[=].display = "Boostrix Polio"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #567
 * group[=].element[=].target[=].display = "Ditanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #638
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #619
 * group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4744,39 +5196,50 @@ Usage: #definition
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-01
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #711-02
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #690
 * group[=].element[=].target[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #689
 * group[=].element[=].target[=].display = "Te Anatoxal N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4796,9 +5259,10 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #319941000221104
 * group[=].element[=].display = "Live attenuated Mycobacterium bovis antigen only vaccine product in parenteral dose form"
-* group[=].element[=].target.code = #696
-* group[=].element[=].target.display = "BCG SSI"
-* group[=].element[=].target.equivalence = #narrower
+* group[=].element[=].target[+].code = #696
+* group[=].element[=].target[=].display = "BCG SSI"
+* group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
@@ -5086,9 +5550,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #48
 * group[=].element[=].target[=].display = "BCG"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #87
 * group[=].element[=].target[=].display = "BCG Vaccin Mérieux"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #37146000
 * group[=].element[=].display = "Typhus vaccine"
 * group[=].element[=].target[0].code = #25
@@ -5822,77 +6288,101 @@ Usage: #definition
 * group[=].element[=].target[0].code = #25
 * group[=].element[=].target[=].display = "Vivotif L"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #110
 * group[=].element[=].target[=].display = "Vaqta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #115
 * group[=].element[=].target[=].display = "Havrix 360"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #143
 * group[=].element[=].target[=].display = "TAB oral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #165
 * group[=].element[=].target[=].display = "Havrix junior"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871806004
 * group[=].element[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[0].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871816007
 * group[=].element[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[0].code = #80
@@ -5921,42 +6411,53 @@ Usage: #definition
 * group[=].element[=].target[+].code = #47
 * group[=].element[=].target[=].display = "Attenuvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #56
 * group[=].element[=].target[=].display = "Meruvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #75
 * group[=].element[=].target[=].display = "Pluserix"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #88
 * group[=].element[=].target[=].display = "Biviraten"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #91
 * group[=].element[=].target[=].display = "Ervevax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #96
 * group[=].element[=].target[=].display = "MM Vax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #111
 * group[=].element[=].target[=].display = "Rubeaten"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #112
 * group[=].element[=].target[=].display = "Rudivax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #117
 * group[=].element[=].target[=].display = "Almevax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #119
 * group[=].element[=].target[=].display = "MMR-I"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #120
 * group[=].element[=].target[=].display = "Moruman"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121
 * group[=].element[=].target[=].display = "Rimparix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #122
 * group[=].element[=].target[=].display = "Rubevac"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #123
 * group[=].element[=].target[=].display = "Trimovax"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5989,12 +6490,15 @@ Usage: #definition
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6019,6 +6523,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6031,6 +6536,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871830002
 * group[=].element[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[0].code = #35
@@ -6112,84 +6618,107 @@ Usage: #definition
 * group[=].element[=].target[0].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871876003
 * group[=].element[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[0].code = #35
@@ -6207,24 +6736,30 @@ Usage: #definition
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6240,18 +6775,22 @@ Usage: #definition
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6261,6 +6800,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871883005
 * group[=].element[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[0].code = #73
@@ -6283,325 +6823,429 @@ Usage: #definition
 * group[=].element[=].target[0].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871888001
 * group[=].element[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[0].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871889009
 * group[=].element[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[0].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871890000
 * group[=].element[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[0].code = #73
@@ -6624,215 +7268,281 @@ Usage: #definition
 * group[=].element[=].target[0].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871893003
 * group[=].element[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[0].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871894009
 * group[=].element[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[0].code = #73
@@ -6895,215 +7605,283 @@ Usage: #definition
 * group[=].element[=].target[0].code = #14
 * group[=].element[=].target[=].display = "MoRu-Viraten"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #23
 * group[=].element[=].target[=].display = "Triviraten"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #47
 * group[=].element[=].target[=].display = "Attenuvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #75
 * group[=].element[=].target[=].display = "Pluserix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #88
 * group[=].element[=].target[=].display = "Biviraten"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #96
 * group[=].element[=].target[=].display = "MM Vax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #119
 * group[=].element[=].target[=].display = "MMR-I"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #120
 * group[=].element[=].target[=].display = "Moruman"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121
 * group[=].element[=].target[=].display = "Rimparix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #123
 * group[=].element[=].target[=].display = "Trimovax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #127
 * group[=].element[=].target[=].display = "Eolarix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #871929006
 * group[=].element[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[0].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #1010308001
 * group[=].element[=].display = "Vaccine product containing only inactivated whole Hepatitis A virus HM-175 strain antigen (medicinal product)"
 * group[=].element[=].target[0].code = #110
@@ -7134,75 +7912,95 @@ Usage: #definition
 * group[=].element[=].target[0].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #1052330009
 * group[=].element[=].display = "Pneumococcal 10-valent conjugate vaccine"
 * group[=].element[=].target.code = #100
@@ -7213,352 +8011,465 @@ Usage: #definition
 * group[=].element[=].target[0].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #1162634005
 * group[=].element[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[0].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #1162637003
 * group[=].element[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[0].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #1252690003
 * group[=].element[=].display = "Meningococcus serogroup A vaccine"
 * group[=].element[=].target[0].code = #55
@@ -7714,42 +8625,54 @@ Usage: #definition
 * group[=].element[=].target[0].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #110
 * group[=].element[=].target[=].display = "Vaqta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #115
 * group[=].element[=].target[=].display = "Havrix 360"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #165
 * group[=].element[=].target[=].display = "Havrix junior"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #1296864005
 * group[=].element[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[0].code = #39
@@ -8235,417 +9158,548 @@ Usage: #definition
 * group[=].element[=].target[0].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #2081000221102
 * group[=].element[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[0].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #2091000221104
 * group[=].element[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[0].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #2101000221107
 * group[=].element[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[0].code = #17
 * group[=].element[=].target[=].display = "Poliomyelitis Impfstoff Berna"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #53
 * group[=].element[=].target[=].display = "HBVAXPRO 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #74
 * group[=].element[=].target[=].display = "Twinrix 360/10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #101
 * group[=].element[=].target[=].display = "Polio Salk"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #102
 * group[=].element[=].target[=].display = "Polio Sabin"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #103
 * group[=].element[=].target[=].display = "Poloral"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #118
 * group[=].element[=].target[=].display = "Hevac B"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #138
 * group[=].element[=].target[=].display = "K1, K2, K3"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #139
 * group[=].element[=].target[=].display = "Koprowski"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #147
 * group[=].element[=].target[=].display = "Polio Koprowski (K1-K3)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #148
 * group[=].element[=].target[=].display = "Polio Lilly"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #162
 * group[=].element[=].target[=].display = "HBVAX DNA 5"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #163
 * group[=].element[=].target[=].display = "HBVAX DNA 10"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #164
 * group[=].element[=].target[=].display = "HBVAX DNA 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #170
 * group[=].element[=].target[=].display = "Engerix-B 40"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #172
 * group[=].element[=].target[=].display = "Hepavax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #2171000221104
 * group[=].element[=].display = "Typhoid polysaccharide vaccine in parenteral dose form"
 * group[=].element[=].target[0].code = #25
@@ -8700,7 +9754,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #123
 * group[=].element[=].target[=].display = "Trimovax"
 * group[=].element[=].target[=].equivalence = #equal
-* group[=].element[+].code = #451000087105
+* group[=].element[+].code = #51451000087105
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target.code = #100
 * group[=].element[=].target.display = "Pnu-Immune"
@@ -8710,84 +9764,107 @@ Usage: #definition
 * group[=].element[=].target[0].code = #35
 * group[=].element[=].target[=].display = "Infanrix DTPa"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #39
 * group[=].element[=].target[=].display = "Infanrix Penta"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #73
 * group[=].element[=].target[=].display = "Infanrix DTPa+Hib"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #76
 * group[=].element[=].target[=].display = "Acel Immune"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #77
 * group[=].element[=].target[=].display = "Acel P"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #78
 * group[=].element[=].target[=].display = "Act-Hib"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #79
 * group[=].element[=].target[=].display = "Anatoxal DiTePer"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #80
 * group[=].element[=].target[=].display = "Anatoxal DiTe Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #81
 * group[=].element[=].target[=].display = "Anatoxal DiTe N Erwachsene"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #82
 * group[=].element[=].target[=].display = "Anatoxal Di"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #83
 * group[=].element[=].target[=].display = "Anatoxal Te"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #84
 * group[=].element[=].target[=].display = "Anatoxal Te N"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #92
 * group[=].element[=].target[=].display = "HibTiter"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #93
 * group[=].element[=].target[=].display = "Infanrix DTPa-HBV"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #98
 * group[=].element[=].target[=].display = "Pedvax"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #99
 * group[=].element[=].target[=].display = "Pentacoq"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #106
 * group[=].element[=].target[=].display = "Tetracoq"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #107
 * group[=].element[=].target[=].display = "Tetramune"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #126
 * group[=].element[=].target[=].display = "Ditanrix pediatric"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #133
 * group[=].element[=].target[=].display = "ProHibit"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #134
 * group[=].element[=].target[=].display = "Anatoxal DiTe Kinder"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #142
 * group[=].element[=].target[=].display = "Prohibit DTP"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #154
 * group[=].element[=].target[=].display = "DiTe Anatoxal Kinder / Enfants"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #166
 * group[=].element[=].target[=].display = "Infanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #168
 * group[=].element[=].target[=].display = "Tanrix"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #318351000221106
 * group[=].element[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[0].code = #73
@@ -8810,6 +9887,8 @@ Usage: #definition
 * group[=].element[=].target[0].code = #48
 * group[=].element[=].target[=].display = "BCG"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #87
 * group[=].element[=].target[=].display = "BCG Vaccin Mérieux"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"

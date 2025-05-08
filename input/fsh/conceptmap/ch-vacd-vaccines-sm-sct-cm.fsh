@@ -364,6 +364,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -391,27 +392,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -433,6 +441,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -448,15 +457,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -469,9 +481,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -487,12 +501,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -504,18 +520,22 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -528,57 +548,72 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -594,15 +629,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -612,42 +651,54 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -679,12 +730,15 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -703,39 +757,51 @@ Usage: #definition
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -754,9 +820,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -769,15 +837,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -790,15 +862,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -811,12 +887,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -828,18 +906,23 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -852,66 +935,85 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -924,15 +1026,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -942,45 +1048,58 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -989,6 +1108,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1016,27 +1136,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1058,6 +1185,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1073,15 +1201,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1094,9 +1225,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1112,12 +1245,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1396,18 +1531,23 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1420,66 +1560,85 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1492,15 +1651,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1510,45 +1673,58 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1557,24 +1733,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1584,99 +1767,130 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1686,188 +1900,247 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #640
 * group[=].element[=].display = "Infanrix hexa"
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871803007
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871822003
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871895005
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836374004
 * group[=].element[=].target[=].display = "Hepatitis B virus antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871925000
 * group[=].element[=].target[=].display = "Hepatitis B surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -1877,107 +2150,141 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1296676008
 * group[=].element[=].target[=].display = "Hepatitis B recombinant adsorbed surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296677004
 * group[=].element[=].target[=].display = "Hepatitis B high dose recombinant surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296678009
 * group[=].element[=].target[=].display = "3 antigen Hepatitis B recombinant surface only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296753004
 * group[=].element[=].target[=].display = "Paediatric vaccine inactivated whole Hepatitis A and Hepatitis B surface antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296864005
 * group[=].element[=].target[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #652
 * group[=].element[=].display = "Mencevax ACWY"
 * group[=].element[=].target[0].code = #871866001
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871873006
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1981000221108
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836401009
 * group[=].element[=].target[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871916006
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular oligosaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252690003
 * group[=].element[=].target[=].display = "Meningococcus serogroup A vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #921000221108
 * group[=].element[=].target[=].display = "Neisseria meningitidis antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #951000221102
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup C capsular polysaccharide conjugated antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1061000221102
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis capsular polysaccharide antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1971000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #669
 * group[=].element[=].display = "Poliorix"
 * group[=].element[=].target[0].code = #871739009
@@ -2054,9 +2361,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2066,36 +2375,47 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2107,90 +2427,116 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871751006
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871803007
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871822003
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871895005
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836375003
 * group[=].element[=].target[=].display = "Vaccine product containing Hepatitis A virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836374004
 * group[=].element[=].target[=].display = "Hepatitis B virus antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #865997008
 * group[=].element[=].target[=].display = "Hepatitis A virus antigen only adult vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871750007
 * group[=].element[=].target[=].display = "Hepatitis A virus antigen only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871804001
 * group[=].element[=].target[=].display = "Hepatitis A virus and Salmonella enterica subspecies enterica serovar Typhi antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871925000
 * group[=].element[=].target[=].display = "Hepatitis B surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010308001
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A virus HM-175 strain antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010318006
 * group[=].element[=].target[=].display = "Inactivated whole Hepatitis A GBM strain vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162637003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296676008
 * group[=].element[=].target[=].display = "Hepatitis B recombinant adsorbed surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296677004
 * group[=].element[=].target[=].display = "Hepatitis B high dose recombinant surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296678009
 * group[=].element[=].target[=].display = "3 antigen Hepatitis B recombinant surface only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296753004
 * group[=].element[=].target[=].display = "Paediatric vaccine inactivated whole Hepatitis A and Hepatitis B surface antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1296864005
 * group[=].element[=].target[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #91000221102
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #585
 * group[=].element[=].display = "Varilrix"
 * group[=].element[=].target[0].code = #871908002
@@ -2479,9 +2825,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2491,36 +2839,47 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2563,24 +2922,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2590,99 +2956,130 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2692,51 +3089,66 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #509
 * group[=].element[=].display = "Pneumovax-23"
 * group[=].element[=].target[0].code = #1052328007
@@ -2766,7 +3178,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1801000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
-* group[=].element[=].target[+].code = #451000087105
+* group[=].element[=].target[+].code = #51451000087105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #646
@@ -2774,18 +3186,22 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2798,57 +3214,72 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2864,15 +3295,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2882,42 +3317,54 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2937,18 +3384,23 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -2961,66 +3413,85 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3033,15 +3504,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3051,45 +3526,58 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3204,7 +3692,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1801000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
-* group[=].element[=].target[+].code = #451000087105
+* group[=].element[=].target[+].code = #51451000087105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #644
@@ -3212,138 +3700,182 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871803007
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871822003
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871895005
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836374004
 * group[=].element[=].target[=].display = "Hepatitis B virus antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871925000
 * group[=].element[=].target[=].display = "Hepatitis B surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3353,74 +3885,97 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1296676008
 * group[=].element[=].target[=].display = "Hepatitis B recombinant adsorbed surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296677004
 * group[=].element[=].target[=].display = "Hepatitis B high dose recombinant surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296678009
 * group[=].element[=].target[=].display = "3 antigen Hepatitis B recombinant surface only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296753004
 * group[=].element[=].target[=].display = "Paediatric vaccine inactivated whole Hepatitis A and Hepatitis B surface antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296864005
 * group[=].element[=].target[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #711
 * group[=].element[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3448,27 +4003,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3490,6 +4052,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3505,15 +4068,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3526,9 +4092,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3544,12 +4112,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3561,6 +4131,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3588,27 +4159,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3630,6 +4208,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3645,15 +4224,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3666,9 +4248,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3684,12 +4268,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3701,6 +4287,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3728,27 +4315,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3770,6 +4364,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3785,15 +4380,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3806,9 +4404,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -3824,12 +4424,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4043,66 +4645,86 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871908002
 * group[=].element[=].target[=].display = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871919004
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836495005
 * group[=].element[=].target[=].display = "Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010310004
 * group[=].element[=].target[=].display = "Live attenuated Human alphaherpesvirus 3 Oka-Merck strain only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010322001
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 Oka strain antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2221000221107
 * group[=].element[=].target[=].display = "Live attenuated Human alphaherpesvirus 3 only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2251000221101
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus and Human alphaherpesvirus 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4141,9 +4763,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4153,36 +4777,47 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4280,7 +4915,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1801000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
-* group[=].element[=].target[+].code = #451000087105
+* group[=].element[=].target[+].code = #51451000087105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #59147
@@ -4334,6 +4969,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4361,27 +4997,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4403,6 +5046,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4418,15 +5062,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4439,9 +5086,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4457,12 +5106,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4474,6 +5125,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4501,27 +5153,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4543,6 +5202,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4558,15 +5218,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4579,9 +5242,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -4597,12 +5262,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5073,18 +5740,23 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5097,66 +5769,85 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5169,15 +5860,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5187,45 +5882,58 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5234,12 +5942,15 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5258,39 +5969,51 @@ Usage: #definition
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5309,9 +6032,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5324,15 +6049,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5345,15 +6074,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5366,12 +6099,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5383,39 +6118,51 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871866001
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871873006
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1981000221108
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836401009
 * group[=].element[=].target[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871916006
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular oligosaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252690003
 * group[=].element[=].target[=].display = "Meningococcus serogroup A vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #921000221108
 * group[=].element[=].target[=].display = "Neisseria meningitidis antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #951000221102
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup C capsular polysaccharide conjugated antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1061000221102
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis capsular polysaccharide antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1971000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #66427
 * group[=].element[=].display = "VaxigripTetra"
 * group[=].element[=].target.code = #1181000221105
@@ -5443,138 +6190,182 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871803007
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871822003
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871895005
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836374004
 * group[=].element[=].target[=].display = "Hepatitis B virus antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871925000
 * group[=].element[=].target[=].display = "Hepatitis B surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5584,69 +6375,91 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1296676008
 * group[=].element[=].target[=].display = "Hepatitis B recombinant adsorbed surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296677004
 * group[=].element[=].target[=].display = "Hepatitis B high dose recombinant surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296678009
 * group[=].element[=].target[=].display = "3 antigen Hepatitis B recombinant surface only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296753004
 * group[=].element[=].target[=].display = "Paediatric vaccine inactivated whole Hepatitis A and Hepatitis B surface antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296864005
 * group[=].element[=].target[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #65730
 * group[=].element[=].display = "Bexsero"
 * group[=].element[=].target[0].code = #871866001
@@ -5697,66 +6510,86 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871908002
 * group[=].element[=].target[=].display = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871919004
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836495005
 * group[=].element[=].target[=].display = "Vaccine product containing Human alphaherpesvirus 3 antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010310004
 * group[=].element[=].target[=].display = "Live attenuated Human alphaherpesvirus 3 Oka-Merck strain only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010322001
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 Oka strain antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2221000221107
 * group[=].element[=].target[=].display = "Live attenuated Human alphaherpesvirus 3 only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2251000221101
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus and Human alphaherpesvirus 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -5999,7 +6832,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1801000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
-* group[=].element[=].target[+].code = #451000087105
+* group[=].element[=].target[+].code = #51451000087105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #69465
@@ -6117,9 +6950,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #1290624003
 * group[=].element[=].target[=].display = "Vaccine product containing Variola virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1290625002
 * group[=].element[=].target[=].display = "Variola virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #69222
 * group[=].element[=].display = "Prevenar 20"
 * group[=].element[=].target[0].code = #1052328007
@@ -6149,7 +6984,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1801000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
-* group[=].element[=].target[+].code = #451000087105
+* group[=].element[=].target[+].code = #51451000087105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #69815
@@ -6353,6 +7188,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6362,27 +7198,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6485,6 +7328,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6494,27 +7338,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6552,12 +7403,15 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6576,39 +7430,51 @@ Usage: #definition
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6627,9 +7493,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6642,15 +7510,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6663,15 +7535,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6684,12 +7560,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6701,126 +7579,165 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871803007
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871822003
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871895005
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836374004
 * group[=].element[=].target[=].display = "Hepatitis B virus antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871925000
 * group[=].element[=].target[=].display = "Hepatitis B surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6830,66 +7747,87 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1296676008
 * group[=].element[=].target[=].display = "Hepatitis B recombinant adsorbed surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296677004
 * group[=].element[=].target[=].display = "Hepatitis B high dose recombinant surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296678009
 * group[=].element[=].target[=].display = "3 antigen Hepatitis B recombinant surface only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296753004
 * group[=].element[=].target[=].display = "Paediatric vaccine inactivated whole Hepatitis A and Hepatitis B surface antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296864005
 * group[=].element[=].target[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #47
 * group[=].element[=].display = "Attenuvax"
 * group[=].element[=].target[0].code = #871765008
@@ -7067,21 +8005,27 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7091,60 +8035,78 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7154,33 +8116,43 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7190,142 +8162,181 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #74
 * group[=].element[=].display = "Twinrix 360/10"
 * group[=].element[=].target[0].code = #871751006
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871803007
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871822003
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871895005
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836375003
 * group[=].element[=].target[=].display = "Vaccine product containing Hepatitis A virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836374004
 * group[=].element[=].target[=].display = "Hepatitis B virus antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #865997008
 * group[=].element[=].target[=].display = "Hepatitis A virus antigen only adult vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871750007
 * group[=].element[=].target[=].display = "Hepatitis A virus antigen only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871804001
 * group[=].element[=].target[=].display = "Hepatitis A virus and Salmonella enterica subspecies enterica serovar Typhi antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871925000
 * group[=].element[=].target[=].display = "Hepatitis B surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010308001
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A virus HM-175 strain antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010318006
 * group[=].element[=].target[=].display = "Inactivated whole Hepatitis A GBM strain vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162637003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296676008
 * group[=].element[=].target[=].display = "Hepatitis B recombinant adsorbed surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296677004
 * group[=].element[=].target[=].display = "Hepatitis B high dose recombinant surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296678009
 * group[=].element[=].target[=].display = "3 antigen Hepatitis B recombinant surface only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296753004
 * group[=].element[=].target[=].display = "Paediatric vaccine inactivated whole Hepatitis A and Hepatitis B surface antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1296864005
 * group[=].element[=].target[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #91000221102
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #75
 * group[=].element[=].display = "Pluserix"
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7335,36 +8346,47 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7376,12 +8398,15 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7400,39 +8425,51 @@ Usage: #definition
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7451,9 +8488,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7466,15 +8505,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7487,15 +8530,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7508,12 +8555,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7679,12 +8728,15 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7703,39 +8755,51 @@ Usage: #definition
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7754,9 +8818,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7769,15 +8835,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7790,15 +8860,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7811,12 +8885,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7828,6 +8904,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7855,27 +8932,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7897,6 +8981,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7912,15 +8997,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7933,9 +9021,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7951,12 +9041,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7968,6 +9060,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7995,27 +9088,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8037,6 +9137,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8052,15 +9153,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8073,9 +9177,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8091,12 +9197,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8487,9 +9595,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8499,27 +9609,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8622,120 +9739,156 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871803007
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871822003
 * group[=].element[=].target[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871895005
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836374004
 * group[=].element[=].target[=].display = "Hepatitis B virus antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871925000
 * group[=].element[=].target[=].display = "Hepatitis B surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8745,60 +9898,79 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1296676008
 * group[=].element[=].target[=].display = "Hepatitis B recombinant adsorbed surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296677004
 * group[=].element[=].target[=].display = "Hepatitis B high dose recombinant surface antigen vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296678009
 * group[=].element[=].target[=].display = "3 antigen Hepatitis B recombinant surface only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296753004
 * group[=].element[=].target[=].display = "Paediatric vaccine inactivated whole Hepatitis A and Hepatitis B surface antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1296864005
 * group[=].element[=].target[=].display = "Paediatric Hepatitis B recombinant adsorbed surface antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #121000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #94
 * group[=].element[=].display = "Lyssavac Berna"
 * group[=].element[=].target[0].code = #871726005
@@ -8821,9 +9993,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8833,27 +10007,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8953,24 +10134,31 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -8980,99 +10168,130 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9082,51 +10301,66 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #100
 * group[=].element[=].display = "Pnu-Immune"
 * group[=].element[=].target[0].code = #1052328007
@@ -9156,7 +10390,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1801000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
-* group[=].element[=].target[+].code = #451000087105
+* group[=].element[=].target[+].code = #51451000087105
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #101
@@ -9377,18 +10611,23 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871739009
 * group[=].element[=].target[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9401,66 +10640,85 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871740006
 * group[=].element[=].target[=].display = "Inactivated whole Human poliovirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871888001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9473,15 +10731,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9491,45 +10753,58 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1031000221108
 * group[=].element[=].target[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1051000221104
 * group[=].element[=].target[=].display = "Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9538,21 +10813,27 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9562,60 +10843,78 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9625,33 +10924,43 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9661,45 +10970,56 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #110
 * group[=].element[=].display = "Vaqta"
 * group[=].element[=].target[0].code = #871751006
@@ -9927,9 +11247,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -9939,36 +11261,47 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10015,9 +11348,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10027,27 +11362,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10088,9 +11430,11 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871737006
 * group[=].element[=].target[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10100,36 +11444,47 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836498007
 * group[=].element[=].target[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871738001
 * group[=].element[=].target[=].display = "Live attenuated mumps vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2241000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10141,6 +11496,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10168,27 +11524,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10210,6 +11573,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10225,15 +11589,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10246,9 +11613,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10264,12 +11633,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10281,6 +11652,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871765008
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871831003
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10290,27 +11662,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #836382004
 * group[=].element[=].target[=].display = "Vaccine product containing Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836388000
 * group[=].element[=].target[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871732000
 * group[=].element[=].target[=].display = "Rubella virus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871766009
 * group[=].element[=].target[=].display = "Live attenuated Measles morbillivirus antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871817003
 * group[=].element[=].target[=].display = "Measles morbillivirus and Rubella virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1252703004
 * group[=].element[=].target[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1297215000
 * group[=].element[=].target[=].display = "Live attenuated rubella vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2231000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10398,6 +11777,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10425,27 +11805,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10467,6 +11854,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10482,15 +11870,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10503,9 +11894,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10521,12 +11914,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10695,21 +12090,27 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871764007
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871878002
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871887006
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10719,60 +12120,78 @@ Usage: #definition
 * group[=].element[=].target[+].code = #774618008
 * group[=].element[=].target[=].display = "Vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836380007
 * group[=].element[=].target[=].display = "Vaccine product containing Haemophilus influenzae type b antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836500008
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871806004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871876003
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871883005
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871886002
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10782,33 +12201,43 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871893003
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and inactivated Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871894009
 * group[=].element[=].target[=].display = "Vaccine product containing only acellular Bordetella pertussis and Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated whole Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1119351006
 * group[=].element[=].target[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -10818,45 +12247,56 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1297217008
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2041000221105
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide conjugated vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2061000221109
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only whole cell Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2071000221100
 * group[=].element[=].target[=].display = "Whole cell Bordetella pertussis and Corynebacterium diphtheriae toxoid and Clostridium tetani toxoid and Haemophilus influenzae type b capsular polysaccharide conjugated antigens only pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #318351000221106
 * group[=].element[=].target[=].display = "Pediatric vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid and inactivated whole Human Poliovirus serotype 1, 2 and 3 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #143
 * group[=].element[=].display = "TAB oral"
 * group[=].element[=].target[0].code = #961000221100
@@ -11142,6 +12582,7 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11169,27 +12610,34 @@ Usage: #definition
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11211,6 +12659,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11226,15 +12675,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11247,9 +12699,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11265,12 +12719,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11282,12 +12738,15 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11306,39 +12765,51 @@ Usage: #definition
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11357,9 +12828,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11372,15 +12845,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11393,15 +12870,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11414,12 +12895,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11661,12 +13144,15 @@ Usage: #definition
 * group[=].element[=].target[0].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871837004
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871875004
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11685,39 +13171,51 @@ Usage: #definition
 * group[=].element[=].target[+].code = #775641005
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #777725002
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #836381006
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #863911006
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871729003
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871730008
 * group[=].element[=].target[=].display = "Low dose diphtheria vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871758000
 * group[=].element[=].target[=].display = "Pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871759008
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871816007
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871827009
 * group[=].element[=].target[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871830002
 * group[=].element[=].target[=].display = "Corynebacterium diphtheriae toxoid antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871838009
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and low dose Corynebacterium diphtheriae and inactivated Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871839001
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11736,9 +13234,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871889009
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871890000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871891001
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B and inactivated whole Human poliovirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11751,15 +13251,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #871928003
 * group[=].element[=].target[=].display = "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus and Measles morbillivirus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #871929006
 * group[=].element[=].target[=].display = "Clostridium tetani and Corynebacterium diphtheriae and Hepatitis B virus antigens only vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1010689004
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1156879008
 * group[=].element[=].target[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1162634005
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11772,15 +13276,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #601000221108
 * group[=].element[=].target[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #1101000221104
 * group[=].element[=].target[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2021000221101
 * group[=].element[=].target[=].display = "Tetanus toxoid vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2031000221103
 * group[=].element[=].target[=].display = "Adult vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae toxoids (medicinal product)"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2051000221107
 * group[=].element[=].target[=].display = "Adult vaccine product containing only acellular Bordetella pertussis and Clostridium tetani toxoid and Corynebacterium diphtheriae toxoid antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -11793,12 +13301,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #2081000221102
 * group[=].element[=].target[=].display = "Diphtheria toxoid, Haemophilus influenzae type b conjugate, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #2091000221104
 * group[=].element[=].target[=].display = "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type b and Human poliovirus antigens only paediatric vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #2101000221107
 * group[=].element[=].target[=].display = "Diphtheria and acellular pertussis and Haemophilus influenzae type b and hepatitis B and poliomyelitis and tetanus pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #narrower
+* group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[=].target[+].code = #318341000221109
 * group[=].element[=].target[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[=].equivalence = #equal

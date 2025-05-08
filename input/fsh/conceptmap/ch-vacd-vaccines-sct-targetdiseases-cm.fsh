@@ -1365,8 +1365,8 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Viral disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-// http://snomed.info/sct|69346004|'Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)': The source code '69346004|Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
-* group[=].element[+].code = #69346004
+// http://snomed.info/sct|1269346004|'Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)': The source code '1269346004|Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #1269346004
 * group[=].element[=].display = "Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)"
 * group[=].element[=].target[+].code = #111852003
 * group[=].element[=].target[=].display = "Vaccinia (disorder)"
@@ -1878,7 +1878,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // http://snomed.info/sct|451000087105|'Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)': The source code '451000087105|Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)' is defined in the valueset but not in the conceptmap.
-* group[=].element[+].code = #451000087105
+* group[=].element[+].code = #51451000087105
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[+].code = #16814004
 * group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"

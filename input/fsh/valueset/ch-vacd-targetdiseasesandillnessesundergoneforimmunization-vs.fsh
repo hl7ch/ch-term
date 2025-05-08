@@ -536,7 +536,7 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[=].value = "Leptospirosis (disorder)"
 
 // added 2025-03-27
-* $sct#15507005 "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
+* $sct#715507005 "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
   * ^designation[+].language = #fr-CH
@@ -721,7 +721,7 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[=].value = "Infection caused by Mycobacterium bovis"
 
 //added 2025-03-27
-* $sct#353648006 "Disease caused by Enterovirus (disorder)"
+* $sct#53648006 "Disease caused by Enterovirus (disorder)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Disease caused by Enterovirus"
   * ^designation[+].language = #fr-CH
