@@ -5,16 +5,8 @@ Description: "Immunization recommendation forecast status values."
 * ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-forecast-status-cs"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-04-28T00:00:00+01:00"
-* ^identifier.use = #official
-* ^identifier.system = "http://fhir.ch/ig/ch-vacd/cs/entry-conflict"
-* ^identifier.value = "entry-conflict"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "eHealth Suisse"
-* ^contact.name = "eHealth Suisse"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "www.e-health-suisse.ch"
-* ^content = #complete
 * ^caseSensitive = true
 
 * #due "Due"
@@ -45,7 +37,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "The patient is considered overdue for their next vaccination."
 
 * #immune "Immune"
-  * ^definition = "The patient is immune to the target disease and further immunization against the disease is not likely to provide benefit."
+  * ^definition = "The patient is immune to the TargetDisease and further immunization against the disease is not likely to provide benefit."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Der Patient/die Patientin ist gegen die Zielkrankheit immun, und eine weitere Impfung dagegen würde wahrscheinlich keinen Nutzen bringen."
   * ^designation[+].language = #fr-CH
@@ -55,7 +47,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Il pazient è immun cunter la malsogna da mira, ed in'ulteriura immunisaziun cunter la malsogna na po betg chaschunar avantatgs."
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "The patient is immune to the target disease and further immunization against the disease is not likely to provide benefit."
+  * ^designation[=].value = "The patient is immune to the TargetDisease and further immunization against the disease is not likely to provide benefit."
 
 * #consultadvise "Consult Advice"
   * ^definition = "The patient may be contraindicated but get health care advice."

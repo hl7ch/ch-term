@@ -3,20 +3,8 @@ Id: ch-vacd-myvaccines-cs
 Title: "CH VACD Old Swiss Vaccines"
 Description: "Old vaccines codes earlier available in Switzerland."
 * ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
-* ^meta.source = "http://myvaccines.ch"
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2021-01-24T00:00:00+01:00"
-* ^identifier.use = #official
-* ^identifier.system = "http://fhir.ch/ig/ch-vacd/cs/vaccines-old"
-* ^identifier.value = "old-vaccines"
-* ^version = "2021-01-24T00:00:00"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "eHealth Suisse"
-* ^contact.name = "eHealth Suisse"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "www.e-health-suisse.ch"
-* ^content = #complete
 * ^caseSensitive = true
 * #14 "MoRu-Viraten"
   * ^designation[0].language = #de-CH
