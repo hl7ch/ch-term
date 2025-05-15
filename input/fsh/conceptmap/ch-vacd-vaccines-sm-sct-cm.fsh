@@ -7176,6 +7176,21 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 
+// added 2025-05-15
+* group[=].element[+].code = #69863-01
+* group[=].element[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[0].code = #2261000221104
+* group[=].element[=].target[=].display = "Vaccine product containing only influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria and Yamagata lineage antigens (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+
+// added 2025-05-15
+* group[=].element[+].code = #69995-01
+* group[=].element[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[0].code = #51311000087100
+* group[=].element[=].target[=].display = "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+
+
 
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///

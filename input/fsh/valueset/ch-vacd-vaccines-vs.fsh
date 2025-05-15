@@ -1570,6 +1570,35 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
 
 
+//69863	01	Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	07.04.2025	07.04.2025	06.04.2030	J07BB02	X		X	X
+//added 2025-05-15
+* $ch-vacd-swissmedic-cs#69863-01 "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+
+//69995	01	mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH	B	17.04.2025	17.04.2025	16.04.2030	J07BX	X		X	X
+//added 2025-05-15
+* $ch-vacd-swissmedic-cs#69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+
+
 
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///

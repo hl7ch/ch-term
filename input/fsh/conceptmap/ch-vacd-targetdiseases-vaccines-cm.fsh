@@ -777,6 +777,42 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Qdenga 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+// added 2025-05-15
+* group[=].element[+].code = #442438000
+* group[=].element[=].display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-05-15
+* group[=].element[+].code = #442696006 
+* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-05-15
+* group[=].element[+].code = #772810003 
+* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-05-15
+* group[=].element[+].code = #24662006
+* group[=].element[=].display = "Influenza caused by Influenza B virus (disorder)"
+* group[=].element[=].target[+].code = #69863-01	
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+
+// added 2025-05-15
+* group[=].element[+].code = #55735004
+* group[=].element[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[+].code = #69995-01	
+* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+
 // TODO
 //ERROR, http://snomed.info/sct|111852003|'Vaccinia (disorder)': The source code '111852003|Vaccinia (disorder)' is defined in the valueset but not in the conceptmap.
 // added 2024-08-
@@ -789,6 +825,8 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+
 
 
 
