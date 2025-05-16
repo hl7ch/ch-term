@@ -2,6 +2,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
 ### Next version (2025)
+* [#106](https://github.com/hl7ch/ch-term/issues/106): Update Swissmedic vaccines april 2025
 * [#90](https://github.com/hl7ch/ch-term/issues/90): CH VACD Adaption to IPS (2.0.0)
 * [#88](https://github.com/hl7ch/ch-term/issues/88): CH VACD Swissmedic CS and VS for imunsera and -globulines
 * [#49](https://github.com/hl7ch/ch-term/issues/49): Include VS Treatment Reason
