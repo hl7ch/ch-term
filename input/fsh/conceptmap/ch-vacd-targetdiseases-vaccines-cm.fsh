@@ -766,6 +766,10 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69691	
 * group[=].element[=].target[=].display = "Abrysvo"
 * group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-05-15
+* group[=].element[=].target[+].code = #69995-01	
+* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
 
@@ -803,20 +807,13 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
-
-// added 2025-05-15
-* group[=].element[+].code = #55735004
-* group[=].element[=].display = "Respiratory syncytial virus infection (disorder)"
-* group[=].element[=].target[+].code = #69995-01	
-* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
-* group[=].element[=].target[=].equivalence = #relatedto
-
-
-
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
+// Not Matched
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
 // TODO
 //ERROR, http://snomed.info/sct|111852003|'Vaccinia (disorder)': The source code '111852003|Vaccinia (disorder)' is defined in the valueset but not in the conceptmap.
 // added 2024-08-
-* group[+].id = "group3"
+* group[+].id = "group2"
 * group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[+].code = #111852003
@@ -826,14 +823,221 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
+//ERROR, http://snomed.info/sct|34014006|'Viral disease (disorder)': The source code '34014006|Viral disease (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #34014006
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|87628006|'Bacterial infectious disease (disorder)': The source code '87628006|Bacterial infectious disease (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #87628006
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|422400008|'Vomiting (disorder)': The source code '422400008|Vomiting (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #422400008
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|6142004|'Influenza (disorder)': The source code '6142004|Influenza (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #6142004
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|85904008|'Paratyphoid fever (disorder)': The source code '85904008|Paratyphoid fever (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #85904008
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|409498004|'Anthrax (disorder)': The source code '409498004|Anthrax (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #409498004
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|721758001|'Infection caused by Coxiella (disorder)': The source code '721758001|Infection caused by Coxiella (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #721758001
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|25225006|'Disease caused by Adenovirus (disorder)': The source code '25225006|Disease caused by Adenovirus (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #25225006
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|721734000|'Infection caused by Francisella (disorder)': The source code '721734000|Infection caused by Francisella (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #721734000
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|77377001|'Leptospirosis (disorder)': The source code '77377001|Leptospirosis (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #77377001
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|715507005|'Infection of central nervous system caused by Borrelia burgdorferi (disorder)': The source code '715507005|Infection of central nervous system caused by Borrelia burgdorferi (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #715507005
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|721778009|'Infection caused by Junin virus (disorder)': The source code '721778009|Infection caused by Junin virus (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #721778009
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|19265001|'Tularemia (disorder)': The source code '19265001|Tularemia (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #19265001
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|58750007|'Plague (disorder)': The source code '58750007|Plague (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #58750007
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|772828001|'Influenza caused by Influenza A virus subtype H5N1 (disorder)': The source code '772828001|Influenza caused by Influenza A virus subtype H5N1 (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #772828001
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|7180009|'Meningitis (disorder)': The source code '7180009|Meningitis (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #7180009
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|186772009|'Rocky Mountain spotted fever (disorder)': The source code '186772009|Rocky Mountain spotted fever (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #186772009
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|37246009|'Disease caused by rickettsiae (disorder)': The source code '37246009|Disease caused by rickettsiae (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #37246009
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|56038003|'Staphylococcal infectious disease (disorder)': The source code '56038003|Staphylococcal infectious disease (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #56038003
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|373437006|'Infection caused by Mycobacterium bovis (disorder)': The source code '373437006|Infection caused by Mycobacterium bovis (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #373437006
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|53648006|'Disease caused by Enterovirus (disorder)': The source code '53648006|Disease caused by Enterovirus (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #53648006
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|62676009|'Falciparum malaria (disorder)': The source code '62676009|Falciparum malaria (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #62676009
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|713456006|'Infection caused by Human enterovirus 71 (disorder)': The source code '713456006|Infection caused by Human enterovirus 71 (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #713456006
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|95896000|'Protozoan infection (disorder)': The source code '95896000|Protozoan infection (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #95896000
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|56688005|'Clostridial infection (disorder)': The source code '56688005|Clostridial infection (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #56688005
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|83436008|'Yersiniosis (disorder)': The source code '83436008|Yersiniosis (disorder)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #83436008
+* group[=].element[=].display = "Vaccinia (disorder)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 
 
-
-// //////////////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
-// //////////////////////////////////////////////////////////////////////////////////////////
-* group[+].id = "group2"
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
+* group[+].id = "group3"
 * group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].element[0].code = #397430003

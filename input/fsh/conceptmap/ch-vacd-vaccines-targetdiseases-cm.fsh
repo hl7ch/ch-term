@@ -18,7 +18,8 @@ Usage: #definition
 // //////////////////////////////////////////////////////////////////////////////////////////
 // vaccines with swiss medic number                                                       ///
 // //////////////////////////////////////////////////////////////////////////////////////////
-* group[0].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
+* group[0].id = "SwissmedicToTargetdisease"
+* group[=].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[0].code = #683
 * group[=].element[=].display = "FSME-Immun 0.25 ml Junior"
@@ -986,7 +987,8 @@ Usage: #definition
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////
-* group[+].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
+* group[+].id = "OldVaccinesToTargetdisease"
+* group[=].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[0].code = #14
 * group[=].element[=].display = "MoRu-Viraten"

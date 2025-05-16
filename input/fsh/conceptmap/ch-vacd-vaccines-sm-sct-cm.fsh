@@ -10,7 +10,8 @@ Usage: #definition
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 
-* group[0].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
+* group[0].id = "SwissmedicToSnomedCt"
+* group[=].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[0].code = #683
 * group[=].element[=].display = "FSME-Immun 0.25 ml Junior"
@@ -7195,8 +7196,8 @@ Usage: #definition
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////
-
-* group[+].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
+* group[+].id = "OldVaccinesToSnomedCt"
+* group[=].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[0].code = #14
 * group[=].element[=].display = "MoRu-Viraten"
