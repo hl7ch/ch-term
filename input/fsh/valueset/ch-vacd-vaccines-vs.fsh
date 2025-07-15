@@ -907,11 +907,11 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "DiTe Anatoxal N adultes"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "DiTe Anatoxal adulti"
+  * ^designation[=].value = "DiTe Anatoxal N adulti"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "DiTe Anatoxal persunas creschidas"
+  * ^designation[=].value = "DiTe Anatoxal N persunas creschidas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "DiTe Anatoxal adults"
+  * ^designation[=].value = "DiTe Anatoxal N adults"
 
 * $ch-vacd-swissmedic-cs#689 "Te Anatoxal N"
   * ^designation[0].language = #de-CH
