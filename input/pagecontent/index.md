@@ -20,11 +20,8 @@ This implementation guide contains the Swiss terminology defined via FHIR proces
 * [Naming Systems](namingsystems.html)
 
 #### Finding Usage Context
-As this implementation guide focuses solely on terminology artifacts, it does not specify where these individual instances are used. The terminology resources defined here are referenced and used by other Swiss FHIR implementation guides.
-
-To understand the relationships and usage of these terminology artifacts:
-* [Dependent IGs Analysis](https://fhir.ch/ig/ch-term/qa-dep.html): See this analysis to see which other implementation guides reference and depend on the terminology resources defined in this guide.   
-* [Cross-IG Index](https://www.fhir.org/guides/stats2/ch-index.html): The Swiss XIG provides a comprehensive overview of the Swiss FHIR ecosystem and shows how terminology from this guide is integrated across different implementation guides and profiles.
+Since this implementation guide focuses only on terminology artifacts, it does not indicate where these individual instances are used. The terminology resources defined here are referenced and used by other Swiss FHIR implementation guides.   
+To find the usage context of these terminology artifacts, the [dependent IGs analysis](https://fhir.ch/ig/ch-term/qa-dep.html) can be used. It shows which other implementation guides refer to the terminology resources defined in this guide and are dependent on them.
 
 ### Collaboration & Governance
 This implementation guide is the result of collaborative work undertaken with participants from [HL7 Switzerland](https://www.hl7.ch) and [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html).
