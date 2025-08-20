@@ -1,0 +1,12 @@
+{
+    "name": "ch.fhir.ig.term.template",
+    "version": "0.0.1",
+    "type": "fhir.template",
+    "license": "CC0-1.0",
+    "description": "Local template extension for FHIR IG",
+    "author": "http://hl7.ch",
+    "base":  "ch.fhir.ig.template",
+    "dependencies": {
+      "ch.fhir.ig.template": "current"
+    }
+  }
