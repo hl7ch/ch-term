@@ -1587,4 +1587,3 @@ Description: "The vaccines swissmedic has given an autorization number."
   * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
-  

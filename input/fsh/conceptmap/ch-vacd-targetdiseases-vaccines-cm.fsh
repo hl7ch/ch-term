@@ -766,10 +766,10 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69691	
 * group[=].element[=].target[=].display = "Abrysvo"
 * group[=].element[=].target[=].equivalence = #relatedto
-// added 2025-05-15
-* group[=].element[=].target[+].code = #69995-01	
-* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
-* group[=].element[=].target[=].equivalence = #relatedto
+//// added 2025-05-15
+//* group[=].element[=].target[+].code = #69995-01	
+//* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+//* group[=].element[=].target[=].equivalence = #relatedto
 
 
 
@@ -781,30 +781,30 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Qdenga 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//// added 2025-05-15
+//* group[=].element[+].code = #442438000
+//* group[=].element[=].display = "Influenza caused by Influenza A virus (disorder)"
+//* group[=].element[=].target[+].code = #69863-01
+//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+//* group[=].element[=].target[=].equivalence = #relatedto
+//// added 2025-05-15
+//* group[=].element[+].code = #442696006 
+//* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+//* group[=].element[=].target[+].code = #69863-01
+//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+//* group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-05-15
-* group[=].element[+].code = #442438000
-* group[=].element[=].display = "Influenza caused by Influenza A virus (disorder)"
-* group[=].element[=].target[+].code = #69863-01
-* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-* group[=].element[=].target[=].equivalence = #relatedto
+//* group[=].element[+].code = #772810003 
+//* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+//* group[=].element[=].target[+].code = #69863-01
+//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+//* group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-05-15
-* group[=].element[+].code = #442696006 
-* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-* group[=].element[=].target[+].code = #69863-01
-* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-* group[=].element[=].target[=].equivalence = #relatedto
-// added 2025-05-15
-* group[=].element[+].code = #772810003 
-* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-* group[=].element[=].target[+].code = #69863-01
-* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-* group[=].element[=].target[=].equivalence = #relatedto
-// added 2025-05-15
-* group[=].element[+].code = #24662006
-* group[=].element[=].display = "Influenza caused by Influenza B virus (disorder)"
-* group[=].element[=].target[+].code = #69863-01	
-* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-* group[=].element[=].target[=].equivalence = #relatedto
+//* group[=].element[+].code = #24662006
+//* group[=].element[=].display = "Influenza caused by Influenza B virus (disorder)"
+//* group[=].element[=].target[+].code = #69863-01	
+//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+//* group[=].element[=].target[=].equivalence = #relatedto
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
