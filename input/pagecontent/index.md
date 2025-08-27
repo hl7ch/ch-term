@@ -19,6 +19,10 @@ This implementation guide contains the Swiss terminology defined via FHIR proces
 * [Concept Maps](conceptmaps.html)
 * [Naming Systems](namingsystems.html)
 
+#### Finding Usage Context
+Since this implementation guide focuses only on terminology artifacts, it does not indicate where these individual instances are used. The terminology resources defined here are referenced and used by other Swiss FHIR implementation guides.   
+To find the usage context of these terminology artifacts, the [dependent IGs analysis](https://fhir.ch/ig/ch-term/qa-dep.html) can be used. It shows which other implementation guides refer to the terminology resources defined in this guide and are dependent on them.
+
 ### Collaboration & Governance
 This implementation guide is the result of collaborative work undertaken with participants from [HL7 Switzerland](https://www.hl7.ch) and [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html).
 
