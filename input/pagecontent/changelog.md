@@ -3,6 +3,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### v3.3.0 (2025-12)
 * [#112](https://github.com/hl7ch/ch-term/issues/112): Usage of terminology artifacts
+* [#124](https://github.com/hl7ch/ch-term/issues/124): Update swissmedic vaccines August 2025
 
 ### v3.2.0 (2025-05-20)
 * [#90](https://github.com/hl7ch/ch-term/issues/90): CH VACD Adaption to IPS (2.0.0)
