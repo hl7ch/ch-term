@@ -7,8 +7,8 @@ title: CH Term (R4)
 description: Implementation Guide for Swiss Terminology
 status: active
 experimental: false
-date: 2024-12-18
-version: 3.1.1-ci-build
+date: 2025-05-22
+version: 3.3.0-ci-build
 fhirVersion: 4.0.1
 copyrightYear: 2019+
 releaselabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use

@@ -16,3 +16,4 @@ The EPR artifacts are based on the [CH-EPR](http://ehealthsuisse.art-decor.org/i
 ### Changelog
 * The link to the changelog must be updated with each new release.
 * You can also see all changelogs on the working instance under “Project” and then “Version information”.
+

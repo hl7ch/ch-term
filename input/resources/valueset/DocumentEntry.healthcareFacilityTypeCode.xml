@@ -4,13 +4,13 @@
            
             value="DocumentEntry.healthcareFacilityTypeCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.11--20230608145502"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.11--20231030134728"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2023-06-08T14:55:02+02:00"/>
+         <start value="2023-10-30T13:47:28+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +21,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.11"/>
    </identifier>
-   <version value="2023-06-08T14:55:02"/>
+   <version value="2023-10-30T13:47:28"/>
    <name
              
               value="DocumentEntryHealthcareFacilityTypeCode"/>
@@ -38,7 +38,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Type of healthcare facility as per Annex 3; EPRO-FDHA.&#xA;      This code describes the type of healthcare facility in which the document was compiled during the treatment process. In conjunction with the authorisation control, the patient can use this information to assign all documents from a specific type of healthcare facility to a specific confidentiality level in their rights and attributes, for example."/>
+   <description value="Type of healthcare facility as per Annex 3; EPRO-FDHA.       This code describes the type of healthcare facility in which the document was compiled during the treatment process. In conjunction with the authorisation control, the patient can use this information to assign all documents from a specific type of healthcare facility to a specific confidentiality level in their rights and attributes, for example."/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
@@ -447,6 +447,30 @@
             <designation>
                <language value="rm-CH"/>
                <value value="chasa da parturir"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="22201008"/>
+            <display value="Free-standing dental clinic (environment)"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="Dental practice"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Zahnarztpraxis"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="cabinet dentaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="studio dentistico"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="pratica da dentist"/>
             </designation>
          </concept>
       </include>
