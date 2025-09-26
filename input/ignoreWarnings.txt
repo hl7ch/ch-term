@@ -2,7 +2,7 @@
 
 # External CodeSystem
 Unknown System 'urn:oid:1.2.840.10008.2.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.6.1' could not be found, so the code cannot be validated)
-Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.840.10008.2.6.1
+Error from https://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.840.10008.2.6.1
 Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
 
 # https://art-decor.org/art-decor/decor-issues--ch-epr-?id=2.16.756.5.30.1.127.77.10.6.26
@@ -27,12 +27,9 @@ The link 'CodeSystem-2.16.756.5.30.1.127.3.5.html#2.16.756.5.30.1.127.3.5-ValueS
 The link 'CodeSystem-ch-vacd-swissmedic-cs.html#ch-vacd-swissmedic-cs-ValueSet-ch-vacd-vaccines-vs.46html' for "ValueSet-ch-vacd-vaccines-vs.html" cannot be resolved (valid targets: 142 targets)
 The link 'CodeSystem-ch-vacd-myvaccines-cs.html#ch-vacd-myvaccines-cs-ValueSet-ch-vacd-vaccines-vs.46html' for "ValueSet-ch-vacd-vaccines-vs.html" cannot be resolved (valid targets: 100 targets)
 
-# Valid SCT code: https://browser.ihtsdotools.org/?perspective=full&conceptId1=51311000087100
-The code '51311000087100' is not valid in the system http://snomed.info/sct (Unknown code '51311000087100' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/2011000195101/version/20230607')
-The code '51311000087100' in the system http://snomed.info/sct is not valid in the value set 'http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs'
-
 # Not expected to resolve (https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/.E2.9C.94.20CapabilityStatement.20some.20Canonical.20URLs.20do.20not.20resolve/near/516300365)
 URL value 'urn:ietf:bcp:13' does not resolve
 URL value 'https://art-decor.org/fhir/%
 
-
+# Known tooling issue with the new terminology server setup, fixed with one of the next IG publisher releases
+Error from https://tx.fhir.ch/r4: POST Stream too large (222.7 MB - limit is 50MB)
