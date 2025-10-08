@@ -3,19 +3,8 @@ CodeSystem: SwissMedicAuthorizedImunseraCodesystem
 Id: ch-vacd-swissmedic-imunsera-cs
 Title: "CH VACD Swissmedic Authorized Immunsera Codes"
 Description: "The ATC J06A – Immunsera codes swissmedic has given an autorization."
-* ^meta.source = "https://www.swissmedic.ch"
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2025-03-14T00:00:00+01:00"
-* ^identifier.use = #official
-* ^identifier.value = "authorized-imunsera"
-* ^version = "2025-03-14T00:00:00+01:00"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "eHealth Suisse"
-* ^contact.name = "eHealth Suisse"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "www.e-health-suisse.ch"
-* ^content = #complete
 * ^caseSensitive = true
 
 //65745	01	Antivipmyn	Armeeapotheke	A	10.05.2017	10.05.2017	unbegrenzt J06AA03

@@ -2,7 +2,7 @@
 
 # External CodeSystem
 Unknown System 'urn:oid:1.2.840.10008.2.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.6.1' could not be found, so the code cannot be validated)
-Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.840.10008.2.6.1
+Error from https://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.840.10008.2.6.1
 Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
 
 # https://art-decor.org/art-decor/decor-issues--ch-epr-?id=2.16.756.5.30.1.127.77.10.6.26
@@ -33,3 +33,10 @@ The code '51311000087100' in the system http://snomed.info/sct is not valid in t
 
 # Die Unabhängigkeit Serbiens (8248) wurde am 17.02.2008 deklariert. Bitte beachten Sie, dass der ISO 3166-1 Alpha-2 XK Code vom Benutzer zugewiesen wird (user-assigned) und daher nicht universell ist.
 The code 'XK' is not valid in the system urn:iso:std:iso:3166 (Unknown code 'XK' in the CodeSystem 'urn:iso:std:iso:3166' version '2018')
+
+# Not expected to resolve (https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/.E2.9C.94.20CapabilityStatement.20some.20Canonical.20URLs.20do.20not.20resolve/near/516300365)
+URL value 'urn:ietf:bcp:13' does not resolve
+URL value 'https://art-decor.org/fhir/%
+
+# Known tooling issue with the new terminology server setup, fixed with one of the next IG publisher releases
+Error from https://tx.fhir.ch/r4: POST Stream too large (222.7 MB - limit is 50MB)

@@ -4,7 +4,7 @@ Usage: #definition
 * url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-targetdiseases-vaccines-cm"
 * name = "TargetDiseaseToVaccineCodeMapping"
 * title = "TargetDisease To VaccineCode Mapping"
-* description = "Mappings from target disease to vaccine code according to the correcsponding valuesets"
+* description = "Mappings from TargetDisease to VaccineCode according to the correcsponding valuesets"
 * status = #active
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
@@ -711,6 +711,19 @@ Usage: #definition
 // added 2024-10-17
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70205
+* group[=].element[=].target[=].display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70400
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70403
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 

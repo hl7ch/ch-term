@@ -1,14 +1,23 @@
 
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
-### Next version (2025)
+### v3.3.0 (2025-12)
+* [#112](https://github.com/hl7ch/ch-term/issues/112): Usage of terminology artifacts
+* [#124](https://github.com/hl7ch/ch-term/issues/124): Update swissmedic vaccines August 2025
+
+### v3.2.0 (2025-05-20)
+* [#90](https://github.com/hl7ch/ch-term/issues/90): CH VACD Adaption to IPS (2.0.0)
 * [#88](https://github.com/hl7ch/ch-term/issues/88): CH VACD Swissmedic CS and VS for imunsera and -globulines
 * [#49](https://github.com/hl7ch/ch-term/issues/49): Include VS Treatment Reason
 * [#78](https://github.com/hl7ch/ch-term/issues/78): updates for typeCode
 * [#81](https://github.com/hl7ch/ch-term/issues/81): update governance
 * [#83](https://github.com/hl7ch/ch-term/issues/83): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension, incl. [guidance](guidance.html#snomed-ct-swiss-extension) for the usage of the SNOMED CT Swiss Extension
-* [#87](https://github.com/hl7ch/ch-term/issues/87): Fix (and update) terminology dependency to avoid version mismatch: hl7.terminology#6.1.0 -> hl7.terminology.r4#6.2.0
+* [#103](https://github.com/hl7ch/ch-term/issues/103): Add [pin-canonicals](http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html#:~:text=for%20further%20information-,pin%2Dcanonicals,-Pin%20Canonical%20Versions) parameter to define the handling of unversioned canonical references
+* [#87](https://github.com/hl7ch/ch-term/issues/87): Fix (and update) terminology dependency to avoid version mismatch: hl7.terminology#6.1.0 -> hl7.terminology.r4#6.3.0
 * [#92](https://github.com/hl7ch/ch-term/issues/92): Fix refdata link in NamingSystem GLN
+* [#98](https://github.com/hl7ch/ch-term/issues/98): Add NamingSystem for VEKA and GTIN
+* [#95](https://github.com/hl7ch/ch-term/issues/95): Value sets: Swiss version incorrectly set for international codes
+* [#105](https://github.com/hl7ch/ch-term/issues/105): Missing Value in ValueSet DocumentEntry.healthcareFacilityTypeCode 
 
 ### v3.1.0 (2024-12-17) 
 * [#76](https://github.com/hl7ch/ch-term/issues/76): updates for typeCode, classCode, formatCode and practiceSettingCode

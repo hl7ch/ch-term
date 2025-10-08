@@ -100,9 +100,9 @@
          <system
                      
                       value="http://snomed.info/sct"/>
-         <version
+<!--         <version
                       
-                       value="http://snomed.info/sct/2011000195101"/>
+                       value="http://snomed.info/sct/2011000195101"/> -->
          <concept>
             <code value="371531000"/>
             <display value="Report of clinical encounter (record artifact)"/>

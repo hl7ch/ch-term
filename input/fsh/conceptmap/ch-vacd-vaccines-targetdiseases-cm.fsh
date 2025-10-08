@@ -4,7 +4,7 @@ Usage: #definition
 * url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-targetdiseases-cm"
 * name = "VaccineCodeToTargetDiseaseMapping"
 * title = "VaccineCode To TargetDisease Mapping"
-* description = "Mappings from vaccine code to target disease according to the correcsponding valuesets"
+* description = "Mappings from VaccineCode to TargetDisease according to the correcsponding valuesets"
 * status = #active
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
@@ -961,6 +961,23 @@ Usage: #definition
 // added 2024-10-17
 * group[=].element[+].code = #69788
 * group[=].element[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2025-09-26
+* group[=].element[+].code = #70205
+* group[=].element[=].display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #70400
+* group[=].element[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #70403
+* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto

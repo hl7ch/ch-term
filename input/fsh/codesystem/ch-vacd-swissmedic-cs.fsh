@@ -3,20 +3,8 @@ Id: ch-vacd-swissmedic-cs
 Title: "CH VACD Swissmedic Authorized Vaccines"
 Description: "The vaccines swissmedic has given an autorization number."
 * ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-* ^meta.source = "https://www.swissmedic.ch"
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2021-01-24T00:00:00+01:00"
-* ^identifier.use = #official
-* ^identifier.system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-* ^identifier.value = "authorized-vaccines"
-* ^version = "2021-01-24T00:00:00"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "eHealth Suisse"
-* ^contact.name = "eHealth Suisse"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "www.e-health-suisse.ch"
-* ^content = #complete
 * ^caseSensitive = true
 //683	01	FSME-Immun 0.25 ml Junior, Suspension zur intramuskulären Injektion	Pfizer AG	B	10.10.2003	10.10.2003	09.10.2023	J07BA01
 * #683 "FSME-Immun 0.25 ml Junior"
@@ -1571,3 +1559,46 @@ Description: "The vaccines swissmedic has given an autorization number."
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+
+//70205	01	Spikevax LP.8.1	Moderna Switzerland GmbH	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
+// added 2025-09-26
+* #70205 "Spikevax LP.8.1	Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Spikevax LP.8.1"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Spikevax LP.8.1"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Spikevax LP.8.1"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Spikevax LP.8.1"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Spikevax LP.8.1"
+
+//70400	01	Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
+// added 2025-09-26
+* #70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+
+//70403	01	Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
+// added 2025-09-26
+* #70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+

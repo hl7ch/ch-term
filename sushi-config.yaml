@@ -7,8 +7,8 @@ title: CH Term (R4)
 description: Implementation Guide for Swiss Terminology
 status: active
 experimental: false
-date: 2024-12-18
-version: 3.1.1-ci-build
+date: 2025-05-22
+version: 3.3.0-ci-build
 fhirVersion: 4.0.1
 copyrightYear: 2019+
 releaselabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -27,7 +27,9 @@ jurisdiction: urn:iso:std:iso:3166#CH
 
 dependencies:
   ihe.formatcode.fhir: 1.3.0
-  hl7.terminology.r4: 6.2.0
+  hl7.terminology.r4:
+    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
+    version: 6.3.0
   
 pages:
   index.md:
@@ -72,6 +74,7 @@ parameters:
   allow-extensible-warnings: true
   display-warnings: true  
   path-expansion-params: '../../expansion-params.json' # for using SNOMED CT Swiss Extension
+  pin-canonicals: pin-multiples
   special-url:
     - urn:oid:2.16.756.5.30.1.127.3.5
     - urn:oid:2.16.756.5.30.1.127.3.6
