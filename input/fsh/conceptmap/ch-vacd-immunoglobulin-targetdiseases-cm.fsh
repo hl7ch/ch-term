@@ -1,22 +1,22 @@
-Instance: ch-vacd-imunoglobulines-targetdiseases-cm
+Instance: ch-vacd-immunoglobulin-targetdiseases-cm
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http:
-* name = "ImmunoGlobulineToTargetDiseaseMapping"
-* title = "ImmunoGlobuline To TargetDisease Mapping"
-* description = "Mappings from ImmunoGlobuline to TargetDisease according to the correcsponding valuesets"
+* url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-immunoglobulin-targetdiseases-cm"
+* name = "ImmunGlobulineToTargetDiseaseMapping"
+* title = "ImmunGlobuline To TargetDisease Mapping"
+* description = "Mappings from ImmunGlobuline to TargetDisease according to the correcsponding valuesets"
 * status = #active
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
-* contact.telecom.value = "https:
-* copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http:
+* contact.telecom.value = "https://www.e-health-suisse.ch/"
+* copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * experimental = false
-* sourceUri = "http:
-* targetUri = "http:
+* sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-immunoglobulin-vs"
+* targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs"
 
-* group[0].source = "http:
-* group[=].target = "http:
+* group[0].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-immunoglobulin-cs"
+* group[=].target = "http://snomed.info/sct"
 
 * group[=].element[0].code = #00687-01
 * group[=].element[=].display = "Berirab 2 ml, Injektionslösung"
@@ -74,7 +74,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #16318001000119107
 * group[=].element[=].target[=].display = "Hypogammaglobulinemia due to multiple myeloma (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
-
 
 * group[=].element[+].code = #00668-01
 * group[=].element[=].display = "Gamunex 10%, solution pour injection intraveineuse"

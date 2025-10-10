@@ -406,186 +406,186 @@ Description: "This valueset contains all entries defining target deseases or ill
 // added missing 2023-09-14
 * $sct#860805006 "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+  * ^designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis"
 
   // added 2024-06-28
 * $sct#55735004 "Respiratory syncytial virus infection (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[=].value = "Respiratory syncytial virus infection"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[=].value = "Respiratory syncytial virus infection"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[=].value = "Respiratory syncytial virus infection"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[=].value = "Respiratory syncytial virus infection"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Respiratory syncytial virus infection (disorder)"
+  * ^designation[=].value = "Respiratory syncytial virus infection"
 
 // added 2024-08-09
 * $sct#38362002 "Dengue (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[=].value = "Dengue"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[=].value = "Dengue"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[=].value = "Dengue"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[=].value = "Dengue"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Dengue (disorder)"
+  * ^designation[=].value = "Dengue"
 
 
 // added 2024-08-09
 * $sct#111852003 "Vaccinia (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[=].value = "Vaccinia"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[=].value = "Vaccinia"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[=].value = "Vaccinia"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[=].value = "Vaccinia"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Vaccinia (disorder)"
+  * ^designation[=].value = "Vaccinia"
 
 // added 2025-03-27
 * $sct#85904008 "Paratyphoid fever (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Paratyphoid fever (disorder)"
+  * ^designation[=].value = "Paratyphoid fever"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Paratyphoid fever (disorder)"
+  * ^designation[=].value = "Paratyphoid fever"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Paratyphoid fever (disorder)"
+  * ^designation[=].value = "Paratyphoid fever"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Paratyphoid fever (disorder)"
+  * ^designation[=].value = "Paratyphoid fever"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Paratyphoid fever (disorder)"
+  * ^designation[=].value = "Paratyphoid fever"
 
 // added 2025-03-27
 * $sct#409498004 "Anthrax (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Anthrax (disorder)"
+  * ^designation[=].value = "Anthrax"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Anthrax (disorder)"
+  * ^designation[=].value = "Anthrax"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Anthrax (disorder)"
+  * ^designation[=].value = "Anthrax"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Anthrax (disorder)"
+  * ^designation[=].value = "Anthrax"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Anthrax (disorder)"
+  * ^designation[=].value = "Anthrax"
 
 // added 2025-03-27
 * $sct#721758001 "Infection caused by Coxiella (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Infection caused by Coxiella (disorder)"
+  * ^designation[=].value = "Infection caused by Coxiella"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Infection caused by Coxiella (disorder)"
+  * ^designation[=].value = "Infection caused by Coxiella"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Infection caused by Coxiella (disorder)"
+  * ^designation[=].value = "Infection caused by Coxiella"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Infection caused by Coxiella (disorder)"
+  * ^designation[=].value = "Infection caused by Coxiella"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Infection caused by Coxiella (disorder)"
+  * ^designation[=].value = "Infection caused by Coxiella"
  
 
  // added 2025-03-27
 * $sct#25225006  "Disease caused by Adenovirus (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Disease caused by Adenovirus (disorder)"
+  * ^designation[=].value = "Disease caused by Adenovirus"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Disease caused by Adenovirus (disorder)"
+  * ^designation[=].value = "Disease caused by Adenovirus"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Disease caused by Adenovirus (disorder)"
+  * ^designation[=].value = "Disease caused by Adenovirus"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Disease caused by Adenovirus (disorder)"
+  * ^designation[=].value = "Disease caused by Adenovirus"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Disease caused by Adenovirus (disorder)"
+  * ^designation[=].value = "Disease caused by Adenovirus"
 
 // added 2025-03-27
 * $sct#721734000 "Infection caused by Francisella (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Infection caused by Francisella (disorder)"
+  * ^designation[=].value = "Infection caused by Francisella"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Infection caused by Francisella (disorder)"
+  * ^designation[=].value = "Infection caused by Francisella"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Infection caused by Francisella (disorder)"
+  * ^designation[=].value = "Infection caused by Francisella"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Infection caused by Francisella (disorder)"
+  * ^designation[=].value = "Infection caused by Francisella"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Infection caused by Francisella (disorder)"
+  * ^designation[=].value = "Infection caused by Francisella"
 
 // added 2025-03-27
 * $sct#77377001 "Leptospirosis (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Leptospirosis (disorder)"
+  * ^designation[=].value = "Leptospirosis"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Leptospirosis (disorder)"
+  * ^designation[=].value = "Leptospirosis"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Leptospirosis (disorder)"
+  * ^designation[=].value = "Leptospirosis"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Leptospirosis (disorder)"
+  * ^designation[=].value = "Leptospirosis"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Leptospirosis (disorder)"
+  * ^designation[=].value = "Leptospirosis"
 
 // added 2025-03-27
 * $sct#715507005 "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
+  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
+  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
+  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
+  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
+  * ^designation[=].value = "Infection of central nervous system caused by Borrelia burgdorferi"
 
 // added 2025-03-27
 * $sct#721778009 "Infection caused by Junin virus (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Infection caused by Junin virus (disorder)"
+  * ^designation[=].value = "Infection caused by Junin virus"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Infection caused by Junin virus (disorder)"
+  * ^designation[=].value = "Infection caused by Junin virus"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Infection caused by Junin virus (disorder)"
+  * ^designation[=].value = "Infection caused by Junin virus"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Infection caused by Junin virus (disorder)"
+  * ^designation[=].value = "Infection caused by Junin virus"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Infection caused by Junin virus (disorder)"
+  * ^designation[=].value = "Infection caused by Junin virus"
 
 // added 2025-03-27
 * $sct#19265001 "Tularemia (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Tularemia (disorder)"
+  * ^designation[=].value = "Tularemia"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Tularemia (disorder)"
+  * ^designation[=].value = "Tularemia"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Tularemia (disorder)"
+  * ^designation[=].value = "Tularemia"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Tularemia (disorder)"
+  * ^designation[=].value = "Tularemia"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Tularemia (disorder)"
+  * ^designation[=].value = "Tularemia"
 
 // added 2025-03-27
 * $sct#58750007 "Plague (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Plague (disorder)"
+  * ^designation[=].value = "Plague"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Plague (disorder)"
+  * ^designation[=].value = "Plague"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Plague (disorder)"
+  * ^designation[=].value = "Plague"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Plague (disorder)"
+  * ^designation[=].value = "Plague"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Plague (disorder)"
+  * ^designation[=].value = "Plague"
 
 
 //added 2025-03-27
@@ -657,28 +657,28 @@ Description: "This valueset contains all entries defining target deseases or ill
 //added 2025-03-27
 * $sct#7180009 "Meningitis (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Meningitis (disorder)"
+  * ^designation[=].value = "Meningitis"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Meningitis (disorder)"
+  * ^designation[=].value = "Meningitis"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Meningitis (disorder)"
+  * ^designation[=].value = "Meningitis"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Meningitis (disorder)"
+  * ^designation[=].value = "Meningitis"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Meningitis (disorder)"
+  * ^designation[=].value = "Meningitis"
 
 //added 2025-03-27
 * $sct#186772009 "Rocky Mountain spotted fever (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Rocky Mountain spotted fever (disorder)"
+  * ^designation[=].value = "Rocky Mountain spotted fever"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Rocky Mountain spotted fever (disorder)"
+  * ^designation[=].value = "Rocky Mountain spotted fever"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Rocky Mountain spotted fever (disorder)"
+  * ^designation[=].value = "Rocky Mountain spotted fever"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Rocky Mountain spotted fever (disorder)"
+  * ^designation[=].value = "Rocky Mountain spotted fever"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Rocky Mountain spotted fever (disorder)"
+  * ^designation[=].value = "Rocky Mountain spotted fever"
 
 //added 2025-03-27
 * $sct#37246009 "Disease caused by rickettsiae (disorder)"
@@ -736,15 +736,15 @@ Description: "This valueset contains all entries defining target deseases or ill
 //added 2025-03-27
 * $sct#62676009 "Falciparum malaria (disorder)"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Falciparum malaria (disorder)"
+  * ^designation[=].value = "Falciparum malaria"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Falciparum malaria (disorder)"
+  * ^designation[=].value = "Falciparum malaria"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Falciparum malaria (disorder)"
+  * ^designation[=].value = "Falciparum malaria"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Falciparum malaria (disorder)"
+  * ^designation[=].value = "Falciparum malaria"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Falciparum malaria (disorder)"
+  * ^designation[=].value = "Falciparum malaria"
 
 
 //added 2025-03-27
