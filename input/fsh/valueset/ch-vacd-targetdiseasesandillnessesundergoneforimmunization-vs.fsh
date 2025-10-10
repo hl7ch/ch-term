@@ -800,6 +800,48 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[=].value = "Yersiniosis"
 
 
+//58606001: Primary immune deficiency disorder (disorder)
+// added 2025-10-10
+* $sct#58606001 "Primary immune deficiency disorder (disorder)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Primary immune deficiency disorder"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Primary immune deficiency disorder"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Primary immune deficiency disorder"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Primary immune deficiency disorder"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Primary immune deficiency disorder"  
+
+//33286000: Secondary immune deficiency disorder (disorder)
+// added 2025-10-10
+* $sct#33286000 "Secondary immune deficiency disorder (disorder)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Secondary immune deficiency disorder"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Secondary immune deficiency disorder"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Secondary immune deficiency disorder"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Secondary immune deficiency disorder"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Secondary immune deficiency disorder"  
+
+//28944009: Infection caused by Cytomegalovirus (disorder)
+// added 2025-10-10
+* $sct#28944009 "Infection caused by Cytomegalovirus (disorder)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Infection caused by Cytomegalovirus"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Infection caused by Cytomegalovirus"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Infection caused by Cytomegalovirus"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Infection caused by Cytomegalovirus"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Infection caused by Cytomegalovirus" 
+
 //// added 
 //* $sct# ""
 //  * ^designation[0].language = #de-CH
@@ -812,5 +854,3 @@ Description: "This valueset contains all entries defining target deseases or ill
 //  * ^designation[=].value = ""
 //  * ^designation[+].language = #en-US
 //  * ^designation[=].value = ""  
-
- 
