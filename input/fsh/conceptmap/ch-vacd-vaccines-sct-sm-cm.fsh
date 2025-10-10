@@ -9927,12 +9927,7 @@ Usage: #definition
 * group[+].id = "SnomeCtToMissingMapping"
 * group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://snomed.info/sct"
-* group[=].element[0].code = #409568008
-* group[=].element[=].display = "Pentavalent botulinum toxoid vaccine"
-* group[=].element[=].target[+].code = #787859002 
-* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
 
 //ERROR, http://snomed.info/sct|409568008|'Pentavalent botulinum toxoid vaccine': The source code '409568008|Pentavalent botulinum toxoid vaccine' is defined in the valueset but not in the conceptmap.
 // added 2025-05-16

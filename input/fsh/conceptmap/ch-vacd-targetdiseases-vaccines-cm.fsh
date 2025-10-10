@@ -795,29 +795,29 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //// added 2025-05-15
-//* group[=].element[+].code = #442438000
-//* group[=].element[=].display = "Influenza caused by Influenza A virus (disorder)"
-//* group[=].element[=].target[+].code = #69863-01
-//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-//* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #442438000
+* group[=].element[=].display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
 //// added 2025-05-15
-//* group[=].element[+].code = #442696006 
-//* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-//* group[=].element[=].target[+].code = #69863-01
-//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-//* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #442696006 
+* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-05-15
-//* group[=].element[+].code = #772810003 
-//* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-//* group[=].element[=].target[+].code = #69863-01
-//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-//* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #772810003 
+* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-05-15
-//* group[=].element[+].code = #24662006
-//* group[=].element[=].display = "Influenza caused by Influenza B virus (disorder)"
-//* group[=].element[=].target[+].code = #69863-01	
-//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-//* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #24662006
+* group[=].element[=].display = "Influenza caused by Influenza B virus (disorder)"
+* group[=].element[=].target[+].code = #69863-01	
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
