@@ -1,7 +1,7 @@
 
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
-### v3.3.0 (2025-12)
+### v3.3.0 (2025-12 unreleased)
 * [#112](https://github.com/hl7ch/ch-term/issues/112): Usage of terminology artifacts
 * [#106](https://github.com/hl7ch/ch-term/issues/106): Update Swissmedic vaccines april 2025
 * 
