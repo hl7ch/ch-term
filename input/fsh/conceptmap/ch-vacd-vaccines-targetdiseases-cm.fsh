@@ -966,6 +966,23 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+// added 2025-09-26
+* group[=].element[+].code = #70205
+* group[=].element[=].display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #70400
+* group[=].element[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #70403
+* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 //// added 2025-05-15
 //// Das Arzneimittel Efluelda enthält die inaktivierten und gespaltenen Influenza-Viren der Stämme A (H1N1), A (H3N2), B (Yamagata) und B (Victoria) als Wirkstoff.
 //* group[=].element[+].code = #69863-01

@@ -365,6 +365,20 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
 * group[=].element[=].target[=].equivalence = #equal
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70205
+* group[=].element[=].target[=].display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #equal
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70400
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].target[=].equivalence = #equal
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70403
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
+* group[=].element[=].target[=].equivalence = #equal
+
+
 * group[=].element[+].code = #1156183006
 * group[=].element[=].display = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
 * group[=].element[=].target[0].code = #709

@@ -907,11 +907,11 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "DiTe Anatoxal N adultes"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "DiTe Anatoxal adulti"
+  * ^designation[=].value = "DiTe Anatoxal N adulti"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "DiTe Anatoxal persunas creschidas"
+  * ^designation[=].value = "DiTe Anatoxal N persunas creschidas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "DiTe Anatoxal adults"
+  * ^designation[=].value = "DiTe Anatoxal N adults"
 
 * $ch-vacd-swissmedic-cs#689 "Te Anatoxal N"
   * ^designation[0].language = #de-CH
@@ -1568,6 +1568,48 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+
+//70205	01	Spikevax LP.8.1	Moderna Switzerland GmbH	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
+// added 2025-09-26
+* $ch-vacd-swissmedic-cs#70205 "Spikevax LP.8.1	Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Spikevax LP.8.1"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Spikevax LP.8.1"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Spikevax LP.8.1"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Spikevax LP.8.1"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Spikevax LP.8.1"
+
+//70400	01	Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
+// added 2025-09-26
+* $ch-vacd-swissmedic-cs#70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+
+//70403	01	Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
+// added 2025-09-26
+* $ch-vacd-swissmedic-cs#70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
 
 
 //69863	01	Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	07.04.2025	07.04.2025	06.04.2030	J07BB02

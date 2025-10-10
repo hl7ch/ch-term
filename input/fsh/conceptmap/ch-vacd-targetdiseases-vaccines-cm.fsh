@@ -713,6 +713,19 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70205
+* group[=].element[=].target[=].display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70400
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-09-26
+* group[=].element[=].target[+].code = #70403
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 
 // added 2021-11-19
 //66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
