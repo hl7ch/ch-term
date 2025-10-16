@@ -780,10 +780,9 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Abrysvo"
 * group[=].element[=].target[=].equivalence = #relatedto
 //// added 2025-05-15
-//* group[=].element[=].target[+].code = #69995-01	
-//* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
-//* group[=].element[=].target[=].equivalence = #relatedto
-
+* group[=].element[=].target[+].code = #69995-01	
+* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG'

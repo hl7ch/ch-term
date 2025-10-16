@@ -682,9 +682,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69691
 * group[=].element[=].target[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
 * group[=].element[=].target[=].equivalence = #equal
-//* group[=].element[=].target[+].code = #69995-01
-//* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
-//* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #69995-01
+* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #equal
 
 * group[=].element[+].code = #836402002
 * group[=].element[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"

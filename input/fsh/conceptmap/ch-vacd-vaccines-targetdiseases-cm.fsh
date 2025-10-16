@@ -983,23 +983,23 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-//// added 2025-05-15
-//// Das Arzneimittel Efluelda enthält die inaktivierten und gespaltenen Influenza-Viren der Stämme A (H1N1), A (H3N2), B (Yamagata) und B (Victoria) als Wirkstoff.
-//* group[=].element[+].code = #69863-01
-//* group[=].element[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-//* group[=].element[=].target[+].code = #442438000
-//* group[=].element[=].target[=].display = "Influenza caused by Influenza A virus (disorder)"
-//* group[=].element[=].target[=].equivalence = #relatedto
-//* group[=].element[=].target[+].code = #24662006 
-//* group[=].element[=].target[=].display = "Influenza caused by Influenza B virus (disorder)"
-// group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-05-15
+// Das Arzneimittel Efluelda enthält die inaktivierten und gespaltenen Influenza-Viren der Stämme A (H1N1), A (H3N2), B (Yamagata) und B (Victoria) als Wirkstoff.
+* group[=].element[+].code = #69863-01
+* group[=].element[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[+].code = #442438000
+* group[=].element[=].target[=].display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #24662006 
+* group[=].element[=].target[=].display = "Influenza caused by Influenza B virus (disorder)"
+ group[=].element[=].target[=].equivalence = #relatedto
 
-//// added 2025-05-15
-//* group[=].element[+].code = #69995-01
-//* group[=].element[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
-//* group[=].element[=].target[+].code = #55735004
-//* group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
-//* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-05-15
+* group[=].element[+].code = #69995-01
+* group[=].element[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[+].code = #55735004
+* group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
