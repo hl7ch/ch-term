@@ -2,6 +2,8 @@
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
 ### v3.3.0 (2025-12 unreleased)
+* [#118](https://github.com/hl7ch/ch-term/issues/118): CH VACD Swissmedic Authorized Immunglobuline Codes
+* [#117](https://github.com/hl7ch/ch-term/issues/117): CH VACD Target disease and illnesses undergone for immunization
 * [#113](https://github.com/hl7ch/ch-term/issues/113): CH VACD Swissmedic Authorized Immunglobuline Codes - mapping missing
 * [#112](https://github.com/hl7ch/ch-term/issues/112): Usage of terminology artifacts
 * [#124](https://github.com/hl7ch/ch-term/issues/124): Update swissmedic vaccines August 2025
