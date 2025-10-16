@@ -723,7 +723,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70403
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 

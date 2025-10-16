@@ -978,7 +978,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #70403
-* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
+* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -992,7 +992,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #24662006 
 * group[=].element[=].target[=].display = "Influenza caused by Influenza B virus (disorder)"
- group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2025-05-15
 * group[=].element[+].code = #69995-01

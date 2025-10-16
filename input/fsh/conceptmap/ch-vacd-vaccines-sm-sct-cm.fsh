@@ -7268,7 +7268,7 @@ Usage: #definition
 
 // added 2025-09-26
 * group[=].element[+].code = #70403
-* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
+* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal

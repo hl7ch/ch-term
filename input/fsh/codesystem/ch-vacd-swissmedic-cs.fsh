@@ -1590,7 +1590,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 
 //70205	01	Spikevax LP.8.1	Moderna Switzerland GmbH	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70205 "Spikevax LP.8.1	Moderna Switzerland GmbH"
+* #70205 "Spikevax LP.8.1 Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax LP.8.1"
   * ^designation[+].language = #fr-CH
@@ -1604,7 +1604,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 
 //70400	01	Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG"
+* #70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
   * ^designation[+].language = #fr-CH
@@ -1618,7 +1618,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 
 //70403	01	Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+* #70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
   * ^designation[+].language = #fr-CH
