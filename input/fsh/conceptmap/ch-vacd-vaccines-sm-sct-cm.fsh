@@ -4,7 +4,7 @@ Usage: #definition
 * url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sm-sct-cm"
 * name = "VaccineCodeSMToVaccineCodeSCT"
 * title = "SwissMedic VaccineCode To Snomed CT VaccineCode"
-* description = "Mappings from VaccineCode to VaccineCode."
+* description = "In this ConceptMap the mappings from the codes out of the ValueSet [CH VACD Swissmedic code for VaccineCode](ValueSet-ch-vacd-vaccines-vs.html) to the codes out of the ValueSet [CH VACD Snomed CT for VaccineCode](ValueSet-ch-vacd-vaccines-snomedct-vs.html) are defined."
 * status = #active
 * experimental = false
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
