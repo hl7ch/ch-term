@@ -2,6 +2,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
 ### v3.3.0 (2025-12 unreleased)
+* [#114](https://github.com/hl7ch/ch-term/issues/114): CH VACD Swissmedic code for VaccineCode
 * [#112](https://github.com/hl7ch/ch-term/issues/112): Usage of terminology artifacts
 * [#124](https://github.com/hl7ch/ch-term/issues/124): Update swissmedic vaccines August 2025
 * [#100](https://github.com/hl7ch/ch-term/issues/100): add BFS country code valueset to CH TERM 
