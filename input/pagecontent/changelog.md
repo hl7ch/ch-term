@@ -3,6 +3,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### v3.3.0 (2025-12 unreleased)
 * [#124](https://github.com/hl7ch/ch-term/issues/124): Update swissmedic vaccines August 2025
+* [#120](https://github.com/hl7ch/ch-term/issues/120): Concept Maps VaccineCode
 * [#112](https://github.com/hl7ch/ch-term/issues/112): Usage of terminology artifacts
 * [#110](https://github.com/hl7ch/ch-term/issues/110): Typ VaccineCode Anatoxal N adultes
 * [#109](https://github.com/hl7ch/ch-term/issues/109): CH VACD Target disease and illnesses undergone for immunization - mappings
