@@ -1,4 +1,4 @@
-ValueSet: SwissImunsera
+ValueSet: SwissImmunsera
 Id: ch-vacd-swissmedic-immunsera-vs
 Title: "CH VACD Swissmedic Authorized Immunsera Codes"
 Description: "The list of ATC J06B – Immunsear codes swissmedic has given an autorization number."

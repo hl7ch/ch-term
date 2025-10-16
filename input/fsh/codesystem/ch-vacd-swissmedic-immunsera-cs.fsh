@@ -1,5 +1,5 @@
 
-CodeSystem: SwissMedicAuthorizedImunseraCodesystem
+CodeSystem: SwissMedicAuthorizedImmunseraCodesystem
 Id: ch-vacd-swissmedic-immunsera-cs
 Title: "CH VACD Swissmedic Authorized Immunsera Codes"
 Description: "The ATC J06A – Immunsera codes swissmedic has given an autorization."
