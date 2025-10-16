@@ -2,6 +2,7 @@ ValueSet: SwissImunoglobulin
 Id: ch-vacd-swissmedic-immunoglobulin-vs
 Title: "CH VACD Swissmedic Authorized Immunoglobulin Codes"
 Description: "The list of ATC J06B – Immunoglobulin codes swissmedic has given an autorization number."
+* ^url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-immunoglobulin-vs"
 * ^status = #active
 * ^experimental = false
 
