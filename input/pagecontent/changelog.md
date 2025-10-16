@@ -5,9 +5,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#124](https://github.com/hl7ch/ch-term/issues/124): Update swissmedic vaccines August 2025
 * [#112](https://github.com/hl7ch/ch-term/issues/112): Usage of terminology artifacts
 * [#110](https://github.com/hl7ch/ch-term/issues/110): Typ VaccineCode Anatoxal N adultes
-* [#100](https://github.com/hl7ch/ch-term/issues/100): add BFS country code valueset to CH TERM 
+* [#109](https://github.com/hl7ch/ch-term/issues/109): CH VACD Target disease and illnesses undergone for immunization - mappings
 * [#106](https://github.com/hl7ch/ch-term/issues/106): Update Swissmedic vaccines april 2025
-
+* [#100](https://github.com/hl7ch/ch-term/issues/100): add BFS country code valueset to CH TERM
 
 ### v3.2.0 (2025-05-20)
 * [#90](https://github.com/hl7ch/ch-term/issues/90): CH VACD Adaption to IPS (2.0.0)
