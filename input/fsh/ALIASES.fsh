@@ -10,4 +10,4 @@ Alias: $bfs-medstats-25-mainguarantor =                 http://fhir.ch/ig/ch-cor
 Alias: $mainguarantor =                                 http://fhir.ch/ig/ch-core/CodeSystem/mainguarantor
 
 Alias: $ch-vacd-swissmedic-immunoglobulin-cs =          http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-immunoglobulin-cs
-Alias: $ch-vacd-swissmedic-immunsera-cs =                http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-immunsera-cs
+Alias: $ch-vacd-swissmedic-immunesera-cs =                http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-immunesera-cs

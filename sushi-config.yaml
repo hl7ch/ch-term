@@ -153,7 +153,7 @@ parameters:
     - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-categories-cs
     - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-forecast-status-cs
     - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-immunoglobulin-cs
-    - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-immunsera-cs
+    - http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-immunesera-cs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs
@@ -162,7 +162,7 @@ parameters:
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-forecast-status-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-immunoglobulin-vs
-    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-immunsera-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-immunesera-vs
     - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-targetdiseases-vaccines-cm
     - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sct-sm-cm
     - http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sct-targetdiseases-cm

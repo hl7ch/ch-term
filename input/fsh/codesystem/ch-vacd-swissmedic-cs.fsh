@@ -1,7 +1,7 @@
 CodeSystem: SwissMedicAuthorizedVaccinesCodesystem
 Id: ch-vacd-swissmedic-cs
 Title: "CH VACD Swissmedic Authorized Vaccines"
-Description: "The vaccines swissmedic has given an autorization number."
+Description: "The vaccines Swissmedic has given an autorization number."
 * ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * ^status = #active
 * ^experimental = false
