@@ -723,7 +723,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70403
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -779,7 +779,10 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69691	
 * group[=].element[=].target[=].display = "Abrysvo"
 * group[=].element[=].target[=].equivalence = #relatedto
-
+//// added 2025-05-15
+* group[=].element[=].target[+].code = #69995-01	
+* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG'
@@ -790,6 +793,30 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Qdenga 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//// added 2025-05-15
+* group[=].element[+].code = #442438000
+* group[=].element[=].display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
+//// added 2025-05-15
+* group[=].element[+].code = #442696006 
+* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-05-15
+* group[=].element[+].code = #772810003 
+* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+* group[=].element[=].target[+].code = #69863-01
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-05-15
+* group[=].element[+].code = #24662006
+* group[=].element[=].display = "Influenza caused by Influenza B virus (disorder)"
+* group[=].element[=].target[+].code = #69863-01	
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
@@ -798,7 +825,7 @@ Usage: #definition
 // TODO
 //ERROR, http://snomed.info/sct|111852003|'Vaccinia (disorder)': The source code '111852003|Vaccinia (disorder)' is defined in the valueset but not in the conceptmap.
 // added 2024-08-
-* group[+].id = "group3"
+* group[+].id = "group2"
 * group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[+].code = #111852003
@@ -1018,10 +1045,11 @@ Usage: #definition
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
 
 
-// //////////////////////////////////////////////////////////////////////////////////////////
+
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
-// //////////////////////////////////////////////////////////////////////////////////////////
-* group[+].id = "group2"
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
+* group[+].id = "group3"
 * group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].element[0].code = #397430003

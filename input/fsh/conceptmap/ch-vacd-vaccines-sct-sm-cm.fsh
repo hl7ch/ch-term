@@ -10,13 +10,14 @@ Usage: #definition
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 
-* group[0].source = "http://snomed.info/sct"
+* group[0].id = "SnomedCtToSwissmedic"
+* group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * group[=].element[0].code = #871717007
 * group[=].element[=].display = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
-* group[=].element[=].target.code = #520
-* group[=].element[=].target.display = "Stamaril"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #520
+* group[=].element[=].target[=].display = "Stamaril"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871719005
 * group[=].element[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #683
@@ -33,9 +34,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871724008
 * group[=].element[=].display = "Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)"
-* group[=].element[=].target.code = #59147
-* group[=].element[=].target.display = "Ixiaro"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #59147
+* group[=].element[=].target[=].display = "Ixiaro"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871726005
 * group[=].element[=].display = "Vaccine product containing only Rabies lyssavirus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #685
@@ -46,14 +47,14 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871737006
 * group[=].element[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
-* group[=].element[=].target.code = #247
-* group[=].element[=].target.display = "Mumpsvax"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #247
+* group[=].element[=].target[=].display = "Mumpsvax"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871739009
 * group[=].element[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
-* group[=].element[=].target.code = #669
-* group[=].element[=].target.display = "Poliorix"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #669
+* group[=].element[=].target[=].display = "Poliorix"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871742003
 * group[=].element[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
 * group[=].element[=].target[0].code = #707
@@ -75,14 +76,14 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871761004
 * group[=].element[=].display = "Vaccine product containing only Rotavirus antigen (medicinal product)"
-* group[=].element[=].target.code = #60150
-* group[=].element[=].target.display = "Rotarix"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #60150
+* group[=].element[=].target[=].display = "Rotarix"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871764007
 * group[=].element[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
-* group[=].element[=].target.code = #603
-* group[=].element[=].target.display = "Hiberix"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #603
+* group[=].element[=].target[=].display = "Hiberix"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871765008
 * group[=].element[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #533
@@ -96,9 +97,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871803007
 * group[=].element[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
-* group[=].element[=].target.code = #592
-* group[=].element[=].target.display = "Twinrix 720/20"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #592
+* group[=].element[=].target[=].display = "Twinrix 720/20"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871822003
 * group[=].element[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #544
@@ -374,7 +375,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70403
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
 * group[=].element[=].target[=].equivalence = #equal
 
 
@@ -388,9 +389,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #961000221100
 * group[=].element[=].display = "Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
-* group[=].element[=].target.code = #467
-* group[=].element[=].target.display = "Vivotif"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #467
+* group[=].element[=].target[=].display = "Vivotif"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #981000221107
 * group[=].element[=].display = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
 * group[=].element[=].target[0].code = #509
@@ -587,9 +588,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1981000221108
 * group[=].element[=].display = "Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)"
-* group[=].element[=].target.code = #66037
-* group[=].element[=].target.display = "Menjugate liquid"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #66037
+* group[=].element[=].target[=].display = "Menjugate liquid"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1119220001
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)"
 * group[=].element[=].target[0].code = #509
@@ -626,9 +627,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #840563003
 * group[=].element[=].display = "Vaccine product containing Dengue virus antigen (medicinal product)"
-* group[=].element[=].target.code = #69403
-* group[=].element[=].target.display = "Qdenga 0.5 ml"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #69403
+* group[=].element[=].target[=].display = "Qdenga 0.5 ml"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836401009
 * group[=].element[=].display = "Vaccine product containing Neisseria meningitidis antigen (medicinal product)"
 * group[=].element[=].target[0].code = #652
@@ -670,9 +671,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836421005
 * group[=].element[=].display = "Vaccine product containing Ebolavirus antigen (medicinal product)"
-* group[=].element[=].target.code = #68358
-* group[=].element[=].target.display = "Ervebo, Injektionslösung"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #68358
+* group[=].element[=].target[=].display = "Ervebo, Injektionslösung"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #51311000087100
 * group[=].element[=].display = "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #69310
@@ -681,6 +682,10 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69691
 * group[=].element[=].target[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
 * group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #69995-01
+* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[=].equivalence = #equal
+
 * group[=].element[+].code = #836402002
 * group[=].element[=].display = "Vaccine product containing live attenuated Mycobacterium bovis antigen (medicinal product)"
 * group[=].element[=].target[0].code = #696
@@ -777,9 +782,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836378001
 * group[=].element[=].display = "Japanese encephalitis virus antigen-containing vaccine product"
-* group[=].element[=].target.code = #59147
-* group[=].element[=].target.display = "Ixiaro"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #59147
+* group[=].element[=].target[=].display = "Ixiaro"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836379009
 * group[=].element[=].display = "Vaccine product containing Human papillomavirus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #57735
@@ -909,14 +914,14 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836385002
 * group[=].element[=].display = "Yellow fever virus antigen-containing vaccine product"
-* group[=].element[=].target.code = #520
-* group[=].element[=].target.display = "Stamaril"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #520
+* group[=].element[=].target[=].display = "Stamaril"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836387005
 * group[=].element[=].display = "Rotavirus antigen-containing vaccine product"
-* group[=].element[=].target.code = #60150
-* group[=].element[=].target.display = "Rotarix"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #60150
+* group[=].element[=].target[=].display = "Rotarix"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836388000
 * group[=].element[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #615
@@ -936,9 +941,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836390004
 * group[=].element[=].display = "Vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
-* group[=].element[=].target.code = #467
-* group[=].element[=].target.display = "Vivotif"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #467
+* group[=].element[=].target[=].display = "Vivotif"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836393002
 * group[=].element[=].display = "Vaccine product containing Rabies lyssavirus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #685
@@ -1090,19 +1095,19 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871720004
 * group[=].element[=].display = "Vaccine product containing only Dengue virus antigen (medicinal product)"
-* group[=].element[=].target.code = #69403
-* group[=].element[=].target.display = "Qdenga 0.5 ml"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #69403
+* group[=].element[=].target[=].display = "Qdenga 0.5 ml"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871721000
 * group[=].element[=].display = "Vaccine product containing only Ebolavirus antigen (medicinal product)"
-* group[=].element[=].target.code = #68358
-* group[=].element[=].target.display = "Ervebo, Injektionslösung"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #68358
+* group[=].element[=].target[=].display = "Ervebo, Injektionslösung"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871725009
 * group[=].element[=].display = "Vaccine product containing only inactivated whole Japanese encephalitis virus antigen (medicinal product)"
-* group[=].element[=].target.code = #59147
-* group[=].element[=].target.display = "Ixiaro"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #59147
+* group[=].element[=].target[=].display = "Ixiaro"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871729003
 * group[=].element[=].display = "Corynebacterium diphtheriae antigen only vaccine product"
 * group[=].element[=].target[0].code = #702
@@ -1318,9 +1323,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871755002
 * group[=].element[=].display = "Typhoid Vi capsular polysaccharide vaccine"
-* group[=].element[=].target.code = #467
-* group[=].element[=].target.display = "Vivotif"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #467
+* group[=].element[=].target[=].display = "Vivotif"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871758000
 * group[=].element[=].display = "Pertussis vaccine"
 * group[=].element[=].target[0].code = #637
@@ -1552,9 +1557,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871825001
 * group[=].element[=].display = "Inactivated Japanese encephalitis virus adsorbed vaccine"
-* group[=].element[=].target.code = #59147
-* group[=].element[=].target.display = "Ixiaro"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #59147
+* group[=].element[=].target[=].display = "Ixiaro"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871827009
 * group[=].element[=].display = "Low dose diphtheria and tetanus vaccine"
 * group[=].element[=].target[0].code = #702
@@ -3776,19 +3781,19 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1290624003
 * group[=].element[=].display = "Vaccine product containing Variola virus antigen (medicinal product)"
-* group[=].element[=].target.code = #69173
-* group[=].element[=].target.display = "Jynneos"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #69173
+* group[=].element[=].target[=].display = "Jynneos"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1290625002
 * group[=].element[=].display = "Variola virus antigen only vaccine product"
-* group[=].element[=].target.code = #69173
-* group[=].element[=].target.display = "Jynneos"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #69173
+* group[=].element[=].target[=].display = "Jynneos"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1290764006
 * group[=].element[=].display = "Vaccine product containing only Human-bovine reassortant Rotavirus G1, G2, G3, G4, and P1A[8] antigens (medicinal product)"
-* group[=].element[=].target.code = #60150
-* group[=].element[=].target.display = "Rotarix"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #60150
+* group[=].element[=].target[=].display = "Rotarix"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1296676008
 * group[=].element[=].display = "Hepatitis B recombinant adsorbed surface antigen vaccine"
 * group[=].element[=].target[0].code = #544
@@ -4046,9 +4051,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #121000221105
 * group[=].element[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
-* group[=].element[=].target.code = #592
-* group[=].element[=].target.display = "Twinrix 720/20"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #592
+* group[=].element[=].target[=].display = "Twinrix 720/20"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #601000221108
 * group[=].element[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[0].code = #637
@@ -4137,9 +4142,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #971000221109
 * group[=].element[=].display = "Live attenuated Salmonella enterica subspecies enterica serovar Typhi antigen only vaccine product in oral dose form"
-* group[=].element[=].target.code = #467
-* group[=].element[=].target.display = "Vivotif"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #467
+* group[=].element[=].target[=].display = "Vivotif"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1001000221103
 * group[=].element[=].display = "Inactivated cholera vaccine in oral dose form"
 * group[=].element[=].target[0].code = #555
@@ -4251,9 +4256,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1081000221109
 * group[=].element[=].display = "Vaccine product containing only live attenuated Rotavirus antigen (medicinal product)"
-* group[=].element[=].target.code = #60150
-* group[=].element[=].target.display = "Rotarix"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #60150
+* group[=].element[=].target[=].display = "Rotarix"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1101000221104
 * group[=].element[=].display = "Vaccine product containing Clostridium tetani toxoid antigen (medicinal product)"
 * group[=].element[=].target[0].code = #702
@@ -4324,9 +4329,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1121000221106
 * group[=].element[=].display = "Vaccine product containing only live attenuated Yellow fever virus antigen (medicinal product)"
-* group[=].element[=].target.code = #520
-* group[=].element[=].target.display = "Stamaril"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #520
+* group[=].element[=].target[=].display = "Stamaril"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1131000221109
 * group[=].element[=].display = "Vaccine product containing only inactivated whole Rabies lyssavirus antigen"
 * group[=].element[=].target[0].code = #685
@@ -4950,9 +4955,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #2171000221104
 * group[=].element[=].display = "Typhoid polysaccharide vaccine in parenteral dose form"
-* group[=].element[=].target.code = #467
-* group[=].element[=].target.display = "Vivotif"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #467
+* group[=].element[=].target[=].display = "Vivotif"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #2181000221101
 * group[=].element[=].display = "Vibrio cholerae antigen only vaccine product in oral dose form"
 * group[=].element[=].target[0].code = #555
@@ -5148,9 +5153,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #45891000087103
 * group[=].element[=].display = "Live attenuated Zaire ebolavirus antigen only vaccine product"
-* group[=].element[=].target.code = #68358
-* group[=].element[=].target.display = "Ervebo, Injektionslösung"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #68358
+* group[=].element[=].target[=].display = "Ervebo, Injektionslösung"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #51451000087105
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[0].code = #509
@@ -5278,34 +5283,41 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #narrower
 * group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 
+//// added 2025-05-15
+//* group[=].element[+].code = #2261000221104
+//* group[=].element[=].display = "Vaccine product containing only influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria and Yamagata lineage antigens (medicinal product)"
+//* group[=].element[=].target[0].code = #69863-01
+//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+//* group[=].element[=].target[=].equivalence = #equal
 
-// //////////////////////////////////////////////////////////////////////////////////////////
+
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
-// //////////////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
 
-
-* group[+].source = "http://snomed.info/sct"
+* group[+].id = "SnomedCtToOldVaccines"
+* group[=].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].element[0].code = #871717007
 * group[=].element[=].display = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
-* group[=].element[=].target.code = #86
-* group[=].element[=].target.display = "Arilvax"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #86
+* group[=].element[=].target[=].display = "Arilvax"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871719005
 * group[=].element[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* group[=].element[=].target.code = #128
-* group[=].element[=].target.display = "FSME-Immun Injekt"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #128
+* group[=].element[=].target[=].display = "FSME-Immun Injekt"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871726005
 * group[=].element[=].display = "Vaccine product containing only Rabies lyssavirus antigen (medicinal product)"
-* group[=].element[=].target.code = #94
-* group[=].element[=].target.display = "Lyssavac Berna"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #94
+* group[=].element[=].target[=].display = "Lyssavac Berna"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871737006
 * group[=].element[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
-* group[=].element[=].target.code = #97
-* group[=].element[=].target.display = "Mumaten"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #97
+* group[=].element[=].target[=].display = "Mumaten"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871739009
 * group[=].element[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #17
@@ -5378,9 +5390,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871803007
 * group[=].element[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
-* group[=].element[=].target.code = #74
-* group[=].element[=].target.display = "Twinrix 360/10"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #74
+* group[=].element[=].target[=].display = "Twinrix 360/10"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #871822003
 * group[=].element[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #53
@@ -5509,14 +5521,14 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1052328007
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1119254000
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #961000221100
 * group[=].element[=].display = "Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
 * group[=].element[=].target[0].code = #25
@@ -5527,24 +5539,24 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #981000221107
 * group[=].element[=].display = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #991000221105
 * group[=].element[=].display = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
-* group[=].element[=].target.code = #16
-* group[=].element[=].target.display = "Orochol E"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #16
+* group[=].element[=].target[=].display = "Orochol E"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1119220001
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1252708008
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836375003
 * group[=].element[=].display = "Vaccine product containing Hepatitis A virus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #74
@@ -5776,14 +5788,14 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836383009
 * group[=].element[=].display = "Vibrio cholerae antigen-containing vaccine product"
-* group[=].element[=].target.code = #16
-* group[=].element[=].target.display = "Orochol E"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #16
+* group[=].element[=].target[=].display = "Orochol E"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836385002
 * group[=].element[=].display = "Yellow fever virus antigen-containing vaccine product"
-* group[=].element[=].target.code = #86
-* group[=].element[=].target.display = "Arilvax"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #86
+* group[=].element[=].target[=].display = "Arilvax"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836388000
 * group[=].element[=].display = "Vaccine product containing Rubella virus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #14
@@ -5832,19 +5844,19 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836393002
 * group[=].element[=].display = "Vaccine product containing Rabies lyssavirus antigen (medicinal product)"
-* group[=].element[=].target.code = #94
-* group[=].element[=].target.display = "Lyssavac Berna"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #94
+* group[=].element[=].target[=].display = "Lyssavac Berna"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836398006
 * group[=].element[=].display = "Vaccine product containing Streptococcus pneumoniae antigen (medicinal product)"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836403007
 * group[=].element[=].display = "Tick-borne encephalitis virus antigen-containing vaccine product"
-* group[=].element[=].target.code = #128
-* group[=].element[=].target.display = "FSME-Immun Injekt"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #128
+* group[=].element[=].target[=].display = "FSME-Immun Injekt"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #836498007
 * group[=].element[=].display = "Vaccine product containing Mumps orthorubulavirus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #75
@@ -8017,9 +8029,9 @@ Usage: #definition
 * group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 * group[=].element[+].code = #1052330009
 * group[=].element[=].display = "Pneumococcal 10-valent conjugate vaccine"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1156879008
 * group[=].element[=].display = "Diphtheria and hepatitis B and pertussis and tetanus vaccine"
 * group[=].element[=].target[0].code = #35
@@ -8514,14 +8526,14 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1252709000
 * group[=].element[=].display = "Pneumococcal 1, 3, 4, 5, 6A, 6B, 7F, 8, 9V, 10A, 11A, 12F, 14, 15B, 18C, 19A, 19F, 22F, 23F, 33F conjugate vaccine"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1287338003
 * group[=].element[=].display = "Tick-borne encephalitis virus antigen only paediatric vaccine product"
-* group[=].element[=].target.code = #128
-* group[=].element[=].target.display = "FSME-Immun Injekt"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #128
+* group[=].element[=].target[=].display = "FSME-Immun Injekt"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1290624003
 * group[=].element[=].display = "Vaccine product containing Variola virus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #144
@@ -8787,9 +8799,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #121000221105
 * group[=].element[=].display = "Vaccine product containing only inactivated whole Hepatitis A and Hepatitis B surface antigens (medicinal product)"
-* group[=].element[=].target.code = #74
-* group[=].element[=].target.display = "Twinrix 360/10"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #74
+* group[=].element[=].target[=].display = "Twinrix 360/10"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #601000221108
 * group[=].element[=].display = "Bordetella pertussis antigen-containing vaccine product"
 * group[=].element[=].target[0].code = #35
@@ -8857,14 +8869,14 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1001000221103
 * group[=].element[=].display = "Inactivated cholera vaccine in oral dose form"
-* group[=].element[=].target.code = #16
-* group[=].element[=].target.display = "Orochol E"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #16
+* group[=].element[=].target[=].display = "Orochol E"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1011000221100
 * group[=].element[=].display = "Live attenuated Vibrio cholerae antigen only vaccine product in oral dose form"
-* group[=].element[=].target.code = #16
-* group[=].element[=].target.display = "Orochol E"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #16
+* group[=].element[=].target[=].display = "Orochol E"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1031000221108
 * group[=].element[=].display = "Vaccine product containing Human poliovirus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #17
@@ -9007,19 +9019,19 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1121000221106
 * group[=].element[=].display = "Vaccine product containing only live attenuated Yellow fever virus antigen (medicinal product)"
-* group[=].element[=].target.code = #86
-* group[=].element[=].target.display = "Arilvax"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #86
+* group[=].element[=].target[=].display = "Arilvax"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1131000221109
 * group[=].element[=].display = "Vaccine product containing only inactivated whole Rabies lyssavirus antigen"
-* group[=].element[=].target.code = #94
-* group[=].element[=].target.display = "Lyssavac Berna"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #94
+* group[=].element[=].target[=].display = "Lyssavac Berna"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1801000221105
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae capsular polysaccharide antigen conjugated (medicinal product)"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1971000221105
 * group[=].element[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[0].code = #55
@@ -9724,19 +9736,19 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #2181000221101
 * group[=].element[=].display = "Vibrio cholerae antigen only vaccine product in oral dose form"
-* group[=].element[=].target.code = #16
-* group[=].element[=].target.display = "Orochol E"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #16
+* group[=].element[=].target[=].display = "Orochol E"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #2191000221103
 * group[=].element[=].display = "Inactivated rabies vaccine grown in cellular line"
-* group[=].element[=].target.code = #94
-* group[=].element[=].target.display = "Lyssavac Berna"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #94
+* group[=].element[=].target[=].display = "Lyssavac Berna"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #2201000221100
 * group[=].element[=].display = "Vaccine product containing only inactivated whole Rabies lyssavirus antigen grown in brain tissue (medicinal product)"
-* group[=].element[=].target.code = #94
-* group[=].element[=].target.display = "Lyssavac Berna"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #94
+* group[=].element[=].target[=].display = "Lyssavac Berna"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #2231000221105
 * group[=].element[=].display = "Vaccine product containing only live attenuated Measles morbillivirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[0].code = #14
@@ -9770,9 +9782,9 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #51451000087105
 * group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
-* group[=].element[=].target.code = #100
-* group[=].element[=].target.display = "Pnu-Immune"
-* group[=].element[=].target.equivalence = #equal
+* group[=].element[=].target[+].code = #100
+* group[=].element[=].target[=].display = "Pnu-Immune"
+* group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #318341000221109
 * group[=].element[=].display = "Diphtheria toxoid and Haemophilus influenzae type b conjugate and acellular pertussis and tetanus toxoid pediatric vaccine"
 * group[=].element[=].target[0].code = #35
@@ -9906,3 +9918,366 @@ Usage: #definition
 * group[=].element[=].target[=].display = "BCG Vaccin Mérieux"
 * group[=].element[=].target[=].equivalence = #narrower
 * group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
+
+
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
+// Not Matched                                             ///
+// //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
+
+* group[+].id = "SnomeCtToMissingMapping"
+* group[=].source = "http://snomed.info/sct"
+* group[=].target = "http://snomed.info/sct"
+
+
+//ERROR, http://snomed.info/sct|409568008|'Pentavalent botulinum toxoid vaccine': The source code '409568008|Pentavalent botulinum toxoid vaccine' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #409568008
+* group[=].element[=].display = "Pentavalent botulinum toxoid vaccine"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|428601009|'Paratyphoid vaccine': The source code '428601009|Paratyphoid vaccine' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #428601009
+* group[=].element[=].display = "Paratyphoid vaccine"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|836368004|'Bacteria antigen-containing vaccine product': The source code '836368004|Bacteria antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #836368004
+* group[=].element[=].display = "Bacteria antigen-containing vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|836369007|'Virus antigen-containing vaccine product': The source code '836369007|Virus antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #836369007
+* group[=].element[=].display = "Virus antigen-containing vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|836377006|'Vaccine product containing Influenza virus antigen (medicinal product)': The source code '836377006|Vaccine product containing Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #836377006
+* group[=].element[=].display = "Vaccine product containing Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|836384003|'Bacillus anthracis antigen-containing vaccine product': The source code '836384003|Bacillus anthracis antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #836384003
+* group[=].element[=].display = "Bacillus anthracis antigen-containing vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|836389008|'Vaccine product containing Vaccinia virus antigen (medicinal product)': The source code '836389008|Vaccine product containing Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #836389008
+* group[=].element[=].display = "Vaccine product containing Vaccinia virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|836397001|'Vaccine product containing Coxiella burnetii antigen (medicinal product)': The source code '836397001|Vaccine product containing Coxiella burnetii antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #836397001
+* group[=].element[=].display = "Vaccine product containing Coxiella burnetii antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|836400005|'Adenovirus antigen-containing vaccine product': The source code '836400005|Adenovirus antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #836400005
+* group[=].element[=].display = "Adenovirus antigen-containing vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|840549009|'Vaccine product containing Yersinia pestis antigen (medicinal product)': The source code '840549009|Vaccine product containing Yersinia pestis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #840549009
+* group[=].element[=].display = "Vaccine product containing Yersinia pestis antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|840551008|'Vaccine product containing Francisella tularensis antigen (medicinal product)': The source code '840551008|Vaccine product containing Francisella tularensis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #840551008
+* group[=].element[=].display = "Vaccine product containing Francisella tularensis antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|840564009|'Vaccine product containing Leptospira antigen (medicinal product)': The source code '840564009|Vaccine product containing Leptospira antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #840564009
+* group[=].element[=].display = "Vaccine product containing Leptospira antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|840599008|'Borrelia burgdorferi antigen-containing vaccine product': The source code '840599008|Borrelia burgdorferi antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #840599008
+* group[=].element[=].display = "Borrelia burgdorferi antigen-containing vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|860722004|'Vaccine product containing Junin virus antigen (medicinal product)': The source code '860722004|Vaccine product containing Junin virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #860722004
+* group[=].element[=].display = "Vaccine product containing Junin virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|860818003|'Bacillus anthracis antigen only vaccine product': The source code '860818003|Bacillus anthracis antigen only vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #860818003
+* group[=].element[=].display = "Bacillus anthracis antigen only vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|863950005|'Bacteria and virus antigens-containing vaccine product': The source code '863950005|Bacteria and virus antigens-containing vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #863950005
+* group[=].element[=].display = "Bacteria and virus antigens-containing vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871716003|'Tularemia vaccine': The source code '871716003|Tularemia vaccine' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871716003
+* group[=].element[=].display = "Tularemia vaccine"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871718002|'Plague vaccine': The source code '871718002|Plague vaccine' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871718002
+* group[=].element[=].display = "Plague vaccine"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871722007|'Adenovirus antigen only vaccine product': The source code '871722007|Adenovirus antigen only vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871722007
+* group[=].element[=].display = "Adenovirus antigen only vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871723002|'Coxiella burnetii antigen only vaccine product': The source code '871723002|Coxiella burnetii antigen only vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871723002
+* group[=].element[=].display = "Coxiella burnetii antigen only vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871727001|'Vaccine product containing only Vaccinia virus antigen (medicinal product)': The source code '871727001|Vaccine product containing only Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871727001
+* group[=].element[=].display = "Vaccine product containing only Vaccinia virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871768005|'Influenza virus antigen only vaccine product in nasal dose form': The source code '871768005|Influenza virus antigen only vaccine product in nasal dose form' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871768005
+* group[=].element[=].display = "Influenza virus antigen only vaccine product in nasal dose form"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871772009|'Influenza H1N1 vaccine': The source code '871772009|Influenza H1N1 vaccine' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871772009
+* group[=].element[=].display = "Influenza H1N1 vaccine"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871871008|'Meningitis A and C vaccine': The source code '871871008|Meningitis A and C vaccine' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871871008
+* group[=].element[=].display = "Meningitis A and C vaccine"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871897002|'Rocky Mountain spotted fever vaccine': The source code '871897002|Rocky Mountain spotted fever vaccine' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871897002
+* group[=].element[=].display = "Rocky Mountain spotted fever vaccine"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871911001|'Vaccine product containing only Borrelia burgdorferi antigen (medicinal product)': The source code '871911001|Vaccine product containing only Borrelia burgdorferi antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871911001
+* group[=].element[=].display = "Vaccine product containing only Borrelia burgdorferi antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871918007|'Rickettsia antigen-containing vaccine product': The source code '871918007|Rickettsia antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871918007
+* group[=].element[=].display = "Rickettsia antigen-containing vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871919004|'Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)': The source code '871919004|Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871919004
+* group[=].element[=].display = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|871921009|'Staphylococcus toxoid vaccine (medicinal product)': The source code '871921009|Staphylococcus toxoid vaccine (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #871921009
+* group[=].element[=].display = "Staphylococcus toxoid vaccine (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1003499009|'Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)': The source code '1003499009|Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1003499009
+* group[=].element[=].display = "Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1010313002|'Vaccine product containing only live attenuated Influenza virus antigen (medicinal product)': The source code '1010313002|Vaccine product containing only live attenuated Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1010313002
+* group[=].element[=].display = "Vaccine product containing only live attenuated Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1119279002|'Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product': The source code '1119279002|Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1119279002
+* group[=].element[=].display = "Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1157356006|'Influenza A virus A/California/7/2009 (H1N1)-like virus strain split virion hemagglutinin antigen only vaccine product': The source code '1157356006|Influenza A virus A/California/7/2009 (H1N1)-like virus strain split virion hemagglutinin antigen only vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1157356006
+* group[=].element[=].display = "Influenza A virus A/California/7/2009 (H1N1)-like virus strain split virion hemagglutinin antigen only vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1162629006|'Influenza A virus A/Indonesia/05/2005 (H5N1)-like virus strain split virion hemagglutinin antigen only vaccine product': The source code '1162629006|Influenza A virus A/Indonesia/05/2005 (H5N1)-like virus strain split virion hemagglutinin antigen only vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1162629006
+* group[=].element[=].display = "Influenza A virus A/Indonesia/05/2005 (H5N1)-like virus strain split virion hemagglutinin antigen only vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1254676002|'Vaccine product containing live attenuated virus antigen (medicinal product)': The source code '1254676002|Vaccine product containing live attenuated virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1254676002
+* group[=].element[=].display = "Vaccine product containing live attenuated virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1269346004|'Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)': The source code '1269346004|Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1269346004
+* group[=].element[=].display = "Vaccine product containing only live attenuated Vaccinia virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1290123005|'Vaccine product containing protozoa antigen (medicinal product)': The source code '1290123005|Vaccine product containing protozoa antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1290123005
+* group[=].element[=].display = "Vaccine product containing protozoa antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1293025000|'Vaccine product containing only modified Vaccinia virus Ankara antigen (medicinal product)': The source code '1293025000|Vaccine product containing only modified Vaccinia virus Ankara antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1293025000
+* group[=].element[=].display = "Vaccine product containing only modified Vaccinia virus Ankara antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1111000221101|'Vaccine product containing only live attenuated Junin virus antigen (medicinal product)': The source code '1111000221101|Vaccine product containing only live attenuated Junin virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1111000221101
+* group[=].element[=].display = "Vaccine product containing only live attenuated Junin virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1181000221105|'Vaccine product containing only Influenza virus antigen (medicinal product)': The source code '1181000221105|Vaccine product containing only Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1181000221105
+* group[=].element[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|1861000221106|'Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)': The source code '1861000221106|Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #1861000221106
+* group[=].element[=].display = "Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|2211000221102|'Influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria lineage antigens only vaccine product': The source code '2211000221102|Influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria lineage antigens only vaccine product' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #2211000221102
+* group[=].element[=].display = "Influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria lineage antigens only vaccine product"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|45861000087106|'Vaccine product containing Plasmodium falciparum antigen (medicinal product)': The source code '45861000087106|Vaccine product containing Plasmodium falciparum antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #45861000087106
+* group[=].element[=].display = "Vaccine product containing Plasmodium falciparum antigen (medicinal product)"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
+//ERROR, http://snomed.info/sct|51591000087104|'Vaccine product containing only Enterovirus A71 antigen': The source code '51591000087104|Vaccine product containing only Enterovirus A71 antigen' is defined in the valueset but not in the conceptmap.
+// added 2025-05-16
+* group[=].element[+].code = #51591000087104
+* group[=].element[=].display = "Vaccine product containing only Enterovirus A71 antigen"
+* group[=].element[=].target[+].code = #787859002 
+* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[=].comment = "TODO: mapping needed"
