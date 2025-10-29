@@ -1552,7 +1552,7 @@ Description: "The list of vaccine products in Snomed CT list."
   * ^designation[=].value = "Rickettsia antigen-containing vaccine product"
 
 
-* $sct#871919004 "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
+* $sct#871919004 "Human alphaherpesvirus 3 antigen only vaccine product"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Attenuierter Varizella-Zoster-Lebendimpfstoff"
   * ^designation[+].language = #fr-CH
@@ -2390,7 +2390,7 @@ Description: "The list of vaccine products in Snomed CT list."
   * ^designation[=].value = "Live attenuated Salmonella enterica subspecies enterica serovar Typhi antigen only vaccine product in oral dose form"
 
 
-* $sct#981000221107 "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
+* $sct#981000221107 "Pneumococcal vaccine"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "23-valenter Pneumokokken-Konjugatimpfstoff"
   * ^designation[+].language = #fr-CH

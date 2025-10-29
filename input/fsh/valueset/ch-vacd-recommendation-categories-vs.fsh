@@ -11,7 +11,7 @@ Description: "Immunization recommendation categories."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "BCG-Impfung"
 
-* $ch-vacd-recommendation-categories-cs#41501 "REC_BASE"
+* $ch-vacd-recommendation-categories-cs#41501 "Empfohlene Basisimpfungen"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Empfohlene Basisimpfungen"
   * ^designation[+].language = #fr-CH
@@ -22,7 +22,7 @@ Description: "Immunization recommendation categories."
   * ^designation[=].value = "vaccinaziuns da basa recumandadas"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Recommended primary vaccinations"
-* $ch-vacd-recommendation-categories-cs#41502 "REC_COMPL"
+* $ch-vacd-recommendation-categories-cs#41502 "Empfohlene ergänzende Impfungen"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Empfohlene ergänzende Impfungen"
   * ^designation[+].language = #fr-CH
@@ -33,7 +33,7 @@ Description: "Immunization recommendation categories."
   * ^designation[=].value = "vaccinaziuns cumplementaras recumandadas"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Recommended booster vaccinations"
-* $ch-vacd-recommendation-categories-cs#41503 "REC_RISK"
+* $ch-vacd-recommendation-categories-cs#41503 "Empfohlene Impfungen für Risikogruppen"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Empfohlene Impfungen für Risikogruppen"
   * ^designation[+].language = #fr-CH
@@ -44,7 +44,7 @@ Description: "Immunization recommendation categories."
   * ^designation[=].value = "vaccinaziuns recumandadas per gruppas da ristga"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Recommended vaccinations for risk groups"
-* $ch-vacd-recommendation-categories-cs#41504 "REC_NONE"
+* $ch-vacd-recommendation-categories-cs#41504 "Impfungen ohne Empfehlungen"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Impfungen ohne Empfehlungen"
   * ^designation[+].language = #fr-CH

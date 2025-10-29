@@ -13,6 +13,9 @@ Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontolog
 The code 'OPTENF' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 The code 'OPTBSV' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'OPTBSV' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 
+# That mus be a typo in the codesystem v in place of an f; f seems correct. see https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html
+The code 'OSS' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'Optical Surface Scanner' for http://dicom.nema.org/resources/ontology/DCM#OSS. Valid display is 'Optical Survace Scanner' (for the language(s) 'en, en-US'))
+
 # EDQM CS is only a fragment in this IG
 The value set references CodeSystem 'urn:oid:0.4.0.127.0.16.1.1.2.1' which has status 'fragment'
 
