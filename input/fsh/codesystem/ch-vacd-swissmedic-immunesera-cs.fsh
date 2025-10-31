@@ -302,7 +302,7 @@ Description: "The ATC J06A – Immunsera codes Swissmedic has given an autorizat
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "antivenin contre taipan"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = antidoto contro taipan"
+  * ^designation[=].value = "antidoto contro taipan"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "antivina cunter Taipa"
   * ^designation[+].language = #en-US
