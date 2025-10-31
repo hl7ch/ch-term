@@ -199,7 +199,7 @@ Description: "The ATC J06A – Immunsera codes Swissmedic has given an autorizat
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "antidoto contro ragno dal dorso rosso"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "antiva cunter filien dal dies"
+  * ^designation[=].value = "antivenin cunter aragn cotschen"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Red Back Spider Antivenom"
   
@@ -253,7 +253,7 @@ Description: "The ATC J06A – Immunsera codes Swissmedic has given an autorizat
 * #65761-01 "SAIMR Polyvalent Snake Antivenom"
   * ^definition = "SAIMR Polyvalent Snake Antivenom"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Polyvalentes Snake Antivenom SAIMR"
+  * ^designation[=].value = "Polyvalentes Schlangen-Antivenin SAIMR"
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "antivenin polyvalent SAIMR"
   * ^designation[+].language = #it-CH
