@@ -255,9 +255,9 @@ Description: "The ATC J06A – Immunsera codes Swissmedic has given an autorizat
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Polyvalentes Schlangen-Antivenin SAIMR"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "antivenin polyvalent SAIMR"
+  * ^designation[=].value = "antivenin polyvalent contre les serpents SAIMR﻿"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "antidoto polivalente SAIMR"
+  * ^designation[=].value = "antidoto polivalente contro i serpenti SAIMR﻿"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "polivalent serpetta antivenom SAIMR"
   * ^designation[+].language = #en-US
