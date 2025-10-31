@@ -1,7 +1,7 @@
 CodeSystem: SwissMedicAuthorizedVaccinesCodesystem
 Id: ch-vacd-swissmedic-cs
 Title: "CH VACD Swissmedic Authorized Vaccines"
-Description: "The vaccines swissmedic has given an autorization number."
+Description: "The vaccines Swissmedic has given an autorization number."
 * ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * ^status = #active
 * ^experimental = false
@@ -1559,10 +1559,38 @@ Description: "The vaccines swissmedic has given an autorization number."
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+//69863	01	Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	07.04.2025	07.04.2025	06.04.2030	J07BB02	X		X	X
+//added 2025-05-15
+* #69863-01 "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+  * ^definition = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Efluelda TIV 0.5 mL"
+//69995	01	mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH	B	17.04.2025	17.04.2025	16.04.2030	J07BX	X		X	X
+//added 2025-05-15
+* #69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+  * ^definition = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
 
 //70205	01	Spikevax LP.8.1	Moderna Switzerland GmbH	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70205 "Spikevax LP.8.1	Moderna Switzerland GmbH"
+* #70205 "Spikevax LP.8.1 Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax LP.8.1"
   * ^designation[+].language = #fr-CH
@@ -1576,7 +1604,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 
 //70400	01	Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG"
+* #70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
   * ^designation[+].language = #fr-CH
@@ -1590,7 +1618,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 
 //70403	01	Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+* #70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
   * ^designation[+].language = #fr-CH

@@ -657,7 +657,7 @@ Usage: #definition
 // http://snomed.info/sct|840599008|'Borrelia burgdorferi antigen-containing vaccine product': The source code '840599008|Borrelia burgdorferi antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #840599008
 * group[=].element[=].display = "Borrelia burgdorferi antigen-containing vaccine product"
-* group[=].element[=].target[+].code = #15507005 
+* group[=].element[=].target[+].code = #715507005 
 * group[=].element[=].target[=].display = "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
@@ -1104,7 +1104,7 @@ Usage: #definition
 // http://snomed.info/sct|871911001|'Vaccine product containing only Borrelia burgdorferi antigen (medicinal product)': The source code '871911001|Vaccine product containing only Borrelia burgdorferi antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 * group[=].element[+].code = #871911001
 * group[=].element[=].display = "Vaccine product containing only Borrelia burgdorferi antigen (medicinal product)"
-* group[=].element[=].target[+].code = #15507005 
+* group[=].element[=].target[+].code = #715507005 
 * group[=].element[=].target[=].display = "Infection of central nervous system caused by Borrelia burgdorferi (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
