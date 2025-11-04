@@ -7,6 +7,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#118](https://github.com/hl7ch/ch-term/issues/118): CH VACD Swissmedic Authorized Immunglobuline Codes
 * [#117](https://github.com/hl7ch/ch-term/issues/117): CH VACD Target disease and illnesses undergone for immunization
 * [#115](https://github.com/hl7ch/ch-term/issues/115): CH VACD Target disease and illnesses undergone for immunization
+* [#114](https://github.com/hl7ch/ch-term/issues/114): CH VACD Swissmedic code for VaccineCode
 * [#113](https://github.com/hl7ch/ch-term/issues/113): CH VACD Swissmedic Authorized Immunglobuline Codes - mapping missing
 * [#112](https://github.com/hl7ch/ch-term/issues/112): Usage of terminology artifacts
 * [#110](https://github.com/hl7ch/ch-term/issues/110): Typ VaccineCode Anatoxal N adultes
