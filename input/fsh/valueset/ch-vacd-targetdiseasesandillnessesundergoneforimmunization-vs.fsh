@@ -841,15 +841,15 @@ Description: "This valueset contains all entries defining target deseases or ill
 
 
 //58606001: Primary immune deficiency disorder (disorder)
-//Primäre Immundefekt-Erkrankung	Primary immune deficiency disorder	syndrome immunodéficience primaire	malattia da immunodeficienza primaria	malsogna da defect immunitari primar
+//Primäre Immundefekt-Erkrankung	Primary immune deficiency disorder	déficits immunitaires primaires	malattia da immunodeficienza primaria	malsogna da defect immunitari primar
 // added 2025-10-10
 * $sct#58606001 "Primary immune deficiency disorder (disorder)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Primäre Immundefekt-Erkrankung"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "syndrome immunodéficience primaire"
+  * ^designation[=].value = "déficits immunitaires primaires"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "malattia da immunodeficienza"
+  * ^designation[=].value = "malattia da immunodeficienza primaria"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "primaria	malsogna da defect immunitari primar"
   * ^designation[+].language = #en-US
@@ -857,14 +857,14 @@ Description: "This valueset contains all entries defining target deseases or ill
 
 //33286000: Secondary immune deficiency disorder (disorder)
 // added 2025-10-10
-// Sekundäre Immundefekt-Erkrankung	Secondary immune deficiency disorder	trouble d'immunodéficience secondaire	malattia da immunodeficienza secondaria	malsogna da defect immunitari secundar
+// Sekundäre Immundefekt-Erkrankung	Secondary immune deficiency disorder	déficits immunitaires secondaires	malattia da immunodeficienza secondaria	malsogna da defect immunitari secundar
 * $sct#33286000 "Secondary immune deficiency disorder (disorder)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Sekundäre Immundefekt-Erkrankung"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "trouble d'immunodéficience secondaire"
+  * ^designation[=].value = "déficits immunitaires secondaires"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "secondaire	malattia da immunodeficienza"
+  * ^designation[=].value = "malattia da immunodeficienza secondaria"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna da defect immunitari secundar"
   * ^designation[+].language = #en-US
