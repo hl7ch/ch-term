@@ -14094,7 +14094,7 @@ Description: "CH AllergyIntolerance coding value set. This value set includes co
   * ^designation[=].value = "Allergie gegen Meprobamat"
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "allergia al meprobamato"
-* $sct#293908005 "Allergy to chloral hydrate (finding"
+* $sct#293908005 "Chloral hydrate allergy"
   * ^designation[0].language = #en-US
   * ^designation[=].value = "Allergy to chloral hydrate"
   * ^designation[+].language = #fr-CH
@@ -14895,7 +14895,7 @@ Description: "CH AllergyIntolerance coding value set. This value set includes co
   * ^designation[=].value = "Allergie gegen Tretinoin"
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "allergia alla tretinoina"
-* $sct#294211007 "Allergy to isotretinoin (finding"
+* $sct#294211007 "Isotretinoin allergy"
   * ^designation[0].language = #en-US
   * ^designation[=].value = "Allergy to isotretinoin"
   * ^designation[+].language = #fr-CH
@@ -16218,7 +16218,7 @@ Description: "CH AllergyIntolerance coding value set. This value set includes co
   * ^designation[=].value = "Allergie gegen Betamethason"
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "allergia al betametasone"
-* $sct#294679007 "Allergy to methylprednisolone (finding)"
+* $sct#294679007 "Hydrocortisone allergy"
   * ^designation[0].language = #en-US
   * ^designation[=].value = "Allergy to methylprednisolone"
   * ^designation[+].language = #fr-CH
@@ -16605,7 +16605,7 @@ Description: "CH AllergyIntolerance coding value set. This value set includes co
   * ^designation[=].value = "Allergie gegen Oxytocin"
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "allergia all’ossitocina"
-* $sct#294825001 "Allergy to somatropin hormone (finding)|"
+* $sct#294825001 "Somatrophic hormone allergy"
   * ^designation[0].language = #en-US
   * ^designation[=].value = "Allergy to somatropin hormone"
   * ^designation[+].language = #fr-CH

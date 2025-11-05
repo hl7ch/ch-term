@@ -853,7 +853,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
   * ^designation[=].value = "Cervarix"
 
 //60129	01	Prevenar 13, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	12.08.2010	12.08.2010	unbegrenzt	J07AL02
-* $ch-vacd-swissmedic-cs#60129 "Prevenar"
+* $ch-vacd-swissmedic-cs#60129 "Prevenar 13"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Prevenar 13"
   * ^designation[+].language = #fr-CH
@@ -1420,7 +1420,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 //69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
 // added 2023-10-10
-* $ch-vacd-swissmedic-cs#69488 "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
+* $ch-vacd-swissmedic-cs#69488 "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/dose"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
   * ^designation[+].language = #fr-CH
@@ -1571,7 +1571,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 //70205	01	Spikevax LP.8.1	Moderna Switzerland GmbH	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* $ch-vacd-swissmedic-cs#70205 "Spikevax LP.8.1	Moderna Switzerland GmbH"
+* $ch-vacd-swissmedic-cs#70205 "Spikevax LP.8.1"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax LP.8.1"
   * ^designation[+].language = #fr-CH
@@ -1585,7 +1585,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 //70400	01	Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* $ch-vacd-swissmedic-cs#70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG"
+* $ch-vacd-swissmedic-cs#70400 "Comirnaty LP.8.1 10 μg"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
   * ^designation[+].language = #fr-CH
@@ -1599,7 +1599,7 @@ Description: "The list of vaccines available (Swissmedic authorized) or earlier 
 
 //70403	01	Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* $ch-vacd-swissmedic-cs#70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+* $ch-vacd-swissmedic-cs#70403 "Comirnaty LP.8.1 30 μg"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
   * ^designation[+].language = #fr-CH
