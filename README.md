@@ -12,6 +12,7 @@ The EPR artifacts are based on the [CH-EPR](http://ehealthsuisse.art-decor.org/i
 * Publication instance: https://ehealthsuisse.art-decor.org/index.php?prefix=ch-epr-
    * This instance is a bit clearer and more user-friendly than the work instance. 
    * Here, all versions of a value set are displayed in a clear overview.
+ * We export the ValueSet / CodeSystems with the following [scripts](https://github.com/ahdis/artdecor2ig/blob/master/ch-epr-/build.xml)
 
 ### Changelog
 * The link to the changelog must be updated with each new release.
