@@ -7304,6 +7304,31 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 
 
+//69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #69781
+* group[=].element[=].display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* group[=].element[=].target[+].code = #836398006
+* group[=].element[=].target[=].display = "Vaccine product containing Streptococcus pneumoniae antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+
+//70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #70042
+* group[=].element[=].display = "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+
+
+//69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #69992
+* group[=].element[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////

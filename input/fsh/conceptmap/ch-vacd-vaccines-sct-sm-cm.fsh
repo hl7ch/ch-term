@@ -969,6 +969,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69222
 * group[=].element[=].target[=].display = "Prevenar 20"
 * group[=].element[=].target[=].equivalence = #equal
+//added 2025-11-21
+* group[=].element[=].target[+].code = #69781
+* group[=].element[=].target[=].display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* group[=].element[=].target[=].equivalence = #equal
+
 * group[=].element[+].code = #836403007
 * group[=].element[=].display = "Tick-borne encephalitis virus antigen-containing vaccine product"
 * group[=].element[=].target[0].code = #683
@@ -10245,10 +10250,15 @@ Usage: #definition
 // added 2025-05-16
 * group[=].element[+].code = #1181000221105
 * group[=].element[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
-* group[=].element[=].target[+].code = #787859002 
-* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
+// added 2025-11-21
+* group[=].element[=].target[+].code = #70042 
+* group[=].element[=].target[=].display = "Fluarix, Injektionssuspension GlaxoSmithKline AG"
 * group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
+* group[=].element[=].target[+].code = #69992 
+* group[=].element[=].target[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
 //ERROR, http://snomed.info/sct|1861000221106|'Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)': The source code '1861000221106|Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 // added 2025-05-16
 * group[=].element[+].code = #1861000221106

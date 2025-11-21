@@ -1001,6 +1001,31 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #69781
+* group[=].element[=].display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* group[=].element[=].target[+].code = #16814004
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #70042
+* group[=].element[=].display = "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #69992
+* group[=].element[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////
