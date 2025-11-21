@@ -157,6 +157,8 @@ parameters:
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-oldswiss-vaccines-vs
+    - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-vaccines-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs
     - http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs
