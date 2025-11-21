@@ -7308,7 +7308,7 @@ Usage: #definition
 // added 2025-11-21
 * group[=].element[+].code = #69781
 * group[=].element[=].display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
-* group[=].element[=].target[+].code = #836398006
+* group[=].element[=].target[0].code = #836398006
 * group[=].element[=].target[=].display = "Vaccine product containing Streptococcus pneumoniae antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 
@@ -7316,7 +7316,7 @@ Usage: #definition
 // added 2025-11-21
 * group[=].element[+].code = #70042
 * group[=].element[=].display = "Fluarix, Injektionssuspension GlaxoSmithKline AG"
-* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[0].code = #1181000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 
@@ -7325,7 +7325,7 @@ Usage: #definition
 // added 2025-11-21
 * group[=].element[+].code = #69992
 * group[=].element[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
-* group[=].element[=].target[+].code = #1181000221105
+* group[=].element[=].target[0].code = #1181000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 
