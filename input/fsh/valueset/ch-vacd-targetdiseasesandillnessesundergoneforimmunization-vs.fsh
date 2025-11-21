@@ -885,6 +885,32 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Infection caused by Cytomegalovirus" 
 
+// added 2025-11-21
+* $sct#16318001000119107 "Hypogammaglobulinemia due to multiple myeloma (disorder)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Hypogammaglobulinemia due to multiple myeloma"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Hypogammaglobulinemia due to multiple myeloma"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Hypogammaglobulinemia due to multiple myeloma"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Hypogammaglobulinemia due to multiple myeloma"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Hypogammaglobulinemia due to multiple myeloma" 
+// added 2025-11-21
+* $sct#165746003 "RhD negative (finding)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "RhD negative"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "RhD negative"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "RhD negative"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "RhD negative"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "RhD negative" 
+
+
 //// added 
 //* $sct# ""
 //  * ^designation[0].language = #de-CH

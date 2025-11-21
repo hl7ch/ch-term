@@ -1626,3 +1626,45 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+
+//69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
+// added 2025-11-21
+* $ch-vacd-swissmedic-cs#69781 "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Capvaxive"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Capvaxive"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Capvaxive"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Capvaxive"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Capvaxive"
+
+//70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
+// added 2025-11-21
+* $ch-vacd-swissmedic-cs#70042 "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Fluarix"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Fluarix"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Fluarix"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Fluarix"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Fluarix"
+
+//69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
+// added 2025-11-21
+* $ch-vacd-swissmedic-cs#69992 "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Influvac 0.5 ml"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Influvac 0.5 ml"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Influvac 0.5 ml"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Influvac 0.5 ml"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Influvac 0.5 ml"

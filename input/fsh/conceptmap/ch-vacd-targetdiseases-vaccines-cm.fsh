@@ -468,7 +468,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68087	
 * group[=].element[=].target[=].display = "Influvac Tetra"
 * group[=].element[=].target[=].equivalence = #relatedto
-
 // added 2021-11-19
 //67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
 //67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
@@ -486,7 +485,13 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68462
 * group[=].element[=].target[=].display = "Fluenz Tetra"
 * group[=].element[=].target[=].equivalence = #relatedto
-
+// added 2025-11-21
+* group[=].element[=].target[+].code = #70042
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #69992
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 * group[=].element[+].code = #63650001
 * group[=].element[=].display = "Cholera (disorder)"
@@ -557,6 +562,10 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #69222
 * group[=].element[=].target[=].display = "Prevenar 20"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2025-11-21
+* group[=].element[=].target[+].code = #69781
+* group[=].element[=].target[=].display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -817,6 +826,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69863-01	
 * group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
 * group[=].element[=].target[=].equivalence = #relatedto
+
+
+
+
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
