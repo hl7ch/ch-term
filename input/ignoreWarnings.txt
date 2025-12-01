@@ -1,20 +1,15 @@
 == Suppressed Messages ==
 
 # External CodeSystem
-Unknown System 'urn:oid:1.2.840.10008.2.6.1' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.6.1' could not be found, so the code cannot be validated)
-Error from https://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.2.840.10008.2.6.1
+Error from https://tx.fhir.org/r4: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.6.1' could not be found, so the value set cannot be expanded
 Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
 
 # https://art-decor.org/art-decor/decor-issues--ch-epr-?id=2.16.756.5.30.1.127.77.10.6.26
 The code 'urn:ihe:pcc:ic:2009' is not valid in the system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode (Unknown code 'urn:ihe:pcc:ic:2009' in the CodeSystem 'http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode' version '1.3.0')
 
 # Codes are included in https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html
-Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01'
 The code 'OPTENF' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 The code 'OPTBSV' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'OPTBSV' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
-
-# That mus be a typo in the codesystem v in place of an f; f seems correct. see https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html
-The code 'OSS' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'Optical Surface Scanner' for http://dicom.nema.org/resources/ontology/DCM#OSS. Valid display is 'Optical Survace Scanner' (for the language(s) 'en, en-US'))
 
 # EDQM CS is only a fragment in this IG
 The value set references CodeSystem 'urn:oid:0.4.0.127.0.16.1.1.2.1' which has status 'fragment'
@@ -25,21 +20,9 @@ The value provided ('rm-CH') was not found in the value set 'Common Languages'%
 # No suitable code
 None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://terminology.hl7.org/CodeSystem/v2-0203#NI)
 
-# Build errors 
-The link 'CodeSystem-2.16.756.5.30.1.127.3.5.html#2.16.756.5.30.1.127.3.5-ValueSet-HCProfessional.46hcSpecialisation.46html' for "ValueSet-HCProfessional.hcSpecialisation.html" cannot be resolved (valid targets: 79 targets)
-The link 'CodeSystem-ch-vacd-swissmedic-cs.html#ch-vacd-swissmedic-cs-ValueSet-ch-vacd-vaccines-vs.46html' for "ValueSet-ch-vacd-vaccines-vs.html" cannot be resolved (valid targets: 142 targets)
-The link 'CodeSystem-ch-vacd-myvaccines-cs.html#ch-vacd-myvaccines-cs-ValueSet-ch-vacd-vaccines-vs.46html' for "ValueSet-ch-vacd-vaccines-vs.html" cannot be resolved (valid targets: 100 targets)
-
-# Valid SCT code: https://browser.ihtsdotools.org/?perspective=full&conceptId1=51311000087100
-The code '51311000087100' is not valid in the system http://snomed.info/sct (Unknown code '51311000087100' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/2011000195101/version/20230607')
-The code '51311000087100' in the system http://snomed.info/sct is not valid in the value set 'http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs'
-
 # Die Unabhängigkeit Serbiens (8248) wurde am 17.02.2008 deklariert. Bitte beachten Sie, dass der ISO 3166-1 Alpha-2 XK Code vom Benutzer zugewiesen wird (user-assigned) und daher nicht universell ist.
 The code 'XK' is not valid in the system urn:iso:std:iso:3166 (Unknown code 'XK' in the CodeSystem 'urn:iso:std:iso:3166' version '2018')
 
-# Not expected to resolve (https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/.E2.9C.94.20CapabilityStatement.20some.20Canonical.20URLs.20do.20not.20resolve/near/516300365)
-URL value 'urn:ietf:bcp:13' does not resolve
-URL value 'https://art-decor.org/fhir/%
-
-# Known tooling issue with the new terminology server setup, fixed with one of the next IG publisher releases
-Error from https://tx.fhir.ch/r4: POST Stream too large (222.7 MB - limit is 50MB)
+# Known IG Publisher issue (https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Publisher.20v2.2E0.2E24.20-.20error.20in.20local.20build/with/547712458)
+The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
