@@ -1,7 +1,7 @@
 
 All significant changes to this FHIR implementation guide will be documented on this page.   
 
-### v3.3.0 (2025-12 unreleased)
+### v3.3.0 (2025-12-15)
 * [#131](https://github.com/hl7ch/ch-term/issues/131): Fix Display Name issues from publisher
 * [#124](https://github.com/hl7ch/ch-term/issues/124): Update swissmedic vaccines August 2025
 * [#120](https://github.com/hl7ch/ch-term/issues/120): Concept Maps VaccineCode
