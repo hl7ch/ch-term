@@ -1,8 +1,10 @@
 == Suppressed Messages ==
 
 # External CodeSystem
-Error from https://tx.fhir.org/r4: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.6.1' could not be found, so the value set cannot be expanded
 Source Code System http://snomed.info/sct is only supported on the terminology server, so the source codes are not validated for performance reasons
+
+# https://github.com/hl7ch/ch-term/issues/129
+Error from https://tx.fhir.org/r4: A definition for CodeSystem 'urn:oid:1.2.840.10008.2.6.1' could not be found, so the value set cannot be expanded
 
 # https://art-decor.org/art-decor/decor-issues--ch-epr-?id=2.16.756.5.30.1.127.77.10.6.26
 The code 'urn:ihe:pcc:ic:2009' is not valid in the system http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode (Unknown code 'urn:ihe:pcc:ic:2009' in the CodeSystem 'http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode' version '1.3.0')
