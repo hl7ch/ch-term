@@ -4,13 +4,14 @@
            
             value="DocumentEntry.healthcareFacilityTypeCode"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.11--20231030134728"/>
+      <lastUpdated value="2025-12-01T15:44:33Z"/>
+      <source value="https://art-decor.org/fhir/4.0/ch-epr-"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2023-10-30T13:47:28+02:00"/>
+         <start value="2024-10-02T17:55:16+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -21,7 +22,7 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.11"/>
    </identifier>
-   <version value="2023-10-30T13:47:28"/>
+   <version value="2024-10-02T17:55:16"/>
    <name
              
               value="DocumentEntryHealthcareFacilityTypeCode"/>
@@ -30,6 +31,7 @@
                value="DocumentEntry.healthcareFacilityTypeCode"/>
    <status value="active"/>
    <experimental value="false"/>
+   <date value="2025-12-01T15:44:33+01:00"/>
    <publisher value="eHealth Suisse"/>
    <contact>
       <name value="eHealth Suisse"/>
@@ -342,23 +344,23 @@
             <display value="Medical center (environment)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Telemedizinische Einrichtung"/>
+               <value value="Medizinisches Zentrum"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="institut de télémédecine"/>
+               <value value="centre médical"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="centro di telemedicina"/>
+               <value value="centro medico"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Telemedicine institution"/>
+               <value value="Medical center"/>
             </designation>
             <designation>
                <language value="rm-CH"/>
-               <value value="instituziun da telemedischina"/>
+               <value value="center medicinal"/>
             </designation>
          </concept>
          <concept>
@@ -471,6 +473,30 @@
             <designation>
                <language value="rm-CH"/>
                <value value="pratica da dentist"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1332138002"/>
+            <display value="Telemedicine center (environment)"/>
+            <designation>
+               <language value="en-US"/>
+               <value value="Telemedicine center"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Telemedizinische Einrichtung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="institut de télémédecine"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="centro di telemedicina"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="instituziun da telemedischina"/>
             </designation>
          </concept>
       </include>
