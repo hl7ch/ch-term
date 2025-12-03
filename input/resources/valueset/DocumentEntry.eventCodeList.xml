@@ -2,13 +2,17 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="DocumentEntry.eventCodeList"/>
    <meta>
-      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.8--20220626134421"/>
-      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <source value="https://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.127.3.10.1.8--20251201154557"/>
+      <lastUpdated value="2025-12-01T16:04:34Z"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+      <tag>
+         <system value="http://hl7.org/fhir/FHIR-version"/>
+         <code value="4.0.1"/>
+      </tag>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2022-06-26T13:44:21+02:00"/>
+         <start value="2025-12-01T15:45:57+01:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -18,11 +22,12 @@
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:oid:2.16.756.5.30.1.127.3.10.1.8"/>
    </identifier>
-   <version value="2022-06-26T13:44:21"/>
+   <version value="2025-12-01T15:45:57"/>
    <name value="DocumentEntryEventCodeList"/>
    <title value="DocumentEntry.eventCodeList"/>
    <status value="active"/>
    <experimental value="false"/>
+   <date value="2025-12-01T16:04:34+01:00"/>
    <publisher value="eHealth Suisse"/>
    <contact>
       <name value="eHealth Suisse"/>
@@ -36,6 +41,334 @@
    <compose>
       <include>
          <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+         <concept>
+            <code value="TG"/>
+            <display value="Thermography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Thermographie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Thermographie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Termografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Thermographie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Thermography"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="RTIMAGE"/>
+            <display value="RT Image"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="RT-Bild"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Radiotherapie Bild"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Image RT"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Image de radiothérapie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Immagine RT"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Immagine di radioterapia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="RT-Bild"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Radiotherapie Bild"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="RT Image"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="RESP"/>
+            <display value="Respiratory Waveform"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Atmungswellenform"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Forme d'onde respiratoire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Forma d'onda respiratoria"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Atmungswellenform"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Respiratory Waveform"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="POS"/>
+            <display value="Position Sensor"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Positionssensor"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Capteur de position"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Sensore di posizione"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Positionssensor"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Position Sensor"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="PA"/>
+            <display value="Photoacoustic"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Photoakustik"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Photoacoustique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Fotoacustica"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Photoakustik"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Photoacoustic"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="LS"/>
+            <display value="Laser Scan"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Laserscan"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Scanner laser"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Scansione laser"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Laserscan"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Laser Scan"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="EOG"/>
+            <display value="Electrooculography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Elektrookulographie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Électrooculographie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Elettrooculografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Elektrookulographie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Electrooculography"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="EMG"/>
+            <display value="Electromyography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Elektromyographie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Électromyographie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Elettromiografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Elektromyographie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Electromyography"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="EEG"/>
+            <display value="Electroencephalography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Elektroenzephalographie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Électroencéphalographie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Elettroencefalografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Elektroenzephalographie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Electroencephalography"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="DMS"/>
+            <display value="Dermoscopy"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Dermatoskopie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Dermoscopie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dermoscopia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Dermatoskopie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Dermoscopy"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="DG"/>
+            <display value="Diaphanography"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Diaphanographie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Diaphanographie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Diafanografia"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Diaphanographie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Diaphanography"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="CFM"/>
+            <display value="Confocal Microscopy"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Konfokalmikroskopie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Microscope confocale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Microscopia confocale"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Konfokalmikroskopie"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Confocal Microscopy"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="BDUS"/>
+            <display value="Ultrasound Bone Densitometry"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ultraschall-Knochendichtemessung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Densitométrie osseuse par ultrasons"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Densitometria ossea a ultrasuoni"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Ultraschall-Knochendichtemessung"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Ultrasound Bone Densitometry"/>
+            </designation>
+         </concept>
          <concept>
             <code value="OPTENF"/>
             <display value="Ophthalmic Tomography En Face"/>

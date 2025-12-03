@@ -12,6 +12,14 @@ The code 'urn:ihe:pcc:ic:2009' is not valid in the system http://ihe.net/fhir/ih
 # Codes are included in https://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html
 The code 'OPTENF' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'OPTENF' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 The code 'OPTBSV' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'OPTBSV' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'RESP' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'RESP' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'POS' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'POS' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'PA' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'PA' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'EOG' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'EOG' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'EMG' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'EMG' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'EEG' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'EEG' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'DMS' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'DMS' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
+The code 'CFM' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Unknown code 'CFM' in the CodeSystem 'http://dicom.nema.org/resources/ontology/DCM' version '01')
 
 # EDQM CS is only a fragment in this IG
 The value set references CodeSystem 'urn:oid:0.4.0.127.0.16.1.1.2.1' which has status 'fragment'
