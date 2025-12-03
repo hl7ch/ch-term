@@ -48,6 +48,42 @@
         "system" : "urn:iso:std:iso:3166",
         "concept" : [
           {
+            "code" : "CH",
+            "display" : "Switzerland",
+            "designation" : [
+              {
+                "language" : "de-CH",
+                "value" : "Schweiz"
+              },
+              {
+                "language" : "fr-CH",
+                "value" : "Suisse"
+              },
+              {
+                "language" : "it-CH",
+                "value" : "Svizzera"
+              }
+            ]
+          },
+          {
+            "code" : "CHE",
+            "display" : "Switzerland",
+            "designation" : [
+              {
+                "language" : "de-CH",
+                "value" : "Schweiz"
+              },
+              {
+                "language" : "fr-CH",
+                "value" : "Suisse"
+              },
+              {
+                "language" : "it-CH",
+                "value" : "Svizzera"
+              }
+            ]
+          },
+          {
             "code" : "AL",
             "display" : "Albania",
             "designation" : [
