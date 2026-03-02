@@ -704,16 +704,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
 // added 2024-10-17
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
 // added 2024-10-17
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
@@ -728,7 +728,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70400
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 µg, Injektionsdispersion Pfizer AG"
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70403

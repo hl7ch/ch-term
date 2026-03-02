@@ -1503,32 +1503,32 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
-// 69912 	01 	Comirnaty JN.1 30 μg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
+// 69912 	01 	Comirnaty JN.1 30 µg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* $ch-vacd-swissmedic-cs#69912-01 "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+  * ^designation[=].value = "Comirnaty JN.1 30 µg"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+  * ^designation[=].value = "Comirnaty JN.1 30 µg"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+  * ^designation[=].value = "Comirnaty JN.1 30 µg"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Comirnaty JN.1 30 μg"
+  * ^designation[=].value = "Comirnaty JN.1 30 µg"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Comirnaty JN.1 30 μg"
-// 69912 	02 	Comirnaty JN.1 10 μg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
+  * ^designation[=].value = "Comirnaty JN.1 30 µg"
+// 69912 	02 	Comirnaty JN.1 10 µg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* $ch-vacd-swissmedic-cs#69912-02 "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[=].value = "Comirnaty JN.1 10 µg"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[=].value = "Comirnaty JN.1 10 µg"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[=].value = "Comirnaty JN.1 10 µg"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[=].value = "Comirnaty JN.1 10 µg"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Comirnaty JN.1 10 μg"
+  * ^designation[=].value = "Comirnaty JN.1 10 µg"
 // 69691 	01 	Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung 	Pfizer AG 	B 	23.08.2024 	23.08.2024 	22.08.2029 	J07BX
 // added 2024-10-17
 * $ch-vacd-swissmedic-cs#69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
@@ -1570,33 +1570,33 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Spikevax LP.8.1"
 
-//70400	01	Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
+//70400	01	Comirnaty LP.8.1 10 µg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* $ch-vacd-swissmedic-cs#70400 "Comirnaty LP.8.1 10 μg"
+* $ch-vacd-swissmedic-cs#70400 "Comirnaty LP.8.1 10 µg"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 10 µg"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 10 µg"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 10 µg"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 10 µg"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 10 µg"
 
 //70403	01	Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* $ch-vacd-swissmedic-cs#70403 "Comirnaty LP.8.1 30 μg"
+* $ch-vacd-swissmedic-cs#70403 "Comirnaty LP.8.1 30 µg"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 30 µg"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 30 µg"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 30 µg"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 30 µg"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
+  * ^designation[=].value = "Comirnaty LP.8.1 30 µg"
 
 
 //69863	01	Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	07.04.2025	07.04.2025	06.04.2030	J07BB02
