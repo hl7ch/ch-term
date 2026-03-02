@@ -2,6 +2,7 @@
 All significant changes to this FHIR implementation guide are documented on this page.   
 
 ### v3.4.0 (unreleased)
+* [#150](https://github.com/hl7ch/ch-term/issues/150): CH VACD - Unique Micro Sign in vaccines ValueSet
 
 
 ### v3.3.0 (2025-12-15)
