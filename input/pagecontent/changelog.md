@@ -2,6 +2,7 @@
 All significant changes to this FHIR implementation guide are documented on this page.   
 
 ### v3.4.0 (unreleased)
+* [#145](https://github.com/hl7ch/ch-term/issues/145): CH VACD Target disease and illnesses undergone for immunization - bugfix
 
 
 ### v3.3.0 (2025-12-15)
