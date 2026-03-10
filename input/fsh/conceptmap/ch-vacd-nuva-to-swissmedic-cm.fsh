@@ -2,15 +2,15 @@ Instance: ch-vacd-nuva-to-swissmedic-cm
 InstanceOf: ConceptMap
 Usage: #definition
 * url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-nuva-to-swissmedic-cm"
-* name = "NuvaVaccineCodeToSwissMedicVaccineCodeConceptMap"
-* title = "NUVA VaccineCode to SwissMedic VaccineCode"
-* description = "This ConceptMap maps vaccine codes from the Nuva terminology to the corresponding codes in the Swissmedic CodeSystem. It is generated based on the provided CSV mapping file and the Swissmedic CodeSystem."
+* name = "NuvaToSwissmedicConceptMap"
+* title = "ConceptMap for mapping Nuva vaccine codes to Swissmedic codes"
 * status = #active
 * experimental = false
-* sourceUri = $NuvaVS
-* targetUri = $ch-vacd-swissmedic-vaccines-vs
-* group.source = $NuvaCS
-* group.target = $ch-vacd-swissmedic-cs
+* description = "This ConceptMap maps vaccine codes from the Nuva terminology to the corresponding codes in the Swissmedic CodeSystem. It is generated based on the provided CSV mapping file and the Swissmedic CodeSystem."
+* sourceUri = "http://smt.esante.gouv.fr/terminologie-nuva?vs"
+* targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-vaccines-vs"
+* group.source = "http://smt.esante.gouv.fr/terminologie-nuva"
+* group.target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * group.element[0].code = #VAC0002
 * group.element[=].display = "AGRIPPAL"
 * group.element[=].target.code = #59267
