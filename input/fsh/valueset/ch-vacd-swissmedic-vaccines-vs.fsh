@@ -1492,7 +1492,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
   // 69913 	01 	Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze 	Pfizer AG 	B 	12.08.2024 	12.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* $ch-vacd-swissmedic-cs#69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
   * ^designation[+].language = #fr-CH
@@ -1505,7 +1505,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
 // 69912 	01 	Comirnaty JN.1 30 μg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* $ch-vacd-swissmedic-cs#69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 30 μg"
   * ^designation[+].language = #fr-CH
@@ -1518,7 +1518,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Comirnaty JN.1 30 μg"
 // 69912 	02 	Comirnaty JN.1 10 μg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* $ch-vacd-swissmedic-cs#69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 10 μg"
   * ^designation[+].language = #fr-CH
@@ -1531,7 +1531,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Comirnaty JN.1 10 μg"
 // 69691 	01 	Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung 	Pfizer AG 	B 	23.08.2024 	23.08.2024 	22.08.2029 	J07BX
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* $ch-vacd-swissmedic-cs#69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Abrysvo"
   * ^designation[+].language = #fr-CH
@@ -1544,7 +1544,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Abrysvo"
 // 69788 	01 	Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion 	Moderna Switzerland GmbH 	B 	09.09.2024 	09.09.2024 	08.09.2029 	J07BX
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* $ch-vacd-swissmedic-cs#69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
   * ^designation[+].language = #fr-CH
@@ -1601,7 +1601,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69863	01	Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	07.04.2025	07.04.2025	06.04.2030	J07BB02
 //added 2025-05-15
-* $ch-vacd-swissmedic-cs#69863-01 "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* $ch-vacd-swissmedic-cs#69863-01 "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Efluelda TIV 0.5 mL"
   * ^designation[+].language = #fr-CH
@@ -1615,7 +1615,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69995	01	mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH	B	17.04.2025	17.04.2025	16.04.2030	J07BX
 //added 2025-05-15
-* $ch-vacd-swissmedic-cs#69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* $ch-vacd-swissmedic-cs#69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
   * ^designation[+].language = #fr-CH
@@ -1629,7 +1629,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
 // added 2025-11-21
-* $ch-vacd-swissmedic-cs#69781 "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* $ch-vacd-swissmedic-cs#69781 "Capvaxive, Injektionslösung in Fertigspritze"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Capvaxive"
   * ^designation[+].language = #fr-CH
@@ -1643,7 +1643,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
 // added 2025-11-21
-* $ch-vacd-swissmedic-cs#70042 "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+* $ch-vacd-swissmedic-cs#70042 "Fluarix, Injektionssuspension"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Fluarix"
   * ^designation[+].language = #fr-CH
@@ -1657,7 +1657,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
 // added 2025-11-21
-* $ch-vacd-swissmedic-cs#69992 "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+* $ch-vacd-swissmedic-cs#69992 "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Influvac 0.5 ml"
   * ^designation[+].language = #fr-CH

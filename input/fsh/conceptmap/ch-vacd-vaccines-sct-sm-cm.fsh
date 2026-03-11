@@ -354,28 +354,28 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70205
-* group[=].element[=].target[=].display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax LP.8.1"
 * group[=].element[=].target[=].equivalence = #equal
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70400
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70403
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 
 
@@ -485,16 +485,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1162643001
 * group[=].element[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
@@ -553,16 +553,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1991000221106
 * group[=].element[=].display = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
@@ -680,10 +680,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "AREXVY"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69691
-* group[=].element[=].target[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* group[=].element[=].target[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69995-01
-* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 
 * group[=].element[+].code = #836402002
@@ -971,7 +971,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 //added 2025-11-21
 * group[=].element[=].target[+].code = #69781
-* group[=].element[=].target[=].display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* group[=].element[=].target[=].display = "Capvaxive, Injektionslösung in Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 
 * group[=].element[+].code = #836403007
@@ -2986,16 +2986,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1119351006
 * group[=].element[=].display = "Vaccine product containing only Haemophilus influenzae type b and Neisseria meningitidis serogroup C and Y antigens (medicinal product)"
@@ -3185,16 +3185,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1162634005
 * group[=].element[=].display = "Acellular Bordetella pertussis, Clostridium tetani toxoid, Corynebacterium diphtheriae toxoid, Haemophilus influenzae type b conjugated, Hepatitis B virus and inactivated Human poliovirus antigens only pediatric vaccine product"
@@ -3515,16 +3515,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1252690003
 * group[=].element[=].display = "Meningococcus serogroup A vaccine"
@@ -3637,16 +3637,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1287596002
 * group[=].element[=].display = "Adult vaccine product containing only severe acute respiratory syndrome coronavirus 2 encoding B lineage spike protein and BA.4/BA.5 lineage spike protein messenger ribonucleic acid"
@@ -3705,16 +3705,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1287964002
 * group[=].element[=].display = "B lineage SARS-CoV-2 monovalent mRNA only vaccine product"
@@ -3773,16 +3773,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #1290624003
 * group[=].element[=].display = "Vaccine product containing Variola virus antigen (medicinal product)"
@@ -5077,16 +5077,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #30141000087107
 * group[=].element[=].display = "COVID-19 virus-like particle antigen vaccine"
@@ -5145,16 +5145,16 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #45891000087103
 * group[=].element[=].display = "Live attenuated Zaire ebolavirus antigen only vaccine product"
@@ -5292,17 +5292,17 @@ Usage: #definition
 //* group[=].element[+].code = #2261000221104
 //* group[=].element[=].display = "Vaccine product containing only influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria and Yamagata lineage antigens (medicinal product)"
 //* group[=].element[=].target[0].code = #69863-01
-//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+//* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
 //* group[=].element[=].target[=].equivalence = #equal
 
 // added 2025-11-21
 * group[=].element[+].code = #1181000221105
 * group[=].element[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[0].code = #70042 
-* group[=].element[=].target[=].display = "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+* group[=].element[=].target[=].display = "Fluarix, Injektionssuspension"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #69992 
-* group[=].element[=].target[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+* group[=].element[=].target[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 

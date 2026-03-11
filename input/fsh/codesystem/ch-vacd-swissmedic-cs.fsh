@@ -1416,8 +1416,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69310	01	AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	02.05.2024	02.05.2024	01.05.2029	J07BX05	X	X	X
 // added 2024-06-13
-* #69310 "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG"
-  * ^definition = "AREXVY"
+* #69310 "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension"
+  * ^definition = "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "AREXVY"
   * ^designation[+].language = #fr-CH
@@ -1431,7 +1431,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69173	01	Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG	B	01.03.2024	01.03.2024	28.02.2029	J07BX	X		X	X
 // added 2024-06-13
-* #69173 "Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG"
+* #69173 "Jynneos, Injektionssuspension"
   * ^definition = "Jynneos"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Jynneos"
@@ -1446,7 +1446,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69222	01	Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	26.03.2024	26.03.2024	25.03.2029	J07AL02	X		X	X
 // added 2024-06-13
-* #69222 "Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG"
+* #69222 "Prevenar 20, Injektionssuspension in einer Fertigspritze"
   * ^definition = "Prevenar 20"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Prevenar 20"
@@ -1461,7 +1461,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69815	01	Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	26.06.2024	26.06.2024	25.06.2029	J07BN01	X		X	X
 // added 2024-08-09
-* #69815 "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+* #69815 "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze"
   * ^definition = "Comirnaty Omicron XBB.1.5, 0.042 mg"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg"
@@ -1476,8 +1476,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69403	01	Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG	B	29.07.2024	29.07.2024	28.07.2029	J07BX04	X		X	X
 // added 2024-08-09
-* #69403 "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG"
-  * ^definition = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* #69403 "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze"
+  * ^definition = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung, Takeda Pharma AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Qdenga 0.5 ml"
   * ^designation[+].language = #fr-CH
@@ -1491,7 +1491,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69913 	01 	Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze 	Pfizer AG 	B 	12.08.2024 	12.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* #69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* #69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
   * ^definition = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
@@ -1505,7 +1505,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
 // 69912 	01 	Comirnaty JN.1 30 μg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* #69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* #69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion"
   * ^definition = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 30 μg"
@@ -1519,7 +1519,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Comirnaty JN.1 30 μg"
 // 69912 	02 	Comirnaty JN.1 10 μg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* #69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* #69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion"
   * ^definition = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 10 μg"
@@ -1533,7 +1533,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Comirnaty JN.1 10 μg"
 // 69691 	01 	Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung 	Pfizer AG 	B 	23.08.2024 	23.08.2024 	22.08.2029 	J07BX
 // added 2024-10-17
-* #69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* #69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
   * ^definition = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Abrysvo"
@@ -1547,7 +1547,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Abrysvo"
 // 69788 	01 	Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion 	Moderna Switzerland GmbH 	B 	09.09.2024 	09.09.2024 	08.09.2029 	J07BX
 // added 2024-10-17
-* #69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* #69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
   * ^definition = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
@@ -1561,8 +1561,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
 //69863	01	Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	07.04.2025	07.04.2025	06.04.2030	J07BB02	X		X	X
 //added 2025-05-15
-* #69863-01 "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-  * ^definition = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* #69863-01 "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
+  * ^definition = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Efluelda TIV 0.5 mL"
   * ^designation[+].language = #fr-CH
@@ -1575,8 +1575,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Efluelda TIV 0.5 mL"
 //69995	01	mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH	B	17.04.2025	17.04.2025	16.04.2030	J07BX	X		X	X
 //added 2025-05-15
-* #69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
-  * ^definition = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* #69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion"
+  * ^definition = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion, Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
   * ^designation[+].language = #fr-CH
@@ -1590,7 +1590,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //70205	01	Spikevax LP.8.1	Moderna Switzerland GmbH	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70205 "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* #70205 "Spikevax LP.8.1"
+  * ^definition = "Spikevax LP.8.1, Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax LP.8.1"
   * ^designation[+].language = #fr-CH
@@ -1604,7 +1605,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //70400	01	Comirnaty LP.8.1 10 μg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* #70400 "Comirnaty LP.8.1 10 μg, Injektionsdispersion"
+  * ^definition = "Comirnaty LP.8.1 10 μg, Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 10 μg"
   * ^designation[+].language = #fr-CH
@@ -1618,7 +1620,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //70403	01	Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
+* #70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze"
+  * ^definition = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 30 μg"
   * ^designation[+].language = #fr-CH
@@ -1632,7 +1635,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
 // added 2025-11-21
-* #69781 "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* #69781 "Capvaxive, Injektionslösung in Fertigspritze"
+  * ^definition = "Capvaxive, Injektionslösung in Fertigspritze, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Capvaxive"
   * ^designation[+].language = #fr-CH
@@ -1646,7 +1650,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
 // added 2025-11-21
-* #70042 "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+* #70042 "Fluarix, Injektionssuspension"
+  * ^definition = "Fluarix, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Fluarix"
   * ^designation[+].language = #fr-CH
@@ -1660,7 +1665,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
 // added 2025-11-21
-* #69992 "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+* #69992 "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze"
+  * ^definition = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze, Viatris Pharma GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Influvac 0.5 ml"
   * ^designation[+].language = #fr-CH

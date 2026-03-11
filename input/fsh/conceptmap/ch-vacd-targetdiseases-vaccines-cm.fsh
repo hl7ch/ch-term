@@ -487,10 +487,10 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-11-21
 * group[=].element[=].target[+].code = #70042
-* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].display = "Fluarix, Injektionssuspension"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #69992
-* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 * group[=].element[+].code = #63650001
@@ -565,7 +565,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-11-21
 * group[=].element[=].target[+].code = #69781
-* group[=].element[=].target[=].display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* group[=].element[=].target[=].display = "Capvaxive, Injektionslösung in Fertigspritze"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -701,38 +701,38 @@ Usage: #definition
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
 // added 2024-10-17
 * group[=].element[=].target[+].code = #69913
-* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
 // added 2024-10-17
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
 // added 2024-10-17
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
 // added 2024-10-17
 * group[=].element[=].target[+].code = #69788
-* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70205
-* group[=].element[=].target[=].display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "Spikevax LP.8.1"
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70400
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70403
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -790,7 +790,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 //// added 2025-05-15
 * group[=].element[=].target[+].code = #69995-01	
-* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].target[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -806,25 +806,25 @@ Usage: #definition
 * group[=].element[+].code = #442438000
 * group[=].element[=].display = "Influenza caused by Influenza A virus (disorder)"
 * group[=].element[=].target[+].code = #69863-01
-* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
 * group[=].element[=].target[=].equivalence = #relatedto
 //// added 2025-05-15
 * group[=].element[+].code = #442696006 
 * group[=].element[=].display = "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
 * group[=].element[=].target[+].code = #69863-01
-* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-05-15
 * group[=].element[+].code = #772810003 
 * group[=].element[=].display = "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
 * group[=].element[=].target[+].code = #69863-01
-* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
 * group[=].element[=].target[=].equivalence = #relatedto
 // added 2025-05-15
 * group[=].element[+].code = #24662006
 * group[=].element[=].display = "Influenza caused by Influenza B virus (disorder)"
 * group[=].element[=].target[+].code = #69863-01	
-* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].target[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
