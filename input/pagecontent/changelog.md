@@ -4,6 +4,9 @@ All significant changes to this FHIR implementation guide are documented on this
 ### v3.4.0 (unreleased)
 
 
+### upcoming
+* [#144](https://github.com/hl7ch/ch-term/issues/144): EDQM ROA valueset update 
+
 ### v3.3.0 (2025-12-15)
 * [#138](https://github.com/hl7ch/ch-term/issues/138): New VaccineCodes September/October 2026 
 * [#131](https://github.com/hl7ch/ch-term/issues/131): Fix Display Name issues from publisher
