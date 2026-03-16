@@ -8,20 +8,20 @@ Description: "This valueset contains all entries defining target deseases or ill
 
 //Virale Erkrankung	Viral disease	Maladie virale	Malattie virali	malsogna dal virus
 * $sct#34014006 "Viral disease (disorder)"
-  * ^designation[+].language = #de-CH
-  * ^designation[=].value = "malsogna dal virus"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Virale Erkrankung"
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "Maladie virale"
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "Malattie virali"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dal virus"
-  * ^designation[0].language = #en-US
+  * ^designation[+].language = #en-US
   * ^designation[=].value = "Viral disease"
 
 //Bakterielle Infektionskrankheit	Bacterial infectious disease	Maladie infectieuse bactérienne	Malattie infettive batteriche	malsogna infectusa cun bacterias
 * $sct#87628006 "Bacterial infectious disease (disorder)"
-  * ^designation[+].language = #de-CH
+  * ^designation[0].language = #de-CH
   * ^designation[=].value = "Bakterielle Infektionskrankheit"
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "Maladie infectieuse bactérienne"
@@ -29,12 +29,12 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[=].value = "Malattie infettive batteriche"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna infectusa cun bacterias"
-  * ^designation[0].language = #en-US
+  * ^designation[+].language = #en-US
   * ^designation[=].value = "Bacterial infectious disease"
 
 //Erbrechen	Vomiting	vomissement	vomito	vomitar
 * $sct#422400008 "Vomiting (disorder)"
-  * ^designation[+].language = #de-CH
+  * ^designation[0].language = #de-CH
   * ^designation[=].value = "Erbrechen"
   * ^designation[+].language = #fr-CH
   * ^designation[=].value = "vomissement"
@@ -42,7 +42,7 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[=].value = "vomito"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "vomitar"
-  * ^designation[0].language = #en-US
+  * ^designation[+].language = #en-US
   * ^designation[=].value = "Vomiting"
 
 * $sct#38907003 "Varicella (disorder)"
