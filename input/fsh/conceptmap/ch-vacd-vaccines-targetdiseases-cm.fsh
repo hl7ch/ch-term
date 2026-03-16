@@ -934,18 +934,18 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
 // added 2024-10-17
 * group[=].element[+].code = #69912-01
-* group[=].element[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
 // added 2024-10-17
 * group[=].element[+].code = #69912-02
-* group[=].element[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
 * group[=].element[=].target[0].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -973,7 +973,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #70400
-* group[=].element[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].display = "Comirnaty LP.8.1 10 µg, Injektionsdispersion Pfizer AG"
 * group[=].element[=].target[0].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
