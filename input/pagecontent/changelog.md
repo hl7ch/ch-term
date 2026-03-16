@@ -3,8 +3,8 @@ All significant changes to this FHIR implementation guide are documented on this
 
 ### v3.4.0 (unreleased)
 * [#150](https://github.com/hl7ch/ch-term/issues/150): CH VACD - Unique Micro Sign in vaccines ValueSet
+* [#148](https://github.com/hl7ch/ch-term/issues/148): Add NUVA - SwissMedic Concept Map
 * [#145](https://github.com/hl7ch/ch-term/issues/145): CH VACD Target disease and illnesses undergone for immunization - bugfix
-
 
 
 ### upcoming
