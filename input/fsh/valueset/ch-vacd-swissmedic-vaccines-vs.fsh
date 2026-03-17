@@ -948,6 +948,19 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[+].language = #en-US
   * ^designation[=].value = "ProQuad"
 
+* $ch-vacd-swissmedic-cs#65728 "Gardasil 9 (Durchstechflasche)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Gardasil 9"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Gardasil 9"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Gardasil 9"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Gardasil 9"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Gardasil 9"
+
+
 * $ch-vacd-swissmedic-cs#65387 "Gardasil 9"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Gardasil 9"
@@ -1149,7 +1162,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
 // added 2022-11-03
-* $ch-vacd-swissmedic-cs#68358 "Ervebo, Injektionslösung"
+* $ch-vacd-swissmedic-cs#68358 "Ervebo"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Ervebo"
   * ^designation[+].language = #fr-CH
@@ -1277,32 +1290,32 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69123	01	Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze	Moderna Switzerland GmbH	B	11.11.2022	11.11.2022	25.08.2024	J07BX03
 // added 2023-02-21
-* $ch-vacd-swissmedic-cs#69123 "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* $ch-vacd-swissmedic-cs#69123 "Spikevax Bivalent Original / Omicron 10 mg/ml"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, seringue préremplie"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, siringa preriempita"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, squitta finida"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, pre-filled syringe"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml"
 
 
 //69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
 // added 2023-02-21
-* $ch-vacd-swissmedic-cs#69010 "Spikevax, Fertigspritze"
+* $ch-vacd-swissmedic-cs#69010 "Spikevax"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Spikevax, Fertigspritze"
+  * ^designation[=].value = "Spikevax"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Spikevax, seringue  préremplie"
+  * ^designation[=].value = "Spikevax"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Spikevax, siringa preriempita"
+  * ^designation[=].value = "Spikevax"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Spikevax, squitta finida"
+  * ^designation[=].value = "Spikevax"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Spikevax, pre-filled syringe"
+  * ^designation[=].value = "Spikevax"
 
 
 //69047	01	Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren	Pfizer AG	B	10.10.2022	10.10.2022	09.10.2024	J07BX03
@@ -1349,17 +1362,17 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
 // added 2023-05-19
-* $ch-vacd-swissmedic-cs#69211 "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* $ch-vacd-swissmedic-cs#69211 "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+  * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
 
 //68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
 // added 2023-05-19
@@ -1492,7 +1505,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
   // 69913 	01 	Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze 	Pfizer AG 	B 	12.08.2024 	12.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
+* $ch-vacd-swissmedic-cs#69913 "Comirnaty JN.1 0.042 mg"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
   * ^designation[+].language = #fr-CH
@@ -1505,7 +1518,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
 // 69912 	01 	Comirnaty JN.1 30 µg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69912-01 "Comirnaty JN.1 30 µg, Injektionsdispersion"
+* $ch-vacd-swissmedic-cs#69912-01 "Comirnaty JN.1 30 µg"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 30 µg"
   * ^designation[+].language = #fr-CH
@@ -1518,7 +1531,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Comirnaty JN.1 30 µg"
 // 69912 	02 	Comirnaty JN.1 10 µg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69912-02 "Comirnaty JN.1 10 µg, Injektionsdispersion"
+* $ch-vacd-swissmedic-cs#69912-02 "Comirnaty JN.1 10 µg"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 10 µg"
   * ^designation[+].language = #fr-CH
@@ -1531,7 +1544,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Comirnaty JN.1 10 µg"
 // 69691 	01 	Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung 	Pfizer AG 	B 	23.08.2024 	23.08.2024 	22.08.2029 	J07BX
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
+* $ch-vacd-swissmedic-cs#69691 "Abrysvo"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Abrysvo"
   * ^designation[+].language = #fr-CH
@@ -1544,7 +1557,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
   * ^designation[=].value = "Abrysvo"
 // 69788 	01 	Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion 	Moderna Switzerland GmbH 	B 	09.09.2024 	09.09.2024 	08.09.2029 	J07BX
 // added 2024-10-17
-* $ch-vacd-swissmedic-cs#69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
+* $ch-vacd-swissmedic-cs#69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
   * ^designation[+].language = #fr-CH
@@ -1601,7 +1614,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69863	01	Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	07.04.2025	07.04.2025	06.04.2030	J07BB02
 //added 2025-05-15
-* $ch-vacd-swissmedic-cs#69863-01 "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
+* $ch-vacd-swissmedic-cs#69863-01 "Efluelda TIV 0.5 mL"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Efluelda TIV 0.5 mL"
   * ^designation[+].language = #fr-CH
@@ -1615,7 +1628,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69995	01	mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH	B	17.04.2025	17.04.2025	16.04.2030	J07BX
 //added 2025-05-15
-* $ch-vacd-swissmedic-cs#69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion"
+* $ch-vacd-swissmedic-cs#69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
   * ^designation[+].language = #fr-CH
@@ -1629,7 +1642,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
 // added 2025-11-21
-* $ch-vacd-swissmedic-cs#69781 "Capvaxive, Injektionslösung in Fertigspritze"
+* $ch-vacd-swissmedic-cs#69781 "Capvaxive"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Capvaxive"
   * ^designation[+].language = #fr-CH
@@ -1643,7 +1656,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
 // added 2025-11-21
-* $ch-vacd-swissmedic-cs#70042 "Fluarix, Injektionssuspension"
+* $ch-vacd-swissmedic-cs#70042 "Fluarix"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Fluarix"
   * ^designation[+].language = #fr-CH
@@ -1657,7 +1670,7 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 
 //69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
 // added 2025-11-21
-* $ch-vacd-swissmedic-cs#69992 "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze"
+* $ch-vacd-swissmedic-cs#69992 "Influvac 0.5 ml"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Influvac 0.5 ml"
   * ^designation[+].language = #fr-CH

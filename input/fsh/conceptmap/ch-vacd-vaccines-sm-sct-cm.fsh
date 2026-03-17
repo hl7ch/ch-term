@@ -5581,7 +5581,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #68358
-* group[=].element[=].display = "Ervebo, Injektionslösung"
+* group[=].element[=].display = "Ervebo"
 * group[=].element[=].target[0].code = #836421005
 * group[=].element[=].target[=].display = "Vaccine product containing Ebolavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6170,7 +6170,7 @@ Usage: #definition
 * group[=].element[=].target.display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #65387
-* group[=].element[=].display = "Gardasil 9"
+* group[=].element[=].display = "Gardasil 9 (Fertigspritze)"
 * group[=].element[=].target[0].code = #2001000221108
 * group[=].element[=].target[=].display = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -6186,6 +6186,24 @@ Usage: #definition
 * group[=].element[=].target[+].code = #911000221103
 * group[=].element[=].target[=].display = "Vaccine product containing only Human papillomavirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
+* group[=].element[+].code = #65728
+* group[=].element[=].display = "Gardasil 9 (Durchstechflasche)"
+* group[=].element[=].target[0].code = #2001000221108
+* group[=].element[=].target[=].display = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1991000221106
+* group[=].element[=].target[=].display = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1209197008
+* group[=].element[=].target[=].display = "Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #836379009
+* group[=].element[=].target[=].display = "Vaccine product containing Human papillomavirus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #911000221103
+* group[=].element[=].target[=].display = "Vaccine product containing only Human papillomavirus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+
 * group[=].element[+].code = #66940
 * group[=].element[=].display = "Vaxelis"
 * group[=].element[=].target[0].code = #871739009
@@ -7032,7 +7050,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Dengue virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #69913
-* group[=].element[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
+* group[=].element[=].display = "Comirnaty JN.1 0.042 mg"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7067,7 +7085,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #69912-01
-* group[=].element[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty JN.1 30 µg"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7102,7 +7120,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #69912-02
-* group[=].element[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty JN.1 10 µg"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7137,12 +7155,12 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #69691
-* group[=].element[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
+* group[=].element[=].display = "Abrysvo"
 * group[=].element[=].target.code = #51311000087100
 * group[=].element[=].target.display = "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
 * group[=].element[=].target.equivalence = #equal
 * group[=].element[+].code = #69788
-* group[=].element[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
+* group[=].element[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7179,14 +7197,14 @@ Usage: #definition
 
 //// added 2025-05-15
 * group[=].element[+].code = #69863-01
-* group[=].element[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie"
+* group[=].element[=].display = "Efluelda TIV 0.5 mL"
 * group[=].element[=].target[0].code = #2261000221104
 * group[=].element[=].target[=].display = "Vaccine product containing only influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria and Yamagata lineage antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 
 // added 2025-05-15
 * group[=].element[+].code = #69995-01
-* group[=].element[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion"
+* group[=].element[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
 * group[=].element[=].target[0].code = #51311000087100
 * group[=].element[=].target[=].display = "Vaccine product containing only Human orthopneumovirus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7231,7 +7249,7 @@ Usage: #definition
 
 // added 2025-09-26
 * group[=].element[+].code = #70400
-* group[=].element[=].display = "Comirnaty LP.8.1 10 µg, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty LP.8.1 10 µg"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7268,7 +7286,7 @@ Usage: #definition
 
 // added 2025-09-26
 * group[=].element[+].code = #70403
-* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze"
+* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7307,7 +7325,7 @@ Usage: #definition
 //69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
 // added 2025-11-21
 * group[=].element[+].code = #69781
-* group[=].element[=].display = "Capvaxive, Injektionslösung in Fertigspritze"
+* group[=].element[=].display = "Capvaxive"
 * group[=].element[=].target[0].code = #836398006
 * group[=].element[=].target[=].display = "Vaccine product containing Streptococcus pneumoniae antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7315,7 +7333,7 @@ Usage: #definition
 //70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
 // added 2025-11-21
 * group[=].element[+].code = #70042
-* group[=].element[=].display = "Fluarix, Injektionssuspension"
+* group[=].element[=].display = "Fluarix"
 * group[=].element[=].target[0].code = #1181000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7324,7 +7342,7 @@ Usage: #definition
 //69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
 // added 2025-11-21
 * group[=].element[+].code = #69992
-* group[=].element[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze"
+* group[=].element[=].display = "Influvac 0.5 ml"
 * group[=].element[=].target[0].code = #1181000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
