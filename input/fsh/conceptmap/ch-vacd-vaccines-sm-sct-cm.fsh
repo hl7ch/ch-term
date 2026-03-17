@@ -7067,7 +7067,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #69912-01
-* group[=].element[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7102,7 +7102,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[+].code = #69912-02
-* group[=].element[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
@@ -7231,7 +7231,7 @@ Usage: #definition
 
 // added 2025-09-26
 * group[=].element[+].code = #70400
-* group[=].element[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion"
+* group[=].element[=].display = "Comirnaty LP.8.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[0].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal

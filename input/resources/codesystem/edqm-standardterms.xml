@@ -10,6 +10,7 @@
    <title value="EDQM - Standard Terms"/>
    <status value="active"/>
    <experimental value="false"/>
+   <date value="2023-01-25T14:36:51+01:00"/>
    <publisher value="eHealth Suisse"/>
    <contact>
       <name value="eHealth Suisse"/>
@@ -10170,7 +10171,7 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="null"/>
+         <value value="Voie intraputaminale"/>
       </designation>
       <designation>
          <language value="it-CH"/>
@@ -10181,7 +10182,27 @@
          <value value="Intraputaminale Anwendung"/>
       </designation>
    </concept>
-   <!-- MOA: manually added -->
+   <concept>
+      <code value="20088000"/>
+      <display value="Perilesional use"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="periläsionale Anwendung"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Voie périlésionnelle"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Uso perilesionale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
+         <value value="periläsionale Anwendung"/>
+      </designation>
+   </concept>
+ <!-- MOA: manually added -->
    <concept>
       <code value="0004"/>
       <display value="Administration"/>

@@ -357,10 +357,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -371,7 +371,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equal
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70400
-* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty LP.8.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 // added 2025-09-26
 * group[=].element[=].target[+].code = #70403
@@ -488,10 +488,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -556,10 +556,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -2989,10 +2989,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -3188,10 +3188,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -3518,10 +3518,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -3640,10 +3640,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -3708,10 +3708,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -3776,10 +3776,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -5080,10 +5080,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
@@ -5148,10 +5148,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-01
-* group[=].element[=].target[=].display = "Comirnaty JN.1 30 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69912-02
-* group[=].element[=].target[=].display = "Comirnaty JN.1 10 μg, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #69788
 * group[=].element[=].target[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion"
