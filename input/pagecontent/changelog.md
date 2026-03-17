@@ -2,7 +2,7 @@
 All significant changes to this FHIR implementation guide are documented on this page.   
 
 ### v3.4.0 (unreleased)
-
+* [#154](https://github.com/hl7ch/ch-term/issues/154) CH VACD Swissmedic Authorized Vaccines - missing definitions
 
 ### v3.3.0 (2025-12-15)
 * [#138](https://github.com/hl7ch/ch-term/issues/138): New VaccineCodes September/October 2026 
