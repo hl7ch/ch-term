@@ -58,19 +58,6 @@ Description: "The list of ATC J06B – Immunoglobulin codes Swissmedic has given
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Beyfortus 50 mg/0.5 ml"
 
-//65745	01	Antivipmyn	Armeeapotheke	A	10.05.2017	10.05.2017	unbegrenzt J06AA03
-* $ch-vacd-swissmedic-immunoglobulin-cs#65745-01 "Antivipmyn"
-  * ^designation[0].language = #de-CH
-  * ^designation[=].value = "Antivipmyn"
-  * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Antivipmyn"
-  * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Antivipmyn"
-  * ^designation[+].language = #rm-CH
-  * ^designation[=].value = "Antivipmyn"
-  * ^designation[+].language = #en-US
-  * ^designation[=].value = "Antivipmyn"
-
 //68222	01	Cutaquig 165 mg/ml, Injektionslösung	Octapharma AG	B	15.02.2022	15.02.2022	14.02.2027 J06BA01
 * $ch-vacd-swissmedic-immunoglobulin-cs#68222-01 "Cutaquig 165 mg/ml, Injektionslösung"
   * ^designation[0].language = #de-CH
