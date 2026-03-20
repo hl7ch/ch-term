@@ -637,7 +637,7 @@ Usage: #definition
 //68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
 // added 2022-11-03
 * group[=].element[+].code = #68358
-* group[=].element[=].display = "Ervebo, Injektionslösung"
+* group[=].element[=].display = "Ervebo"
 * group[=].element[=].target[+].code = #37109004
 * group[=].element[=].target[=].display = "Ebola virus disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -737,7 +737,14 @@ Usage: #definition
 
 // added 2022-12-01
 * group[=].element[+].code = #65387
-* group[=].element[=].display = "Gardasil 9"
+* group[=].element[=].display = "Gardasil 9 (Fertigspritze)"
+* group[=].element[=].target[+].code = #240532009
+* group[=].element[=].target[=].display = "Human papillomavirus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2026-03-17
+* group[=].element[+].code = #65728
+* group[=].element[=].display = "Gardasil 9 (Durchstechflasche)"
 * group[=].element[=].target[+].code = #240532009
 * group[=].element[=].target[=].display = "Human papillomavirus infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -929,7 +936,7 @@ Usage: #definition
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
 // added 2024-10-17
 * group[=].element[+].code = #69913
-* group[=].element[=].display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group[=].element[=].display = "Comirnaty JN.1 0.042 mg"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -937,7 +944,7 @@ Usage: #definition
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
 // added 2024-10-17
 * group[=].element[+].code = #69912-01
-* group[=].element[=].display = "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].display = "Comirnaty JN.1 30 µg"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -945,40 +952,40 @@ Usage: #definition
 //http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
 // added 2024-10-17
 * group[=].element[+].code = #69912-02
-* group[=].element[=].display = "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
+* group[=].element[=].display = "Comirnaty JN.1 10 µg"
 * group[=].element[=].target[0].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69691 "Abrysvo"
 // added 2024-10-17
 * group[=].element[+].code = #69691
-* group[=].element[=].display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* group[=].element[=].display = "Abrysvo"
 * group[=].element[=].target[0].code = #55735004 
 * group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
 // added 2024-10-17
 * group[=].element[+].code = #69788
-* group[=].element[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group[=].element[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
 * group[=].element[=].target[0].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2025-09-26
 * group[=].element[+].code = #70205
-* group[=].element[=].display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group[=].element[=].display = "Spikevax LP.8.1"
 * group[=].element[=].target[0].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #70400
-* group[=].element[=].display = "Comirnaty LP.8.1 10 µg, Injektionsdispersion Pfizer AG"
+* group[=].element[=].display = "Comirnaty LP.8.1 10 µg"
 * group[=].element[=].target[0].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #70403
-* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
+* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -986,7 +993,7 @@ Usage: #definition
 // added 2025-05-15
 // Das Arzneimittel Efluelda enthält die inaktivierten und gespaltenen Influenza-Viren der Stämme A (H1N1), A (H3N2), B (Yamagata) und B (Victoria) als Wirkstoff.
 * group[=].element[+].code = #69863-01
-* group[=].element[=].display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* group[=].element[=].display = "Efluelda TIV 0.5 mL"
 * group[=].element[=].target[0].code = #442438000
 * group[=].element[=].target[=].display = "Influenza caused by Influenza A virus (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -996,7 +1003,7 @@ Usage: #definition
 
 // added 2025-05-15
 * group[=].element[+].code = #69995-01
-* group[=].element[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* group[=].element[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
 * group[=].element[=].target[0].code = #55735004
 * group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -1004,7 +1011,7 @@ Usage: #definition
 //69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
 // added 2025-11-21
 * group[=].element[+].code = #69781
-* group[=].element[=].display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* group[=].element[=].display = "Capvaxive"
 * group[=].element[=].target[0].code = #16814004
 * group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -1012,7 +1019,7 @@ Usage: #definition
 //70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
 // added 2025-11-21
 * group[=].element[+].code = #70042
-* group[=].element[=].display = "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+* group[=].element[=].display = "Fluarix"
 * group[=].element[=].target[0].code = #719590007
 * group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -1020,7 +1027,7 @@ Usage: #definition
 //69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
 // added 2025-11-21
 * group[=].element[+].code = #69992
-* group[=].element[=].display = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+* group[=].element[=].display = "Influvac 0.5 ml"
 * group[=].element[=].target[0].code = #719590007
 * group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto

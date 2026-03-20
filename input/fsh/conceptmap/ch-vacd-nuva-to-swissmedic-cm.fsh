@@ -120,7 +120,7 @@ Usage: #definition
 * group.element[=].target[=].display = "Fluarix"
 * group.element[=].target[=].equivalence = #equal
 * group.element[=].target[+].code = #70042
-* group.element[=].target[=].display = "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+* group.element[=].target[=].display = "Fluarix"
 * group.element[=].target[=].equivalence = #equal
 * group.element[+].code = #VAC0049
 * group.element[=].display = "HAVRIX 1440 U/1mL"
@@ -537,7 +537,7 @@ Usage: #definition
 * group.element[+].code = #VAC0586
 * group.element[=].display = "ERVEBO"
 * group.element[=].target.code = #68358
-* group.element[=].target.display = "Ervebo, Injektionslösung"
+* group.element[=].target.display = "Ervebo"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC0594
 * group.element[=].display = "MENQUADFI"
@@ -575,7 +575,7 @@ Usage: #definition
 * group.element[+].code = #VAC0644
 * group.element[=].display = "QDENGA"
 * group.element[=].target.code = #69403
-* group.element[=].target.display = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze\tTakeda Pharma AG"
+* group.element[=].target.display = "Qdenga 0.5 ml"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC0649
 * group.element[=].display = "EFLUELDA TETRA"
@@ -598,7 +598,7 @@ Usage: #definition
 * group.element[+].code = #VAC0667
 * group.element[=].display = "NUVAXOVID"
 * group.element[=].target.code = #68473
-* group.element[=].target.display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
+* group.element[=].target.display = "Nuvaxovid 0.5 ml"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC0731
 * group.element[=].display = "DITANRIX"
@@ -616,7 +616,7 @@ Usage: #definition
 * group.element[+].code = #VAC0780
 * group.element[=].display = "VAXNEUVANCE"
 * group.element[=].target.code = #68752
-* group.element[=].target.display = "Vaxneuvance, Injektionssuspension"
+* group.element[=].target.display = "Vaxneuvance"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC0793
 * group.element[=].display = "TETADIF"
@@ -641,7 +641,7 @@ Usage: #definition
 * group.element[+].code = #VAC0900
 * group.element[=].display = "PREVENAR 20"
 * group.element[=].target.code = #69222
-* group.element[=].target.display = "Prevenar 20, Injektionssuspension in einer Fertigspritze\tPfizer AG"
+* group.element[=].target.display = "Prevenar 20"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC0935
 * group.element[=].display = "VACCIN RABIQUE INACTIVE MERIEUX"
@@ -669,7 +669,7 @@ Usage: #definition
 * group.element[+].code = #VAC0966
 * group.element[=].display = "JYNNEOS"
 * group.element[=].target.code = #69173
-* group.element[=].target.display = "Jynneos, Injektionssuspension\tBavarian Nordic Switzerland AG"
+* group.element[=].target.display = "Jynneos"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC0968
 * group.element[=].display = "INFLEXAL V"
@@ -737,7 +737,7 @@ Usage: #definition
 * group.element[+].code = #VAC1036
 * group.element[=].display = "SPIKEVAX BIVALENT ORIGINAL/OMICRON BA.4-5 25 µg/25 µg MODERNA"
 * group.element[=].target[0].code = #69189
-* group.element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* group.element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5"
 * group.element[=].target[=].equivalence = #equal
 * group.element[=].target[+].code = #69211
 * group.element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
@@ -745,7 +745,7 @@ Usage: #definition
 * group.element[+].code = #VAC1040
 * group.element[=].display = "AREXVY"
 * group.element[=].target.code = #69310
-* group.element[=].target.display = "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension\tGlaxoSmithKline AG"
+* group.element[=].target.display = "AREXVY"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1045
 * group.element[=].display = "INFANRIX-IPV/HIB"
@@ -755,7 +755,7 @@ Usage: #definition
 * group.element[+].code = #VAC1047
 * group.element[=].display = "ABRYSVO"
 * group.element[=].target.code = #69691
-* group.element[=].target.display = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* group.element[=].target.display = "Abrysvo"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1048
 * group.element[=].display = "DECAVAC"
@@ -770,12 +770,12 @@ Usage: #definition
 * group.element[+].code = #VAC1051
 * group.element[=].display = "PFIZER COMIRNATY-30 XBB.1.5"
 * group.element[=].target.code = #69488
-* group.element[=].target.display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group.element[=].target.display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1053
 * group.element[=].display = "PFIZER COMIRNATY-3 XBB.1.5"
 * group.element[=].target.code = #69815
-* group.element[=].target.display = "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze\tPfizer AG"
+* group.element[=].target.display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1057
 * group.element[=].display = "ENGERIX B JUNIOR"
@@ -785,10 +785,10 @@ Usage: #definition
 * group.element[+].code = #VAC1058
 * group.element[=].display = "SPIKEVAX XBB.1.5 0,1 mg/mL dose 50 µg MODERNA"
 * group.element[=].target[0].code = #69465
-* group.element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group.element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group.element[=].target[=].equivalence = #equal
 * group.element[=].target[+].code = #69484
-* group.element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group.element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
 * group.element[=].target[=].equivalence = #equal
 * group.element[+].code = #VAC1094
 * group.element[=].display = "OROCHOL"
@@ -798,27 +798,27 @@ Usage: #definition
 * group.element[+].code = #VAC1254
 * group.element[=].display = "CAPVAXIVE"
 * group.element[=].target.code = #69781
-* group.element[=].target.display = "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* group.element[=].target.display = "Capvaxive"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1258
 * group.element[=].display = "COMIRNATY JN.1 30 µg"
 * group.element[=].target.code = #69912-01
-* group.element[=].target.display = "Comirnaty JN.1 30 μg, Injektionsdispersion, Pfizer AG"
+* group.element[=].target.display = "Comirnaty JN.1 30 μg"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1259
 * group.element[=].display = "COMIRNATY JN.1 10 µg"
 * group.element[=].target.code = #69912-02
-* group.element[=].target.display = "Comirnaty JN.1 10 μg, Injektionsdispersion, Pfizer AG"
+* group.element[=].target.display = "Comirnaty JN.1 10 μg"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1260
 * group.element[=].display = "COMIRNATY JN.1 3 µg"
 * group.element[=].target.code = #69913
-* group.element[=].target.display = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* group.element[=].target.display = "Comirnaty JN.1 0.042 mg"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1262
 * group.element[=].display = "MRESVIA"
 * group.element[=].target.code = #69995-01
-* group.element[=].target.display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion\tModerna Switzerland GmbH"
+* group.element[=].target.display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1265
 * group.element[=].display = "CLODIVAC"
@@ -828,7 +828,7 @@ Usage: #definition
 * group.element[+].code = #VAC1270
 * group.element[=].display = "SPIKEVAX JN.1 0,1 mg/mL dose 50 µg"
 * group.element[=].target.code = #69788
-* group.element[=].target.display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* group.element[=].target.display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1273
 * group.element[=].display = "DT BIOMED"
@@ -868,7 +868,7 @@ Usage: #definition
 * group.element[+].code = #VAC1347
 * group.element[=].display = "EFLUELDA"
 * group.element[=].target.code = #69863-01
-* group.element[=].target.display = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie\tSanofi-Aventis (Suisse) SA"
+* group.element[=].target.display = "Efluelda TIV 0.5 mL"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1362
 * group.element[=].display = "SK TD"
@@ -888,12 +888,12 @@ Usage: #definition
 * group.element[+].code = #VAC1466
 * group.element[=].display = "COMIRNATY LP.8.1 30 µg"
 * group.element[=].target.code = #70403
-* group.element[=].target.display = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
+* group.element[=].target.display = "Comirnaty LP.8.1 30 Mikrogramm"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1468
 * group.element[=].display = "COMIRNATY LP.8.1 10 µg 5-11 ans"
 * group.element[=].target.code = #70400
-* group.element[=].target.display = "Comirnaty LP.8.1 10 μg, Injektionsdispersion Pfizer AG"
+* group.element[=].target.display = "Comirnaty LP.8.1 10 μg"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1477
 * group.element[=].display = "ENCEPUR N ENFANT"
@@ -943,7 +943,7 @@ Usage: #definition
 * group.element[+].code = #VAC1500
 * group.element[=].display = "SPIKEVAX LP.8.1 50 µg"
 * group.element[=].target.code = #70205
-* group.element[=].target.display = "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* group.element[=].target.display = "Spikevax LP.8.1"
 * group.element[=].target.equivalence = #equal
 * group.element[+].code = #VAC1504
 * group.element[=].display = "TD-PUR"

@@ -6,9 +6,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
 * ^status = #active
 * ^experimental = false
 * ^caseSensitive = true
-//683	01	FSME-Immun 0.25 ml Junior, Suspension zur intramuskulären Injektion	Pfizer AG	B	10.10.2003	10.10.2003	09.10.2023	J07BA01
+//683	01	FSME-Immun 0.25 ml Junior, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	10.10.2003	10.10.2003	unbegrenzt	J07BA01
 * #683 "FSME-Immun 0.25 ml Junior"
-  * ^definition = "FSME-Immun 0.25 ml Junior, Suspension zur intramuskulären Injektion	Pfizer AG"
+  * ^definition = "FSME-Immun 0.25 ml Junior, Suspension zur intramuskulären Injektion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "FSME-Immun 0.25 ml Junior"
   * ^designation[+].language = #fr-CH
@@ -19,9 +19,15 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "FSME-Immun 0.25 ml Junior"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "FSME-Immun 0.25 ml Junior"
+//  * ^property[0].code = #firstauthorization
+//  * ^property[=].valueDateTime = "2003-10-10"
+//  * ^property[1].code = #doseauthorization
+//  * ^property[=].valueDateTime = "2003-10-10"
+//  * ^property[2].code = #endauthorization
+//  * ^property[=].valueString = "unlimited"
 //450	02	FSME-Immun CC, Suspension zur intramuskulären Injektion	Pfizer AG	B	06.08.1979	05.11.2001	unbegrenzt	J07BA01
 * #450 "FSME-Immun CC"
-  * ^definition = "FSME-Immun CC, Suspension zur intramuskulären Injektion	Pfizer AG"
+  * ^definition = "FSME-Immun CC, Suspension zur intramuskulären Injektion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "FSME-Immun CC"
   * ^designation[+].language = #fr-CH
@@ -34,7 +40,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "FSME-Immun CC"
 //656	01	NeisVac-C, Injektionssuspension	Pfizer AG	B	04.06.2002	04.06.2002	09.06.2022	J07AH07
 * #656 "NeisVac-C"
-  * ^definition = "NeisVac-C, Injektionssuspension	Pfizer AG"
+  * ^definition = "NeisVac-C, Injektionssuspension, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "NeisVac-C"
   * ^designation[+].language = #fr-CH
@@ -47,7 +53,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "NeisVac-C"
 //627	01	Encepur N, Injektionssuspension	Bavarian Nordic Switzerland AG	B	08.11.1999	12.04.2007	31.03.2022	J07BA01
 * #627 "Encepur N"
-  * ^definition = "Encepur N, Injektionssuspension Bavarian Nordic Switzerland AG"
+  * ^definition = "Encepur N, Injektionssuspension, Bavarian Nordic Switzerland AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Encepur N"
   * ^designation[+].language = #fr-CH
@@ -60,7 +66,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Encepur N"
 //628	01	Encepur N Kinder, Injektionssuspension	Bavarian Nordic Switzerland AG	B	20.04.1998	21.11.2007	unbegrenzt	J07BA01
 * #628 "Encepur N Kinder / Enfants"
-  * ^definition = "Encepur N Kinder, Injektionssuspension	Bavarian Nordic Switzerland AG"
+  * ^definition = "Encepur N Kinder, Injektionssuspension, Bavarian Nordic Switzerland AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Encepur N Kinder"
   * ^designation[+].language = #fr-CH
@@ -148,7 +154,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Orochol"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Orochol"
+//685	01	Rabipur, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung in einer Fertigspritze	Bavarian Nordic Berna GmbH	B	14.09.2004	14.09.2004	unbegrenzt	J07BG01
 * #685 "Rabipur"
+  * ^definition = "Rabipur, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung in einer Fertigspritze, Bavarian Nordic Berna GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Rabipur"
   * ^designation[+].language = #fr-CH
@@ -181,7 +189,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Td-Virelon"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Td-Virelon"
+// 467	01	Vivotif, Kapseln	Bavarian Nordic Berna GmbH	B	09.12.1980	09.12.1980	unbegrenzt	J07AP01
 * #467 "Vivotif"
+  * ^definition = "Vivotif, Kapseln, Bavarian Nordic Berna GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Vivotif"
   * ^designation[+].language = #fr-CH
@@ -227,7 +237,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Ditanrix"
 //551	03	Engerix-B 10, Injektionssuspension	GlaxoSmithKline AG	B	04.10.1989	01.05.2002	30.09.2022	J07BC01
 * #551 "Engerix-B 10"
-  * ^definition = "Engerix-B 10, Injektionssuspension	GlaxoSmithKline AG"
+  * ^definition = "Engerix-B 10, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Engerix-B 10"
   * ^designation[+].language = #fr-CH
@@ -240,7 +250,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Engerix-B 10"
 //534	01	Engerix-B 20, Injektionssuspension	GlaxoSmithKline AG	B	03.12.1986	03.12.1986	31.03.2022	J07BC01
 * #534 "Engerix-B 20"
-  * ^definition = "Engerix-B 20, Injektionssuspension	GlaxoSmithKline AG"
+  * ^definition = "Engerix-B 20, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Engerix-B 20"
   * ^designation[+].language = #fr-CH
@@ -262,7 +272,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Fluarix"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Fluarix"
+//558	02	Havrix 1440, Injektionssuspension	GlaxoSmithKline AG	B	03.09.1993	03.09.1993	unbegrenzt	J07BC02
 * #558 "Havrix 1440"
+  * ^definition = "Havrix 1440, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Havrix 1440"
   * ^designation[+].language = #fr-CH
@@ -273,7 +285,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Havrix 1440"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Havrix 1440"
+//599	01	Havrix 720, Injektionssuspension	GlaxoSmithKline AG	B	30.09.1996	30.09.1996	unbegrenzt	J07BC02
 * #599 "Havrix 720"
+  * ^definition = "Havrix 720, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Havrix 720"
   * ^designation[+].language = #fr-CH
@@ -284,7 +298,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Havrix 720"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Havrix 720"
+// 603	01	Hiberix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung	GlaxoSmithKline AG	B	15.09.1997	15.09.1997	unbegrenzt	J07AG01
 * #603 "Hiberix"
+  * ^definition = "Hiberix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Hiberix"
   * ^designation[+].language = #fr-CH
@@ -295,7 +311,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Hiberix"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Hiberix"
+//638	01	Infanrix DTPa-IPV, Injektionssuspension	GlaxoSmithKline AG	B	20.08.1999	20.08.1999	unbegrenzt	J07CA02
 * #638 "Infanrix DTPa-IPV"
+  * ^definition = "Infanrix DTPa-IPV, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Infanrix DTPa-IPV"
   * ^designation[+].language = #fr-CH
@@ -306,7 +324,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Infanrix DTPa-IPV"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Infanrix DTPa-IPV"
+// 619	01	Infanrix DTPa-IPV+Hib, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	29.09.1998	29.09.1998	unbegrenzt	J07CA06
 * #619 "Infanrix DTPa-IPV+Hib"
+  * ^definition = "Infanrix DTPa-IPV+Hib, Pulver und Suspension zur Herstellung einer Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Infanrix DTPa-IPV+Hib"
   * ^designation[+].language = #fr-CH
@@ -317,7 +337,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Infanrix DTPa-IPV+Hib"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Infanrix DTPa-IPV+Hib"
+// 640	01	Infanrix hexa, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	02.10.2000	02.10.2000	unbegrenzt	J07CA09
 * #640 "Infanrix hexa"
+  * ^definition = "Infanrix hexa, Pulver und Suspension zur Herstellung einer Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Infanrix hexa"
   * ^designation[+].language = #fr-CH
@@ -352,7 +374,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Poliorix"
 //615	01	Priorix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung	GlaxoSmithKline AG	B	22.12.1998	22.12.1998	21.12.2023	J07BD52
 * #615 "Priorix"
-  * ^definition = "Priorix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung	GlaxoSmithKline AG	B	22.12.1998	22.12.1998	21.12.2023	J07BD52"
+  * ^definition = "Priorix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Priorix"
   * ^designation[+].language = #fr-CH
@@ -363,7 +385,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Priorix"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Priorix"
+// 592	01	Twinrix 720/20, Injektionssuspension	GlaxoSmithKline AG	B	12.12.1996	12.12.1996	unbegrenzt	J07BC20
 * #592 "Twinrix 720/20"
+  * ^definition = "Twinrix 720/20, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Twinrix 720/20"
   * ^designation[+].language = #fr-CH
@@ -374,7 +398,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Twinrix 720/20"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Twinrix 720/20"
+// 585	01	Varilrix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung	GlaxoSmithKline AG	B	19.12.1995	19.12.1998	unbegrenzt	J07BK01
 * #585 "Varilrix"
+  * ^definition = "Varilrix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Varilrix"
   * ^designation[+].language = #fr-CH
@@ -398,7 +424,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Gen H-B-Vax 10"
 //545	01	HBVAXPRO 40, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	18.04.1988	18.04.1988	unbegrenzt	J07BC01
 * #545 "HBVAXPRO 40"
-  * ^definition = "HBVAXPRO 40, Injektionssuspension MSD Merck Sharp & Dohme AG"
+  * ^definition = "HBVAXPRO 40, Injektionssuspension, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "HBVAXPRO 40"
   * ^designation[+].language = #fr-CH
@@ -422,7 +448,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Gen H-B-Vax 5"
 //663	01	HBVAXPRO 10, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	20.08.2002	20.08.2002	13.08.2022	J07BC01
 * #663 "HBVAXPRO 10"
-  * ^definition = "HBVAXPRO 10, Injektionssuspension MSD Merck Sharp & Dohme AG"
+  * ^definition = "HBVAXPRO 10, Injektionssuspension, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "HBVAXPRO 10"
   * ^designation[+].language = #fr-CH
@@ -466,7 +492,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Mutagrip"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Mutagrip"
+// 613	01	Pentavac, Poudre et suspension pour suspension injectable	Sanofi-Aventis (Suisse) SA	B	18.08.1999	18.08.1999	01.04.2026	J07CA06
 * #613 "Pentavac"
+  * ^definition = "Pentavac, Poudre et suspension pour suspension injectable, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Pentavac"
   * ^designation[+].language = #fr-CH
@@ -480,7 +508,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //65675	01	Pneumovax-23, Injektionslösung in einer Fertigspritze	MSD Merck Sharp & Dohme AG	B	26.02.2016	26.02.2016	unbegrenzt	J07AL01
 * #509 "Pneumovax-23"
-  * ^definition = "Pneumovax-23, Injektionslösung in einer Fertigspritze	MSD Merck Sharp & Dohme AG"
+  * ^definition = "Pneumovax-23, Injektionslösung in einer Fertigspritze, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Pneumovax-23"
   * ^designation[+].language = #fr-CH
@@ -491,7 +519,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Pneumovax-23"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Pneumovax-23"
+// 646	01	Revaxis, suspension injectable	Sanofi-Aventis (Suisse) SA	B	10.08.2000	10.08.2000	unbegrenzt	J07CA01
 * #646 "Revaxis"
+  * ^definition = "Revaxis, suspension injectable, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Revaxis"
   * ^designation[+].language = #fr-CH
@@ -502,7 +532,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Revaxis"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Revaxis"
+// 520	01	Stamaril, poudre et solvant pour suspension injectable	Sanofi-Aventis (Suisse) SA	A	27.09.1984	27.09.1984	unbegrenzt	J07BL01
 * #520 "Stamaril"
+  * ^definition = "Stamaril, poudre et solvant pour suspension injectable, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Stamaril"
   * ^designation[+].language = #fr-CH
@@ -513,7 +545,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Stamaril"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Stamaril"
+// 612	01	Tetravac, suspension injectable	Sanofi-Aventis (Suisse) SA	B	18.08.1999	18.08.1999	unbegrenzt	J07CA02
 * #612 "Tetravac"
+  * ^definition = "Tetravac, suspension injectable, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Tetravac"
   * ^designation[+].language = #fr-CH
@@ -525,7 +559,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Tetravac"
 
+//417	01	Tollwut Impfstoff Mérieux, Poudre et solvant pour suspension injectable	Sanofi-Aventis (Suisse) SA	B	24.10.1975	24.10.1975	unbegrenzt	J07BG01
 * #417 "Tollwut Impfstoff Mérieux"
+  * ^definition = "Tollwut Impfstoff Mérieux, Poudre et solvant pour suspension injectable, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Tollwut Impfstoff Mérieux"
   * ^designation[+].language = #fr-CH
@@ -536,7 +572,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Frenesia vaccin Mérieux"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Rage vaccine Mérieux"
+// 688	01	Varivax, Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension	MSD Merck Sharp & Dohme AG	B	18.02.2005	18.02.2005	unbegrenzt	J07BK01
 * #688 "Varivax"
+  * ^definition = "Varivax, Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Varivax"
   * ^designation[+].language = #fr-CH
@@ -699,7 +737,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Zostavax"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Zostavax"
+// 615	01	Priorix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung	GlaxoSmithKline AG	B	22.12.1998	22.12.1998	unbegrenzt	J07BD52
 * #58158 "Priorix-Tetra"
+  * ^definition = "Priorix, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Priorix-Tetra"
   * ^designation[+].language = #fr-CH
@@ -732,7 +772,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Fluad"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Fluad"
+// 60150	01	Rotarix liquid, orale Suspension	GlaxoSmithKline AG	B	14.05.2009	13.05.2009	unbegrenzt	J07BH01
 * #60150 "Rotarix"
+  * ^definition = "Rotarix liquid, orale Suspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Rotarix"
   * ^designation[+].language = #fr-CH
@@ -743,9 +785,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Rotarix"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Rotarix"
-//703	01	M-M-RVAXPRO, Lyophilisat und Lösungsmittel	MSD Merck Sharp & Dohme AG	B	13.02.2007	13.02.2007	unbegrenzt	J07BD52
+//703	01	M-M-RVAXPRO, Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension	MSD Merck Sharp & Dohme AG	B	13.02.2007	13.02.2007	unbegrenzt	J07BD52
 * #703 "M-M-RVAXPRO"
-  * ^definition = "M-M-RVAXPRO, Lyophilisat und Lösungsmittel	MSD Merck Sharp & Dohme AG"
+  * ^definition = "M-M-RVAXPRO, Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "MMRVaxPro"
   * ^designation[+].language = #fr-CH
@@ -803,7 +845,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //60129	01	Prevenar 13, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	12.08.2010	12.08.2010	unbegrenzt	J07AL02
 * #60129 "Prevenar 13"
-  * ^definition = "Prevenar 13, Injektionssuspension in einer Fertigspritze	Pfizer AG"
+  * ^definition = "Prevenar 13, Injektionssuspension in einer Fertigspritze, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Prevenar 13"
   * ^designation[+].language = #fr-CH
@@ -814,7 +856,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Prevenar 13"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Prevenar 13"
+// 59147	01	IXIARO, Injektionssuspension	Future Health Pharma GmbH	B	06.05.2010	06.05.2010	unbegrenzt	J07BA02
 * #59147 "Ixiaro"
+  * ^definition = "IXIARO, Injektionssuspension, Future Health Pharma GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Ixiaro"
   * ^designation[+].language = #fr-CH
@@ -825,7 +869,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Ixiaro"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Ixiaro"
+// 62502	01	Menveo, Pulver und Lösung (Durchstechflaschen)	GlaxoSmithKline AG	B	30.11.2011	30.11.2011	unbegrenzt	J07AH08
 * #62502 "Menveo"
+  * ^definition = "Menveo, Pulver und Lösung (Durchstechflaschen), GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Menveo"
   * ^designation[+].language = #fr-CH
@@ -870,7 +916,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Te Anatoxal N"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Te Anatoxal N"
+// 62961	12	Fluarix Tetra 15 µg / 0.5 ml, Injektionssuspension	GlaxoSmithKline AG	B	28.05.2014	26.07.2025	unbegrenzt	J07BB02
 * #62961 "Fluarix Tetra"
+  * ^definition = "Fluarix Tetra 15 µg / 0.5 ml, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Fluarix Tetra"
   * ^designation[+].language = #fr-CH
@@ -907,7 +955,9 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "ProQuad"
 
-* #65387 "Gardasil 9"
+// 65728	01	Gardasil 9, Injektionssuspension in Durchstechflasche	MSD Merck Sharp & Dohme AG	B	29.07.2016	29.07.2016	unbegrenzt	J07BM03
+* #65728 "Gardasil 9 (Durchstechflasche)"
+  * ^definition = "Gardasil 9, Injektionssuspension in Durchstechflasche, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Gardasil 9"
   * ^designation[+].language = #fr-CH
@@ -918,8 +968,22 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Gardasil 9"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Gardasil 9"
-
+// 65387	01	Gardasil 9, Injektionssuspension in Fertigspritze	MSD Merck Sharp & Dohme AG	B	29.07.2016	29.07.2016	unbegrenzt	J07BM03
+* #65387 "Gardasil 9 (Fertigspritze)"
+  * ^definition = "Gardasil 9, Injektionssuspension in Fertigspritze,	MSD Merck Sharp & Dohme AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Gardasil 9"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Gardasil 9"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Gardasil 9"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Gardasil 9"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Gardasil 9"
+//66940	01	Vaxelis 0.5 ml, Injektionssuspension	Future Health Pharma GmbH	B	28.08.2019	28.08.2019	unbegrenzt	J07CA09
 * #66940 "Vaxelis"
+  * ^definition = "Vaxelis 0.5 ml, Injektionssuspension, Future Health Pharma GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Vaxelis"
   * ^designation[+].language = #fr-CH
@@ -933,7 +997,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //65730	01	Bexsero, Injektionssuspension	GlaxoSmithKline AG	B	23.11.2017	23.11.2017	22.11.2022	J07AH09
 * #65730 "Bexsero"
-  * ^definition = "Bexsero, Injektionssuspension GlaxoSmithKline AG"
+  * ^definition = "Bexsero, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Bexsero"
   * ^designation[+].language = #fr-CH
@@ -946,8 +1010,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Bexsero"
 
 //68087	02	Influvac Tetra 0.5 ml, Injektionssuspension	Mylan Pharma GmbH	B	28.10.2020	19.08.2021	27.10.2025	J07BB02
-* #68087 "Influvac Tetra"
-  * ^definition = "Influvac Tetra 0.5 ml, Injektionssuspension Mylan Pharma GmbH"
+* #68087 "Influvac Tetra 0.5 ml"
+  * ^definition = "Influvac Tetra 0.5 ml, Injektionssuspension, Mylan Pharma GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Influvac Tetra"
   * ^designation[+].language = #fr-CH
@@ -961,7 +1025,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //66427	05	VaxigripTetra, Suspension pour injection dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	12.06.2018	11.08.2021	11.06.2023	J07BB02
 * #66427 "VaxigripTetra"
-  * ^definition = "VaxigripTetra, Suspension pour injection dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+  * ^definition = "VaxigripTetra, Suspension pour injection dans une seringue pré-remplie, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "VaxigripTetra"
   * ^designation[+].language = #fr-CH
@@ -975,7 +1039,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 68267	01	Spikevax, Injektionsdispersion	Moderna Switzerland GmbH	B	12.01.2021	12.01.2021	11.01.2023	J07B
 * #68267 "Spikevax (COVID-19 Vaccine, Moderna)"
-  * ^definition = "Spikevax, Injektionsdispersion	Moderna Switzerland GmbH"
+  * ^definition = "Spikevax, Injektionsdispersion, Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
   * ^designation[+].language = #fr-CH
@@ -989,7 +1053,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 68225	01	Comirnaty, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	19.12.2020	19.12.2020	18.12.2022	J07BX
 * #68225 "Comirnaty (COVID-19 Vaccine, Pfizer)"
-  * ^definition = "Comirnaty, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG"
+  * ^definition = "Comirnaty, Konzentrat zur Herstellung einer Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
   * ^designation[+].language = #fr-CH
@@ -1003,7 +1067,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //68235	01	COVID-19 Vaccine Janssen, Injektionssuspension	Janssen-Cilag AG	B	22.03.2021	22.03.2021	21.03.2023	J07BX
 * #68235 "COVID-19 Vaccine Janssen"
-  * ^definition = "COVID-19 Vaccine Janssen, Injektionssuspension	Janssen-Cilag AG"
+  * ^definition = "COVID-19 Vaccine Janssen, Injektionssuspension, Janssen-Cilag AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "COVID-19 Vaccine Janssen"
   * ^designation[+].language = #fr-CH
@@ -1018,7 +1082,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 //67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
 // added 2021-11-19
 * #67482 "Flucelvax Tetra"
-  * ^definition = "Flucelvax Tetra, Injektionssuspension	Medius AG"
+  * ^definition = "Flucelvax Tetra, Injektionssuspension, Medius AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Flucelvax Tetra"
   * ^designation[+].language = #fr-CH
@@ -1033,7 +1097,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 //67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
 // added 2021-11-19
 * #67704 "Efluelda 0.7 ml"
-  * ^definition = "Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA"
+  * ^definition = "Efluelda 0.7 ml, suspension injectable en seringue préremplie, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Efluelda 0.7 ml"
   * ^designation[+].language = #fr-CH
@@ -1048,7 +1112,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 //67987	01	Shingrix, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	07.10.2021	07.10.2021	06.10.2026	J07BK03
 // added 2021-11-19
 * #67987 "Shingrix"
-  * ^definition = "Shingrix, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG"
+  * ^definition = "Shingrix, Pulver und Suspension zur Herstellung einer Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Shingrix"
   * ^designation[+].language = #fr-CH
@@ -1063,7 +1127,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 // 68003	01	Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	28.10.2021	28.10.2021	27.10.2026	J07BB02
 // added 2021-11-19
 * #68003 "Supemtek 0.5 ml"
-  * ^definition = "Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+  * ^definition = "Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Supemtek 0.5 ml"
   * ^designation[+].language = #fr-CH
@@ -1078,7 +1142,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 //66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
 // added 2021-11-19
 * #66161 "Foclivia (Durchstechflasche)"
-  * ^definition = "Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH"
+  * ^definition = "Foclivia, Injektionssuspension in einer Durchstechflasche, Emergent BioSolutions Berna GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Foclivia (Durchstechflasche)"
   * ^designation[+].language = #fr-CH
@@ -1093,7 +1157,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 //66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
 // added 2021-11-19
 * #66156 "Foclivia (Fertigspritze)"
-  * ^definition = "Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH"
+  * ^definition = "Foclivia, Injektionssuspension in einer Fertigspritze, Emergent BioSolutions Berna GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Foclivia (Fertigspritze)"
   * ^designation[+].language = #fr-CH
@@ -1108,8 +1172,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //68473	01	Nuvaxovid 0.5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	20.09.2028	J07BX03
 // added 2021-11-19
-* #68473 "Nuvaxovid 0.5 ml, Injektionsdispersion"
-  * ^definition = "Nuvaxovid 0.5 ml, Injektionsdispersion,	Future Health Pharma GmbH"
+* #68473 "Nuvaxovid 0.5 ml"
+  * ^definition = "Nuvaxovid 0.5 ml, Injektionsdispersion, Future Health Pharma GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Nuvaxovid 0.5 ml"
   * ^designation[+].language = #fr-CH
@@ -1125,7 +1189,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 // added data by list of 20221031 from Swissmedic
 //68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
 // added 2022-11-03
-* #68358 "Ervebo, Injektionslösung"
+* #68358 "Ervebo"
   * ^definition = "Ervebo, Injektionslösung, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Ervebo"
@@ -1263,7 +1327,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69123	01	Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze	Moderna Switzerland GmbH	B	11.11.2022	11.11.2022	25.08.2024	J07BX03
 // added 2023-02-21
-* #69123 "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* #69123 "Spikevax Bivalent Original / Omicron 10 mg/ml"
   * ^definition = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze, Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
@@ -1279,7 +1343,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
 // added 2023-02-21
-* #69010 "Spikevax, Fertigspritze"
+* #69010 "Spikevax"
   * ^definition = "Spikevax, Fertigspritze,	Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax, Fertigspritze"
@@ -1325,7 +1389,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
 // added 2023-05-19
-* #69189 "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* #69189 "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^definition = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection,	Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5"
@@ -1340,7 +1404,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
 // added 2023-05-19
-* #69211 "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* #69211 "Spikevax Bivalent Original / Omicron BA.4-5"
   * ^definition = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze,	Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
@@ -1355,7 +1419,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
 // added 2023-05-19
-* #68752 "Vaxneuvance, Injektionssuspension"
+* #68752 "Vaxneuvance"
   * ^definition = "Vaxneuvance, Injektionssuspension,	MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Vaxneuvance"
@@ -1370,7 +1434,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
-* #69465 "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69465 "Spikevax XBB.1.5 0.10 mg/ml"
   * ^definition = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
@@ -1385,7 +1449,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
-* #69484 "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69484 "Spikevax XBB.1.5 0.10 mg/ml"
   * ^definition = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml"
@@ -1400,7 +1464,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
 // added 2023-10-10
-* #69488 "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* #69488 "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
   * ^definition = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
@@ -1416,8 +1480,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69310	01	AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	02.05.2024	02.05.2024	01.05.2029	J07BX05	X	X	X
 // added 2024-06-13
-* #69310 "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG"
-  * ^definition = "AREXVY"
+* #69310 "AREXVY"
+  * ^definition = "AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "AREXVY"
   * ^designation[+].language = #fr-CH
@@ -1431,7 +1495,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69173	01	Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG	B	01.03.2024	01.03.2024	28.02.2029	J07BX	X		X	X
 // added 2024-06-13
-* #69173 "Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG"
+* #69173 "Jynneos"
   * ^definition = "Jynneos"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Jynneos"
@@ -1446,8 +1510,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69222	01	Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	26.03.2024	26.03.2024	25.03.2029	J07AL02	X		X	X
 // added 2024-06-13
-* #69222 "Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG"
-  * ^definition = "Prevenar 20"
+* #69222 "Prevenar 20"
+  * ^definition = "Prevenar 20, Injektionssuspension in einer Fertigspritze, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Prevenar 20"
   * ^designation[+].language = #fr-CH
@@ -1461,7 +1525,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69815	01	Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	26.06.2024	26.06.2024	25.06.2029	J07BN01	X		X	X
 // added 2024-08-09
-* #69815 "Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG"
+* #69815 "Comirnaty Omicron XBB.1.5, 0.042 mg"
   * ^definition = "Comirnaty Omicron XBB.1.5, 0.042 mg"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty Omicron XBB.1.5, 0.042 mg"
@@ -1476,8 +1540,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69403	01	Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG	B	29.07.2024	29.07.2024	28.07.2029	J07BX04	X		X	X
 // added 2024-08-09
-* #69403 "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG"
-  * ^definition = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung"
+* #69403 "Qdenga 0.5 ml"
+  * ^definition = "Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung, Takeda Pharma AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Qdenga 0.5 ml"
   * ^designation[+].language = #fr-CH
@@ -1491,7 +1555,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 // 69913 	01 	Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze 	Pfizer AG 	B 	12.08.2024 	12.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* #69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+* #69913 "Comirnaty JN.1 0.042 mg"
   * ^definition = "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
@@ -1505,7 +1569,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Comirnaty JN.1 0.042 mg"
 // 69912 	01 	Comirnaty JN.1 30 µg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* #69912-01 "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
+* #69912-01 "Comirnaty JN.1 30 µg"
   * ^definition = "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 30 µg"
@@ -1519,7 +1583,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Comirnaty JN.1 30 µg"
 // 69912 	02 	Comirnaty JN.1 10 µg, Injektionsdispersion 	Pfizer AG 	B 	12.08.2024 	21.08.2024 	11.08.2029 	J07BN01
 // added 2024-10-17
-* #69912-02 "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
+* #69912-02 "Comirnaty JN.1 10 µg"
   * ^definition = "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty JN.1 10 µg"
@@ -1533,8 +1597,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Comirnaty JN.1 10 µg"
 // 69691 	01 	Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung 	Pfizer AG 	B 	23.08.2024 	23.08.2024 	22.08.2029 	J07BX
 // added 2024-10-17
-* #69691 "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
-  * ^definition = "Abrysvo, Pulver und Lösungsmittel zur Herstellung einer Injektionslösung, Pfizer AG"
+* #69691 "Abrysvo"
+  * ^definition = "Abrysvo"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Abrysvo"
   * ^designation[+].language = #fr-CH
@@ -1547,7 +1611,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Abrysvo"
 // 69788 	01 	Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion 	Moderna Switzerland GmbH 	B 	09.09.2024 	09.09.2024 	08.09.2029 	J07BX
 // added 2024-10-17
-* #69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
+* #69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
   * ^definition = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml, Dispersion zur Injektion, Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
@@ -1561,8 +1625,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
 //69863	01	Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	07.04.2025	07.04.2025	06.04.2030	J07BB02	X		X	X
 //added 2025-05-15
-* #69863-01 "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
-  * ^definition = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* #69863-01 "Efluelda TIV 0.5 mL"
+  * ^definition = "Efluelda TIV 0.5 mL, suspension injectable en seringue pré-remplie, Sanofi-Aventis (Suisse) SA"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Efluelda TIV 0.5 mL"
   * ^designation[+].language = #fr-CH
@@ -1575,8 +1639,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Efluelda TIV 0.5 mL"
 //69995	01	mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH	B	17.04.2025	17.04.2025	16.04.2030	J07BX	X		X	X
 //added 2025-05-15
-* #69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
-  * ^definition = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion	Moderna Switzerland GmbH"
+* #69995-01 "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+  * ^definition = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml, Injektionsdispersion, Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
   * ^designation[+].language = #fr-CH
@@ -1590,7 +1654,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //70205	01	Spikevax LP.8.1	Moderna Switzerland GmbH	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70205 "Spikevax LP.8.1 Moderna Switzerland GmbH"
+* #70205 "Spikevax LP.8.1"
+  * ^definition = "Spikevax LP.8.1, Moderna Switzerland GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Spikevax LP.8.1"
   * ^designation[+].language = #fr-CH
@@ -1604,7 +1669,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //70400	01	Comirnaty LP.8.1 10 µg, Injektionsdispersion	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70400 "Comirnaty LP.8.1 10 µg, Injektionsdispersion Pfizer AG"
+* #70400 "Comirnaty LP.8.1 10 μg"
+  * ^definition = "Comirnaty LP.8.1 10 μg, Injektionsdispersion, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 10 µg"
   * ^designation[+].language = #fr-CH
@@ -1618,7 +1684,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //70403	01	Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	06.08.2025	06.08.2025	05.08.2030	J07BN01
 // added 2025-09-26
-* #70403 "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze Pfizer AG'"
+* #70403 "Comirnaty LP.8.1 30 Mikrogramm"
+  * ^definition = "Comirnaty LP.8.1 30 Mikrogramm, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Comirnaty LP.8.1 30 µg"
   * ^designation[+].language = #fr-CH
@@ -1632,7 +1699,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
 // added 2025-11-21
-* #69781 "Capvaxive, Injektionslösung in Fertigspritze MSD Merck Sharp & Dohme AG"
+* #69781 "Capvaxive"
+  * ^definition = "Capvaxive, Injektionslösung in Fertigspritze, MSD Merck Sharp & Dohme AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Capvaxive"
   * ^designation[+].language = #fr-CH
@@ -1646,7 +1714,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
 // added 2025-11-21
-* #70042 "Fluarix, Injektionssuspension GlaxoSmithKline AG"
+* #70042 "Fluarix"
+  * ^definition = "Fluarix, Injektionssuspension, GlaxoSmithKline AG"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Fluarix"
   * ^designation[+].language = #fr-CH
@@ -1660,7 +1729,8 @@ Description: "The vaccines Swissmedic has given an autorization number."
 
 //69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
 // added 2025-11-21
-* #69992 "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze Viatris Pharma GmbH"
+* #69992 "Influvac 0.5 ml"
+  * ^definition = "Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze, Viatris Pharma GmbH"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Influvac 0.5 ml"
   * ^designation[+].language = #fr-CH
