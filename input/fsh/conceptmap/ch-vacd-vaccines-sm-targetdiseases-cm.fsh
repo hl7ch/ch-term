@@ -1,0 +1,1033 @@
+Instance: ch-vacd-vaccines-sm-targetdiseases-cm
+InstanceOf: ConceptMap
+Usage: #definition
+* url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sm-targetdiseases-cm"
+* name = "SwissmedicToTargetDiseaseMapping"
+* title = "Swissmedic vaccine codes To TargetDisease Mapping"
+* description = "ConceptMap for mapping Swissmedic vaccine codes to TargetDisease according to the correcsponding valuesets"
+* status = #active
+* publisher = "eHealth Suisse"
+* contact.name = "eHealth Suisse"
+* contact.telecom.system = #url
+* contact.telecom.value = "https://www.e-health-suisse.ch/"
+* copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+* experimental = false
+* sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-vaccines-vs"
+* targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs"
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+// vaccines with swiss medic number                                                       ///
+// //////////////////////////////////////////////////////////////////////////////////////////
+* group[0].id = "SwissmedicToTargetdisease"
+* group[=].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
+* group[=].target = "http://snomed.info/sct"
+* group[=].element[0].code = #683
+* group[=].element[=].display = "FSME-Immun 0.25 ml Junior"
+* group[=].element[=].target[+].code = #712986001
+* group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #450
+* group[=].element[=].display = "FSME-Immun CC"
+* group[=].element[=].target[+].code = #712986001
+* group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #656
+* group[=].element[=].display = "NeisVac-C"
+* group[=].element[=].target[+].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #627
+* group[=].element[=].display = "Encepur N"
+* group[=].element[=].target[+].code = #712986001
+* group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #628
+* group[=].element[=].display = "Encepur N Kinder / Enfants"
+* group[=].element[=].target[+].code = #712986001
+* group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #572
+* group[=].element[=].display = "Epaxal"
+* group[=].element[=].target[+].code = #40468003
+* group[=].element[=].target[=].display = "Viral hepatitis, type A (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #544
+* group[=].element[=].display = "Heprecomb"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #642
+* group[=].element[=].display = "Heprecomb Kinder"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #614
+* group[=].element[=].display = "Inflexal V"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #657
+* group[=].element[=].display = "Menjugate"
+* group[=].element[=].target[+].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #533
+* group[=].element[=].display = "Moraten"
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #555
+* group[=].element[=].display = "Orochol"
+* group[=].element[=].target[+].code = #63650001
+* group[=].element[=].target[=].display = "Cholera (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #685
+* group[=].element[=].display = "Rabipur"
+* group[=].element[=].target[+].code = #14168008
+* group[=].element[=].target[=].display = "Rabies (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #702
+* group[=].element[=].display = "Td-pur"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #686
+* group[=].element[=].display = "Td-Virelon"
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #467
+* group[=].element[=].display = "Vivotif"
+* group[=].element[=].target[+].code = #4834000
+* group[=].element[=].target[=].display = "Typhoid fever (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #637
+* group[=].element[=].display = "Boostrix"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #681
+* group[=].element[=].display = "Boostrix Polio"
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #567
+* group[=].element[=].display = "Ditanrix"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #551
+* group[=].element[=].display = "Engerix-B 10"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #534
+* group[=].element[=].display = "Engerix-B 20"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #583
+* group[=].element[=].display = "Fluarix"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #558
+* group[=].element[=].display = "Havrix 1440"
+* group[=].element[=].target[+].code = #40468003
+* group[=].element[=].target[=].display = "Viral hepatitis, type A (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #599
+* group[=].element[=].display = "Havrix 720"
+* group[=].element[=].target[+].code = #40468003
+* group[=].element[=].target[=].display = "Viral hepatitis, type A (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #603
+* group[=].element[=].display = "Hiberix"
+* group[=].element[=].target[+].code = #709410003
+* group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #638
+* group[=].element[=].display = "Infanrix DTPa-IPV"
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #619
+* group[=].element[=].display = "Infanrix DTPa-IPV+Hib"
+* group[=].element[=].target[+].code = #709410003
+* group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #640
+* group[=].element[=].display = "Infanrix hexa"
+* group[=].element[=].target[+].code = #709410003
+* group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #652
+* group[=].element[=].display = "Mencevax ACWY"
+* group[=].element[=].target[+].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #860805006
+* group[=].element[=].target[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+* group[=].element[+].code = #669
+* group[=].element[=].display = "Poliorix"
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #615
+* group[=].element[=].display = "Priorix"
+* group[=].element[=].target[+].code = #36653000
+* group[=].element[=].target[=].display = "Rubella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #36989005
+* group[=].element[=].target[=].display = "Mumps (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #592
+* group[=].element[=].display = "Twinrix 720/20"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #40468003
+* group[=].element[=].target[=].display = "Viral hepatitis, type A (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #585
+* group[=].element[=].display = "Varilrix"
+* group[=].element[=].target[+].code = #38907003
+* group[=].element[=].target[=].display = "Varicella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #528
+* group[=].element[=].display = "Gen H-B-Vax 10"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #545
+* group[=].element[=].display = "HBVAXPRO 40"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #610
+* group[=].element[=].display = "Gen H-B-Vax 5"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #663
+* group[=].element[=].display = "HBVAXPRO 10"
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #268
+* group[=].element[=].display = "MMR-II"
+* group[=].element[=].target[+].code = #36653000
+* group[=].element[=].target[=].display = "Rubella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #36989005
+* group[=].element[=].target[=].display = "Mumps (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #247
+* group[=].element[=].display = "Mumpsvax"
+* group[=].element[=].target[+].code = #36989005
+* group[=].element[=].target[=].display = "Mumps (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #373
+* group[=].element[=].display = "Mutagrip"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #613
+* group[=].element[=].display = "Pentavac"
+* group[=].element[=].target[+].code = #709410003
+* group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #509
+* group[=].element[=].display = "Pneumovax-23"
+* group[=].element[=].target[+].code = #16814004
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #646
+* group[=].element[=].display = "Revaxis"
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #520
+* group[=].element[=].display = "Stamaril"
+* group[=].element[=].target[+].code = #16541001
+* group[=].element[=].target[=].display = "Yellow fever (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #612
+* group[=].element[=].display = "Tetravac"
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #417
+* group[=].element[=].display = "Tollwut Impfstoff Mérieux"
+* group[=].element[=].target[+].code = #14168008
+* group[=].element[=].target[=].display = "Rabies (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #688
+* group[=].element[=].display = "Varivax"
+* group[=].element[=].target[+].code = #38907003
+* group[=].element[=].target[=].display = "Varicella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #485
+* group[=].element[=].display = "Influvac"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #660
+* group[=].element[=].display = "Influvac plus"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #654
+* group[=].element[=].display = "Meningitec"
+* group[=].element[=].target[+].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #643
+* group[=].element[=].display = "Prevenar-7"
+* group[=].element[=].target[+].code = #16814004
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #644
+* group[=].element[=].display = "Hexavac"
+* group[=].element[=].target[+].code = #709410003
+* group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+* group[=].element[+].code = #711
+* group[=].element[=].display = "DiTe pediatric adsorbed"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+* group[=].element[+].code = #711-01
+* group[=].element[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+* group[=].element[+].code = #711-02
+* group[=].element[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+* group[=].element[+].code = #704
+* group[=].element[=].display = "Dukoral"
+* group[=].element[=].target[+].code = #63650001
+* group[=].element[=].target[=].display = "Cholera (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #483
+* group[=].element[=].display = "Rimevax"
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #707
+* group[=].element[=].display = "Tetanol pur"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #57735
+* group[=].element[=].display = "Gardasil"
+* group[=].element[=].target[+].code = #240532009
+* group[=].element[=].target[=].display = "Human papillomavirus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #709
+* group[=].element[=].display = "Zostavax"
+* group[=].element[=].target[+].code = #4740000
+* group[=].element[=].target[=].display = "Herpes zoster (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #58158
+* group[=].element[=].display = "Priorix-Tetra"
+* group[=].element[=].target[+].code = #38907003
+* group[=].element[=].target[=].display = "Varicella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #36653000
+* group[=].element[=].target[=].display = "Rubella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #36989005
+* group[=].element[=].target[=].display = "Mumps (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #696
+* group[=].element[=].display = "BCG SSI"
+* group[=].element[=].target[+].code = #56717001
+* group[=].element[=].target[=].display = "Tuberculosis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #58317
+* group[=].element[=].display = "Fluad"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #60150
+* group[=].element[=].display = "Rotarix"
+* group[=].element[=].target[+].code = #18624000
+* group[=].element[=].target[=].display = "Disease caused by Rotavirus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #703
+* group[=].element[=].display = "MMRVaxPro"
+* group[=].element[=].target[+].code = #36653000
+* group[=].element[=].target[=].display = "Rubella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #36989005
+* group[=].element[=].target[=].display = "Mumps (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #58506
+* group[=].element[=].display = "Measles vaccine live"
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #59267
+* group[=].element[=].display = "Agrippal"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #58271
+* group[=].element[=].display = "Optaflu"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #57814
+* group[=].element[=].display = "Cervarix"
+* group[=].element[=].target[+].code = #240532009
+* group[=].element[=].target[=].display = "Human papillomavirus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #60129
+* group[=].element[=].display = "Prevenar 13"
+* group[=].element[=].target[+].code = #16814004
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #59147
+* group[=].element[=].display = "Ixiaro"
+* group[=].element[=].target[+].code = #52947006
+* group[=].element[=].target[=].display = "Japanese encephalitis virus disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #62502
+* group[=].element[=].display = "Menveo"
+* group[=].element[=].target[+].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #600
+* group[=].element[=].display = "DiTe Anatoxal Erwachsene / Adultes"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #690
+* group[=].element[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #689
+* group[=].element[=].display = "Te Anatoxal N"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #62961
+* group[=].element[=].display = "Fluarix Tetra"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+* group[=].element[+].code = #68267
+* group[=].element[=].display = "Spikevax (COVID-19 Vaccine, Moderna)"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #68225
+* group[=].element[=].display = "Comirnaty (COVID-19 Vaccine, Pfizer)"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2021-11-19
+* group[=].element[+].code = #68235
+* group[=].element[=].display = "COVID-19 Vaccine Janssen"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2021-11-19
+* group[=].element[+].code = #67987
+* group[=].element[=].display = "Shingrix"
+* group[=].element[=].target[+].code = #4740000
+* group[=].element[=].target[=].display = "Herpes zoster (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// TODO
+//67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #67482
+* group[=].element[=].display = "Flucelvax Tetra"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #67704
+* group[=].element[=].display = "Efluelda 0.7 ml"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// 68003	01	Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	28.10.2021	28.10.2021	27.10.2026	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #68003
+* group[=].element[=].display = "Supemtek 0.5 ml"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #66161
+* group[=].element[=].display = "Foclivia (Durchstechflasche)"
+* group[=].element[=].target[+].code = #719865001
+* group[=].element[=].target[=].display = "Influenza caused by pandemic influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #66156
+* group[=].element[=].display = "Foclivia (Fertigspritze)"
+* group[=].element[=].target[+].code = #719865001
+* group[=].element[=].target[=].display = "Influenza caused by pandemic influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68473	01	Nuvaxovid 0.5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	20.09.2028	J07BX03
+// added 2022-06-08
+* group[=].element[+].code = #68473
+* group[=].element[=].display = "Nuvaxovid 0.5 ml"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
+// added 2022-11-03
+* group[=].element[+].code = #68358
+* group[=].element[=].display = "Ervebo"
+* group[=].element[=].target[+].code = #37109004
+* group[=].element[=].target[=].display = "Ebola virus disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68710	01	Comirnaty® 30 Mikrogramm/Dosis, gebrauchsfertige Injektionsdispersion  für Personen ab 12  Jahren	Pfizer AG	B	12/10/2021	12/10/2021	12/18/2022	J07BX
+// added 2022-11-03
+* group[=].element[+].code = #68710-01
+* group[=].element[=].display = "Comirnaty® 30 Mikrogramm/Dosis"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//68710	02	Comirnaty® 10 Mikrogramm/Dosis, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	12/10/2021	12/10/2021	12/18/2022	J07BX
+// added 2022-11-03
+* group[=].element[+].code = #68710-02
+* group[=].element[=].display = "Comirnaty® 10 Mikrogramm/Dosis"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68710	03	Comirnaty 3 Mikrogramm/Dosis Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	10.12.2021	04.09.2023	16.03.2028	J07BN01
+// added 2023-10-10
+* group[=].element[+].code = #68710-03
+* group[=].element[=].display = "Comirnaty® 3 Mikrogramm/Dosis"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68462	01	Fluenz Tetra, Nasenspray, Suspension	AstraZeneca AG	B	5/11/2022	5/11/2022	5/10/2027	J07BB03
+// added 2022-11-03
+* group[=].element[+].code = #68462
+* group[=].element[=].display = "Fluenz Tetra"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69009	01	Spikevax Bivalent Original / Omicron	Moderna Switzerland GmbH	B	8/26/2022	8/26/2022	8/25/2024	J07B
+// added 2022-11-03
+* group[=].element[+].code = #69009
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68110	01	Adacel-Polio 0.5 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	8/26/2022	8/26/2022	8/25/2027	J07CA02
+// added 2022-11-03
+* group[=].element[+].code = #68110
+* group[=].element[=].display = "Adacel-Polio 0.5 ml"
+* group[=].element[=].target[+].code = #398102009
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//68317	01	Adacel 0.5 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	8/26/2022	8/26/2022	8/25/2027	J07AJ52
+// added 2022-11-03
+* group[=].element[+].code = #68317
+* group[=].element[=].display = "Adacel 0.5 ml"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68221	01	MenQuadfi, solution injectable	Sanofi-Aventis (Suisse) SA	B	10/5/2022	10/5/2022	10/4/2027	J07AH08
+// added 2022-11-03
+* group[=].element[+].code = #68221
+* group[=].element[=].display = "MenQuadfi"
+* group[=].element[=].target[+].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #860805006
+* group[=].element[=].target[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//66427	05	VaxigripTetra, Suspension pour injection dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	12.06.2018	11.08.2021	11.06.2023	J07BB02
+// added 2022-12-01
+* group[=].element[+].code = #66427
+* group[=].element[=].display = "VaxigripTetra"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2022-12-01
+* group[=].element[+].code = #65387
+* group[=].element[=].display = "Gardasil 9 (Fertigspritze)"
+* group[=].element[=].target[+].code = #240532009
+* group[=].element[=].target[=].display = "Human papillomavirus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2026-03-17
+* group[=].element[+].code = #65728
+* group[=].element[=].display = "Gardasil 9 (Durchstechflasche)"
+* group[=].element[=].target[+].code = #240532009
+* group[=].element[=].target[=].display = "Human papillomavirus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2022-12-01
+* group[=].element[+].code = #66940
+* group[=].element[=].display = "Vaxelis"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #398102009	
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003	
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #709410003
+* group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2024-02-15, issue 208
+* group[=].element[+].code = #65730	
+* group[=].element[=].display = "Bexsero"
+* group[=].element[=].target[+].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2022-12-01
+* group[=].element[+].code = #68087	
+* group[=].element[=].display = "Influvac Tetra"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2022-12-01
+* group[=].element[+].code = #66037
+* group[=].element[=].display = "Menjugate liquid"
+* group[=].element[=].target[+].code = #860805006
+* group[=].element[=].target[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+// added 2022-12-01
+* group[=].element[+].code = #699
+* group[=].element[=].display = "ProQuad"
+* group[=].element[=].target[+].code = #36653000
+* group[=].element[=].target[=].display = "Rubella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #36989005
+* group[=].element[=].target[=].display = "Mumps (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #38907003	
+* group[=].element[=].target[=].display = "Varicella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//69123	01	Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze	Moderna Switzerland GmbH	B	11.11.2022	11.11.2022	25.08.2024	J07BX03
+// added 2023-02-21
+* group[=].element[+].code = #69123
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
+// added 2023-02-21
+* group[=].element[+].code = #69010
+* group[=].element[=].display = "Spikevax, Fertigspritze"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69047	01	Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren	Pfizer AG	B	10.10.2022	10.10.2022	09.10.2024	J07BX03
+// added 2023-02-21
+* group[=].element[+].code = #69047
+* group[=].element[=].display = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//69127	01	Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion	Pfizer AG	B	06.04.2023	06.04.2023	05.04.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69127
+* group[=].element[=].display = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69189
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron BA.4-5"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69211
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
+// added 2023-05-19
+* group[=].element[+].code = #68752
+* group[=].element[=].display = "Vaxneuvance"
+* group[=].element[=].target[+].code = #16814004
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[+].code = #69465
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[+].code = #69484
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
+// added 2023-10-10
+* group[=].element[+].code = #69488
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|'AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69310|AREXVY, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #69310
+* group[=].element[=].display = "AREXVY"
+* group[=].element[=].target[+].code = #55735004 
+* group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69173|'Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69173|Jynneos, Injektionssuspension	Bavarian Nordic Switzerland AG' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #69173
+* group[=].element[=].display = "Jynneos"
+* group[=].element[=].target[+].code = #359814004
+* group[=].element[=].target[=].display = "Monkeypox (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #67924001
+* group[=].element[=].target[=].display = "Smallpox (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|'Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG': The source code 'http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69222|Prevenar 20, Injektionssuspension in einer Fertigspritze	Pfizer AG' is defined in the valueset but not in the conceptmap.
+* group[=].element[+].code = #69222
+* group[=].element[=].display = "Prevenar 20"
+* group[=].element[=].target[+].code = #16814004 
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69815|'Comirnaty Omicron XBB.1.5, 0.042 mg, Injektionsdispersion in einer Fertigspritze	Pfizer AG'
+* group[=].element[+].code = #69815
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5, 0.042 mg"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69403|'Qdenga 0.5 ml, Pulver und Lösungsmittel für eine Injektionslösung in einer vorgefüllten Spritze	Takeda Pharma AG'
+* group[=].element[+].code = #69403
+* group[=].element[=].display = "Qdenga 0.5 ml"
+* group[=].element[=].target[+].code = #38362002
+* group[=].element[=].target[=].display = "Dengue (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69913 "Comirnaty JN.1 0.042 mg, Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69913
+* group[=].element[=].display = "Comirnaty JN.1 0.042 mg"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-01 "Comirnaty JN.1 30 µg, Injektionsdispersion, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69912-01
+* group[=].element[=].display = "Comirnaty JN.1 30 µg"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69912-02 "Comirnaty JN.1 10 µg, Injektionsdispersion, Pfizer AG"
+// added 2024-10-17
+* group[=].element[+].code = #69912-02
+* group[=].element[=].display = "Comirnaty JN.1 10 µg"
+* group[=].element[=].target[0].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69691 "Abrysvo"
+// added 2024-10-17
+* group[=].element[+].code = #69691
+* group[=].element[=].display = "Abrysvo"
+* group[=].element[=].target[0].code = #55735004 
+* group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs|69788 "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+// added 2024-10-17
+* group[=].element[+].code = #69788
+* group[=].element[=].display = "Spikevax JN.1 (mRNA-1273.167), 0.10mg/ml"
+* group[=].element[=].target[0].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2025-09-26
+* group[=].element[+].code = #70205
+* group[=].element[=].display = "Spikevax LP.8.1"
+* group[=].element[=].target[0].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #70400
+* group[=].element[=].display = "Comirnaty LP.8.1 10 µg"
+* group[=].element[=].target[0].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[+].code = #70403
+* group[=].element[=].display = "Comirnaty LP.8.1 30 Mikrogramm"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2025-05-15
+// Das Arzneimittel Efluelda enthält die inaktivierten und gespaltenen Influenza-Viren der Stämme A (H1N1), A (H3N2), B (Yamagata) und B (Victoria) als Wirkstoff.
+* group[=].element[+].code = #69863-01
+* group[=].element[=].display = "Efluelda TIV 0.5 mL"
+* group[=].element[=].target[0].code = #442438000
+* group[=].element[=].target[=].display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #24662006 
+* group[=].element[=].target[=].display = "Influenza caused by Influenza B virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2025-05-15
+* group[=].element[+].code = #69995-01
+* group[=].element[=].display = "mResvia Respiratorisches-Synzytial-Virus (RSV) Vakzin 0.10 mg/ml"
+* group[=].element[=].target[0].code = #55735004
+* group[=].element[=].target[=].display = "Respiratory syncytial virus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69781	01	Capvaxive, Injektionslösung in Fertigspritze	MSD Merck Sharp & Dohme AG	B	23.09.2025	23.09.2025	22.09.2030	J07AL02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #69781
+* group[=].element[=].display = "Capvaxive"
+* group[=].element[=].target[0].code = #16814004
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//70042	01	Fluarix, Injektionssuspension	GlaxoSmithKline AG	B	04.09.2025	04.09.2025	03.09.2030	J07BB02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #70042
+* group[=].element[=].display = "Fluarix"
+* group[=].element[=].target[0].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69992	01	Influvac 0.5 ml, Injektionssuspension in einer Fertigspritze	Viatris Pharma GmbH	B	27.10.2025	27.10.2025	26.10.2030	J07BB02	X		X	X
+// added 2025-11-21
+* group[=].element[+].code = #69992
+* group[=].element[=].display = "Influvac 0.5 ml"
+* group[=].element[=].target[0].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
