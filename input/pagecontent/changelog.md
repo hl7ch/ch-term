@@ -2,6 +2,7 @@
 All significant changes to this FHIR implementation guide are documented on this page.   
 
 ### v3.4.0 (unreleased)
+* [#158](https://github.com/hl7ch/ch-term/issues/158): Split ConceptMap SwissMedic and OldSwiss VaccineCodes
 * [#156](https://github.com/hl7ch/ch-term/issues/156): CH VACD Swissmedic Authorized Immunoglobulin Codes - Antivipmyn
 * [#154](https://github.com/hl7ch/ch-term/issues/154) CH VACD Swissmedic Authorized Vaccines - missing definitions
 * [#150](https://github.com/hl7ch/ch-term/issues/150): CH VACD - Unique Micro Sign in vaccines ValueSet
