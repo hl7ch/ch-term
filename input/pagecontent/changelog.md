@@ -5,6 +5,7 @@ All significant changes to this FHIR implementation guide are documented on this
 * [#158](https://github.com/hl7ch/ch-term/issues/158): Split ConceptMap SwissMedic and OldSwiss VaccineCodes
 * [#156](https://github.com/hl7ch/ch-term/issues/156): CH VACD Swissmedic Authorized Immunoglobulin Codes - Antivipmyn
 * [#154](https://github.com/hl7ch/ch-term/issues/154) CH VACD Swissmedic Authorized Vaccines - missing definitions
+* [#153](https://github.com/hl7ch/ch-term/issues/153): New VaccineCodes Nov 2025 - May 2026
 * [#150](https://github.com/hl7ch/ch-term/issues/150): CH VACD - Unique Micro Sign in vaccines ValueSet
 * [#148](https://github.com/hl7ch/ch-term/issues/148): Add NUVA - SwissMedic Concept Map
 * [#145](https://github.com/hl7ch/ch-term/issues/145): CH VACD Target disease and illnesses undergone for immunization - bugfix
