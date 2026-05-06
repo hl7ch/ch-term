@@ -1032,6 +1032,21 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//70144	01	Flucelvax, Injektionssuspension in einer Fertigspritze, Vifor (International) Inc.	B	29.04.2026	29.04.2026	28.04.2031	J07BB02	X		X	X
+// added 2025-05-06
+* group[=].element[+].code = #70144
+* group[=].element[=].display = "Flucelvax"
+* group[=].element[=].target[0].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//70490	01	Vimkunya, Injektionssuspension in einer Fertigspritze, Bavarian Nordic Berna GmbH	B	15.04.2026	15.04.2026	14.04.2031	J07BP02	X		X	X
+// added 2025-05-06
+* group[=].element[+].code = #70490
+* group[=].element[=].display = "Vimkunya"
+* group[=].element[=].target[0].code = #111864006 
+* group[=].element[=].target[=].display = "Chikungunya fever (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///

@@ -911,6 +911,19 @@ Description: "This valueset contains all entries defining target deseases or ill
   * ^designation[=].value = "RhD negative" 
 
 
+// added 2026-05-06
+* $sct#111864006 "Chikungunya fever (disorder)"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Chikungunya-Fieber"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "fièvre chikungunya"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "febbre da Chikungunya"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Chikungunya-Fieber"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Chikungunya fever" 
+
 //// added 
 //* $sct# ""
 //  * ^designation[0].language = #de-CH

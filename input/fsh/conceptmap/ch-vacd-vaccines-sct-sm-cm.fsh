@@ -5319,6 +5319,26 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69992 
 * group[=].element[=].target[=].display = "Influvac 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #70144 
+* group[=].element[=].target[=].display = "Flucelvax"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #67482
+* group[=].element[=].target[=].display = "Flucelvax Tetra"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2026-05-06
+* group[=].element[+].code = #1345202008
+* group[=].element[=].display = "Chikungunya virus antigen-containing vaccine product"
+* group[=].element[=].target[0].code = #70490 
+* group[=].element[=].target[=].display = "Vimkunya"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+* group[=].element[+].code = #1344967001
+* group[=].element[=].display = "Live attenuated Chikungunya virus antigen"
+* group[=].element[=].target[0].code = #70490 
+* group[=].element[=].target[=].display = "Vimkunya"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////

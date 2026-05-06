@@ -1933,3 +1933,15 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Infection caused by Mycobacterium bovis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//added 2026-05-06
+* group[=].element[+].code = #1345202008
+* group[=].element[=].display = "Chikungunya virus antigen-containing vaccine product"
+* group[=].element[=].target[0].code = #111864006 
+* group[=].element[=].target[=].display = "Chikungunya fever (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+//added 2026-05-06
+* group[=].element[+].code = #1344967001
+* group[=].element[=].display = "Live attenuated Chikungunya virus antigen"
+* group[=].element[=].target[0].code = #111864006 
+* group[=].element[=].target[=].display = "Chikungunya fever (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
