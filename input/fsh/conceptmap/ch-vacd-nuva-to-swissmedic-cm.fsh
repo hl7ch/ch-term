@@ -950,3 +950,13 @@ Usage: #definition
 * group.element[=].target.code = #711-02
 * group.element[=].target.display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group.element[=].target.equivalence = #equal
+* group.element[+].code = #VAC1267
+* group.element[=].display = "VIMKUNYA"
+* group.element[=].target.code = #70490
+* group.element[=].target.display = "Vimkunya"
+* group.element[=].target.equivalence = #equal
+* group.element[+].code = #VAC0926
+* group.element[=].display = "FLUCELVAX"
+* group.element[=].target.code = #70144
+* group.element[=].target.display = "Flucelvax"
+* group.element[=].target.equivalence = #equal

@@ -656,3 +656,13 @@ Usage: #definition
 * group.element[=].target.code = #VAC1500
 * group.element[=].target.display = "SPIKEVAX LP.8.1 50 µg"
 * group.element[=].target.equivalence = #equal
+* group.element[+].code = #70490
+* group.element[=].display = "Vimkunya"
+* group.element[=].target.code = #VAC1267
+* group.element[=].target.display = "VIMKUNYA"
+* group.element[=].target.equivalence = #equal
+* group.element[+].code = #70144
+* group.element[=].display = "Flucelvax"
+* group.element[=].target.code = #VAC0926
+* group.element[=].target.display = "FLUCELVAX"
+* group.element[=].target.equivalence = #equal

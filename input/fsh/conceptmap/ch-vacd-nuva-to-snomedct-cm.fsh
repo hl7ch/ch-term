@@ -8245,6 +8245,9 @@ Usage: #definition
 * group.element[=].target[+].code = #1345202008
 * group.element[=].target[=].display = "Chikungunya virus antigen only vaccine product"
 * group.element[=].target[=].equivalence = #equal
+//* group.element[=].target[+].code = #15461002000106
+//* group.element[=].target[=].display = "VIMKUNYA (vaccine)"
+//* group.element[=].target[=].equivalence = #equal
 * group.element[+].code = #VAC1268
 * group.element[=].display = "SPIKEVAX JN.1 50 µg"
 * group.element[=].target[0].code = #1119349007
