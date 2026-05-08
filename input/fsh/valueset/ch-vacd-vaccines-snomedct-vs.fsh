@@ -3068,7 +3068,28 @@ Description: "The list of vaccine products in Snomed CT list."
 // added 2026-05-06
 //* $sct#15461002000106 "VIMKUNYA (vaccine)"
 * $sct#1345202008 "Chikungunya virus antigen-containing vaccine product"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Chikungunya virus antigen-containing vaccine product"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Chikungunya virus antigen-containing vaccine product"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Chikungunya virus antigen-containing vaccine product"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Chikungunya virus antigen-containing vaccine product"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Chikungunya virus antigen-containing vaccine product"
+
 * $sct#1344967001 "Live attenuated Chikungunya virus antigen"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Live attenuated Chikungunya virus antigen"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Live attenuated Chikungunya virus antigen"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Live attenuated Chikungunya virus antigen"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Live attenuated Chikungunya virus antigen"
+  * ^designation[+].language = #en-US
+  * ^designation[=].value = "Live attenuated Chikungunya virus antigen"
 
 /// /////////////////////////////////////
 /// /////////////////////////////////////
