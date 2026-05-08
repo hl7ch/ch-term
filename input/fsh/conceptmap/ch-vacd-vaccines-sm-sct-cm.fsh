@@ -7347,6 +7347,32 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 
+//70144	01	Flucelvax, Injektionssuspension in einer Fertigspritze, Vifor (International) Inc.	B	29.04.2026	29.04.2026	28.04.2031	J07BB02	X		X	X
+// added 2025-05-06
+* group[=].element[+].code = #70144
+* group[=].element[=].display = "Flucelvax"
+* group[=].element[=].target[0].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #836377006
+* group[=].element[=].target[=].display = "Influenza virus antigen-containing vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+
+//70490	01	Vimkunya, Injektionssuspension in einer Fertigspritze, Bavarian Nordic Berna GmbH	B	15.04.2026	15.04.2026	14.04.2031	J07BP02	X		X	X
+// added 2025-05-06
+* group[=].element[+].code = #70490
+* group[=].element[=].display = "Vimkunya"
+* group[=].element[=].target[0].code = #1345042009
+* group[=].element[=].target[=].display = "Chikungunya virus antigen-containing vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1345202008
+* group[=].element[=].target[=].display = "Chikungunya virus antigen only vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+//* group[=].element[=].target[+].code = #15461002000106 
+//* group[=].element[=].target[=].display = "VIMKUNYA (vaccine)"
+//* group[=].element[=].target[=].equivalence = #equal
+
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
@@ -13782,3 +13808,4 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1971000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
+

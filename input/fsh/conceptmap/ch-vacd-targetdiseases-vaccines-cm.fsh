@@ -492,6 +492,10 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69992
 * group[=].element[=].target[=].display = "Influvac 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
+// added 2026-05-06
+* group[=].element[=].target[+].code = #70144
+* group[=].element[=].target[=].display = "Flucelvax"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 * group[=].element[+].code = #63650001
 * group[=].element[=].display = "Cholera (disorder)"
@@ -832,9 +836,12 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
-
-
-
+// added 2026-05-06
+* group[=].element[+].code = #111864006
+* group[=].element[=].display = "Chikungunya fever (disorder)"
+* group[=].element[=].target[+].code = #70490 
+* group[=].element[=].target[=].display = "Vimkunya"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
@@ -1061,6 +1068,8 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+
 
 
 

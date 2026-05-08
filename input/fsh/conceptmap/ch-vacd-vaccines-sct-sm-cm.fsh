@@ -5319,6 +5319,41 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69992 
 * group[=].element[=].target[=].display = "Influvac 0.5 ml"
 * group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #70144 
+* group[=].element[=].target[=].display = "Flucelvax"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #67482
+* group[=].element[=].target[=].display = "Flucelvax Tetra"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2026-05-06
+* group[=].element[+].code = #836377006
+* group[=].element[=].display = "Vaccine product containing Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[+].code = #70144 
+* group[=].element[=].target[=].display = "Flucelvax"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2026-05-06
+* group[=].element[+].code = #1345042009
+* group[=].element[=].display = "Chikungunya virus antigen-containing vaccine product"
+* group[=].element[=].target[0].code = #70490
+* group[=].element[=].target[=].display = "Vimkunya"
+* group[=].element[=].target[=].equivalence = #equal
+
+* group[=].element[+].code = #1345202008
+* group[=].element[=].display = "Chikungunya virus antigen only vaccine product"
+* group[=].element[=].target[0].code = #70490
+* group[=].element[=].target[=].display = "Vimkunya"
+* group[=].element[=].target[=].equivalence = #equal
+
+//* group[=].element[+].code = #15461002000106
+//* group[=].element[=].display = "VIMKUNYA (vaccine)"
+//* group[=].element[=].target[0].code = #70490
+//* group[=].element[=].target[=].display = "Vimkunya"
+//* group[=].element[=].target[=].equivalence = #equal
+
+
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
@@ -9950,6 +9985,9 @@ Usage: #definition
 * group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 
 
+
+
+
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
 // Not Matched                                             ///
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
@@ -9991,14 +10029,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
-//ERROR, http://snomed.info/sct|836377006|'Vaccine product containing Influenza virus antigen (medicinal product)': The source code '836377006|Vaccine product containing Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
-// added 2025-05-16
-* group[=].element[+].code = #836377006
-* group[=].element[=].display = "Vaccine product containing Influenza virus antigen (medicinal product)"
-* group[=].element[=].target[+].code = #787859002 
-* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
 //ERROR, http://snomed.info/sct|836384003|'Bacillus anthracis antigen-containing vaccine product': The source code '836384003|Bacillus anthracis antigen-containing vaccine product' is defined in the valueset but not in the conceptmap.
 // added 2025-05-16
 * group[=].element[+].code = #836384003
