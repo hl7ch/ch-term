@@ -12,6 +12,7 @@ version: 3.4.0-ci-build
 fhirVersion: 4.0.1
 copyrightYear: 2019+
 releaselabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+language: en
 publisher:
   name: HL7 Switzerland
   url: https://www.hl7.ch/
@@ -73,7 +74,7 @@ parameters:
     - fsh-generated/resources
   allow-extensible-warnings: true
   display-warnings: true  
-  path-expansion-params: '../../expansion-params.json' # for using SNOMED CT Swiss Extension
+  path-expansion-params: Parameters-ExpansionParameters.json # for using SNOMED CT Swiss Extension
   pin-canonicals: pin-multiples
   special-url:
     - urn:oid:2.16.756.5.30.1.127.3.5
