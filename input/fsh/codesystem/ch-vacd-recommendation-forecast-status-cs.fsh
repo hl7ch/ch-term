@@ -19,7 +19,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "Il paziente deve effettuare la prossima vaccinazione."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "La pazienta sto survegnir la proxima vaccinaziun."
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "The patient is due for their next vaccination."
 
 
@@ -33,7 +33,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "Il paziente è in ritardo per la prossima vaccinazione."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "La pazienta vegn considerada sco danvanz per sia proxima vaccinaziun."
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "The patient is considered overdue for their next vaccination."
 
 * #immune "Immune"
@@ -46,7 +46,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "Il paziente è immune alla malattia target ed è improbabile che un'ulteriore immunizzazione apporti benefici."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Il pazient è immun cunter la malsogna da mira, ed in'ulteriura immunisaziun cunter la malsogna na po betg chaschunar avantatgs."
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "The patient is immune to the TargetDisease and further immunization against the disease is not likely to provide benefit."
 
 * #consultadvise "Consult Advice"
@@ -59,7 +59,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "Il paziente potrebbe avere una controindicazione, ma riceve una consulenza sanitaria."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Il pazient po s'annunziar, ma po sa laschar cussegliar en il sectur da sanadad."
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "The patient may be contraindicated but get health care advice."
 
 * #indicated "Indicated"
@@ -72,7 +72,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "Il paziente può ricevere ulteriori dosi."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Il pazient è inditgà per ulteriuras dosas."
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "The patient is indicated for further doses."
 
 
@@ -86,7 +86,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "Per il paziente è controdindicato  ricevere ulteriori dosi."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Tar ulteriuras dosas vegn la pazienta u il pazient annunzià fauss."
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "The patient is contraindicated for further doses."
 
 * #complete "Complete"
@@ -99,7 +99,7 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "Il paziente dispone di una protezione completa e non sono raccomandate ulteriori dosi."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Il pazient è protegì cumplainamain ed i na vegnan recumandadas naginas ulteriuras dosas."
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "The patient is fully protected and no further doses are recommended."
 
 * #notrelevant "NotRelevant"
@@ -112,5 +112,5 @@ Description: "Immunization recommendation forecast status values."
   * ^designation[=].value = "Non rilevante per questo paziente."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Per quest pazient n'è nagina relevanza."
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "There is no relevance for this patient."
