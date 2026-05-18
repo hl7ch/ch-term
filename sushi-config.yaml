@@ -36,9 +36,9 @@ pages:
     title: Home
   guidance.md:
     title: Guidance   
-  codesystems.xml:
+  codesystems.md:
     title: Code Systems
-  valuesets.xml:
+  valuesets.md:
     title: Value Sets
   conceptmaps.md:
     title: Concept Maps     
