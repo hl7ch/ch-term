@@ -1,7 +1,3 @@
-<div
-    xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
-
 <p>
   The following code systems are <b>managed in <a href="https://ehealthsuisse.art-decor.org">ART-DECOR</a></b> and imported into this implementation guide.
   Changes to these resources should be made upstream in ART-DECOR and re-exported here.
@@ -32,5 +28,3 @@
   {%- endif -%}
 {%- endfor %}
 </ul>
-
-</div>
