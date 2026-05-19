@@ -15,7 +15,7 @@ Description: "The route of immunization administration codes. This list is only 
   * ^designation[=].value = "Uso intradermico"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "applicaziun intradermala"
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "Intradermal use"
 * $edqm#20035000 "Intramuscular use"
   * ^designation[0].language = #de-CH
@@ -26,7 +26,7 @@ Description: "The route of immunization administration codes. This list is only 
   * ^designation[=].value = "Uso intramuscolare"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "applicaziun intramusculara"
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "Intramuscular use"
 * $edqm#20049000 "Nasal use"
   * ^designation[0].language = #de-CH
@@ -37,7 +37,7 @@ Description: "The route of immunization administration codes. This list is only 
   * ^designation[=].value = "Uso nasale"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "applicaziun nasala"
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "Nasal use"
 * $edqm#20053000 "Oral use"
   * ^designation[0].language = #de-CH
@@ -48,7 +48,7 @@ Description: "The route of immunization administration codes. This list is only 
   * ^designation[=].value = "Uso orale"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "applicaziun orala"
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "Oral use"
 * $edqm#20066000 "Subcutaneous use"
   * ^designation[0].language = #de-CH
@@ -59,5 +59,5 @@ Description: "The route of immunization administration codes. This list is only 
   * ^designation[=].value = "Uso sottocutaneo"
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "applicaziun subcutana"
-  * ^designation[+].language = #en-US
+  * ^designation[+].language = #en
   * ^designation[=].value = "Subcutaneous use"
