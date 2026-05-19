@@ -27,7 +27,7 @@
    <title value="DocumentEntry.eventCodeList"/>
    <status value="active"/>
    <experimental value="false"/>
-   <date value="2025-12-01T16:04:34+01:00"/>
+   <date value="2025-12-01T16:04:34+02:00"/>
    <publisher value="eHealth Suisse"/>
    <contact>
       <name value="eHealth Suisse"/>
@@ -41,6 +41,30 @@
    <compose>
       <include>
          <system value="http://dicom.nema.org/resources/ontology/DCM"/>
+         <concept>
+            <code value="BI"/>
+            <display value="Biomagnetic Imaging"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Biomagnetische Bildgebung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Imagerie biomagnétique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Imaging biomagnetico"/>
+            </designation>
+            <designation>
+               <language value="rm-CH"/>
+               <value value="Biomagnetische Bildgebung"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Biomagnetic Imaging"/>
+            </designation>
+         </concept>
          <concept>
             <code value="TG"/>
             <display value="Thermography"/>
@@ -343,30 +367,6 @@
             <designation>
                <language value="en-US"/>
                <value value="Confocal Microscopy"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="BDUS"/>
-            <display value="Ultrasound Bone Densitometry"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Ultraschall-Knochendichtemessung"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Densitométrie osseuse par ultrasons"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Densitometria ossea a ultrasuoni"/>
-            </designation>
-            <designation>
-               <language value="rm-CH"/>
-               <value value="Ultraschall-Knochendichtemessung"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Ultrasound Bone Densitometry"/>
             </designation>
          </concept>
          <concept>
