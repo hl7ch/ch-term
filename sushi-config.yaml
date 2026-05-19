@@ -69,6 +69,7 @@ parameters:
     - input/resources/codesystem
     - input/resources/codesystem/art-decor
     - input/resources/conceptmap
+    - input/resources/conceptmap/art-decor
     - input/resources/namingsystem
     - input/resources/valueset
     - input/resources/valueset/art-decor

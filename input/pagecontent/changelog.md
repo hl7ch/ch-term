@@ -10,6 +10,8 @@ All significant changes to this FHIR implementation guide are documented on this
 * [#148](https://github.com/hl7ch/ch-term/issues/148): Add NUVA - SwissMedic Concept Map
 * [#145](https://github.com/hl7ch/ch-term/issues/145): CH VACD Target disease and illnesses undergone for immunization - bugfix
 * [#170](https://github.com/hl7ch/ch-term/issues/170): flagging what is managed in art-decor and what isn't #170
+* [#162](https://github.com/hl7ch/ch-term/issues/162): Double entry of BDUS in DocumentEntry.eventCodeList #162
+* [#123](https://github.com/hl7ch/ch-term/issues/123): Codes missing in ValueSet DocumentEntry.eventCodeList #123
 
 ### upcoming
 * [#144](https://github.com/hl7ch/ch-term/issues/144): EDQM ROA valueset update 
