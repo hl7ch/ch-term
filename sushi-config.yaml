@@ -67,9 +67,11 @@ parameters:
   excludettl: true
   path-resource:
     - input/resources/codesystem
+    - input/resources/codesystem/art-decor
     - input/resources/conceptmap
     - input/resources/namingsystem
     - input/resources/valueset
+    - input/resources/valueset/art-decor
     - fsh-generated/resources
   allow-extensible-warnings: true
   display-warnings: true  
