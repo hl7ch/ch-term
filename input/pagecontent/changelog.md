@@ -1,7 +1,7 @@
 
 All significant changes to this FHIR implementation guide are documented on this page.   
 
-### v3.4.0 (unreleased)
+### v3.4.0 (2026-06-10)
 * [#167](https://github.com/hl7ch/ch-term/issues/167): Remove designations from CH-VACD ValueSets 
 * [#158](https://github.com/hl7ch/ch-term/issues/158): Split ConceptMap SwissMedic and OldSwiss VaccineCodes
 * [#156](https://github.com/hl7ch/ch-term/issues/156): CH VACD Swissmedic Authorized Immunoglobulin Codes - Antivipmyn
@@ -13,8 +13,6 @@ All significant changes to this FHIR implementation guide are documented on this
 * [#170](https://github.com/hl7ch/ch-term/issues/170): flagging what is managed in art-decor and what isn't #170
 * [#162](https://github.com/hl7ch/ch-term/issues/162): Double entry of BDUS in DocumentEntry.eventCodeList #162
 * [#123](https://github.com/hl7ch/ch-term/issues/123): Codes missing in ValueSet DocumentEntry.eventCodeList #123
-
-### upcoming
 * [#144](https://github.com/hl7ch/ch-term/issues/144): EDQM ROA valueset update 
 
 ### v3.3.0 (2025-12-15)
