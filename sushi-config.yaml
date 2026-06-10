@@ -7,11 +7,11 @@ title: CH Term (R4)
 description: Implementation Guide for Swiss Terminology
 status: active
 experimental: false
-date: 2025-12-15
-version: 3.4.0-ci-build
+date: 2026-06-10
+version: 3.4.0
 fhirVersion: 4.0.1
 copyrightYear: 2019+
-releaselabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaselabel: trial-use # ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 language: en
 publisher:
   name: HL7 Switzerland
