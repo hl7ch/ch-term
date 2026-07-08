@@ -1771,3 +1771,35 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Vimkunya"
   * ^designation[+].language = #en
   * ^designation[=].value = "Vimkunya"
+
+
+//69948	01	Celldemic, Injektionssuspension in Fertigspritzen	Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* #69948 "Celldemic"
+  * ^definition = "Celldemic, Injektionssuspension in Fertigspritzen, Vifor (International) Inc."
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Celldemic"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Celldemic"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Celldemic"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Celldemic"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Celldemic"
+
+//69941	01	Incellipan, Injektionssuspension in Fertigspritzen	Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* #69941 "Incellipan"
+  * ^definition = "Incellipan, Injektionssuspension in Fertigspritzen, Vifor (International) Inc."
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Incellipan"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Incellipan"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Incellipan"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Incellipan"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Incellipan"
+
