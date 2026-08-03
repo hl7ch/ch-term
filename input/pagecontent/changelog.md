@@ -1,6 +1,9 @@
 
 All significant changes to this FHIR implementation guide are documented on this page.   
 
+### v3.5.0 (2026-)
+* [#176](https://github.com/hl7ch/ch-term/issues/167): Update Swissmedic June-December 2026
+
 ### v3.4.0 (2026-06-10)
 * [#167](https://github.com/hl7ch/ch-term/issues/167): Remove designations from CH-VACD ValueSets 
 * [#158](https://github.com/hl7ch/ch-term/issues/158): Split ConceptMap SwissMedic and OldSwiss VaccineCodes
