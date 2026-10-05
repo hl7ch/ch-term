@@ -1048,6 +1048,23 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Chikungunya fever (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+
+//69948	01	Celldemic, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* group[=].element[+].code = #69948
+* group[=].element[=].display = "Celldemic"
+* group[=].element[=].target[0].code = #772828001 
+* group[=].element[=].target[=].display = "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69941	01	Incellipan, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* group[=].element[+].code = #69941
+* group[=].element[=].display = "Incellipan"
+* group[=].element[=].target[0].code = #719865001 
+* group[=].element[=].target[=].display = "Influenza caused by pandemic influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////

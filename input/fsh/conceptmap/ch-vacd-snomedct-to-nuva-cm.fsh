@@ -81,8 +81,8 @@ Usage: #definition
 * group.element[=].target.code = #VAC0111
 * group.element[=].target.display = "Yellow fever vaccine, unspecified"
 * group.element[=].target.equivalence = #equal
-* group.element[+].code = ##428601009
-* group.element[=].display = "#428601009"
+* group.element[+].code = #428601009
+* group.element[=].display = "Paratyphoid vaccine"
 * group.element[=].target.code = #VAC0112
 * group.element[=].target.display = "Typhoid vaccine, unspecified"
 * group.element[=].target.equivalence = #equal
@@ -771,7 +771,7 @@ Usage: #definition
 * group.element[=].target.code = #VAC0859
 * group.element[=].target.display = "HPV vaccine quadrivalent, unspecified"
 * group.element[=].target.equivalence = #equal
-* group.element[+].code = ##871767000
+* group.element[+].code = #871767000
 * group.element[=].display = "#871767000"
 * group.element[=].target.code = #VAC0860
 * group.element[=].target.display = "HPV vaccine nonavalent, unspecified"

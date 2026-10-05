@@ -7373,6 +7373,34 @@ Usage: #definition
 //* group[=].element[=].target[=].equivalence = #equal
 
 
+//69948	01	Celldemic, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* group[=].element[+].code = #69948
+* group[=].element[=].display = "Celldemic"
+* group[=].element[=].target[0].code = #1003499009
+* group[=].element[=].target[=].display = "Influenza H5N1 vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1119279002
+* group[=].element[=].target[=].display = "Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+
+//69941	01	Incellipan, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* group[=].element[+].code = #69941
+* group[=].element[=].display = "Incellipan"
+* group[=].element[=].target[0].code = #1181000221105
+* group[=].element[=].target[=].display = "Influenza virus antigen only vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #836377006
+* group[=].element[=].target[=].display = "Influenza virus antigen-containing vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+
+
+
+
+
+
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
@@ -13808,4 +13836,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1971000221105
 * group[=].element[=].target[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
+
+
 

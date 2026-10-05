@@ -755,6 +755,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #66156
 * group[=].element[=].target[=].display = "Foclivia (Fertigspritze)"
 * group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #69941
+* group[=].element[=].target[=].display = "Incellipan"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2022-11-03
 * group[=].element[+].code = #37109004
@@ -841,6 +844,14 @@ Usage: #definition
 * group[=].element[=].display = "Chikungunya fever (disorder)"
 * group[=].element[=].target[+].code = #70490 
 * group[=].element[=].target[=].display = "Vimkunya"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+// added 2026-0708
+* group[=].element[+].code = #772828001
+* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+* group[=].element[=].target[+].code = #69948 
+* group[=].element[=].target[=].display = "Celldemic"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
@@ -972,14 +983,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
-//ERROR, http://snomed.info/sct|772828001|'Influenza caused by Influenza A virus subtype H5N1 (disorder)': The source code '772828001|Influenza caused by Influenza A virus subtype H5N1 (disorder)' is defined in the valueset but not in the conceptmap.
-// added 2025-05-16
-* group[=].element[+].code = #772828001
-* group[=].element[=].display = "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-* group[=].element[=].target[+].code = #787859002 
-* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
 //ERROR, http://snomed.info/sct|7180009|'Meningitis (disorder)': The source code '7180009|Meningitis (disorder)' is defined in the valueset but not in the conceptmap.
 // added 2025-05-16
 * group[=].element[+].code = #7180009

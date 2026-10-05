@@ -1773,7 +1773,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Vimkunya"
 
 
-//69948	01	Celldemic, Injektionssuspension in Fertigspritzen	Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+//69948	01	Celldemic, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
 // added 2025-07-08
 * #69948 "Celldemic"
   * ^definition = "Celldemic, Injektionssuspension in Fertigspritzen, Vifor (International) Inc."
@@ -1788,7 +1788,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[+].language = #en
   * ^designation[=].value = "Celldemic"
 
-//69941	01	Incellipan, Injektionssuspension in Fertigspritzen	Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+//69941	01	Incellipan, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
 // added 2025-07-08
 * #69941 "Incellipan"
   * ^definition = "Incellipan, Injektionssuspension in Fertigspritzen, Vifor (International) Inc."

@@ -373,3 +373,11 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 //70490	01	Vimkunya, Injektionssuspension in einer Fertigspritze	Bavarian Nordic Berna GmbH	B	15.04.2026	15.04.2026	14.04.2031	J07BP02	X		X	X
 // added 2025-05-06
 * $ch-vacd-swissmedic-cs#70490 "Vimkunya"
+
+//69948	01	Celldemic, Injektionssuspension in Fertigspritzen	Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* $ch-vacd-swissmedic-cs#69948 "Celldemic"
+
+//69941	01	Incellipan, Injektionssuspension in Fertigspritzen	Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* $ch-vacd-swissmedic-cs#69941 "Incellipan"
