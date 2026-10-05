@@ -674,7 +674,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour pour les adultes et les enfants à partir de 7 ans"
+  * ^designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour les adultes et les enfants à partir de 7 ans"
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "Difterite e tetano vaccino adsorbito per adulti e bambini dai 7 anni in su"
   * ^designation[+].language = #rm-CH
