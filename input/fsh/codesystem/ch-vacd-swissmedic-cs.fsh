@@ -1743,7 +1743,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Influvac 0.5 ml"
 
 //70144	01	Flucelvax, Injektionssuspension in einer Fertigspritze	Vifor (International) Inc.	B	29.04.2026	29.04.2026	28.04.2031	J07BB02	X		X	X
-// added 2025-05-06
+// added 2026-05-06
 * #70144 "Flucelvax"
   * ^definition = "Flucelvax, Injektionssuspension in einer Fertigspritze, Vifor (International) Inc."
   * ^designation[0].language = #de-CH
@@ -1758,7 +1758,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Flucelvax"
 
 //70490	01	Vimkunya, Injektionssuspension in einer Fertigspritze	Bavarian Nordic Berna GmbH	B	15.04.2026	15.04.2026	14.04.2031	J07BP02	X		X	X
-// added 2025-05-06
+// added 2026-05-06
 * #70490 "Vimkunya"
   * ^definition = "Vimkunya, Injektionssuspension in einer Fertigspritze, Bavarian Nordic Berna GmbH"
   * ^designation[0].language = #de-CH
@@ -1771,3 +1771,18 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Vimkunya"
   * ^designation[+].language = #en
   * ^designation[=].value = "Vimkunya"
+
+//70051	03	Vaxigrip, suspension injectable	Sanofi-Aventis (Suisse) SA	B	06.05.2025	13.08.2026	05.05.2030	J07BB02	X		X	X
+// added 2026-10-05
+* #70051 "Vaxigrip"
+  * ^definition = "Vaxigrip, suspension injectable,Sanofi-Aventis (Suisse) SA"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaxigrip"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaxigrip"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaxigrip"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaxigrip"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Vaxigrip"
