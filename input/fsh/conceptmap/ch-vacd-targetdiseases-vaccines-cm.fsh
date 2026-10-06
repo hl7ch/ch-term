@@ -742,6 +742,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #70403
 * group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm"
 * group[=].element[=].target[=].equivalence = #relatedto
+// added 2026-10-06
+* group[=].element[=].target[+].code = #70893
+* group[=].element[=].target[=].display = "Comirnaty XFG (30 Mikrogramm)"
+* group[=].element[=].target[=].equivalence = #equal
+// added 2026-10-06
+* group[=].element[=].target[+].code = #70272
+* group[=].element[=].target[=].display = "mNEXSPIKE 0.05 mg/mL"
+* group[=].element[=].target[=].equivalence = #equal
+// added 2026-10-06
+* group[=].element[=].target[+].code = #70847
+* group[=].element[=].target[=].display = "Spikevax XFG (50 Microgramm)"
+* group[=].element[=].target[=].equivalence = #equal
 
 
 // added 2021-11-19

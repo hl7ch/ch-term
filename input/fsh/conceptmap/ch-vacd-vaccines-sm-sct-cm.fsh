@@ -7397,6 +7397,120 @@ Usage: #definition
 
 
 
+//70893	01	Comirnaty XFG (30 Mikrogramm)  Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* group[=].element[+].code = #70893
+* group[=].element[=].display = "Comirnaty XFG (30 Mikrogramm)"
+* group[=].element[=].target[0].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #29061000087103
+* group[=].element[=].target[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1162643001
+* group[=].element[=].target[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1119305005
+* group[=].element[=].target[=].display = "2019 novel coronavirus antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1157024006
+* group[=].element[=].target[=].display = "Inactivated whole SARS-CoV-2 antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1187593009
+* group[=].element[=].target[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 deoxyribonucleic acid plasmid encoding spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287595003
+* group[=].element[=].target[=].display = "Pediatric vaccine product containing only severe acute respiratory syndrome coronavirus 2 encoding B lineage spike protein and BA.4/BA.5 lineage spike protein messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287596002
+* group[=].element[=].target[=].display = "Adult vaccine product containing only severe acute respiratory syndrome coronavirus 2 encoding B lineage spike protein and BA.4/BA.5 lineage spike protein messenger ribonucleic acid"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287964002
+* group[=].element[=].target[=].display = "B lineage SARS-CoV-2 monovalent mRNA only vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #28531000087107
+* group[=].element[=].target[=].display = "COVID-19 vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #30141000087107
+* group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+
+//70272	01	mNEXSPIKE 0.05 mg/mL, Injektionsdispersion	Moderna Switzerland GmbH	B	03.08.2026	03.08.2026	02.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* group[=].element[+].code = #70272
+* group[=].element[=].display = "mNEXSPIKE 0.05 mg/mL"
+* group[=].element[=].target[0].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #29061000087103
+* group[=].element[=].target[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1162643001
+* group[=].element[=].target[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1119305005
+* group[=].element[=].target[=].display = "2019 novel coronavirus antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1157024006
+* group[=].element[=].target[=].display = "Inactivated whole SARS-CoV-2 antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1187593009
+* group[=].element[=].target[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 deoxyribonucleic acid plasmid encoding spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287595003
+* group[=].element[=].target[=].display = "Pediatric vaccine product containing only severe acute respiratory syndrome coronavirus 2 encoding B lineage spike protein and BA.4/BA.5 lineage spike protein messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287596002
+* group[=].element[=].target[=].display = "Adult vaccine product containing only severe acute respiratory syndrome coronavirus 2 encoding B lineage spike protein and BA.4/BA.5 lineage spike protein messenger ribonucleic acid"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287964002
+* group[=].element[=].target[=].display = "B lineage SARS-CoV-2 monovalent mRNA only vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #28531000087107
+* group[=].element[=].target[=].display = "COVID-19 vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #30141000087107
+* group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+
+//70847	01	Spikevax XFG (50 Microgramm) Injektionsdispersion in einer Fertigspritze	Moderna Switzerland GmbH	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* group[=].element[+].code = #70847
+* group[=].element[=].display = "Spikevax XFG (50 Microgramm)"
+* group[=].element[=].target[0].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #29061000087103
+* group[=].element[=].target[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1162643001
+* group[=].element[=].target[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1119305005
+* group[=].element[=].target[=].display = "2019 novel coronavirus antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1157024006
+* group[=].element[=].target[=].display = "Inactivated whole SARS-CoV-2 antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1187593009
+* group[=].element[=].target[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 deoxyribonucleic acid plasmid encoding spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287595003
+* group[=].element[=].target[=].display = "Pediatric vaccine product containing only severe acute respiratory syndrome coronavirus 2 encoding B lineage spike protein and BA.4/BA.5 lineage spike protein messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287596002
+* group[=].element[=].target[=].display = "Adult vaccine product containing only severe acute respiratory syndrome coronavirus 2 encoding B lineage spike protein and BA.4/BA.5 lineage spike protein messenger ribonucleic acid"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1287964002
+* group[=].element[=].target[=].display = "B lineage SARS-CoV-2 monovalent mRNA only vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #28531000087107
+* group[=].element[=].target[=].display = "COVID-19 vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #30141000087107
+* group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
+* group[=].element[=].target[=].equivalence = #equal
+
 
 
 

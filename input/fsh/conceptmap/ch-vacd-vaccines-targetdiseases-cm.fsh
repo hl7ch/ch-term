@@ -1065,6 +1065,33 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+
+//70893	01	Comirnaty XFG (30 Mikrogramm)  Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* group[=].element[+].code = #70893
+* group[=].element[=].display = "Comirnaty XFG (30 Mikrogramm)"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//70272	01	mNEXSPIKE 0.05 mg/mL, Injektionsdispersion	Moderna Switzerland GmbH	B	03.08.2026	03.08.2026	02.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* group[=].element[+].code = #70272
+* group[=].element[=].display = "mNEXSPIKE 0.05 mg/mL"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//70847	01	Spikevax XFG (50 Microgramm) Injektionsdispersion in einer Fertigspritze	Moderna Switzerland GmbH	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* group[=].element[+].code = #70847
+* group[=].element[=].display = "Spikevax XFG (50 Microgramm)"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////

@@ -381,3 +381,15 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 //69941	01	Incellipan, Injektionssuspension in Fertigspritzen	Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
 // added 2025-07-08
 * $ch-vacd-swissmedic-cs#69941 "Incellipan"
+
+//70893	01	Comirnaty XFG (30 Mikrogramm)  Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* $ch-vacd-swissmedic-cs#70893 "Comirnaty XFG (30 Mikrogramm)"
+
+//70272	01	mNEXSPIKE 0.05 mg/mL, Injektionsdispersion	Moderna Switzerland GmbH	B	03.08.2026	03.08.2026	02.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* $ch-vacd-swissmedic-cs#70272 "mNEXSPIKE 0.05 mg/mL"
+
+//70847	01	Spikevax XFG (50 Microgramm) Injektionsdispersion in einer Fertigspritze	Moderna Switzerland GmbH	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* $ch-vacd-swissmedic-cs#70847 "Spikevax XFG (50 Microgramm)"

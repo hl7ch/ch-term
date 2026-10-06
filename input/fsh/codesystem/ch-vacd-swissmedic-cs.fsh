@@ -1803,3 +1803,48 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[+].language = #en
   * ^designation[=].value = "Incellipan"
 
+//70893	01	Comirnaty XFG (30 Mikrogramm)  Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* #70893 "Comirnaty XFG (30 Mikrogramm)"
+  * ^definition = "Comirnaty XFG (30 Mikrogramm),Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+
+//70272	01	mNEXSPIKE 0.05 mg/mL, Injektionsdispersion	Moderna Switzerland GmbH	B	03.08.2026	03.08.2026	02.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* #70272 "mNEXSPIKE 0.05 mg/mL"
+  * ^definition = "mNEXSPIKE 0.05 mg/mL, Injektionsdispersion, Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+
+//70847	01	Spikevax XFG (50 Microgramm) Injektionsdispersion in einer Fertigspritze	Moderna Switzerland GmbH	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* #70847 "Spikevax XFG (50 Microgramm)"
+  * ^definition = "Spikevax XFG (50 Microgramm), Injektionsdispersion in einer Fertigspritze, Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  
