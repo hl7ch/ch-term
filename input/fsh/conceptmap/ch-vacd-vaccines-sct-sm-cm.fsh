@@ -377,7 +377,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #70403
 * group[=].element[=].target[=].display = "Comirnaty LP.8.1 30 Mikrogramm"
 * group[=].element[=].target[=].equivalence = #equal
-
+// added 2026-10-06
+* group[=].element[=].target[+].code = #70893
+* group[=].element[=].target[=].display = "Comirnaty XFG (30 Mikrogramm)"
+* group[=].element[=].target[=].equivalence = #equal
+// added 2026-10-06
+* group[=].element[=].target[+].code = #70272
+* group[=].element[=].target[=].display = "mNEXSPIKE 0.05 mg/mL"
+* group[=].element[=].target[=].equivalence = #equal
+// added 2026-10-06
+* group[=].element[=].target[+].code = #70847
+* group[=].element[=].target[=].display = "Spikevax XFG (50 Microgramm)"
+* group[=].element[=].target[=].equivalence = #equal
 
 * group[=].element[+].code = #1156183006
 * group[=].element[=].display = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
@@ -5325,12 +5336,18 @@ Usage: #definition
 * group[=].element[=].target[+].code = #67482
 * group[=].element[=].target[=].display = "Flucelvax Tetra"
 * group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #69941
+* group[=].element[=].target[=].display = "Incellipan"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2026-05-06
 * group[=].element[+].code = #836377006
 * group[=].element[=].display = "Vaccine product containing Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[+].code = #70144 
 * group[=].element[=].target[=].display = "Flucelvax"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #69941 
+* group[=].element[=].target[=].display = "Incellipan"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2026-05-06
@@ -5351,6 +5368,8 @@ Usage: #definition
 //* group[=].element[=].target[0].code = #70490
 //* group[=].element[=].target[=].display = "Vimkunya"
 //* group[=].element[=].target[=].equivalence = #equal
+
+
 
 
 
@@ -9984,8 +10003,19 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #narrower
 * group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
 
+// added 2026-07-08
+* group[=].element[+].code = #1003499009
+* group[=].element[=].display = "Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)"
+* group[=].element[=].target[+].code = #69948 
+* group[=].element[=].target[=].display = "Celldemic"
+* group[=].element[=].target[=].equivalence = #equal
 
-
+// added 2026-07-08
+* group[=].element[+].code = #1119279002
+* group[=].element[=].display = "Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product"
+* group[=].element[=].target[+].code = #69948 
+* group[=].element[=].target[=].display = "Celldemic"
+* group[=].element[=].target[=].equivalence = #equal
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////
@@ -10222,14 +10252,10 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
-//ERROR, http://snomed.info/sct|1003499009|'Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)': The source code '1003499009|Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
-// added 2025-05-16
-* group[=].element[+].code = #1003499009
-* group[=].element[=].display = "Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)"
-* group[=].element[=].target[+].code = #787859002 
-* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
+
+
+
 //ERROR, http://snomed.info/sct|1010313002|'Vaccine product containing only live attenuated Influenza virus antigen (medicinal product)': The source code '1010313002|Vaccine product containing only live attenuated Influenza virus antigen (medicinal product)' is defined in the valueset but not in the conceptmap.
 // added 2025-05-16
 * group[=].element[+].code = #1010313002
@@ -10238,14 +10264,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[=].comment = "TODO: mapping needed"
-//ERROR, http://snomed.info/sct|1119279002|'Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product': The source code '1119279002|Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product' is defined in the valueset but not in the conceptmap.
-// added 2025-05-16
-* group[=].element[+].code = #1119279002
-* group[=].element[=].display = "Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product"
-* group[=].element[=].target[+].code = #787859002 
-* group[=].element[=].target[=].display = "Vaccine product (medicinal product)"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[=].comment = "TODO: mapping needed"
+
 //ERROR, http://snomed.info/sct|1157356006|'Influenza A virus A/California/7/2009 (H1N1)-like virus strain split virion hemagglutinin antigen only vaccine product': The source code '1157356006|Influenza A virus A/California/7/2009 (H1N1)-like virus strain split virion hemagglutinin antigen only vaccine product' is defined in the valueset but not in the conceptmap.
 // added 2025-05-16
 * group[=].element[+].code = #1157356006
