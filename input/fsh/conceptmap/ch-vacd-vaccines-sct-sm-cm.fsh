@@ -5325,12 +5325,20 @@ Usage: #definition
 * group[=].element[=].target[+].code = #67482
 * group[=].element[=].target[=].display = "Flucelvax Tetra"
 * group[=].element[=].target[=].equivalence = #relatedto
+// added 2026-10-05
+* group[=].element[=].target[+].code = #70051
+* group[=].element[=].target[=].display = "Vaxigrip"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2026-05-06
 * group[=].element[+].code = #836377006
 * group[=].element[=].display = "Vaccine product containing Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[+].code = #70144 
 * group[=].element[=].target[=].display = "Flucelvax"
+* group[=].element[=].target[=].equivalence = #relatedto
+// added 2026-10-05
+* group[=].element[=].target[+].code = #70051
+* group[=].element[=].target[=].display = "Vaxigrip"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2026-05-06

@@ -496,6 +496,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #70144
 * group[=].element[=].target[=].display = "Flucelvax"
 * group[=].element[=].target[=].equivalence = #relatedto
+// added 2026-10-05
+* group[=].element[=].target[+].code = #70051
+* group[=].element[=].target[=].display = "Vaxigrip"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 
 * group[=].element[+].code = #63650001
 * group[=].element[=].display = "Cholera (disorder)"

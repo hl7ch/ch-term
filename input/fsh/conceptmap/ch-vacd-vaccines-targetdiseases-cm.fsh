@@ -1048,6 +1048,14 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Chikungunya fever (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//70051	03	Vaxigrip, suspension injectable	Sanofi-Aventis (Suisse) SA	B	06.05.2025	13.08.2026	05.05.2030	J07BB02	X		X	X
+// added 2026-10-05
+* group[=].element[+].code = #70051
+* group[=].element[=].display = "Vaxigrip"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////

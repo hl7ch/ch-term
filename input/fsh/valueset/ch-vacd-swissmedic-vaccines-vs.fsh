@@ -367,9 +367,13 @@ Description: "The list of vaccines available in Switzerland (Swissmedic authoriz
 * $ch-vacd-swissmedic-cs#69992 "Influvac 0.5 ml"
 
 //70144	01	Flucelvax, Injektionssuspension in einer Fertigspritze	Vifor (International) Inc.	B	29.04.2026	29.04.2026	28.04.2031	J07BB02	X		X	X
-// added 2025-05-06
+// added 2026-05-06
 * $ch-vacd-swissmedic-cs#70144 "Flucelvax"
 
 //70490	01	Vimkunya, Injektionssuspension in einer Fertigspritze	Bavarian Nordic Berna GmbH	B	15.04.2026	15.04.2026	14.04.2031	J07BP02	X		X	X
-// added 2025-05-06
+// added 2026-05-06
 * $ch-vacd-swissmedic-cs#70490 "Vimkunya"
+
+//70051	03	Vaxigrip, suspension injectable	Sanofi-Aventis (Suisse) SA	B	06.05.2025	13.08.2026	05.05.2030	J07BB02	X		X	X
+// added 2026-10-05
+* $ch-vacd-swissmedic-cs#70051 "Vaxigrip"
