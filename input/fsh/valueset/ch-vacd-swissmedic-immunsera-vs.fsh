@@ -1,6 +1,6 @@
 ValueSet: SwissImmunsera
 Id: ch-vacd-swissmedic-immunesera-vs
-Title: "CH VACD Swissmedic Authorized Immunsera Codes"
+Title: "CH VACD Swissmedic Authorized Immunsera Codes VS"
 Description: "The list of ATC J06B – Immune sera codes Swissmedic has given an authorization number."
 * ^url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-swissmedic-immunesera-vs"
 * ^status = #active
