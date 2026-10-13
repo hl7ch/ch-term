@@ -7372,7 +7372,6 @@ Usage: #definition
 //* group[=].element[=].target[=].display = "VIMKUNYA (vaccine)"
 //* group[=].element[=].target[=].equivalence = #equal
 
-
 //69948	01	Celldemic, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
 // added 2025-07-08
 * group[=].element[+].code = #69948
@@ -7389,13 +7388,22 @@ Usage: #definition
 * group[=].element[+].code = #69941
 * group[=].element[=].display = "Incellipan"
 * group[=].element[=].target[0].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[+].code = #1181000221105
 * group[=].element[=].target[=].display = "Influenza virus antigen only vaccine product"
+* group[=].element[=].target[=].equivalence = #equal
+
+//70051	03	Vaxigrip, suspension injectable	Sanofi-Aventis (Suisse) SA	B	06.05.2025	13.08.2026	05.05.2030	J07BB02	X		X	X
+// added 2026-10-05
+* group[=].element[+].code = #70051
+* group[=].element[=].display = "Vaxigrip"
+* group[=].element[=].target[0].code = #1181000221105
+* group[=].element[=].target[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equal
 * group[=].element[=].target[+].code = #836377006
 * group[=].element[=].target[=].display = "Influenza virus antigen-containing vaccine product"
 * group[=].element[=].target[=].equivalence = #equal
-
-
 
 //70893	01	Comirnaty XFG (30 Mikrogramm)  Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
 // added 2026-10-06
@@ -7510,8 +7518,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #30141000087107
 * group[=].element[=].target[=].display = "COVID-19 virus-like particle antigen vaccine"
 * group[=].element[=].target[=].equivalence = #equal
-
-
 
 
 

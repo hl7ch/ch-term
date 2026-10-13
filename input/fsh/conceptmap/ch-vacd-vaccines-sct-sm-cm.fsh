@@ -5336,8 +5336,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #67482
 * group[=].element[=].target[=].display = "Flucelvax Tetra"
 * group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[+].code = #69941
-* group[=].element[=].target[=].display = "Incellipan"
+// added 2026-10-05
+* group[=].element[=].target[+].code = #70051
+* group[=].element[=].target[=].display = "Vaxigrip"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 // added 2026-05-06

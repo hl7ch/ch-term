@@ -1,5 +1,8 @@
 
-All significant changes to this FHIR implementation guide are documented on this page.   
+All significant changes to this FHIR implementation guide are documented on this page.  
+
+### v3.5.0 (2026-xx)
+* [#179](https://github.com/hl7ch/ch-term/issues/179): Missing Vaxigrip
 
 ### v3.5.0 (2026-)
 * [#176](https://github.com/hl7ch/ch-term/issues/167): Update Swissmedic June-December 2026
