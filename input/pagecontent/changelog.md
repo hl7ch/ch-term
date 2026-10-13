@@ -4,6 +4,9 @@ All significant changes to this FHIR implementation guide are documented on this
 ### v3.5.0 (2026-xx)
 * [#179](https://github.com/hl7ch/ch-term/issues/179): Missing Vaxigrip
 
+### v3.5.0 (2026-12-xx)
+* [#184](https://github.com/hl7ch/ch-term/issues/184): Typo in FR translation of CodeSystem: Swiss Medic Authorized Vaccines Codesystem
+
 ### v3.4.0 (2026-06-10)
 * [#167](https://github.com/hl7ch/ch-term/issues/167): Remove designations from CH-VACD ValueSets 
 * [#158](https://github.com/hl7ch/ch-term/issues/158): Split ConceptMap SwissMedic and OldSwiss VaccineCodes
