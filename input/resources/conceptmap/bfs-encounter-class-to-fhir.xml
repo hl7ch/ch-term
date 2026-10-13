@@ -48,6 +48,24 @@
             </target>
         </element> 
         <element>
+            <code value="3"/>
+            <display value="stationär"/>
+            <target>
+                <code value="ACUTE"/>
+                <display value="acute inpatient encounter"/>
+                <equivalence value="source-is-broader-than-target"/>
+            </target>
+        </element> 
+        <element>
+            <code value="3"/>
+            <display value="stationär"/>
+            <target>
+                <code value="NONAC"/>
+                <display value="non-acute inpatient encounter"/>
+                <equivalence value="source-is-broader-than-target"/>
+            </target>
+        </element> 
+        <element>
             <code value="9"/>
             <display value="unbekannt"/>
             <target>
