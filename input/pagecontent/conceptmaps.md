@@ -17,6 +17,7 @@
 {%- endfor %}
 
 {% if artdecorList != "" %}
+<a name="#artdecor-cm"></a>
 <p>
   The following conceptmaps are <b>managed in <a href="https://ehealthsuisse.art-decor.org">ART-DECOR</a></b> and imported into this implementation guide.
   Changes to these resources should be made upstream in ART-DECOR and re-exported here.
@@ -27,6 +28,7 @@
 {% endif %}
 
 {% if vacdList != "" %}
+<a name="#chvacd-cm"></a>
 <p>
   The following conceptmaps for <b>CH VACD</b> are <b>managed in this implementation guide</b>.
 </p>
@@ -36,6 +38,7 @@
 {% endif %}
 
 {% if otherList != "" %}
+<a name="#other-cm"></a>
 <p>
   The following other conceptmaps are <b>managed in this implementation guide</b>.
 </p>
