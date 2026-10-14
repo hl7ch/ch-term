@@ -11,7 +11,7 @@ date: 2026-06-11
 version: 3.5.0-ci-build
 fhirVersion: 4.0.1
 copyrightYear: 2019+
-releaselabel: ci-build # ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 language: en
 publisher:
   name: HL7 Switzerland
@@ -31,26 +31,26 @@ dependencies:
   hl7.terminology.r4:
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
     version: 7.4.0
-  
+
 pages:
   index.md:
     title: Home
   guidance.md:
-    title: Guidance   
+    title: Guidance
   codesystems.md:
     title: Code Systems
   valuesets.md:
     title: Value Sets
   conceptmaps.md:
-    title: Concept Maps     
+    title: Concept Maps
   namingsystems.md:
-    title: Naming Systems 
+    title: Naming Systems
   changelog.md:
     title: Changelog
 
 menu:
   Home: index.html
-  Guidance: 
+  Guidance:
     SNOMED CT Swiss Extension: guidance.html#snomed-ct-swiss-extension
   Code Systems: codesystems.html
   Value Sets: valuesets.html
@@ -60,10 +60,10 @@ menu:
 
 FSHOnly: false
 
-# For parameters defined by core FHIR see: 
+# For parameters defined by core FHIR see:
 # http://build.fhir.org/codesystem-guide-parameter-code.html.
 # For parameters defined by the FHIR Tools IG  see:
-# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
+# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/main/CodeSystem-ig-parameters.html
 parameters:
   excludettl: true
   path-resource:
@@ -76,7 +76,7 @@ parameters:
     - input/resources/valueset/art-decor
     - fsh-generated/resources
   allow-extensible-warnings: true
-  display-warnings: true  
+  display-warnings: true
   path-expansion-params: Parameters-ExpansionParameters.json # for using SNOMED CT Swiss Extension
   pin-canonicals: pin-multiples
   special-url:
