@@ -512,3 +512,31 @@ Description: "The ATC J06B – Immunoglobulin codes Swissmedic has given an auto
   * ^designation[=].value = "Zutectra"
   * ^designation[+].language = #en
   * ^designation[=].value = "Zutectra"
+
+// 70145	01	Enflonsia 105 mg/0.7 mL, Injektionslösung in einer Fertigspritze	MSD Merck Sharp & Dohme AG	A	22.01.2026	22.01.2026	21.01.2031	J06BD10
+* #70145-01 "Enflonsia 105 mg/0.7 mL, Injektionslösung in einer Fertigspritze"
+  * ^definition = "Enflonsia 105 mg/0.7 mL, Injektionslösung in einer Fertigspritze"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Enflonsia"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Enflonsia"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Enflonsia"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Enflonsia"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Enflonsia"
+
+// 70202	01	Panzyga 100 mg/ml, Infusionslösung	Octapharma AG	B	08.05.2026	08.05.2026	07.05.2031	J06BA02
+* #70202-01 "Panzyga 100 mg/ml, Infusionslösung"
+  * ^definition = "Panzyga 100 mg/ml, Infusionslösung"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Panzyga"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Panzyga"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Panzyga"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Panzyga"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Panzyga"
