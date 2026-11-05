@@ -148,3 +148,10 @@ Description: "The list of ATC J06B – Immunoglobulin codes Swissmedic has given
 
 //61639	01	Zutectra, Injektionslösung	Biotest (Schweiz) AG	B	20.07.2011	20.07.2011	unbegrenzt J06BB04
 * $ch-vacd-swissmedic-immunoglobulin-cs#61639-01 "Zutectra, Injektionslösung"
+
+// 70145	01	Enflonsia 105 mg/0.7 mL, Injektionslösung in einer Fertigspritze	MSD Merck Sharp & Dohme AG	A	22.01.2026	22.01.2026	21.01.2031	J06BD10
+* $ch-vacd-swissmedic-immunoglobulin-cs#70145-01 "Enflonsia 105 mg/0.7 mL, Injektionslösung in einer Fertigspritze"
+
+// 70202	01	Panzyga 100 mg/ml, Infusionslösung	Octapharma AG	B	08.05.2026	08.05.2026	07.05.2031	J06BA02
+* $ch-vacd-swissmedic-immunoglobulin-cs#70202-01 "Panzyga 100 mg/ml, Infusionslösung"
+    
