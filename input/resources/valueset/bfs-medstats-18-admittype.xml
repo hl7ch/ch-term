@@ -4,7 +4,7 @@
     <url value="http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-18-admittype"/>
     <version value="2.0.0"/>
     <name value="BfsMedstats18Admittype"/>
-    <title value="BFS Medizinische Statistik - 18 1.2.V03 - Eintrittsart / Mode d’admission / Genere di ricovero"/>
+    <title value="BFS Medizinische Statistik - 18 1.2.V03 - Eintrittsart / Mode d’admission / Genere di ricovero VS"/>
     <status value="active"/>
     <experimental value="false"/>
     <date value="2019-01-01"/>

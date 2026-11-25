@@ -4,7 +4,7 @@
     <url value="http://fhir.ch/ig/ch-core/CodeSystem/ech-11-sex"/>
     <version value="2.0.0"/>
     <name value="ECH11sex"/>
-    <title value="eCH-011 Sex"/>
+    <title value="eCH-011 Sex CS"/>
     <status value="active"/>
     <experimental value="false"/>
     <date value="2018-11-12"/>

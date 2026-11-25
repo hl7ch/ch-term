@@ -23,7 +23,7 @@
    <version value="2023-01-26T10:55:04"/>
    <name value="IHEPharmaceuticalAdviceStatusList"/>
    <title
-               value="IHE Pharmaceutical Advice Status List"/>
+               value="IHE Pharmaceutical Advice Status List VS"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>

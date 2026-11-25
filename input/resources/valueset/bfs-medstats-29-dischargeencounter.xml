@@ -4,7 +4,7 @@
     <url value="http://fhir.ch/ig/ch-core/ValueSet/bfs-medstats-29-dischargeencounter"/>
     <version value="2.0.0"/>
     <name value="BfsMedstats29Dischargeencounter"/>
-    <title value="BFS Medizinische Statistik - 29 1.5.V04 - Behandlung nach Austritt / Prise en charge après la sortie / Trattamento dopo l’uscita" />
+    <title value="BFS Medizinische Statistik - 29 1.5.V04 - Behandlung nach Austritt / Prise en charge après la sortie / Trattamento dopo l’uscita VS" />
     <status value="active"/>
     <experimental value="false"/>
     <date value="2019-01-01"/>

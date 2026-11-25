@@ -4,7 +4,7 @@
     <url value="http://fhir.ch/ig/ch-core/ValueSet/ech-11-maritaldata-separation"/>
     <version value="2.0.0"/>
     <name value="ECH11MaritaldataSeparation"/>
-    <title value="eCH-011 MaritalData Separation"/>
+    <title value="eCH-011 MaritalData Separation VS"/>
     <status value="active"/>
     <experimental value="false"/>
     <date value="2020-10-14"/>

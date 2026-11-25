@@ -4,7 +4,7 @@
     <url value="http://fhir.ch/ig/ch-core/ValueSet/ech-46-internetcategory"/>
     <version value="4.0.0-ballot"/>
     <name value="ECH46InternetCategory"/>
-    <title value="eCH-0046 Internet Category"/>
+    <title value="eCH-0046 Internet Category VS"/>
     <status value="active"/>
     <experimental value="false"/>
     <date value="2023-03-10"/>
