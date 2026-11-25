@@ -6,11 +6,6 @@ Description: "Immunization recommendation categories."
 * ^status = #active
 * ^experimental = false
 
-
-* $sct#42284007 "Administration of vaccine product containing only live attenuated Mycobacterium bovis antigen (procedure)"
-//  * ^designation[0].language = #de-CH
-//  * ^designation[=].value = "BCG-Impfung"
-
 * $ch-vacd-recommendation-categories-cs#41501 "Empfohlene Basisimpfungen"
 
 * $ch-vacd-recommendation-categories-cs#41502 "Empfohlene ergänzende Impfungen"
