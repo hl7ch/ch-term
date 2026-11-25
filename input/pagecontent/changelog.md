@@ -2,6 +2,7 @@
 All significant changes to this FHIR implementation guide are documented on this page.  
 
 ### v3.5.0 (2026-12-xx)
+* [#146](https://github.com/hl7ch/ch-term/issues/146): Invalid code in the formatCode, update ihe.formatcode.fhir#1.6.0 and hl7.terminology.r4#7.5.0
 * [#176](https://github.com/hl7ch/ch-term/issues/167): Update Swissmedic June-December 2026
 * [#179](https://github.com/hl7ch/ch-term/issues/179): Missing Vaxigrip
 * [#184](https://github.com/hl7ch/ch-term/issues/184): Typo in FR translation of CodeSystem: Swiss Medic Authorized Vaccines Codesystem
