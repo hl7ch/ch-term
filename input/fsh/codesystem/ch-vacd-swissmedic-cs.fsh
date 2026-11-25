@@ -674,7 +674,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour pour les adultes et les enfants à partir de 7 ans"
+  * ^designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour les adultes et les enfants à partir de 7 ans"
   * ^designation[+].language = #it-CH
   * ^designation[=].value = "Difterite e tetano vaccino adsorbito per adulti e bambini dai 7 anni in su"
   * ^designation[+].language = #rm-CH
@@ -1743,7 +1743,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Influvac 0.5 ml"
 
 //70144	01	Flucelvax, Injektionssuspension in einer Fertigspritze	Vifor (International) Inc.	B	29.04.2026	29.04.2026	28.04.2031	J07BB02	X		X	X
-// added 2025-05-06
+// added 2026-05-06
 * #70144 "Flucelvax"
   * ^definition = "Flucelvax, Injektionssuspension in einer Fertigspritze, Vifor (International) Inc."
   * ^designation[0].language = #de-CH
@@ -1758,7 +1758,7 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Flucelvax"
 
 //70490	01	Vimkunya, Injektionssuspension in einer Fertigspritze	Bavarian Nordic Berna GmbH	B	15.04.2026	15.04.2026	14.04.2031	J07BP02	X		X	X
-// added 2025-05-06
+// added 2026-05-06
 * #70490 "Vimkunya"
   * ^definition = "Vimkunya, Injektionssuspension in einer Fertigspritze, Bavarian Nordic Berna GmbH"
   * ^designation[0].language = #de-CH
@@ -1771,3 +1771,94 @@ Description: "The vaccines Swissmedic has given an autorization number."
   * ^designation[=].value = "Vimkunya"
   * ^designation[+].language = #en
   * ^designation[=].value = "Vimkunya"
+
+//69948	01	Celldemic, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* #69948 "Celldemic"
+  * ^definition = "Celldemic, Injektionssuspension in Fertigspritzen, Vifor (International) Inc."
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Celldemic"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Celldemic"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Celldemic"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Celldemic"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Celldemic"
+
+//69941	01	Incellipan, Injektionssuspension in Fertigspritzen Vifor (International) Inc.	B	25.06.2026	25.06.2026	24.06.2031	J07BB02	X		X	X
+// added 2025-07-08
+* #69941 "Incellipan"
+  * ^definition = "Incellipan, Injektionssuspension in Fertigspritzen, Vifor (International) Inc."
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Incellipan"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Incellipan"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Incellipan"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Incellipan"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Incellipan"
+
+//70893	01	Comirnaty XFG (30 Mikrogramm)  Injektionsdispersion in einer Fertigspritze	Pfizer AG	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* #70893 "Comirnaty XFG (30 Mikrogramm)"
+  * ^definition = "Comirnaty XFG (30 Mikrogramm),Injektionsdispersion in einer Fertigspritze, Pfizer AG"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Comirnaty XFG (30 Mikrogramm)"
+
+//70272	01	mNEXSPIKE 0.05 mg/mL, Injektionsdispersion	Moderna Switzerland GmbH	B	03.08.2026	03.08.2026	02.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* #70272 "mNEXSPIKE 0.05 mg/mL"
+  * ^definition = "mNEXSPIKE 0.05 mg/mL, Injektionsdispersion, Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "mNEXSPIKE 0.05 mg/mL"
+
+//70847	01	Spikevax XFG (50 Microgramm) Injektionsdispersion in einer Fertigspritze	Moderna Switzerland GmbH	B	10.08.2026	10.08.2026	09.08.2031	J07BN01	X		X	X
+// added 2026-10-06
+* #70847 "Spikevax XFG (50 Microgramm)"
+  * ^definition = "Spikevax XFG (50 Microgramm), Injektionsdispersion in einer Fertigspritze, Moderna Switzerland GmbH"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Spikevax XFG (50 Microgramm)"
+  
+//70051	03	Vaxigrip, suspension injectable	Sanofi-Aventis (Suisse) SA	B	06.05.2025	13.08.2026	05.05.2030	J07BB02	X		X	X
+// added 2026-10-05
+* #70051 "Vaxigrip"
+  * ^definition = "Vaxigrip, suspension injectable,Sanofi-Aventis (Suisse) SA"
+  * ^designation[0].language = #de-CH
+  * ^designation[=].value = "Vaxigrip"
+  * ^designation[+].language = #fr-CH
+  * ^designation[=].value = "Vaxigrip"
+  * ^designation[+].language = #it-CH
+  * ^designation[=].value = "Vaxigrip"
+  * ^designation[+].language = #rm-CH
+  * ^designation[=].value = "Vaxigrip"
+  * ^designation[+].language = #en
+  * ^designation[=].value = "Vaxigrip"
+

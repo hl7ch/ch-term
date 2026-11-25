@@ -10,7 +10,7 @@ The EPR artifacts are based on the [CH-EPR](http://ehealthsuisse.art-decor.org/i
 
 </div>
 
-**Download**: You can download this implementation guide in [npm format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
+**Download**: You can download this implementation guide in [npm format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](../package.tgz).
 
 ### Scope
 This implementation guide contains the Swiss terminology defined via FHIR processable artifacts:
