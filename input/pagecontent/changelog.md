@@ -7,6 +7,7 @@ All significant changes to this FHIR implementation guide are documented on this
 * [#184](https://github.com/hl7ch/ch-term/issues/184): Typo in FR translation of CodeSystem: Swiss Medic Authorized Vaccines Codesystem
 * [#187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors
 * [#196](https://github.com/hl7ch/ch-term/issues/196): CH VACD Recommendation Categories for Immunizations - Remove Code
+* [#202](https://github.com/hl7ch/ch-term/issues/202): BFS country codes: new ValueSets bfs-state-codes (all states, including those not recognised by Switzerland, e.g. Taiwan) and bfs-territory-codes (e.g. Hong Kong). The existing bfs-country-codes now contains both
 
 ### v3.5.0 (2026-12-xx)
 * [#188](https://github.com/hl7ch/ch-term/issues/188): Problems local-template with publisher >=3.0.0
