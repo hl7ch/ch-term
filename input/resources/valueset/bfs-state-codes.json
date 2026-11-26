@@ -2,7 +2,6 @@
   "resourceType" : "ValueSet",
   "id" : "bfs-state-codes",
   "url" : "http://fhir.ch/ig/ch-term/ValueSet/bfs-state-codes",
-  "version" : "20240522",
   "name" : "BfsStateCodes",
   "title" : "ISO 3166 codes of states from the BFS list",
   "status" : "active",

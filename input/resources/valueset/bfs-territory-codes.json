@@ -2,7 +2,6 @@
   "resourceType" : "ValueSet",
   "id" : "bfs-territory-codes",
   "url" : "http://fhir.ch/ig/ch-term/ValueSet/bfs-territory-codes",
-  "version" : "20240522",
   "name" : "BfsTerritoryCodes",
   "title" : "ISO 3166 codes of territories from the BFS list",
   "status" : "active",

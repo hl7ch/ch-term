@@ -2,7 +2,6 @@
   "resourceType" : "ValueSet",
   "id" : "bfs-country-codes",
   "url" : "http://fhir.ch/ig/ch-term/ValueSet/bfs-country-codes",
-  "version" : "20240522",
   "name" : "BfsCountryCodes",
   "title" : "ISO 3166 country codes from the BFS list",
   "status" : "active",
