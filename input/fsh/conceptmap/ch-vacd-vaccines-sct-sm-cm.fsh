@@ -5364,6 +5364,20 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vimkunya"
 * group[=].element[=].target[=].equivalence = #equal
 
+// added 2026-07-08
+* group[=].element[+].code = #1003499009
+* group[=].element[=].display = "Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)"
+* group[=].element[=].target[+].code = #69948 
+* group[=].element[=].target[=].display = "Celldemic"
+* group[=].element[=].target[=].equivalence = #equal
+
+// added 2026-07-08
+* group[=].element[+].code = #1119279002
+* group[=].element[=].display = "Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product"
+* group[=].element[=].target[+].code = #69948 
+* group[=].element[=].target[=].display = "Celldemic"
+* group[=].element[=].target[=].equivalence = #equal
+
 //* group[=].element[+].code = #15461002000106
 //* group[=].element[=].display = "VIMKUNYA (vaccine)"
 //* group[=].element[=].target[0].code = #70490
@@ -10003,20 +10017,6 @@ Usage: #definition
 * group[=].element[=].target[=].display = "BCG Vaccin Mérieux"
 * group[=].element[=].target[=].equivalence = #narrower
 * group[=].element[=].target[=].comment = "attention: check the facts of the targeted vaccine exactly"
-
-// added 2026-07-08
-* group[=].element[+].code = #1003499009
-* group[=].element[=].display = "Vaccine product containing only Influenza A virus subtype H5N1 antigen (medicinal product)"
-* group[=].element[=].target[+].code = #69948 
-* group[=].element[=].target[=].display = "Celldemic"
-* group[=].element[=].target[=].equivalence = #equal
-
-// added 2026-07-08
-* group[=].element[+].code = #1119279002
-* group[=].element[=].display = "Inactivated whole Influenza A virus subtype H5N1 antigen only vaccine product"
-* group[=].element[=].target[+].code = #69948 
-* group[=].element[=].target[=].display = "Celldemic"
-* group[=].element[=].target[=].equivalence = #equal
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////// //////////////////////////////////////////////////////////////////////////////////////////

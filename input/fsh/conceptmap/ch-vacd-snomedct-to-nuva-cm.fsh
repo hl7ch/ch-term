@@ -871,7 +871,7 @@ Usage: #definition
 * group.element[=].target.code = #VAC0945
 * group.element[=].target.display = "Meningococcal vaccine serogroup unknown, unspecified"
 * group.element[=].target.equivalence = #equal
-* group.element[+].code = ##1119254000
+* group.element[+].code = #1119254000
 * group.element[=].display = "#1119254000"
 * group.element[=].target.code = #VAC0997
 * group.element[=].target.display = "Pneumococcal 13-valent conjugate vaccine, unspecified"
