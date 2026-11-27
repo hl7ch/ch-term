@@ -1,0 +1,1671 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "bfs-territory-codes",
+  "url" : "http://fhir.ch/ig/ch-term/ValueSet/bfs-territory-codes",
+  "name" : "BfsTerritoryCodes",
+  "title" : "ISO 3166 codes of territories from the BFS list",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-05-22T00:00:00+00:00",
+  "publisher" : "BFS",
+  "contact" : [{
+    "name" : "BFS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.bfs.admin.ch/bfs/de/home/grundlagen/stgb.assetdetail.32028071.html"
+    }]
+  },
+  {
+    "name" : "HL7 Switzerland",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hl7.ch/",
+      "use" : "work"
+    }]
+  }],
+  "description" : "ISO 3166 alpha-2 and alpha-3 codes of the valid territories (Staat = N) in the list of states and territories (Verzeichnis der Staaten und Gebiete) of the Swiss Federal Statistical Office (BFS), release of 22.05.2024 ([be-b-00.04-sg-01](https://statistik.admin.ch/de/asset/32028071)). Territories that the BFS lists separately but that share one ISO code appear once.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CH"
+    }]
+  }],
+  "copyright" : "CC0-1.0",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "concept" : [{
+        "code" : "FO",
+        "display" : "Faeroe Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Färöer"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Féroé"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Faer Oer"
+        }]
+      },
+      {
+        "code" : "FRO",
+        "display" : "Faeroe Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Färöer"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Féroé"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Faer Oer"
+        }]
+      },
+      {
+        "code" : "GI",
+        "display" : "Gibraltar",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Gibraltar"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Gibraltar"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Gibilterra"
+        }]
+      },
+      {
+        "code" : "GIB",
+        "display" : "Gibraltar",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Gibraltar"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Gibraltar"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Gibilterra"
+        }]
+      },
+      {
+        "code" : "IM",
+        "display" : "Isle of Man",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Insel Man"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Île de Man"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isola di Man"
+        }]
+      },
+      {
+        "code" : "IMN",
+        "display" : "Isle of Man",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Insel Man"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Île de Man"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isola di Man"
+        }]
+      },
+      {
+        "code" : "JE",
+        "display" : "Jersey",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Jersey"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Jersey"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Jersey"
+        }]
+      },
+      {
+        "code" : "JEY",
+        "display" : "Jersey",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Jersey"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Jersey"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Jersey"
+        }]
+      },
+      {
+        "code" : "GG",
+        "display" : "Guernsey",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Guernsey"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Guernesey"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Guernsey"
+        }]
+      },
+      {
+        "code" : "GGY",
+        "display" : "Guernsey",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Guernsey"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Guernesey"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Guernsey"
+        }]
+      },
+      {
+        "code" : "SJ",
+        "display" : "Svalbard and Jan Mayen",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Svalbard und Jan Mayen"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Svalbard et Île Jan Mayen"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Svalbard e Jan Mayen"
+        }]
+      },
+      {
+        "code" : "SJM",
+        "display" : "Svalbard and Jan Mayen",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Svalbard und Jan Mayen"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Svalbard et Île Jan Mayen"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Svalbard e Jan Mayen"
+        }]
+      },
+      {
+        "code" : "AX",
+        "display" : "Aland Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Alandinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles d'Aland"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole di Aland"
+        }]
+      },
+      {
+        "code" : "ALA",
+        "display" : "Aland Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Alandinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles d'Aland"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole di Aland"
+        }]
+      },
+      {
+        "code" : "RE",
+        "display" : "Réunion",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Reunion"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Réunion"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Riunione"
+        }]
+      },
+      {
+        "code" : "REU",
+        "display" : "Réunion",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Reunion"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Réunion"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Riunione"
+        }]
+      },
+      {
+        "code" : "YT",
+        "display" : "Mayotte",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Mayotte"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Mayotte"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Mayotte"
+        }]
+      },
+      {
+        "code" : "MYT",
+        "display" : "Mayotte",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Mayotte"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Mayotte"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Mayotte"
+        }]
+      },
+      {
+        "code" : "IO",
+        "display" : "British Territories in the Indian Ocean",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Britische Territorien im Indischen Ozean"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Territoires britanniques dans l'océan indien"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Territori britannici nell'oceano indiano"
+        }]
+      },
+      {
+        "code" : "IOT",
+        "display" : "British Territories in the Indian Ocean",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Britische Territorien im Indischen Ozean"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Territoires britanniques dans l'océan indien"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Territori britannici nell'oceano indiano"
+        }]
+      },
+      {
+        "code" : "SH",
+        "display" : "Saint Helena, Ascension and Tristan da Cunha",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "St. Helena, Ascension und Tristan da Cunha"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Sainte-Hélène, Ascension et Tristan da Cunha"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Sant'Elena, Ascensione e Tristan da Cunha"
+        }]
+      },
+      {
+        "code" : "SHN",
+        "display" : "Saint Helena, Ascension and Tristan da Cunha",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "St. Helena, Ascension und Tristan da Cunha"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Sainte-Hélène, Ascension et Tristan da Cunha"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Sant'Elena, Ascensione e Tristan da Cunha"
+        }]
+      },
+      {
+        "code" : "BM",
+        "display" : "Bermuda",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Bermuda"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Bermudes"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Bermuda"
+        }]
+      },
+      {
+        "code" : "BMU",
+        "display" : "Bermuda",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Bermuda"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Bermudes"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Bermuda"
+        }]
+      },
+      {
+        "code" : "FK",
+        "display" : "Falkland Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Falklandinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Falkland"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Falkland"
+        }]
+      },
+      {
+        "code" : "FLK",
+        "display" : "Falkland Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Falklandinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Falkland"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Falkland"
+        }]
+      },
+      {
+        "code" : "GL",
+        "display" : "Greenland",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Grönland"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Groenland"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Groenlandia"
+        }]
+      },
+      {
+        "code" : "GRL",
+        "display" : "Greenland",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Grönland"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Groenland"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Groenlandia"
+        }]
+      },
+      {
+        "code" : "GP",
+        "display" : "Guadeloupe",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Guadeloupe"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Guadeloupe"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Guadalupa"
+        }]
+      },
+      {
+        "code" : "GLP",
+        "display" : "Guadeloupe",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Guadeloupe"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Guadeloupe"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Guadalupa"
+        }]
+      },
+      {
+        "code" : "GF",
+        "display" : "French Guyana",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Französisch-Guayana"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Guyane Française"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Guiana Francese"
+        }]
+      },
+      {
+        "code" : "GUF",
+        "display" : "French Guyana",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Französisch-Guayana"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Guyane Française"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Guiana Francese"
+        }]
+      },
+      {
+        "code" : "MQ",
+        "display" : "Martinique",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Martinique"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Martinique"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Martinica"
+        }]
+      },
+      {
+        "code" : "MTQ",
+        "display" : "Martinique",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Martinique"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Martinique"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Martinica"
+        }]
+      },
+      {
+        "code" : "PR",
+        "display" : "Puerto Rico",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Puerto Rico"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Porto Rico"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Portorico"
+        }]
+      },
+      {
+        "code" : "PRI",
+        "display" : "Puerto Rico",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Puerto Rico"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Porto Rico"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Portorico"
+        }]
+      },
+      {
+        "code" : "PM",
+        "display" : "Saint Pierre and Miquelon",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "St. Pierre und Miquelon"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Saint-Pierre-et-Miquelon"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Saint-Pierre e Miquelon"
+        }]
+      },
+      {
+        "code" : "SPM",
+        "display" : "Saint Pierre and Miquelon",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "St. Pierre und Miquelon"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Saint-Pierre-et-Miquelon"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Saint-Pierre e Miquelon"
+        }]
+      },
+      {
+        "code" : "AI",
+        "display" : "Anguilla",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Anguilla"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Anguilla"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Anguilla"
+        }]
+      },
+      {
+        "code" : "AIA",
+        "display" : "Anguilla",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Anguilla"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Anguilla"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Anguilla"
+        }]
+      },
+      {
+        "code" : "MF",
+        "display" : "Saint Martin (France)",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Saint-Martin (Frankreich)"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Saint-Martin (France)"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Saint-Martin (Francia)"
+        }]
+      },
+      {
+        "code" : "MAF",
+        "display" : "Saint Martin (France)",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Saint-Martin (Frankreich)"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Saint-Martin (France)"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Saint-Martin (Francia)"
+        }]
+      },
+      {
+        "code" : "BL",
+        "display" : "Saint Barthélemy",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Saint-Barthélemy"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Saint-Barthélemy"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Saint-Barthélemy"
+        }]
+      },
+      {
+        "code" : "BLM",
+        "display" : "Saint Barthélemy",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Saint-Barthélemy"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Saint-Barthélemy"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Saint-Barthélemy"
+        }]
+      },
+      {
+        "code" : "VI",
+        "display" : "US Virgin Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Jungferninseln (USA)"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Vierges américaines"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Vergini americane"
+        }]
+      },
+      {
+        "code" : "VIR",
+        "display" : "US Virgin Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Jungferninseln (USA)"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Vierges américaines"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Vergini americane"
+        }]
+      },
+      {
+        "code" : "KY",
+        "display" : "Cayman Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Kaimaninseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Cayman"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Cayman"
+        }]
+      },
+      {
+        "code" : "CYM",
+        "display" : "Cayman Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Kaimaninseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Cayman"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Cayman"
+        }]
+      },
+      {
+        "code" : "TC",
+        "display" : "Turks and Caicos Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Turks- und Caicosinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Turques et Caïques"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Turks e Caicos"
+        }]
+      },
+      {
+        "code" : "TCA",
+        "display" : "Turks and Caicos Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Turks- und Caicosinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Turques et Caïques"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Turks e Caicos"
+        }]
+      },
+      {
+        "code" : "MS",
+        "display" : "Montserrat",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Montserrat"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Montserrat"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Monserrat"
+        }]
+      },
+      {
+        "code" : "MSR",
+        "display" : "Montserrat",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Montserrat"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Montserrat"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Monserrat"
+        }]
+      },
+      {
+        "code" : "VG",
+        "display" : "British Virgin Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Jungferninseln (UK)"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Vierges britanniques"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Vergini britanniche"
+        }]
+      },
+      {
+        "code" : "VGB",
+        "display" : "British Virgin Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Jungferninseln (UK)"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Vierges britanniques"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Vergini britanniche"
+        }]
+      },
+      {
+        "code" : "AW",
+        "display" : "Aruba",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Aruba"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Aruba"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Aruba"
+        }]
+      },
+      {
+        "code" : "ABW",
+        "display" : "Aruba",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Aruba"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Aruba"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Aruba"
+        }]
+      },
+      {
+        "code" : "GS",
+        "display" : "South Georgia and the South Sandwich Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Südgeorgien und Südliche Sandwichinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Géorgie du Sud et Îles Sandwich du Sud"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Georgia del Sud e Sandwich del Sud"
+        }]
+      },
+      {
+        "code" : "SGS",
+        "display" : "South Georgia and the South Sandwich Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Südgeorgien und Südliche Sandwichinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Géorgie du Sud et Îles Sandwich du Sud"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Georgia del Sud e Sandwich del Sud"
+        }]
+      },
+      {
+        "code" : "CW",
+        "display" : "Curaçao",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Curaçao"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Curaçao"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Curaçao"
+        }]
+      },
+      {
+        "code" : "CUW",
+        "display" : "Curaçao",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Curaçao"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Curaçao"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Curaçao"
+        }]
+      },
+      {
+        "code" : "SX",
+        "display" : "Sint Maarten (Netherlands)",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Sint Maarten (Niederlande)"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Sint Maarten (Pays-Bas)"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Sint Maarten (Paesi Bassi)"
+        }]
+      },
+      {
+        "code" : "SXM",
+        "display" : "Sint Maarten (Netherlands)",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Sint Maarten (Niederlande)"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Sint Maarten (Pays-Bas)"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Sint Maarten (Paesi Bassi)"
+        }]
+      },
+      {
+        "code" : "BQ",
+        "display" : "Bonaire, Saint Eustatius and Saba",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Bonaire, Saint Eustatius und Saba"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Bonaire, Saint Eustatius et Saba"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Bonaire, Saint Eustatius e Saba"
+        }]
+      },
+      {
+        "code" : "BES",
+        "display" : "Bonaire, Saint Eustatius and Saba",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Bonaire, Saint Eustatius und Saba"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Bonaire, Saint Eustatius et Saba"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Bonaire, Saint Eustatius e Saba"
+        }]
+      },
+      {
+        "code" : "HK",
+        "display" : "Hong Kong",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Hongkong"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Hong Kong"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Hong Kong"
+        }]
+      },
+      {
+        "code" : "HKG",
+        "display" : "Hong Kong",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Hongkong"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Hong Kong"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Hong Kong"
+        }]
+      },
+      {
+        "code" : "MO",
+        "display" : "Macao",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Macao"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Macao"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Macao"
+        }]
+      },
+      {
+        "code" : "MAC",
+        "display" : "Macao",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Macao"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Macao"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Macao"
+        }]
+      },
+      {
+        "code" : "NC",
+        "display" : "New Caledonia",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Neukaledonien"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Nouvelle-Calédonie"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Nuova Caledonia"
+        }]
+      },
+      {
+        "code" : "NCL",
+        "display" : "New Caledonia",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Neukaledonien"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Nouvelle-Calédonie"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Nuova Caledonia"
+        }]
+      },
+      {
+        "code" : "WF",
+        "display" : "Wallis and Futuna",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Wallis und Futuna"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Wallis-et-Futuna"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Wallis e Futuna"
+        }]
+      },
+      {
+        "code" : "WLF",
+        "display" : "Wallis and Futuna",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Wallis und Futuna"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Wallis-et-Futuna"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Wallis e Futuna"
+        }]
+      },
+      {
+        "code" : "AS",
+        "display" : "American Samoa",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Amerikanisch-Samoa"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Samoa américaines"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Samoa americane"
+        }]
+      },
+      {
+        "code" : "ASM",
+        "display" : "American Samoa",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Amerikanisch-Samoa"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Samoa américaines"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Samoa americane"
+        }]
+      },
+      {
+        "code" : "MP",
+        "display" : "Northern Marianas",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Nördliche Marianen"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Mariannes du Nord"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Marianne del Nord"
+        }]
+      },
+      {
+        "code" : "MNP",
+        "display" : "Northern Marianas",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Nördliche Marianen"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Mariannes du Nord"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Marianne del Nord"
+        }]
+      },
+      {
+        "code" : "GU",
+        "display" : "Guam",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Guam"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Guam"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Guam"
+        }]
+      },
+      {
+        "code" : "GUM",
+        "display" : "Guam",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Guam"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Guam"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Guam"
+        }]
+      },
+      {
+        "code" : "UM",
+        "display" : "United States Minor Outlying Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Kleinere amerikanische Überseeinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles mineures éloignées des États-Unis"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole minori lontane dagli Stati Uniti"
+        }]
+      },
+      {
+        "code" : "UMI",
+        "display" : "United States Minor Outlying Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Kleinere amerikanische Überseeinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles mineures éloignées des États-Unis"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole minori lontane dagli Stati Uniti"
+        }]
+      },
+      {
+        "code" : "CC",
+        "display" : "Cocos (Keeling) Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Kokosinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Cocos (Keeling)"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Cocos"
+        }]
+      },
+      {
+        "code" : "CCK",
+        "display" : "Cocos (Keeling) Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Kokosinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Cocos (Keeling)"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Cocos"
+        }]
+      },
+      {
+        "code" : "HM",
+        "display" : "Heard Island and McDonald Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Heard und McDonaldinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles-Heard-et-McDonald"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Heard e McDonald"
+        }]
+      },
+      {
+        "code" : "HMD",
+        "display" : "Heard Island and McDonald Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Heard und McDonaldinseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles-Heard-et-McDonald"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Heard e McDonald"
+        }]
+      },
+      {
+        "code" : "NF",
+        "display" : "Norfolk Island",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Norfolkinsel"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Île Norfolk"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isola Norfolk"
+        }]
+      },
+      {
+        "code" : "NFK",
+        "display" : "Norfolk Island",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Norfolkinsel"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Île Norfolk"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isola Norfolk"
+        }]
+      },
+      {
+        "code" : "CX",
+        "display" : "Christmas Island",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Weihnachtsinsel"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Île Christmas (Australie)"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isola Christmas"
+        }]
+      },
+      {
+        "code" : "CXR",
+        "display" : "Christmas Island",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Weihnachtsinsel"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Île Christmas (Australie)"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isola Christmas"
+        }]
+      },
+      {
+        "code" : "PF",
+        "display" : "French Polynesia",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Französisch-Polynesien"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Polynésie française"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Polinesia francese"
+        }]
+      },
+      {
+        "code" : "PYF",
+        "display" : "French Polynesia",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Französisch-Polynesien"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Polynésie française"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Polinesia francese"
+        }]
+      },
+      {
+        "code" : "NU",
+        "display" : "Niue",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Niue"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Nioué"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Niue"
+        }]
+      },
+      {
+        "code" : "NIU",
+        "display" : "Niue",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Niue"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Nioué"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Niue"
+        }]
+      },
+      {
+        "code" : "TK",
+        "display" : "Tokelau",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Tokelau"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Tokélau"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Tokelau"
+        }]
+      },
+      {
+        "code" : "TKL",
+        "display" : "Tokelau",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Tokelau"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Tokélau"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Tokelau"
+        }]
+      },
+      {
+        "code" : "PN",
+        "display" : "Pitcairn Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Pitcairninseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Pitcairn"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Pitcairn"
+        }]
+      },
+      {
+        "code" : "PCN",
+        "display" : "Pitcairn Islands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Pitcairninseln"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Îles Pitcairn"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isole Pitcairn"
+        }]
+      },
+      {
+        "code" : "AQ",
+        "display" : "Antarctica",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Antarktis"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Antarctique"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Antartide"
+        }]
+      },
+      {
+        "code" : "ATA",
+        "display" : "Antarctica",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Antarktis"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Antarctique"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Antartide"
+        }]
+      },
+      {
+        "code" : "BV",
+        "display" : "Bouvet Island",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Bouvetinsel"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Île Bouvet"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isola Bouvet"
+        }]
+      },
+      {
+        "code" : "BVT",
+        "display" : "Bouvet Island",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Bouvetinsel"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Île Bouvet"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Isola Bouvet"
+        }]
+      },
+      {
+        "code" : "TF",
+        "display" : "French Southern and Antarctic Lands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Französische Süd- und Antarktisgebiete"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Terres australes et antarctiques françaises"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Territori delle terre australi e antartiche francesi"
+        }]
+      },
+      {
+        "code" : "ATF",
+        "display" : "French Southern and Antarctic Lands",
+        "designation" : [{
+          "language" : "de-CH",
+          "value" : "Französische Süd- und Antarktisgebiete"
+        },
+        {
+          "language" : "fr-CH",
+          "value" : "Terres australes et antarctiques françaises"
+        },
+        {
+          "language" : "it-CH",
+          "value" : "Territori delle terre australi e antartiche francesi"
+        }]
+      }]
+    }]
+  }
+}
