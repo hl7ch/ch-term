@@ -4,7 +4,7 @@
     <url value="http://fhir.ch/ig/ch-core/CodeSystem/ech-11-maritalstatus"/>
     <version value="2.0.0"/>
     <name value="ECH11maritalstatus"/>
-    <title value="eCH-011 MaritalStatus"/>
+    <title value="eCH-011 MaritalStatus CS"/>
     <status value="active"/>
     <experimental value="false"/>
     <date value="2018-11-12"/>

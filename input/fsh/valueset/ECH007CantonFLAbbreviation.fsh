@@ -13,7 +13,7 @@ Description: "eCH-0007: Each municipality has a unique cantonal affiliation, whi
 
 ValueSet: VSECH007CantonFLAbbreviation
 Id: ech-7-cantonflabbreviation
-Title: "eCH-0007 Canton Abbreviation incl. FL (Fürstentum Liechtenstein)"
+Title: "eCH-0007 Canton Abbreviation incl. FL (Fürstentum Liechtenstein) VS"
 Description: "eCH-0007: Analogous to cantonAbbreviation, but contains the entry 'FL' for the Principality of Liechtenstein in addition to the actual cantons. "
 * ^experimental = false
 * ^url = "http://fhir.ch/ig/ch-core/ValueSet/ech-7-cantonflabbreviation"

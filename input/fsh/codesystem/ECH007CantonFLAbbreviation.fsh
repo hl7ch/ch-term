@@ -3,7 +3,7 @@
 
 CodeSystem: CSECH007CantonFLAbbreviation
 Id: ech-7-cantonflabbreviation
-Title: "eCH-0007 Canton Abbreviation incl. FL (Fürstentum Liechtenstein)"
+Title: "eCH-0007 Canton Abbreviation incl. FL (Fürstentum Liechtenstein) CS"
 Description: "eCH-0007 defines cantonAbbreviation/cantonFLAbbreviation (Kantonskürzel inkl. Fürstentum Liechtenstein), see [here](https://www.ech.ch/de/ech/ech-0007/6.0)."
 * ^experimental = false
 * ^caseSensitive = true

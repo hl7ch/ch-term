@@ -7,6 +7,7 @@ All significant changes to this FHIR implementation guide are documented on this
 * [#184](https://github.com/hl7ch/ch-term/issues/184): Typo in FR translation of CodeSystem: Swiss Medic Authorized Vaccines Codesystem
 * [#187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors
 * [#196](https://github.com/hl7ch/ch-term/issues/196): CH VACD Recommendation Categories for Immunizations - Remove Code
+* [#204](https://github.com/hl7ch/ch-term/issues/204): Duplicate titles for CodeSystem and ValueSet pairs
 
 ### v3.5.0 (2026-12-xx)
 * [#188](https://github.com/hl7ch/ch-term/issues/188): Problems local-template with publisher >=3.0.0

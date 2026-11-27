@@ -1,6 +1,6 @@
 ValueSet: VSServiceRequestCategory
 Id: servicerequest-category
-Title: "ServiceRequest Category"
+Title: "ServiceRequest Category VS"
 Description: "Codes for the category of service request used to define the requested service."
 * ^experimental = false
 * include codes from system http://fhir.ch/ig/ch-term/CodeSystem/servicerequest-category
